@@ -22,6 +22,8 @@ a {
         tr {
           background-color: $bg-gray-dark;
           border-top: 2px solid $text-white;
+		  tr:nth-child(even) { background-color: $bg-gray-dark }
+		  tr:nth-child(odd) { background-color: $bg-gray-dark }
         }
     }
 }
