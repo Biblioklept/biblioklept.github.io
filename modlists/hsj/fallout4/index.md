@@ -30,6 +30,7 @@ This list will be built off the belief you're using one or the other.
 The Select Replacer Weapon Pack
 
 > Replaces the guns from Fallout 4 with the ones above, and changes the names to fit better with Fallout 4's naming scheme.
+
 | Original Weapon          | Replaces/Renamed         | New Name               |
 |--------------------------|--------------------------|------------------------|
 | Select Revolver          | RENAMED:                 | Heavy Revolver         |
