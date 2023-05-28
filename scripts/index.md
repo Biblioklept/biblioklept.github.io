@@ -21,5 +21,5 @@ My Scripts
 
 ### S.T.A.L.K.E.R.: Shadow of Chernobyl Scripts
 
-- [ZRP Install Script](./dl/shoc)
+- [ZRP Install Script](./dl/shoc/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
