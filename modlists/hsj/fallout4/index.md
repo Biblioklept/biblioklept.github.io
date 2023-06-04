@@ -9,39 +9,10 @@ This list will be built off the belief you're using one or the other.
 
 ### Weapons
 
-[Select Revolver](https://www.nexusmods.com/fallout4/mods/60110)
-> Adds an all new custom animated Fallout friendly Revolver to the game.
-
-[Select Rapid Machinegun](https://www.nexusmods.com/fallout4/mods/54657)
-> Adds an all new custom animated Fallout friendly submachine gun to the game.
-
-[Select Shotgun](https://www.nexusmods.com/fallout4/mods/65891)
-> Adds an all new custom animated Fallout friendly Shotgun to the game.
-
-[Select Marksman Rifle](https://www.nexusmods.com/fallout4/mods/52957)
-> Adds an all new custom animated Fallout friendly sniper rifle to the game.
-
-[Select Assault Rifle](https://www.nexusmods.com/fallout4/mods/46234)
-> The Screaming Eagle from 76 remade for Fallout 4 but with its own animations and several customization options.
-
-[The Lewis Gun](https://www.nexusmods.com/fallout4/mods/70845)
-> Adds an all new custom animated Falloutized Lewis Gun featured in Fallout London.
-
-The Select Replacer Weapon Pack
-
-> Replaces the guns from Fallout 4 with the ones above, and changes the names to fit better with Fallout 4's naming scheme.
-
-| Original Weapon          | Replaces/Renamed         | New Name               |
-|--------------------------|--------------------------|------------------------|
-| Select Revolver          | RENAMED:                 | Heavy Revolver         |
-| Submachine Gun (Vanilla) | RENAMED:                 | Classic Submachine Gun |
-| Select Rapid Machinegun  | REPLACES: Submachine Gun | Submachine Gun         |
-| Select Shotgun           | REPLACES: Combat Shotgun | Combat Shotgun         |
-| Select Marksman Rifle    | REPLACES: Hunting Rifle  | Hunting Rifle          |
-| Select Assault Rifle     | REPLACES: Combat Rifle   | Assault Rifle          |
-| Lewis Gun                | REPLACES: Assault Rifle  | Machine Gun            |
-
-> **Unreleased, Working On Permissions.**
+[Commonwealth Weapons Proliferation](https://www.nexusmods.com/fallout4/mods/62576)
+> A level list replacer to replace all the guns in Fallout 4 with simply better overall weapons. **Check the requirements section to see what weapons you want to use/download.**
+[Iron Sights Fixes for Modded Weapons](https://www.nexusmods.com/fallout4/mods/68686)
+> Fixes iron sights for modded weapons. **Download: Select Assault Rifle Iron sights fix; XR92 Zoom Fix and Sound Replacer (*if using above file*).**
 
 ### Quickstart (+ Additions)
 
