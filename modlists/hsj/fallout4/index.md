@@ -11,6 +11,7 @@ This list will be built off the belief you're using one or the other.
 
 [Commonwealth Weapons Proliferation](https://www.nexusmods.com/fallout4/mods/62576)
 > A level list replacer to replace all the guns in Fallout 4 with simply better overall weapons. **Check the requirements section to see what weapons you want to use/download.**
+
 [Iron Sights Fixes for Modded Weapons](https://www.nexusmods.com/fallout4/mods/68686)
 > Fixes iron sights for modded weapons. **Download: Select Assault Rifle Iron sights fix; XR92 Zoom Fix and Sound Replacer (*if using above file*).**
 
