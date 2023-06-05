@@ -193,10 +193,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 ![Damien's Animation Compendium](./img/tutorialimgs/DACTUT1.png)  
 > Move these gamedata folders to the `<stalker anomaly section>`. Then click ok.
 
-[Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
-![FDDA Installation Tutorial Image](./img/tutorialimgs/FDDATUT.png)  
-[Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
-[Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)  
+[FDDA+GA+2 ADDONS](https://www.moddb.com/mods/stalker-anomaly/addons/fddaga3-addons)  
 [Cooking Animation System](https://www.moddb.com/mods/stalker-anomaly/addons/fieldcooker-animation-reloaded)  
 
 ### Gameplay
