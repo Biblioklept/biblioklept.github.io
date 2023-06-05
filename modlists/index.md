@@ -1,5 +1,5 @@
 # Biblioklept's Site - [HOME](https://biblioklept.github.io/)
-Modlists
+My Modlists
 
 ### Actively worked on
 
@@ -10,7 +10,7 @@ Modlists
 
 ### Still worked on, though not actively
 
-- [JOURNEY](https://biblioklept.github.io/JOURNEY/)
+- [JOURNEY](./journey/)
 > My attempt to do a rework of EXPEDITION, with a focus on being more vanilla+, modular, and slimming down the stuff I found unnecessary to the STALKER Anomaly experience.
 - [COTOZ](https://biblioklept.github.io/CoTOZ/)
 > My vanilla+ modpack for Call of The Zone (RIP DR.X), with the only new content really being a reduction of the hud and animations. My preferred way to play the game.
