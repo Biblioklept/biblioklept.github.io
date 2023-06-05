@@ -1,31 +1,33 @@
-![JOURNEY](./img/branding/journey.png)
+# Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/modlists)
 
-# About The Guide
+![JOURNEY](./img/branding/journey2.png)
 
-## Goal
+## About The Guide
+
+### Goal
 The goal of this modlist is to provide a base to build upon with mods of your own choosing, whilst providing a perfectly good experience on its own, should you choose to not go any further. Initially a remake of EXPIDITION with less crashes, more vanilla assets, less overkill ReShades, and modularity, it's quickly become it's own modlist.
 
-## First, Important, and Final Warning Before Starting
+### First, Important, and Final Warning Before Starting
 ***Support will NOT be given towards people who have modified the modlist further than what's provided within the guide. Although this modlist is designed to give you the essentials for a smooth and relatively fun experience to build on with mods you want to use, I simply cannot and will not provide support for everyone's modlist setups.***
 
-## Pre-Requisites
+### Pre-Requisites
 - [Visual C++ Runtimes](https://github.com/abbodi1406/vcredist/releases/latest)
 - [DirectX Runtime Libraries](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 - A decent internet connection
 - A computer that can run S.T.A.L.K.E.R.: Anomaly, in the words of seargedp:  
 > "I recommend at least 16 GB of RAM, a recent quad-core CPU and a graphics card with at least 4 GB of VRAM, ideally at least something as powerful as a GTX 970 or higher. It's also only tested on Windows 10 and requires a 64 bit version of Windows."  
 
-# Initial Setup
+## Initial Setup
 
-***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.github.io/setup.html). All credits to Qolore07***.
+***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.moddinglinked.com/setup.html). All credits to Qolore07***.
 
-## Uninstalling the Game
+### Uninstalling the Game
 
 > If you do not have the game installed yet, skip this step.
 
 1.  Find where you installed `STALKER Anomaly` and delete it completely.
 
-## Installing the Game
+### Installing the Game
 
 1.  Download [STALKER Anomaly 1.5.1](https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-151)
 2.  Download [STALKER Anomaly 1.5.2](https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-151-to-152)
@@ -33,7 +35,7 @@ The goal of this modlist is to provide a base to build upon with mods of your ow
 
 ## Post-Installation
 
-## Key Terminology
+### Key Terminology
 
 Now that the game is installed, there are two folders from it that will be referred to in the guide often:
 
@@ -49,7 +51,7 @@ Now that the game is installed, there are two folders from it that will be refer
 
 > Example: `D:\STALKER Anomaly\bin`
 
-## Quickly Running The Game
+### Quickly Running The Game
 
 1.  Run `AnomalyLauncher.exe` from the game's `Root` folder
 
@@ -63,7 +65,7 @@ Now that the game is installed, there are two folders from it that will be refer
 4.  Set the `Resolution` option to your preference
 5.  Click the drop-down box and choose either `Borderless Windowed` or `Fullscreen`
 
-## Enabling File Extensions
+### Enabling File Extensions
 
 By default, Windows Explorer will not show file extensions (such as .exe, .dll, or .esp). These extensions are very important when going through the guide, so it is highly recommended to enable file extensions:
 
@@ -71,16 +73,16 @@ By default, Windows Explorer will not show file extensions (such as .exe, .dll, 
 2.  Select the **View** tab at the top
 3.  Check the box next to **File name extensions**
 
-# Mod Organizer 2 Setup
+## Mod Organizer 2 Setup
 
 ***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.github.io/mo2.html). All credits to Qolore07***.
 
-## Installing Mod Organizer 2
+### Installing Mod Organizer 2
 
 1.  Download the latest `Mod Organizer 2` file from [here](https://github.com/ModOrganizer2/modorganizer/releases/latest)
 2.  Once downloaded, extract it to any location outside of any default Window folders (like `Program Files x86`) and outside of the game's `Root` folder (the installer's default location will work)
 
-## Initial Setup
+### Initial Setup
 
 1.  Run `ModOrganizer.exe`
 2.  You will be prompted with a pop-up called `Creating an instance`, in which you should just select `Next`
@@ -96,7 +98,7 @@ By default, Windows Explorer will not show file extensions (such as .exe, .dll, 
 
 - This pop-up will not show up if you have already registered a different instance of MO2
 
-## Configuring Settings
+### Configuring Settings
 
 1.  Select the `X` in the bottom right of MO2 to close the log window
 2.  Select the `Settings` button at the top of MO2 to open the settings
@@ -112,7 +114,7 @@ By default, Windows Explorer will not show file extensions (such as .exe, .dll, 
 6.  Once you authorize it, you can close out of your browser and of the MO2 settings
 7.  Allow MO2 to restart if it asks
 
-## Creating Profiles
+### Creating Profiles
 
 Mod Organizer 2's "Profiles" feature allows for easy switching between different mod configurations. In this step, we will create a profile for the guide while keeping a strictly-vanilla profile for testing/de-bugging. Profiles can be selected via the drop-down menu above the left pane.
 
@@ -125,7 +127,7 @@ Mod Organizer 2's "Profiles" feature allows for easy switching between different
 
 5.  Exit out of the profiles menu and select the `JOURNEY` profile from the drop-down above the left pane
 
-## Mod Installation Advice
+### Mod Installation Advice
 
 1.  Click the `DOWNLOAD NOW!` button (or whatever the download button is for the respective site)
 
@@ -138,12 +140,12 @@ When downloading multiple files from the same page, you will be prompted with a 
 
 > This guide will assume that from here on out you'll know how to install the mods, and will provide *mostly* image-based help if the installation requires a special process. Otherwise, install as stated above.
 
-# Modlist Setup
+## Modlist Setup
 
-## Initial Setup
+### Initial Setup
 To begin, you will need to download the [Anomaly Modded EXE Files](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/raw/main/STALKER-Anomaly-modded-exes.zip) and extract the files into your root STALKER Anomaly game folder.
 
-## User Interface
+### User Interface
 [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)  
 [Crispy Options UI](https://www.moddb.com/mods/stalker-anomaly/addons/crispy-options-ui)  
 [DLTX'd Persistent MCM Configuration](https://www.moddb.com/mods/stalker-anomaly/addons/dltxs-persistent-mcm-configuration)  
@@ -154,7 +156,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Cost In Tooltip](https://www.moddb.com/mods/stalker-anomaly/addons/cost-in-tool-tip-u4h8-and-rc18-23)  
 [Battery Warning](https://www.moddb.com/mods/stalker-anomaly/addons/batterywarning)
 
-## Visuals
+### Visuals
 [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)  
 [Glossy Surfaces and Water SSR](https://www.moddb.com/mods/stalker-anomaly/addons/glossy-surfaces-ssr)  
 ![Glossy Surfaces and Water SSR Installation Tutorial Image](./img/tutorialimgs/GSSSRTUT.png)  
@@ -168,7 +170,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 ![T.H.A.P. Rework Installation Tutorial Image](./img/tutorialimgs/THAPTUT.png)  
 [MP-133 Fix](https://www.moddb.com/mods/stalker-anomaly/addons/mp-133-fix)
 
-# Animations
+### Animations
 [Camera Reanimation Project - I.N.E.R.T.I.A.](https://www.moddb.com/mods/stalker-anomaly/addons/camera-reanimation-project-inertia)   
 [Torch Animation Fixed](https://www.moddb.com/mods/stalker-anomaly/addons/torch-animation-fixed)  
 [Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
@@ -176,7 +178,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
 [Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)
 
-## Gunplay
+### Gunplay
 [EFT Weapon Reposition Updated](https://www.moddb.com/mods/stalker-anomaly/addons/alternate-aim-sights-for-eft-reposition)  
 ![BAIN Prompt Tutorial Image](./img/tutorialimgs/BAINPROMPT1.png)  
 ![EFT Weapon Reposition Updated Installation Tutorial Image](./img/tutorialimgs/EFTWRTUT.png)  
@@ -188,12 +190,12 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Shader Based 2D Scopes](https://www.moddb.com/mods/stalker-anomaly/addons/shader-based-2d-scopes-151dx11engine-mod)  
 ![Shader Based 2D Scopes Installation Tutorial Image](./img/tutorialimgs/SB2DSTUT.png)  
 
-## Gameplay
+### Gameplay
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
 [Bounty Squads Expanded](https://www.moddb.com/mods/stalker-anomaly/addons/bounty-squads-expanded1)  
 [Stealth](https://www.moddb.com/mods/stalker-anomaly/addons/stealth1)
 
-## Tweaks
+### Tweaks
 [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)  
 ![Nitpicker's Modpack Installation Tutorial Image](./img/tutorialimgs/NPMPTUT.png)  
 [Modular Miscellaneous Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks)  
@@ -216,17 +218,17 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Low Health & Geiger Ticking Sounds Lowered](https://www.moddb.com/mods/stalker-anomaly/addons/low-health-geiger-ticking-sounds-lowered)  
 [Noodlesmile's Better Controller Tinnitus](https://www.moddb.com/mods/stalker-anomaly/addons/noodlesmiles-better-controller-tinnitus)
 
-# Optional Mods
+## Optional Mods
 
-## Azazel Mods [OPTIONAL]
+### Azazel Mods [OPTIONAL]
 [Azazel Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/azazel-tweaks)
 
-## Warfare Mods [OPTIONAL]
+### Warfare Mods [OPTIONAL]
 [Warfare ALife Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/warfare-alife-overhaul)  
 ![Warfare ALife Overhaul Installation Tutorial Image](./img/tutorialimgs/WALOTUT.png)  
 [Hawkie's Warfare Mechanic Fix](https://www.moddb.com/mods/stalker-anomaly/addons/hawkies-warfare-mechanic-fix)
 
-## ReShade [OPTIONAL]
+### ReShade [OPTIONAL]
 1. Download [ReShade](https://reshade.me/)
 2. Install ReShade by going into your S.T.A.L.K.E.R.: Anomaly `bin` folder and choosing the DX version you use.
 3. Install any of these presets into your `bin` folder.
