@@ -1,6 +1,6 @@
 # Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/modlists)
 
-![JOURNEY](./img/branding/journey2.png)
+![JOURNEY](./img/branding/journey.png)
 
 ## About The Guide
 
