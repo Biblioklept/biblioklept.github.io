@@ -158,6 +158,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 ### Visuals
 [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)  
+[MP-133 Fix](https://www.moddb.com/mods/stalker-anomaly/addons/mp-133-fix)  
 [Glossy Surfaces and Water SSR](https://www.moddb.com/mods/stalker-anomaly/addons/glossy-surfaces-ssr)  
 ![Glossy Surfaces and Water SSR Installation Tutorial Image](./img/tutorialimgs/GSSSRTUT.png)  
 [Fixed Vanilla Models & Textures](https://www.moddb.com/mods/stalker-anomaly/addons/fvm)  
@@ -168,15 +169,6 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 [T.H.A.P. Rework](https://www.moddb.com/mods/stalker-anomaly/addons/thap-rework)  
 ![T.H.A.P. Rework Installation Tutorial Image](./img/tutorialimgs/THAPTUT.png)  
-[MP-133 Fix](https://www.moddb.com/mods/stalker-anomaly/addons/mp-133-fix)
-
-### Animations
-[Camera Reanimation Project - I.N.E.R.T.I.A.](https://www.moddb.com/mods/stalker-anomaly/addons/camera-reanimation-project-inertia)   
-[Torch Animation Fixed](https://www.moddb.com/mods/stalker-anomaly/addons/torch-animation-fixed)  
-[Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
-![FDDA Installation Tutorial Image](./img/tutorialimgs/FDDATUT.png)  
-[Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
-[Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)
 
 ### Gunplay
 [EFT Weapon Reposition Updated](https://www.moddb.com/mods/stalker-anomaly/addons/alternate-aim-sights-for-eft-reposition)  
@@ -189,6 +181,23 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Sights Without Dirt/Clean Sights](https://www.moddb.com/mods/stalker-anomaly/addons/sights-without-dirt-clean-sights)  
 [Shader Based 2D Scopes](https://www.moddb.com/mods/stalker-anomaly/addons/shader-based-2d-scopes-151dx11engine-mod)  
 ![Shader Based 2D Scopes Installation Tutorial Image](./img/tutorialimgs/SB2DSTUT.png)  
+
+### Animations
+[Torch Animation Fixed](https://www.moddb.com/mods/stalker-anomaly/addons/torch-animation-fixed)  
+[Faster SKS Reload](https://www.moddb.com/mods/stalker-anomaly/addons/petethegoat)  
+[Camera Reanimation Project - I.N.E.R.T.I.A.](https://www.moddb.com/mods/stalker-anomaly/addons/camera-reanimation-project-inertia)   
+[Damien's Animation Compendium](https://www.moddb.com/mods/stalker-anomaly/addons/damiens-animation-compedium)  
+> Don't let the [Unmaintained] scare you away, the mod works perfectly fine and has for as long as 1.5.2 has been out.
+
+![BAIN Prompt Tutorial Image](./img/tutorialimgs/BAINPROMPT2.png)  
+![Damien's Animation Compendium](./img/tutorialimgs/DACTUT1.png)  
+> Move these gamedata folders to the `<stalker anomaly section>`. Then click ok.
+
+[Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
+![FDDA Installation Tutorial Image](./img/tutorialimgs/FDDATUT.png)  
+[Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
+[Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)  
+[Cooking Animation System](https://www.moddb.com/mods/stalker-anomaly/addons/fieldcooker-animation-reloaded)  
 
 ### Gameplay
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
@@ -233,8 +242,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 2. Install ReShade by going into your S.T.A.L.K.E.R.: Anomaly `bin` folder and choosing the DX version you use.
 3. Install any of these presets into your `bin` folder.
 
-[в.о.л.к. ReShade](https://www.moddb.com/mods/stalker-anomaly/addons/reshade)  
 [LUSH - ReShade](https://www.moddb.com/mods/stalker-anomaly/addons/lush-reshade)  
-[Clear Sky ReShade](https://www.moddb.com/mods/stalker-anomaly/addons/clear-sky-reshade)  
+> For a classic S.T.A.L.K.E.R. feel.
 [METRO-STALKER ReShade](https://www.moddb.com/mods/stalker-anomaly/addons/metro-stalker-reshade)  
-[P.R.O.S.P.E.R.I.T.Y. Reincarnation ReShade](https://www.moddb.com/mods/stalker-anomaly/addons/p-r-o-s-p-e-r-i-t-y)  
+> For the Misery feel. (Disable the border.fx)
