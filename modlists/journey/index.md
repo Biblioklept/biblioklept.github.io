@@ -249,5 +249,6 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 [LUSH - ReShade](https://www.moddb.com/mods/stalker-anomaly/addons/lush-reshade)  
 > For a classic S.T.A.L.K.E.R. feel.
+
 [METRO-STALKER ReShade](https://www.moddb.com/mods/stalker-anomaly/addons/metro-stalker-reshade)  
 > For the Misery feel. (Disable the border.fx)
