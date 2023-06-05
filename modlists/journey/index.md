@@ -227,6 +227,11 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Low Health & Geiger Ticking Sounds Lowered](https://www.moddb.com/mods/stalker-anomaly/addons/low-health-geiger-ticking-sounds-lowered)  
 [Noodlesmile's Better Controller Tinnitus](https://www.moddb.com/mods/stalker-anomaly/addons/noodlesmiles-better-controller-tinnitus)
 
+### Final Steps
+
+[AXR_Options Config](./dl/AXR_Options Config.7z)  
+> All the tweaks to make the game just a little more playable. Increases your FOV, disables unnecessary animations, disables crosshair, and unlocks the rest of the factions from the start.
+
 ## Optional Mods
 
 ### Azazel Mods [OPTIONAL]
