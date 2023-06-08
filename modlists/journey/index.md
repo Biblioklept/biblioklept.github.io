@@ -163,16 +163,18 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 ![Glossy Surfaces and Water SSR Installation Tutorial Image](./img/tutorialimgs/GSSSRTUT.png)  
 [Fixed Vanilla Models & Textures](https://www.moddb.com/mods/stalker-anomaly/addons/fvm)  
 [Dux's Innumerable Character Kit](https://www.moddb.com/mods/stalker-anomaly/addons/dick)  
-![Dux's Innumerable Character Kit Installation Tutorial Image](./img/tutorialimgs/DICKTUT1.png)  
-![Dux's Innumerable Character Kit Installation Tutorial Image](./img/tutorialimgs/DICKTUT2.png)  
-> Alternative: [Anomaly HD Models](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-hd-models-addon) OR [Anomaly HD Models Lite](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-hd-models-addon-151-lite), and be sure to **grab the latest fixes in the description of the mod**. Do **NOT** use `Fixed Vanilla Models & Textures` and `Dux's Innumerable Character Kit` if using HD Models.
+> When prompted for install, select `Next`, then `Install`.
 
 [T.H.A.P. Rework](https://www.moddb.com/mods/stalker-anomaly/addons/thap-rework)  
-![T.H.A.P. Rework Installation Tutorial Image](./img/tutorialimgs/THAPTUT.png)  
+> When prompted for install, right click on `T.H.A.P. Rework 2.1.1` and set it as the directory.
+
 [1st Person Visible Body](https://www.moddb.com/mods/stalker-anomaly/addons/swm-ported-visible-body-starter-version)  
 
 ### Gunplay
 [Yet Another Reposition Mod](https://www.moddb.com/mods/stalker-anomaly/addons/yet-another-reposition-mod-v-1-0-melee-and-pistols)  
+[Machine Pistols & Sawn Off in Sidearm Slot](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-machine-pistols-sawn-off-in-sidearm-slot)  
+> When prompted for install, select `OK`.
+
 [Simple Unjam Animation](https://www.moddb.com/mods/stalker-anomaly/addons/simple-unjam-animation)  
 [Lowered Sprinting Animations Optimized](https://www.moddb.com/mods/stalker-anomaly/addons/lower-weapon-sprint-optimized)  
 [Sights Without Dirt/Clean Sights](https://www.moddb.com/mods/stalker-anomaly/addons/sights-without-dirt-clean-sights)  
@@ -182,7 +184,8 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 ### Gameplay
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
 [Bounty Squads Expanded](https://www.moddb.com/mods/stalker-anomaly/addons/bounty-squads-expanded1)  
-[Stealth](https://www.moddb.com/mods/stalker-anomaly/addons/stealth1)
+[Stealth](https://www.moddb.com/mods/stalker-anomaly/addons/stealth1)  
+> When prompted for install, select `OK`.
 
 ### Tweaks
 [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)  
