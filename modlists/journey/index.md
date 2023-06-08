@@ -75,7 +75,7 @@ By default, Windows Explorer will not show file extensions (such as .exe, .dll, 
 
 ## Mod Organizer 2 Setup
 
-***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.github.io/mo2.html). All credits to Qolore07***.
+***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.moddinglinked.com/mo2.html). All credits to Qolore07***.
 
 ### Installing Mod Organizer 2
 
@@ -169,35 +169,15 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 [T.H.A.P. Rework](https://www.moddb.com/mods/stalker-anomaly/addons/thap-rework)  
 ![T.H.A.P. Rework Installation Tutorial Image](./img/tutorialimgs/THAPTUT.png)  
+[1st Person Visible Body](https://www.moddb.com/mods/stalker-anomaly/addons/swm-ported-visible-body-starter-version)  
 
 ### Gunplay
-[EFT Weapon Reposition Updated](https://www.moddb.com/mods/stalker-anomaly/addons/alternate-aim-sights-for-eft-reposition)  
-![BAIN Prompt Tutorial Image](./img/tutorialimgs/BAINPROMPT1.png)  
-![EFT Weapon Reposition Updated Installation Tutorial Image](./img/tutorialimgs/EFTWRTUT.png)  
-[EFT Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/eft-fixes-dltx)  
-[PDA Fix For EFT](https://www.moddb.com/mods/stalker-anomaly/addons/pda-fix-for-eft-152-dltx-version)  
+[Yet Another Reposition Mod](https://www.moddb.com/mods/stalker-anomaly/addons/yet-another-reposition-mod-v-1-0-melee-and-pistols)  
 [Simple Unjam Animation](https://www.moddb.com/mods/stalker-anomaly/addons/simple-unjam-animation)  
 [Lowered Sprinting Animations Optimized](https://www.moddb.com/mods/stalker-anomaly/addons/lower-weapon-sprint-optimized)  
 [Sights Without Dirt/Clean Sights](https://www.moddb.com/mods/stalker-anomaly/addons/sights-without-dirt-clean-sights)  
 [Shader Based 2D Scopes](https://www.moddb.com/mods/stalker-anomaly/addons/shader-based-2d-scopes-151dx11engine-mod)  
 ![Shader Based 2D Scopes Installation Tutorial Image](./img/tutorialimgs/SB2DSTUT.png)  
-
-### Animations
-[Torch Animation Fixed](https://www.moddb.com/mods/stalker-anomaly/addons/torch-animation-fixed)  
-[Faster SKS Reload](https://www.moddb.com/mods/stalker-anomaly/addons/petethegoat)  
-[Camera Reanimation Project - I.N.E.R.T.I.A.](https://www.moddb.com/mods/stalker-anomaly/addons/camera-reanimation-project-inertia)   
-[Damien's Animation Compendium](https://www.moddb.com/mods/stalker-anomaly/addons/damiens-animation-compedium)  
-> Don't let the [Unmaintained] scare you away, the mod works perfectly fine and has for as long as 1.5.2 has been out.
-
-![BAIN Prompt Tutorial Image](./img/tutorialimgs/BAINPROMPT2.png)  
-![Damien's Animation Compendium](./img/tutorialimgs/DACTUT1.png)  
-> Move these gamedata folders to the `<stalker anomaly section>`. Then click ok.
-
-[Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
-![FDDA Installation Tutorial Image](./img/tutorialimgs/FDDATUT.png)  
-[Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
-[Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)  
-[Cooking Animation System](https://www.moddb.com/mods/stalker-anomaly/addons/fieldcooker-animation-reloaded)  
 
 ### Gameplay
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
@@ -215,6 +195,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 ![Crafting With Multi-Use Items Fix Installation Tutorial Image](./img/tutorialimgs/CWMUIFTUT3.png)  
 [UNISG Hollow Boundaries Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/unisg-hollow-boundaries-fixes-v110)  
 [Sin Upgrade Software](https://www.moddb.com/mods/stalker-anomaly/addons/sin-upgrade-software)  
+[Sin Upgrade Software - DICK Patch](./dl/Sin Upgrade Software - DICK Patch.7z)  
 [Fixed Player Thermal Resistance](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-player-thermal-resistance)  
 [He Is With Me](https://www.moddb.com/mods/stalker-anomaly/addons/he-is-with-me)  
 [Angry Chimera Growls](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-angry-chimera-growls-v10)  
@@ -224,8 +205,30 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [475 New Stash Locations](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-475-new-stash-locations)  
 [Bugged Stashes Fix](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-bugged-stashes-fix)  
 [Transition Between Locations Without Confirmation](https://www.moddb.com/mods/stalker-anomaly/addons/transition-between-locations-without-confirmation)  
+
+### Audio
+[JSRS Sound Mod](https://www.moddb.com/mods/stalker-anomaly/addons/jsrs-sound-mod-50-preview-for-152)  
+[Soundscape Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/soundscape-overhaul-2)  
+[Soundscape Overhaul - Quieter Rain](https://www.moddb.com/mods/stalker-anomaly/addons/soundscape-overhaul-quieter-rain)  
 [Low Health & Geiger Ticking Sounds Lowered](https://www.moddb.com/mods/stalker-anomaly/addons/low-health-geiger-ticking-sounds-lowered)  
 [Noodlesmile's Better Controller Tinnitus](https://www.moddb.com/mods/stalker-anomaly/addons/noodlesmiles-better-controller-tinnitus)
+
+### Animations
+[Torch Animation Fixed](https://www.moddb.com/mods/stalker-anomaly/addons/torch-animation-fixed)  
+[Faster SKS Reload](https://www.moddb.com/mods/stalker-anomaly/addons/petethegoat)  
+[Camera Reanimation Project - I.N.E.R.T.I.A.](https://www.moddb.com/mods/stalker-anomaly/addons/camera-reanimation-project-inertia)   
+[Damien's Animation Compendium](https://www.moddb.com/mods/stalker-anomaly/addons/damiens-animation-compedium)  
+> Don't let the [Unmaintained] scare you away, the mod works perfectly fine and has for as long as 1.5.2 has been out.
+
+![BAIN Prompt Tutorial Image](./img/tutorialimgs/BAINPROMPT2.png)  
+![Damien's Animation Compendium](./img/tutorialimgs/DACTUT1.png)  
+> Move these gamedata folders to the `<stalker anomaly section>`. Then click ok. **If you installed Yet Another Reposition Mod, go to that mod, open the `mod_system_yarm_rrepo.ltx` file, and remove all references to the knife. Not doing so will cause your knife to block your vision almost completely.
+
+[Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
+![FDDA Installation Tutorial Image](./img/tutorialimgs/FDDATUT.png)  
+[Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
+[Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)  
+[Cooking Animation System](https://www.moddb.com/mods/stalker-anomaly/addons/fieldcooker-animation-reloaded)  
 
 ### Final Steps
 
