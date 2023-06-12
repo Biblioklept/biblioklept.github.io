@@ -1,0 +1,13 @@
+player.setav strength 10
+player.setav perception 10
+player.setav endurance 10
+player.setav charisma 10
+player.setav intelligence 10
+player.setav agility 10
+player.setav luck 10
+
+
+; Fallout4Only
+player.addperk 00065E65 1
+player.addperk 001D2483 1
+player.addperk 030423A5 1
