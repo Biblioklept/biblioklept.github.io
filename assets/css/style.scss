@@ -1,14 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
----
-
-@import
-  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
-  "minima/initialize";
-
 # classic 			Default, light color scheme.
 # dark 				Dark variant of the classic skin.
 # auto 				Adaptive skin based on the default classic and dark skins.
 # solarized 		Adaptive skin for solarized color scheme skins.
 # solarized-light 	Light variant of solarized color scheme.
 # solarized-dark 	Dark variant of solarized color scheme.
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
+  "minima/initialize";
