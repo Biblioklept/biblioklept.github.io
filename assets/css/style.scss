@@ -9,5 +9,5 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
+  "minima/skins/{{ site.theme | default: 'dark' }}",
   "minima/initialize";
