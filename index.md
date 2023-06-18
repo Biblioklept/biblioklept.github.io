@@ -13,5 +13,7 @@ A one stop shop for everything I've made.
 > Stuff I've made that doesn't really need or deserve it's own section in the prior sections gets thrown here.
 - [IWADs](./iwads)
 > I didn't make these, but this is my take on the repositories of IWAD files you can find everywhere on GitHub.
+- [About Me](./yourstruly)
+> Just some info about me as a person. Check it out if you're interested.
 
 [Thank you to nemal34 for the site. This is built off of his layout that I found very nice.](https://github.com/nemal34/grebHorizonEssential)
