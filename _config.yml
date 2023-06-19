@@ -1,3 +1,4 @@
+remote_theme: no-style-please
 plugins:
   - jekyll-relative-links
 relative_links:
