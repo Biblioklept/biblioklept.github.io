@@ -1,18 +1,30 @@
-remote_theme: no-style-please
+title: "Biblioklept's Site"
+author: "Biblioklept"
+url: https://biblioklept.github.io/ # root address of the site
+baseurl: 
+description: > 
+  A repo full of mods, modlists, and modding.
+
+permalink: /:slug.html
+
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
 plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-relative-links
+
 relative_links:
   enabled: true
   collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-
-title: "Biblioklept's Site"
-description: "A repo full of mods, modlists, and modding."
