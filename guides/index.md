@@ -1,4 +1,4 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/)
+
 My Guides
 
 - [G.A.M.M.A. Tedium Removal](./gammatediumremoval)

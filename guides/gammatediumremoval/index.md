@@ -1,4 +1,7 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/guides)
+#
+
+[BACK](..)
+
 Get Rid of Gamma's Tedium
 
 ### Table of Contents

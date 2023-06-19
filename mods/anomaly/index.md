@@ -1,4 +1,7 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/mods)
+#
+
+[BACK](..)
+
 My S.T.A.L.K.E.R. Anomaly Mods.
 
 ### Tweaks

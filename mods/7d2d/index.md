@@ -1,4 +1,7 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/mods)
+#
+
+[BACK](..)
+
 My 7 Days To Die Mods.
 
 ### Tweaks

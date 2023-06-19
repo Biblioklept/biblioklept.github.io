@@ -1,4 +1,7 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/modlists)
+#
+
+[BACK](..)
+
 HSJ Modlists
 
 > "A hop skip and a jump!"

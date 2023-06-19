@@ -1,4 +1,7 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/guides)
+#
+
+[BACK](..)
+
 How To Get G.A.M.M.A.'s body health system setup into Escape From Pripyat
 
 1. Disable` [Favkis_Nexerade-Grok] Body Health System Redux (BHS)`

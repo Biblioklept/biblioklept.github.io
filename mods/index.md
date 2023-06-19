@@ -1,4 +1,4 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/)
+
 My Mods
 
 - [TF2 Mods](./tf2)

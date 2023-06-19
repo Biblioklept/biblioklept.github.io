@@ -1,4 +1,6 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/) / [BACK](https://biblioklept.github.io/modlists)
+#
+
+[BACK](..)
 
 ![JOURNEY](./img/branding/journey.png)
 

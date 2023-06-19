@@ -1,4 +1,4 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/)
+
 IWADS
 
 ### [AIO Download](./dl/aio.7z)

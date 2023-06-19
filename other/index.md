@@ -1,4 +1,4 @@
-# Biblioklept's Site - [HOME](https://biblioklept.github.io/)
+
 My Other Files
 
 - [Cheat Fallout File](./dl/fallout/cheat)
