@@ -1,6 +1,3 @@
-#
-
-[BACK](..)
 
 My Scripts
 
