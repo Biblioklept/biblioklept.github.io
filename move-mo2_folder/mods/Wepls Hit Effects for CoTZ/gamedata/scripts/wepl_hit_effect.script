@@ -1,0 +1,202 @@
+-- created by wepl
+-- contact (discord): wepl#1549
+
+
+-- Called before actor hit callback
+-- returning false will ignore the hit completely
+
+local ltxOutfits = ini_file( "plugins\\wepl_hit_effect_outfits.ltx" )
+
+local ltxVisuals = ini_file( "plugins\\wepl_hit_effect_visuals.ltx" )
+
+local headBones = {
+	[15] = true,
+	[16] = true,
+	[17] = true,
+	[18] = true,
+	[19] = true
+}
+
+local who2 = nil
+local actor2 = nil
+local impulse = nil
+local power = nil
+local type = nil
+
+function on_game_start()
+
+	RegisterScriptCallback("actor_on_before_hit", actor_on_before_hit)
+	
+		RegisterScriptCallback("actor_on_hit_callback", actor_on_hit_callback )
+	
+			RegisterScriptCallback("npc_on_hit_callback", npc_on_hit_callback )
+
+end
+
+
+function actor_on_before_hit(shit,bone_id,flags)
+
+	who2 = shit.draftsman
+	impulse = shit.impulse
+	power = shit.power
+	type = shit.type
+
+end
+
+
+function actor_on_hit_callback(obj,amount,local_direction,who,bone_index,bone_id)
+
+  if (obj:name() == who:name()) then   
+     local bleeding = db.actor.bleeding > 0 
+     local radiation = db.actor.radiation > 0  
+     local psy_health = db.actor.psy_health < 1.0
+        	
+    if (bleeding or radiation or psy_health) then
+     	return
+       end
+	end
+
+	local hit_to_section = {
+		[hit.light_burn] = "light_burn",
+		[hit.burn] = "burn",
+		[hit.strike] = "strike",
+		[hit.shock] = "shock",
+		[hit.wound] = "wound",
+		[hit.radiation] = "radiation",
+		[hit.telepatic] = "telepatic",
+		[hit.chemical_burn] = "chemical_burn",
+		[hit.explosion] = "explosion",
+		[hit.fire_wound] = "fire_wound",
+	}
+
+	if(who2 ~= nil and power ~= nil and type ~= nil)then
+     	--printf(hit_to_section[type])
+
+		if (hit_to_section[type] == "fire_wound" or hit_to_section[type] == "explosion" or hit_to_section[type] == "wound") then
+
+				local ply = db.actor	
+				local armorType = "none"
+				local helmetType = "none"
+	
+			if ltxVisuals then
+				local plyVisual = ply:get_visual_name()
+		
+				if plyVisual then
+					plyVisual = string.lower( plyVisual )
+					local plyVisualExt = string.find( plyVisual, ".ogf" )
+			
+					if plyVisualExt then
+						plyVisual = string.sub( plyVisual, 1, plyVisualExt - 1 )
+					end
+			
+						if ltxVisuals:section_exist( plyVisual ) then
+							armorType = ltxVisuals:line_exist( plyVisual, "armorType" ) and ltxVisuals:r_string_ex( plyVisual, "armorType" ) or armorType
+							helmetType = ltxVisuals:line_exist( plyVisual, "helmetType" ) and ltxVisuals:r_string_ex( plyVisual, "helmetType" ) or helmetType
+						end
+					end
+				end
+	
+				if ltxOutfits then
+					local plyOutfit = ply:item_in_slot( 7 )
+					plyOutfit = plyOutfit and plyOutfit:section()
+		
+					if plyOutfit and ltxOutfits:section_exist( plyOutfit ) then
+						armorType = ltxOutfits:line_exist( plyOutfit, "armorType" ) and ltxOutfits:r_string_ex( plyOutfit, "armorType" ) or armorType
+						helmetType = ltxOutfits:line_exist( plyOutfit, "helmetType" ) and ltxOutfits:r_string_ex( plyOutfit, "helmetType" ) or helmetType
+				end
+		
+				local plyHelmet = ply:item_in_slot( 12 )
+				plyHelmet = plyHelmet and plyHelmet:section()
+		
+				if plyHelmet and ltxOutfits:section_exist( plyHelmet ) then
+					helmetType = ltxOutfits:line_exist( plyHelmet, "helmetType" ) and ltxOutfits:r_string_ex( plyHelmet, "helmetType" ) or helmetType
+				end
+			end
+	
+	
+			local hitType = headBones[bone_id] and "head" or "body"
+			local hitEffect = hitType == "head" and helmetType or armorType
+				local hitSound = sound_object( "wepl\\hit_effect\\" .. hitType .. "\\hit_" .. hitEffect .. "_" .. math.random(20) )
+			
+			if hitSound then
+				hitSound:play(ply,0,sound_object.s2d)
+			end
+	
+			level.add_cam_effector( "camera_effects\\wepl\\hit_effect\\" .. hitType .. "\\hit_" .. hitEffect .. "_" .. math.random(5) .. ".anm", math.random(444555, 444999), false, "" )
+
+			return
+		end
+
+		if (hit_to_section[type] ~= "fire_wound") then -- íå êðè÷èì îò ïñè óðîí
+    	return
+    	end
+    
+		local who2 = nil
+		local impulse = nil
+		local power = nil
+		local type = nil
+
+	end
+
+end
+
+
+function npc_on_hit_callback( npc, damage, dir, attacker, bone_id )
+
+	if not ( npc and damage and attacker and bone_id ) then return end
+	
+	if damage == 0 or damage == 1 then return end
+	
+	local ply = db.actor
+	
+	if not ( ply and ply:alive() ) then return end
+	
+	if attacker:id() ~= ply:id() then return end
+	
+	
+	local armorType = "none"
+	
+	local helmetType = "none"
+	
+	if ltxVisuals then
+	
+		local npcVisual = npc:get_visual_name()
+		
+		if npcVisual then
+	
+			npcVisual = string.lower( npcVisual )
+	
+			local npcVisualExt = string.find( npcVisual, ".ogf" )
+			
+			if npcVisualExt then
+	
+				npcVisual = string.sub( npcVisual, 1, npcVisualExt - 1 )
+	
+			end
+			
+	
+			if ltxVisuals:section_exist( npcVisual ) then
+	
+				armorType = ltxVisuals:line_exist( npcVisual, "armorType" ) and ltxVisuals:r_string_ex( npcVisual, "armorType" ) or armorType
+	
+				helmetType = ltxVisuals:line_exist( npcVisual, "helmetType" ) and ltxVisuals:r_string_ex( npcVisual, "helmetType" ) or helmetType
+	
+			end
+	
+		end
+	
+	end
+	
+	local hitType = headBones[bone_id] and "head" or "body"
+	
+	local hitEffect = hitType == "head" and helmetType or armorType
+	
+	local hitSound = sound_object( "wepl\\hit_effect\\" .. hitType .. "\\hit_" .. hitEffect .. "_" .. math.random(20) )
+	
+	if hitSound then
+	
+		hitSound:play_at_pos( ply, npc:position() )
+	
+	end
+
+end

@@ -1,0 +1,1191 @@
+-- ============================================================
+--
+-- Dynamic Faction Relations  (drx_dfr_main.script)
+--	CoC 1.5b r4 - DoctorX Dynamic Faction Relations 2.0
+--
+--		- Dynamically alters faction relations when an NPC is killed
+--		- Config file: configs\drx\drx_dfr_config.ltx
+--		- Strings file: configs\text\eng\drx_dfr_strings.xml
+--
+--	Created by: DoctorX
+--	Last revised: December 30, 2018
+--
+-- ============================================================
+
+
+-- ________________________________________________________________________________________________
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- Settings File
+--
+--	Created by DoctorX
+--	for DoctorX Dynamic Faction Relations 2.0
+--	September 17, 2017
+--
+-- ------------------------------------------------------------------------------------------------
+
+-- Location of the settings file:
+local ini = ini_file( "drx\\drx_dfr_config.ltx" )
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ________________________________________________________________________________________________
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_change_faction_relations function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Changes faction relation values in response to the player or NPC killing another NPC
+--
+--	Usage:
+--		drx_dfr_change_faction_relations( dead_npc, killer_npc )
+--
+--	Parameters:
+--		dead_npc (type: object)
+--			- NPC that died
+--		killer_npc (type: object)
+--			- NPC that killed the dead NPC
+--
+--	Ini requirements:
+--		drx\drx_dfr_config.ltx
+--			[changeable_factions]
+--				{faction names} (type: string, faction name)
+--					- List of changeable factions
+--			[relation_change_values]
+--				max_value (type: float)
+--					- Maximum magnitude of relation change
+--				npc_modifier (type: float, decimal percent)
+--					- Maximum magnitude value multiplier if killer was not actor
+--
+--	Return value (type: bool):
+--		Returns true on success
+--		Returns false on failure
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified July 25, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Raise or lower faction relations when an NPC is killed:
+function drx_dfr_change_faction_relations( dead_npc, killer_npc )
+
+	-- Get list of relation-changing factions:
+	local changeable_factions_list = alun_utils.collect_section( ini, "changeable_factions" )
+	if ( (not changeable_factions_list) or (#changeable_factions_list < 1) ) then
+		printf( "DRX DFR Error: No changeable factions specified" )
+		return false
+	end
+
+	-- Get the max value for relation change:
+	local max_value = (ini:r_float_ex( "relation_change_values", "max_value" ) or 0)
+	if ( (not max_value) or (max_value == 0) ) then
+		printf( "DRX DFR Error: Max faction relation change value is 0" )
+		return false
+	end
+
+	-- Modify max value if killer was not actor:
+	if ( killer_npc:id( ) ~= db.actor:id( ) ) then
+		local npc_modifier = (ini:r_float_ex( "relation_change_values", "npc_modifier" ) or 1)
+		max_value = (max_value * npc_modifier )
+	end
+
+	-- Get dead guy faction:
+	local killed_obj = alife( ):object( dead_npc:id( ) )
+	if ( not killed_obj ) then
+		return false
+	end
+	local killed_faction = alife_character_community( killed_obj )
+	killed_faction = string.gsub( killed_faction, "actor_", "" )
+
+	-- Check if dead guy changeable faction:
+	local faction_check = false
+	for j = 1, ( #changeable_factions_list ) do
+		if ( killed_faction == changeable_factions_list[j] ) then
+			faction_check = true
+			break
+		end
+	end
+	if ( not faction_check ) then
+		return true
+	end
+
+	-- Get killer faction:
+	local killer_obj = alife( ):object( killer_npc:id( ) )
+	if ( not killer_obj ) then
+		return false
+	end
+	local killer_faction = alife_character_community( killer_obj )
+	killer_faction = string.gsub( killer_faction, "actor_", "" )
+
+	-- Check if killer changeable faction:
+	local faction_check = false
+	for j = 1, ( #changeable_factions_list ) do
+		if ( killer_faction == changeable_factions_list[j] ) then
+			faction_check = true
+			break
+		end
+	end
+	if ( not faction_check ) then
+		return true
+	end
+
+	-- Change faction relations for factions related to dead guy faction:
+	drx_dfr_change_relations( killer_faction, killed_faction, max_value )
+
+	-- Set return value:
+	return true
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_change_relations function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Changes faction relation values for factions related to killed NPC
+--
+--	Usage:
+--		drx_dfr_change_relations( dead_npc, killer_npc )
+--
+--	Parameters:
+--		killer_faction (type: string, faction name)
+--			- Faction of the killer
+--		killed_faction (type: string, faction name)
+--			- Faction of the dead NPC
+--
+--	Ini requirements:
+--		drx\drx_dfr_config.ltx
+--			[changeable_factions]
+--				{faction names} (type: string, faction name)
+--					- List of changeable factions
+--
+--	Return value (type: bool):
+--		Returns true on success
+--		Returns false on failure
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified July 25, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Raise or lower faction relations for related factions:
+function drx_dfr_change_relations( killer_faction, killed_faction, max_value )
+
+	-- Get list of relation-changing factions:
+	local changeable_factions_list = alun_utils.collect_section( ini, "changeable_factions" )
+	if ( (not changeable_factions_list) or (#changeable_factions_list < 1) ) then
+		printf( "DRX DFR Error: No changeable factions specified" )
+		return false
+	end
+
+	-- If killed NPC was enemy of faction, raise goodwill toward killer faction:
+	if ( math.random( ) <= 0.5 ) then
+		for i = 1, ( #changeable_factions_list ) do
+			if ( changeable_factions_list[i] ~= killer_faction ) then
+				if ( game_relations.is_factions_enemies( changeable_factions_list[i], killed_faction ) ) then
+					if ( math.random( ) <= 0.5 ) then
+						local value = math.random( 0, max_value )
+						if ( math.random( ) <= 0.5 ) then
+							value = math.floor( (value * math.random( )) )
+						else
+							value = math.floor( (value * (1 + math.random( ))) )
+						end
+						drx_dfr_change_relation_values( changeable_factions_list[i], killer_faction, value )
+					end
+				end
+			end
+		end
+
+	-- If killed NPC was friend or neutral to faction, lower goodwill toward killer faction:
+	else
+		for i = 1, ( #changeable_factions_list ) do
+			if ( changeable_factions_list[i] ~= killer_faction ) then
+				if ( not game_relations.is_factions_enemies( changeable_factions_list[i], killed_faction ) ) then
+					if ( math.random( ) <= 0.5 ) then
+						local value = math.random( 0, max_value )
+						if ( math.random( ) <= 0.5 ) then
+							value = math.floor( (value * math.random( )) )
+						else
+							value = math.floor( (value * (1 + math.random( ))) )
+						end
+						drx_dfr_change_relation_values( changeable_factions_list[i], killer_faction, -(value) )
+					end
+				end
+			end
+		end
+
+	end
+
+	-- Set return value:
+	return true
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_change_relation_values function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Changes game relation values between factions
+--
+--	Usage:
+--		drx_dfr_change_relation_values( faction_1, faction_2, delta )
+--
+--	Parameters:
+--		faction_1 (type: string, faction name)
+--			- First faction
+--		faction_2 (type:string, faction name)
+--			- Second faction
+--		delta (type: int)
+--			- Change in community goodwill rating (<-999 = Enemy, >999 = Ally)
+--
+--	Persistent storage:
+--		drx_dfr_{faction_1}_{faction_2}_relations (type: int)
+--			Current relation value between factions
+--
+--	External strings:
+--		drx_dfr_strings.xml
+--			drx_dfr_str_neutral_to_hostile (type: string)
+--				- Factions turn hostile
+--			drx_dfr_str_neutral_to_allied (type: string)
+--				- Factions form an alliance
+--			drx_dfr_str_allied_to_neutral (type: string)
+--				- Factions go from allied to neutral
+--			drx_dfr_str_hostile_to_neutral (type: string)
+--				- Factions go from hostile to neutral
+--
+--	Return value (type: bool):
+--		Returns true on success
+--		Returns false on failure
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified December 30, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Change faction relations:
+function drx_dfr_change_relation_values( faction_1, faction_2, delta )
+--GoozE start
+	if ((faction_1 == "dolg" and faction_2 == "bandit") or (faction_1 == "bandit" and faction_2 == "dolg")) then
+		gooze_faction_rules(faction_1, faction_2, -4000)
+		return true
+	end
+	if ((faction_1 == "stalker" and faction_2 == "bandit") or (faction_1 == "bandit" and faction_2 == "stalker")) then
+		gooze_faction_rules(faction_1, faction_2, -4000)
+		return true
+	end
+	if ((faction_1 == "dolg" and faction_2 == "ecolog") or (faction_1 == "ecolog" and faction_2 == "dolg")) then
+		gooze_faction_rules(faction_1, faction_2, 4000)
+		return true
+	end
+	if ((faction_1 == "dolg" and faction_2 == "stalker") or (faction_1 == "stalker" and faction_2 == "dolg")) then
+		gooze_faction_rules(faction_1, faction_2, 200)
+		return true
+	end
+	if ((faction_1 == "army" and faction_2 == "ecolog") or (faction_1 == "ecolog" and faction_2 == "army")) then
+		gooze_faction_rules(faction_1, faction_2, 4000)
+		return true
+	end
+
+	if ((faction_1 == "freedom" and faction_2 == "stalker") or (faction_1 == "stalker" and faction_2 == "freedom")) then
+		gooze_faction_rules(faction_1, faction_2, 500)
+		return true
+	end
+	if ((faction_1 == "freedom" and faction_2 == "army") or (faction_1 == "army" and faction_2 == "freedom")) then
+		gooze_faction_rules(faction_1, faction_2, -4000)
+		return true
+	end
+	if ((faction_1 == "killer" and faction_2 == "army") or (faction_1 == "army" and faction_2 == "killer")) then
+		gooze_faction_rules(faction_1, faction_2, -4000)
+		return true
+	end
+	if ((faction_1 == "bandit" and faction_2 == "army") or (faction_1 == "army" and faction_2 == "bandit")) then
+		gooze_faction_rules(faction_1, faction_2, -4000)
+		return true
+	end
+	if ((faction_1 == "ecolog" and faction_2 == "stalker") or (faction_1 == "stalker" and faction_2 == "ecolog")) then
+		gooze_faction_rules(faction_1, faction_2, 500)
+		return true
+	end
+	
+	
+	
+	
+--GoozE end
+
+	-- Get old faction relations:
+	local old_1_2_relations = game_relations.get_factions_community( faction_1, faction_2 )
+	local old_2_1_relations = game_relations.get_factions_community( faction_2, faction_1 )
+	if ( (math.abs( old_2_1_relations )) > (math.abs( old_1_2_relations )) ) then
+		old_1_2_relations = old_2_1_relations
+	end
+	local old_a1_2_relations = game_relations.get_factions_community( string.format( "actor_%s", faction_1 ), faction_2 )
+	local old_2_a1_relations = game_relations.get_factions_community( faction_2, string.format( "actor_%s", faction_1 ) )
+	if ( (math.abs( old_2_a1_relations )) > (math.abs( old_a1_2_relations )) ) then
+		old_a1_2_relations = old_2_a1_relations
+	end
+	local old_a2_1_relations = game_relations.get_factions_community( string.format( "actor_%s", faction_2 ), faction_1 )
+	local old_1_a2_relations = game_relations.get_factions_community( faction_1, string.format( "actor_%s", faction_2 ) )
+	if ( (math.abs( old_1_a2_relations )) > (math.abs( old_a2_1_relations )) ) then
+		old_a2_1_relations = old_1_a2_relations
+	end
+
+	-- Calculate new faction relation value, randomly reset if pegged:
+	local relation = (old_1_2_relations + delta)
+	if ( relation > 5000 ) then
+		if ( math.random( ) <= 0.5 ) then
+			relation = 0
+		else
+			relation = 5000
+		end
+	elseif ( relation < -5000 ) then
+		if ( math.random( ) <= 0.5 ) then
+			relation = 0
+		else
+			relation = -5000
+		end
+	end
+
+	-- Set relations to median level if war footing change:
+	if ( (old_1_2_relations > game_relations.ENEMIES) and (relation <= game_relations.ENEMIES) ) then
+		relation = (game_relations.ENEMIES * 2)
+	elseif ( (old_1_2_relations < game_relations.FRIENDS) and (relation >= game_relations.FRIENDS) ) then
+		relation = (game_relations.FRIENDS * 2)
+	elseif ( (old_1_2_relations >= game_relations.FRIENDS) and (relation < game_relations.FRIENDS) and (relation > game_relations.ENEMIES) ) then
+		relation = (game_relations.NEUTRALS * 2)
+	elseif ( (old_1_2_relations <= game_relations.ENEMIES) and (relation < game_relations.FRIENDS) and (relation > game_relations.ENEMIES) ) then
+		relation = (game_relations.NEUTRALS * 2)
+	end
+
+	-- Verify db.actor is available:
+	if ( not db.actor ) then
+		printf( "DRX DFR Error: Unable to change faction relation values, db.actor not available" )
+		return false
+	end
+
+	-- Set overall faction relations:
+	game_relations.set_factions_community_num( faction_1, faction_2, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_%s_relations", faction_1, faction_2 ), relation )
+	game_relations.set_factions_community_num( faction_2, faction_1, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_%s_relations", faction_2, faction_1 ), relation )
+	printf( "DRX DFR: %s / %s relations changed from %s to %s", faction_1, faction_2, old_1_2_relations, game_relations.get_factions_community( faction_1, faction_2 ) )
+
+	-- Change actor faction / faction 2 relations:
+	game_relations.set_factions_community_num( string.format( "actor_%s", faction_1 ), faction_2, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_actor_%s_%s_relations", faction_1, faction_2 ), relation )
+	game_relations.set_factions_community_num( faction_2, string.format( "actor_%s", faction_1 ), relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_actor_%s_relations", faction_2, faction_1 ), relation )
+
+	-- Change actor faction / faction 1 relations:
+	game_relations.set_factions_community_num( faction_1, string.format( "actor_%s", faction_2 ), relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_actor_%s_relations", faction_1, faction_2 ), relation )
+	game_relations.set_factions_community_num( string.format( "actor_%s", faction_2 ), faction_1, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_actor_%s_%s_relations", faction_2, faction_1 ), relation )
+
+	-- Check if faction war footing has changed to hostile:
+	if ( (old_1_2_relations > game_relations.ENEMIES) and (game_relations.get_factions_community( faction_1, faction_2 ) <= game_relations.ENEMIES) ) then
+		printf( "DRX DFR: %s has declared war on %s", faction_1, faction_2 )
+		drx_dfr_news_tip( string.format( game.translate_string( "drx_dfr_str_neutral_to_hostile" ), game.translate_string( faction_1 ), game.translate_string( faction_2 ) ), "ui_inGame2_PD_Lider" )
+
+		-- Reset actor and companion goodwill:
+		if ( character_community( db.actor ) == (faction_1 or string.format( "actor_%s", faction_1 )) ) then
+			relation_registry.set_community_goodwill( faction_2, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		elseif ( character_community( db.actor ) == (faction_2 or string.format( "actor_%s", faction_2 )) ) then
+			relation_registry.set_community_goodwill( faction_1, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		end
+
+	end
+
+	-- Check if faction war footing has changed to allied:
+	if ( (old_1_2_relations < game_relations.FRIENDS) and (game_relations.get_factions_community( faction_1, faction_2 ) >= game_relations.FRIENDS) ) then
+		printf( "DRX DFR: %s has formed an alliance with %s", faction_1, faction_2 )
+		drx_dfr_news_tip( string.format( game.translate_string( "drx_dfr_str_neutral_to_allied" ), game.translate_string( faction_1 ), game.translate_string( faction_2 ) ), "ui_inGame2_PD_Drug_Stalkerov" )
+
+		-- Reset actor and companion goodwill:
+		if ( character_community( db.actor ) == (faction_1 or string.format( "actor_%s", faction_1 )) ) then
+			relation_registry.set_community_goodwill( faction_2, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		elseif ( character_community( db.actor ) == (faction_2 or string.format( "actor_%s", faction_2 )) ) then
+			relation_registry.set_community_goodwill( faction_1, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		end
+
+	end
+
+	-- Check if faction war footing has changed from allied to neutral:
+	if ( (old_1_2_relations >= game_relations.FRIENDS) and (game_relations.get_factions_community( faction_1, faction_2 ) < game_relations.FRIENDS) and (game_relations.get_factions_community( faction_1, faction_2 ) > game_relations.ENEMIES) ) then
+		printf( "DRX DFR: Relations between %s and %s are deteriorating", faction_1, faction_2 )
+		drx_dfr_news_tip( string.format( game.translate_string( "drx_dfr_str_allied_to_neutral" ), game.translate_string( faction_1 ), game.translate_string( faction_2 ) ), "ui_inGame2_Razgovor_s_glazu_na_glaz" )
+
+		-- Reset actor and companion goodwill:
+		if ( character_community( db.actor ) == (faction_1 or string.format( "actor_%s", faction_1 )) ) then
+			relation_registry.set_community_goodwill( faction_2, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		elseif ( character_community( db.actor ) == (faction_2 or string.format( "actor_%s", faction_2 )) ) then
+			relation_registry.set_community_goodwill( faction_1, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		end
+
+	end
+
+	-- Check if faction war footing has changed from hostile to neutral:
+	if ( (old_1_2_relations <= game_relations.ENEMIES) and (game_relations.get_factions_community( faction_1, faction_2 ) < game_relations.FRIENDS) and (game_relations.get_factions_community( faction_1, faction_2 ) > game_relations.ENEMIES) ) then
+		printf( "DRX DFR: %s and %s have declared a cease-fire", faction_1, faction_2 )
+		drx_dfr_news_tip( string.format( game.translate_string( "drx_dfr_str_hostile_to_neutral" ), game.translate_string( faction_1 ), game.translate_string( faction_2 ) ), "ui_inGame2_PD_Diplomat" )
+
+		-- Reset actor and companion goodwill:
+		if ( character_community( db.actor ) == (faction_1 or string.format( "actor_%s", faction_1 )) ) then
+			relation_registry.set_community_goodwill( faction_2, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		elseif ( character_community( db.actor ) == (faction_2 or string.format( "actor_%s", faction_2 )) ) then
+			relation_registry.set_community_goodwill( faction_1, db.actor:id( ), 0 )
+			for id, squad in pairs( axr_companions.companion_squads ) do
+				squad:set_squad_relation( game_relations.FRIENDS )
+			end
+		end
+
+	end
+
+	-- Set return value:
+	return true
+
+end
+
+
+--GoozE start 
+
+function gooze_faction_rules(faction_1, faction_2, relation)
+	-- Verify db.actor is available:
+	if ( not db.actor ) then
+		printf( "DRX DFR Error: Unable to change faction relation values, db.actor not available" )
+		return false
+	end
+
+	-- Set overall faction relations:
+	game_relations.set_factions_community_num( faction_1, faction_2, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_%s_relations", faction_1, faction_2 ), relation )
+	game_relations.set_factions_community_num( faction_2, faction_1, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_%s_relations", faction_2, faction_1 ), relation )
+	printf( "DRX DFR: %s / %s relations changed from %s to %s", faction_1, faction_2, old_1_2_relations, game_relations.get_factions_community( faction_1, faction_2 ) )
+
+	-- Change actor faction / faction 2 relations:
+	game_relations.set_factions_community_num( string.format( "actor_%s", faction_1 ), faction_2, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_actor_%s_%s_relations", faction_1, faction_2 ), relation )
+	game_relations.set_factions_community_num( faction_2, string.format( "actor_%s", faction_1 ), relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_actor_%s_relations", faction_2, faction_1 ), relation )
+
+	-- Change actor faction / faction 1 relations:
+	game_relations.set_factions_community_num( faction_1, string.format( "actor_%s", faction_2 ), relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_%s_actor_%s_relations", faction_1, faction_2 ), relation )
+	game_relations.set_factions_community_num( string.format( "actor_%s", faction_2 ), faction_1, relation )
+	utils.save_var( db.actor, string.format( "drx_dfr_actor_%s_%s_relations", faction_2, faction_1 ), relation )
+
+
+	-- Set return value:
+	return true
+
+end
+
+--GoozE end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_restore_relations function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Restores faction relations
+--
+--	Usage:
+--		drx_dfr_restore_relations( )
+--
+--	Parameters:
+--		none
+--
+--	Persistent storage:
+--		drx_dfr_{faction_1}_{faction_2}_relations (type: int)
+--			Current relation value between factions
+--
+--	Ini requirements:
+--		drx\drx_dfr_config.ltx
+--			[changeable_factions]
+--				{faction names} (type: string, faction name)
+--					- List of changeable factions
+--
+--	Return value (type: bool):
+--		Returns true on success
+--		Returns false on failure
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified September 17, 2017
+-- ------------------------------------------------------------------------------------------------
+
+-- Restore faction relations:
+function drx_dfr_restore_relations( )
+
+	-- Get list of relation-changing factions:
+	local changeable_factions_list = alun_utils.collect_section( ini, "changeable_factions" )
+	if ( (not changeable_factions_list) or (#changeable_factions_list < 1) ) then
+		printf( "DRX DFR Error: No changeable factions specified" )
+		return false
+	end
+
+	-- Verify db.actor is available:
+	if ( not db.actor ) then
+		printf( "DRX DFR Error: Unable to restore faction relations, db.actor not available" )
+		return false
+	end
+
+	-- Restore relations for each faction:
+	for i = 1, ( #changeable_factions_list ) do
+
+		for j = (i + 1), ( #changeable_factions_list ) do
+
+			local faction_1 = changeable_factions_list[i]
+			local faction_2 = changeable_factions_list[j]
+
+			-- Var to store faction relations value:
+			local relation
+
+			-- Set faction 1 / faction 2 relations:
+			relation = utils.load_var( db.actor, string.format( "drx_dfr_%s_%s_relations", faction_1, faction_2 ), nil )
+			if ( relation ~= nil ) then
+				game_relations.set_factions_community_num( faction_1, faction_2, relation )
+				printf( "DRX DFR: %s - %s relations restored to %s", faction_1, faction_2, relation )
+			end
+			relation = utils.load_var( db.actor, string.format( "drx_dfr_%s_%s_relations", faction_2, faction_1 ), nil )
+			if ( relation ~= nil ) then
+				game_relations.set_factions_community_num( faction_2, faction_1, relation )
+			end
+
+			-- Set actor faction 1 / faction 2 relations:
+			relation = utils.load_var( db.actor, string.format( "drx_dfr_actor_%s_%s_relations", faction_1, faction_2 ), nil )
+			if ( relation ~= nil ) then
+				game_relations.set_factions_community_num( ("actor_" .. faction_1), faction_2, relation )
+			end
+			relation = utils.load_var( db.actor, string.format( "drx_dfr_%s_actor_%s_relations", faction_2, faction_1 ), nil )
+			if ( relation ~= nil ) then
+				game_relations.set_factions_community_num( faction_2, string.format( "actor_%s", faction_1 ), relation )
+			end
+
+			-- Set faction 1 / actor faction 2 relations:
+			relation = utils.load_var( db.actor, string.format( "drx_dfr_%s_actor_%s_relations", faction_1, faction_2 ), nil )
+			if ( relation ~= nil ) then
+				game_relations.set_factions_community_num( faction_1, string.format( "actor_%s", faction_2 ), relation )
+			end
+			relation = utils.load_var( db.actor, string.format( "drx_dfr_actor_%s_%s_relations", faction_2, faction_1 ), nil )
+			if ( relation ~= nil ) then
+				game_relations.set_factions_community_num( string.format( "actor_%s", faction_2 ), faction_1, relation )
+			end
+
+		end
+
+	end
+
+	-- Set return value:
+	return true
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_reset_actor_goodwill function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Resets actor goodwill with other factions
+--
+--	Usage:
+--		drx_dfr_reset_actor_goodwill( )
+--
+--	Parameters:
+--		none
+--
+--	Persistent storage:
+--		drx_dfr_goodwill_reset (type: bool)
+--			- Flag indicating whether actor goodwill with other factions has already been reset
+--
+--	Return value (type: bool):
+--		Returns true on success
+--		Returns false on failure
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified September 21, 2017
+-- ------------------------------------------------------------------------------------------------
+
+-- Reset actor goodwill:
+function drx_dfr_reset_actor_goodwill( )
+
+	-- Verify db.actor is available:
+	if ( not db.actor ) then
+		printf( "DRX DFR Error: Unable to reset actor goodwill, db.actor not available" )
+		return false
+	end
+
+	-- Check if goodwill has already been reset:
+	if ( utils.load_var( db.actor, "drx_dfr_goodwill_reset", false ) == true ) then
+		return true
+	end
+
+	-- Reset actor goodwill with all factions:
+	local communities = alun_utils.get_communities_list( )
+	for i, community in pairs( communities ) do
+		relation_registry.set_community_goodwill( community, db.actor:id( ), 0 )
+	end
+
+	-- Restore companion squad goodwill with actor:
+	for id, squad in pairs( axr_companions.companion_squads ) do
+		squad:set_squad_relation( game_relations.FRIENDS )
+	end
+
+	-- Update goodwill reset flag:
+	utils.save_var( db.actor, "drx_dfr_goodwill_reset", true )
+	printf( "DRX DFR: Actor goodwill reset" )
+
+	-- Set return value:
+	return true
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ________________________________________________________________________________________________
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_start_offline_battle function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Sets up an offline battle
+--
+--	Usage:
+--		drx_dfr_start_offline_battle( )
+--
+--	Parameters:
+--		none
+--
+--	Persistent storage:
+--		drx_dfr_update_delay (type: int, seconds)
+--			- Time delay between last update and next update
+--		drx_dfr_last_update (type: ctime)
+--			- Timestamp from last update
+--
+--	Ini requirements:
+--		drx\drx_dfr_config.ltx
+--			[changeable_factions]
+--				{faction names} (type: string, faction names)
+--					- List of changeable factions
+--			[battle_sim]
+--				update_time (type: int, seconds)
+--					- Length of time between updates for potential offline battles
+--				deviation (type: float, decimal percent)
+--					- Max allowable deviation from update time
+--				battle_chance (type: float, decimal percent)
+--					- Percent chance an offline battle will occur at update
+--
+--	Return value (type: bool):
+--		Returns true on success
+--		Returns false on failure
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified July 25, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Start offline battle:
+function drx_dfr_start_offline_battle( )
+
+	-- Verify db.actor is available:
+	if ( not db.actor ) then
+		printf( "DRX DFR Error: Unable to start offline battle, db.actor not available" )
+		return false
+	end
+
+	-- Get last update time:
+	local last_update = utils.load_ctime( db.actor, "drx_dfr_last_update" )
+	if ( not last_update ) then
+		last_update = game.get_game_time( )
+		utils.save_ctime( db.actor, "drx_dfr_last_update", last_update )
+	end
+
+	-- Get update delay:
+	local update_delay = utils.load_var( db.actor, "drx_dfr_update_delay" )
+	if ( not update_delay ) then
+		update_delay = (ini:r_float_ex( "battle_sim", "update_time" ) or 0)
+		local update_deviation = (ini:r_float_ex( "battle_sim", "deviation" ) or 0)
+		local delta = math.floor( (update_delay * (update_deviation * math.random( ))) )
+		if ( math.random( ) <= 0.5 ) then
+			delta = -(delta)
+		end
+		update_delay = (update_delay + delta)
+		utils.save_var( db.actor, "drx_dfr_update_delay", update_delay )
+	end
+
+	-- Check if update time has not elapsed:
+	if ( game.get_game_time( ):diffSec( last_update ) < update_delay ) then
+		return true
+	end
+
+	-- Set new update time and mark new time last checked:
+	update_delay = (ini:r_float_ex( "battle_sim", "update_time" ) or 0)
+	local update_deviation = (ini:r_float_ex( "battle_sim", "deviation" ) or 0)
+	local delta = math.floor( (update_delay * (update_deviation * math.random( ))) )
+	if ( math.random( ) <= 0.5 ) then
+		delta = -(delta)
+	end
+	update_delay = (update_delay + delta)
+	utils.save_var( db.actor, "drx_dfr_update_delay", update_delay )
+	utils.save_ctime( db.actor, "drx_dfr_last_update", game.get_game_time( ) )
+
+	-- Determine if simulated battle should occur:
+	local battle_chance = (ini:r_float_ex( "battle_sim", "battle_chance" ) or 0)
+	if ( (battle_chance <= 0) or (math.random( ) > battle_chance) ) then
+		return true
+	end
+
+	-- Simulate offline battle:
+	drx_dfr_battle_sim( )
+
+	-- Set return value:
+	return true
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_battle_sim function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Simulates an offline battle and changes faction relations based on the outcome
+--
+--	Usage:
+--		drx_dfr_battle_sim( )
+--
+--	Parameters:
+--		none
+--
+--	Ini requirements:
+--		drx\drx_dfr_config.ltx
+--			[changeable_factions]
+--				{faction names} (type: string, faction names)
+--					- List of changeable factions
+--			[relation_change_values]
+--				max_value (type: float)
+--					- Maximum magnitude of relation change
+--			[battle_sim]
+--				offline_modifier (type: float, decimal percent)
+--					- Relation change value multiplier for offline kills
+--				max_troops (type: int)
+--					- Maximum number of troops on each side per battle
+--				stalemate_chance (type: float, decimal percent)
+--					- Percent chance per round a battle will end in a draw or surrender
+--				show_news (type: bool)
+--					- Whether or not to show news updates about offline battles
+--
+--	External strings:
+--		drx_dfr_strings.xml
+--			drx_dfr_str_offline_battle_started (type: string)
+--				- Newsmanager update to send when an offline battle is occurring
+--
+--	Return value (type: bool):
+--		Returns true on success
+--		Returns false on failure
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified July 27, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Simulate offline battle:
+function drx_dfr_battle_sim( )
+
+	-- Get list of relation-changing factions:
+	local changeable_factions_list = alun_utils.collect_section( ini, "changeable_factions" )
+	if ( (not changeable_factions_list) or (#changeable_factions_list < 1) ) then
+		printf( "DRX DFR Error: Unable to simulate offline battle, no changeable factions specified" )
+		return false
+	end
+
+	-- Pick an aggressor faction:
+	local faction_1 = table.remove( changeable_factions_list, math.random( #changeable_factions_list ) )
+
+	-- Pick an enemy faction:
+	local enemy_list = {}
+	while ( #changeable_factions_list > 0 ) do
+		local enemy_faction = table.remove( changeable_factions_list, math.random( #changeable_factions_list ) )
+		if ( game_relations.is_factions_enemies( faction_1, enemy_faction ) ) then
+			table.insert( enemy_list, enemy_faction )
+		end
+	end
+	if ( #enemy_list < 1 ) then
+		return true
+	end
+	faction_2 = enemy_list[math.random( #enemy_list )]
+
+	-- Determine number of troops on each side:
+	local max_troops = (ini:r_float_ex( "battle_sim", "max_troops" ) or 0)
+	if ( max_troops < 1 ) then
+		printf( "DRX DFR Error: Unable to simulate offline battle, max troops is 0" )
+		return false
+	end
+	faction_1_troops = math.random( max_troops )
+	faction_2_troops = math.random( max_troops )
+
+	-- Get percent chance per round for stalemate:
+	local stalemate_chance = (ini:r_float_ex( "battle_sim", "stalemate_chance" ) or 0)
+
+	-- Calculate maximum faction relation change value:
+	local max_relation_change = (ini:r_float_ex( "relation_change_values", "max_value" ) or 0)
+	local offline_modifier = (ini:r_float_ex( "battle_sim", "offline_modifier" ) or 0)
+	max_relation_change = (max_relation_change * offline_modifier)
+	if ( max_relation_change <= 0 ) then
+		return true
+	end
+
+	-- Send update to the console:
+	printf( "DRX DFR: Offline battle started: %s (troop size: %s) is fighting %s (troop size: %s)", faction_1, faction_1_troops, faction_2, faction_2_troops )
+	if ( (db.actor) and ((ini:r_bool_ex( "battle_sim", "show_news" ) or false) == true) ) then
+		drx_dfr_news_tip( string.format( game.translate_string( "drx_dfr_str_offline_battle_started" ), game.translate_string( faction_1 ), game.translate_string( faction_2 ) ), "ui_inGame2_Neizvestnoe_oruzhie" )
+	end
+
+	-- Simulate battle:
+	while ( (faction_1_troops > 0) and (faction_2_troops > 0) ) do
+
+		-- Faction 1 member killed faction 2 member:
+		if ( math.random( ) <= 0.5 ) then
+			faction_2_troops = (faction_2_troops - 1)
+			drx_dfr_change_relations( faction_1, faction_2, max_relation_change )
+
+		-- Faction 2 member killed faction 1 member:
+		else
+			faction_1_troops = (faction_1_troops - 1)
+			drx_dfr_change_relations( faction_2, faction_1, max_relation_change )
+
+		end
+
+		-- Check if battle should continue:
+		if ( math.random( ) <= stalemate_chance ) then
+			break
+		end
+
+	end
+
+	-- Send update to the console:
+	if ( faction_1_troops > faction_2_troops ) then
+		printf( "DRX DFR: Offline battle ended: %s (remaining troops: %s) has defeated %s (remaining troops: %s)", faction_1, faction_1_troops, faction_2, faction_2_troops )
+	else
+		printf( "DRX DFR: Offline battle ended: %s (remaining troops: %s) has defeated %s (remaining troops: %s)", faction_2, faction_2_troops, faction_1, faction_1_troops )
+	end
+
+	-- Set return value:
+	return true
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_news_tip function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Dispalys a news tip
+--
+--	Usage:
+--		drx_dfr_news_tip( news_text, news_icon )
+--
+--	Parameters:
+--		news_text (type: string)
+--			- News tip message to display
+--		news_icon (type: icon id)
+--			- ID of the news icon to display with the message (found in configs\ui\textures_descr\ui_actor_newsmanager_icons.xml)
+--
+--	External strings:
+--		ui_st_screen.xml
+--			st_tip (type: string)
+--				- Default message header for a newsmanager update
+--
+--	Return value (type: nil):
+--		none
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified July 27, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Simulate offline battle:
+function drx_dfr_news_tip( news_text, news_icon )
+
+	-- Verify db.actor is available:
+	if ( not db.actor ) then
+		printf( "DRX DFR Error: Unable to display news tip, db.actor not available" )
+		return
+	end
+
+	-- Play news update sound:
+	xr_sound.set_sound_play( db.actor:id( ), "pda_tips" )
+
+	-- Display news tip:
+	db.actor:give_game_news( game.translate_string( "st_tip" ), news_text, news_icon, 0, 5000, 0 )
+
+	-- Set return value:
+	return
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ________________________________________________________________________________________________
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_npc_on_death_callback function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Scripts to run when an NPC dies
+--
+--	Usage:
+--		(called when a NPC is killed)
+--
+--	Parameters:
+--		dead_npc (type: object)
+--			- NPC that died
+--		killer_npc (type: object)
+--			- NPC that killed the dead NPC
+--
+--	Return value (type: nil):
+--		none
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified September 17, 2017
+-- ------------------------------------------------------------------------------------------------
+
+-- Scripts to run when an NPC dies:
+local function drx_dfr_npc_on_death_callback( dead_npc, killer_npc )
+
+	-- Change faction relations:
+	drx_dfr_change_faction_relations( dead_npc, killer_npc )
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_on_game_load_callback function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Scripts to run when a game loads or level change occurs
+--
+--	Usage:
+--		(called when a game loads)
+--
+--	Parameters:
+--		none
+--
+--	Return value (type: nil):
+--		none
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified September 17, 2017
+-- ------------------------------------------------------------------------------------------------
+
+-- Scripts to run when the game loads:
+local function drx_dfr_on_game_load_callback( )
+
+	-- Restore relations for each faction:
+	drx_dfr_restore_relations( )
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_actor_on_first_update_callback function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Scripts to run on actor first update
+--
+--	Usage:
+--		(called on actor first update)
+--
+--	Parameters:
+--		none
+--
+--	Return value (type: nil):
+--		none
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified September 21, 2017
+-- ------------------------------------------------------------------------------------------------
+
+-- Scripts to run on actor first update:
+local function drx_dfr_actor_on_first_update_callback( )
+
+	-- Reset actor goodwill:
+	drx_dfr_reset_actor_goodwill( )
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- drx_dfr_actor_on_update_callback function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Scripts to run on actor update
+--
+--	Usage:
+--		(called on actor update)
+--
+--	Parameters:
+--		none
+--
+--	Ini requirements:
+--		drx\drx_dfr_config.ltx
+--			[battle_sim]
+--				enable_offline_battles (type: bool)
+--					- Whether or not to simulate offline battles
+--
+--	Return value (type: nil):
+--		none
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified July 26, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Scripts to run on actor update:
+local function drx_dfr_actor_on_update_callback( )
+
+	-- Simulate offline battle:
+	if ( ini:r_bool_ex( "battle_sim", "enable_offline_battles" ) ) then
+		drx_dfr_start_offline_battle( )
+	end
+
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+-- ________________________________________________________________________________________________
+
+
+-- ////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- on_game_start function
+--
+-- ------------------------------------------------------------------------------------------------
+--
+--	Description:
+--		- Registers callback scripts
+--
+--	Usage:
+--		(called when a game session begins)
+--
+--	Parameters:
+--		none
+--
+--	Return value (type: nil):
+--		none
+--
+-- ------------------------------------------------------------------------------------------------
+--	Created by DoctorX
+--	for DoctorX Dynamic Factions 2.0
+--	Last modified July 26, 2018
+-- ------------------------------------------------------------------------------------------------
+
+-- Register callback scripts:
+function on_game_start( )
+	RegisterScriptCallback( "npc_on_death_callback", drx_dfr_npc_on_death_callback )
+	RegisterScriptCallback( "on_game_load", drx_dfr_on_game_load_callback )
+	RegisterScriptCallback( "actor_on_first_update", drx_dfr_actor_on_first_update_callback )
+	RegisterScriptCallback( "actor_on_update", drx_dfr_actor_on_update_callback )
+end
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

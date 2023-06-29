@@ -1,0 +1,1242 @@
+;==============================================================
+;
+; DoctorX Questlines Settings (drx_ql_config.ltx)
+;	CoC 1.5b r4 - DoctorX Questlines 2.0
+;
+;	Created by: DoctorX
+;	Last revised: November 30, 2019
+;
+;==============================================================
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Simulation Task Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	November 25, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Simulation task properties:
+[sim_task_props]
+
+; Percent chance an NPC will have a new task to offer (float, decimal percent):
+task_offer_percent = 0.7  ; 70%
+
+; Length of time NPC's store the same task before offering a new one (int, seconds):
+stored_task_reset_time = 10800  ; 3 hours
+
+; Minimum time between mechanic upgrade tasks (int, seconds):
+min_upgrade_time = 86400  ; 1 day
+
+; Minimum enemy count for assault task targets (int):
+min_enemy_count = 3
+
+; Maximum task giver squad size for guide tasks (0 = no maximum) (int):
+guide_task_max_npcs = 1
+
+; Maximum distance from target before considering a guide task complete (float, meters):
+guide_task_target_dist = 40
+
+; Assault task max dist from target to actor if target is outside target radius (float, meters):
+tgt_close_dist = 40
+
+; Assault task target radius (0 = no maximum) (float, meters):
+assault_radius = 100
+
+; Pacified smart terrain radius (float, meters):
+pacified_radius = 50
+
+; Minimum distance from actor to search for target areas (float, meters):
+target_min_radius = 1000
+
+; Maximum distance from actor to search for target areas (float, meters):
+target_max_radius = 5000
+
+; Exponent to use for max target distance calculations (higher numbers give higher probability of closer targets) (int):
+target_exp = 3
+
+; Number of tiers to divide potential targets into (int):
+target_tiers = 5
+
+; Number of meet tasks to keep in history to minimize repeats (int):
+meet_task_history = 3
+
+; Max squad distance from actor to show black screen when removing squad (float, meters):
+max_blackscreen_dist = 10
+
+; Multiplier to apply to task weights (higher numbers increase chances higher task weighted tasks will be given) (int):
+task_weight_mult = 2
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Task Number Range
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	August 16, 2018
+;
+;--------------------------------------------------------------------------------------------------
+
+; Number of questline tasks to complete:
+[task_number_range]
+
+; Minimum number of meet honcho tasks to complete (int):
+min_tasks = 8
+
+; Maximum number of meet honcho tasks to complete (int):
+max_tasks = 12
+
+; Number of meet honcho tasks to add each time player extends the questline (int):
+extension_count = 3
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Reward Values
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	May 07, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Values for rewards:
+[reward_values]
+
+; Global multiplier for reward values (float, decimal percent):
+reward_multiplier = 1.0  ; 100%
+
+; Percent chance money will be given as a reward from a reward_random function (float, decimal percent):
+money_chance = 0.5  ; 50%
+
+; Multiplier to use for item base cost to determine reward value for items (float, decimal percent):
+cost_multiplier = 0.5  ; 50%
+
+; Percent offset to use from item value to determine reward value range (float, decimal percent):
+reward_delta = 0.2  ; 20%
+
+; Percent chance a stash will be rewarded on task completion (float, decimal percent):
+stash_chance = 0.75  ; 75%
+
+; Percent chance a mechanic toolkit will be included in a reward stash (float, decimal percent):
+; toolkit_chance = 0.3  ; 30%
+toolkit_chance = 0
+
+; Stash bonus item minimum cost (int):
+bonus_min_cost = 800
+
+; Stash bonus item maximum cost (int):
+bonus_max_cost = 16500
+
+; Stash bonus item minimum cost spread between minimum cost and maximum cost (float, decimal percent):
+bonus_min_spread = 0.1  ; 10%
+
+; Stash bonus maximum item count (int):
+bonus_max_items = 5
+
+; Exponent for calculating stash bonus item max value (higher numbers give higher chance of lower cost items) (float):
+bonus_exp = 3
+
+; Percent chance for each stash bonus item (float, decimal percent):
+bonus_item_chance = 0.5  ; 50%
+
+; Rate per unit distance for guide task rewards (float, RU):
+distance_rate = 1.0
+
+; Bonus for guide task reward for each enemy npc killed (float, RU)
+guide_defense_bonus = 400
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Reward Sections
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	December 03, 2017
+;
+;--------------------------------------------------------------------------------------------------
+
+; Item sections to include for reward items:
+[reward_item_sections]
+items_ammo_list
+items_artefacts_list
+items_attachments_list
+; items_cooked_meat_list
+; items_mutant_meat_list
+; items_mutant_parts_list
+items_outfits_list
+items_pistols_list
+items_rifles_list
+items_supplies_list
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Starting Honchos
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	September 02, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Loner:
+[start_honcho_stalker]
+esc_m_trader = esc_smart_terrain_2_12  ; Sidorovich (Loner Trader, Cordon)
+bar_visitors_barman_stalker_trader = bar_visitors  ; Barkeep (Loner Barman, Rostok)
+zat_a2_stalker_barmen = zat_stalker_base_smart  ; Beard (Loner Barman, Zaton)
+
+; Duty:
+[start_honcho_dolg]
+bar_dolg_general_petrenko_stalker = bar_dolg_general  ; Petrenko (Duty Trader, Rostok)
+
+; Freedom:
+[start_honcho_freedom]
+mil_smart_terrain_7_7_freedom_leader_stalker = mil_smart_terrain_7_7  ; Lukash (Freedom Honcho, Army Warehouses)
+jup_a6_freedom_leader = jup_a6  ; Loki (Freedom Trader, Jupiter)
+
+; Clear Sky:
+[start_honcho_csky]
+mar_smart_terrain_base_stalker_leader_marsh = mar_smart_terrain_base  ; Cold (Clear Sky Honcho, Great Swamp)
+
+; Ecologist:
+[start_honcho_ecolog]
+yan_stalker_sakharov = yan_smart_terrain_6_4  ; Sakharov (Ecologist Trader, Yantar)
+jup_b6_scientist_nuclear_physicist = jup_b41  ; Hermann (Ecologist Trader, Jupiter)
+
+; Mercenary:
+[start_honcho_killer]
+cit_killers_merc_trader_stalker = cit_killers  ; Dushman (Mercenary Trader, Dead City)
+
+; Military:
+[start_honcho_army]
+agr_smart_terrain_1_6_near_2_military_colonel_kovalski = agr_smart_terrain_1_6_near_2  ; Kuznetsov (Military Honcho, Agroprom)
+
+; Bandit:
+[start_honcho_bandit]
+zat_b7_bandit_boss_sultan = val_smart_terrain_7_5  ; Sultan (Bandit Honcho, Dark Valley)
+
+; Monolith:
+[start_honcho_monolith]
+pri_monolith_monolith_trader_stalker = pri_monolith  ; Krolik (Monolith Trader, Pripyat)
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Questline Honchos
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	October 21, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Questline honchos and their surrounding factions:
+[questline_honchos]
+
+; Loner:
+esc_m_trader = stalker  ; Sidorovich (Loner Trader, Cordon)
+esc_2_12_stalker_nimble = stalker  ; Nimble (Loner Trader, Cordon)
+esc_smart_terrain_5_7_loner_mechanic_stalker = stalker  ; Xenotech (Loner Mechanic, Cordon)
+bar_visitors_barman_stalker_trader = stalker, dolg  ; Barkeep (Loner Barman, Rostok)
+zat_a2_stalker_barmen = stalker  ; Beard (Loner Barman, Zaton)
+zat_b30_owl_stalker_trader = stalker  ; Owl (Loner Trader, Zaton)
+
+; Duty:
+bar_dolg_leader = dolg  ; Voronin (Duty Honcho, Rostok)
+bar_dolg_general_petrenko_stalker = dolg  ; Petrenko (Duty Trader, Rostok)
+
+; Freedom:
+mil_smart_terrain_7_7_freedom_leader_stalker = freedom  ; Lukash (Freedom Honcho, Army Warehouses)
+mil_smart_terrain_7_10_freedom_trader_stalker = freedom  ; Skinflint (Freedom Trader, Army Warehouses)
+jup_a6_freedom_leader = freedom, stalker  ; Loki (Freedom Honcho, Jupiter)
+
+; Clear Sky:
+mar_smart_terrain_base_stalker_leader_marsh = csky  ; Cold (Clear Sky Honcho, Great Swamp)
+mar_base_owl_stalker_trader = csky  ; Spore (Clear Sky Trader, Great Swamp)
+
+; Ecologist:
+yan_stalker_sakharov = ecolog  ; Sakharov (Ecologist Trader, Yantar)
+yan_ecolog_semenov = ecolog  ; Seminov (Ecologist Honcho, Yantar)
+jup_b6_scientist_nuclear_physicist = ecolog  ; Hermann (Ecologist Trader, Jupiter)
+
+; Mercenary:
+cit_killers_merc_trader_stalker = killer  ; Dushman (Mercenary Trader, Dead City)
+cit_killers_merc_mechanic_stalker = killer  ; Hog (Mercenary Mechanic, Dead City)
+
+; Military:
+agr_smart_terrain_1_6_near_2_military_colonel_kovalski = army  ; Kuznetsov (Military Honcho, Agroprom)
+agr_smart_terrain_1_6_army_mechanic_stalker = army  ; Kirilov (Military Mechanic, Agroprom)
+
+; Bandit:
+zat_b7_bandit_boss_sultan = bandit  ; Sultan (Bandit Honcho, Dark Valley)
+val_smart_terrain_7_4_bandit_trader_stalker = bandit  ; Olivius (Bandit Trader, Dark Valley)
+
+; Monolith:
+pri_monolith_monolith_trader_stalker = monolith  ; Krolik (Monolith Trader, Pripyat)
+pri_monolith_monolith_mechanic_stalker = monolith  ; Cleric (Monolith Mechanic, Pripyat)
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Invulnerable Honchos
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	August 07, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Important NPC's that are immune to damage and ignore combat:
+[invulnerable_honchos]
+
+; Agroprom:
+;agr_smart_terrain_1_6_army_trader_stalker  ; Spooner (Military Trader, Agroprom)
+;agr_smart_terrain_1_6_near_2_military_colonel_kovalski  ; Kuznetsov (Military Honcho, Agroprom)
+;agr_smart_terrain_1_6_army_mechanic_stalker  ; Kirilov (Military Mechanic, Agroprom)
+
+; Rostok:
+bar_arena_manager  ; Arnie (Loner Honcho, Rostok)
+;bar_dolg_general_petrenko_stalker  ; Petrenko (Duty Trader, Rostok)
+;bar_dolg_leader  ; Voronin (Duty Honcho, Rostok)
+;bar_visitors_barman_stalker_trader  ; Barkeep (Loner Barman, Rostok)
+;bar_visitors_stalker_mechanic  ; Mangun (Duty Mechanic, Rostok)
+
+; Dead City:
+;cit_killers_merc_mechanic_stalker  ; Hog (Mercenary Mechanic, Dead City)
+;cit_killers_merc_trader_stalker  ; Dushman (Mercenary Trader, Dead City)
+
+; Cordon:
+;esc_m_trader  ; Sidorovich (Loner Trader, Cordon)
+;esc_2_12_stalker_nimble  ; Nimble (Loner Trader, Cordon)
+;esc_2_12_stalker_wolf  ; Wolf (Loner Honcho, Cordon)
+;esc_smart_terrain_5_7_loner_mechanic_stalker  ; Xenotech (Loner Mechanic, Cordon)
+
+; Jupiter:
+;jup_a6_freedom_leader  ; Loki (Freedom Honcho, Jupiter)
+;jup_a6_freedom_trader_ashot  ; Ashot (Freedom Trader, Jupiter)
+;jup_a6_stalker_barmen  ; Hawaiian (Loner Trader, Jupiter)
+;jup_a6_stalker_medik  ; Bonesetter (Loner Medic, Jupiter)
+;jup_b6_scientist_nuclear_physicist  ; Hermann (Ecologist Trader, Jupiter)
+;jup_b6_scientist_tech  ; Tukarev (Ecologist Mechanic, Jupiter)
+;jup_b19_freedom_yar  ; Yar (Freedom Honcho, Jupiter)
+;jup_b217_stalker_tech  ; Nitro (Loner Mechanic, Jupiter)
+;jup_b220_trapper  ; Trapper (Loner Honcho, Jupiter)
+
+; Great Swamp:
+;mar_base_stalker_barmen  ; Librarian (Clear Sky Barman, Great Swamp)
+;mar_base_stalker_tech  ; Novikov (Clear Sky Mechanic)
+;mar_base_owl_stalker_trader  ; Spore (Clear Sky Trader, Great Swamp)
+;mar_smart_terrain_base_doctor  ; Ivan Trodnik (Clear Sky Medic, Great Swamp)
+;mar_smart_terrain_base_stalker_leader_marsh  ; Cold (Clear Sky Honcho, Great Swamp)
+mar_smart_terrain_doc_doctor  ; Doc (Loner Honcho, Great Swamp)
+
+; Army Warehouses:
+;mil_smart_terrain_7_7_freedom_leader_stalker  ; Lukash (Freedom Honcho, Army Warehouses)
+;mil_smart_terrain_7_7_freedom_mechanic_stalker  ; Screw (Freedom Mechanic, Army Warehouses)
+;mil_smart_terrain_7_10_freedom_trader_stalker  ; Skinflint (Freedom Trader, Army Warehouses)
+
+; Pripyat:
+;pri_monolith_monolith_mechanic_stalker  ; Cleric (Monolith Mechanic, Pripyat)
+;pri_monolith_monolith_trader_stalker  ; Krolik (Monolith Trader, Pripyat)
+
+; Outskirts:
+;zat_b106_stalker_garmata  ; River Guide (North)
+
+; Red Forest:
+;red_forester_tech  ; Forester (Loner Mechanic, Red Forest)
+
+; Truck Cemetery:
+;zat_b106_stalker_gonta  ; River Guide (South)
+
+; Dark Valley:
+;val_smart_terrain_7_3_bandit_mechanic_stalker  ; Limpid (Bandit Mechanic, Dark Valley)
+;val_smart_terrain_7_4_bandit_trader_stalker  ; Olivius (Bandit Trader, Dark Valley)
+;zat_b7_bandit_boss_sultan  ; Sultan (Bandit Honcho, Dark Valley)
+
+; Yantar:
+;yan_ecolog_kruglov  ; Kruglov (Ecologist Mechanic, Yantar)
+;yan_stalker_sakharov  ; Sakharov (Ecologist Trader, Yantar)
+;yan_ecolog_semenov  ; Seminov (Ecologist Honcho, Yantar)
+
+; Zaton:
+;zat_a2_stalker_barmen  ; Beard (Loner Barman, Zaton)
+;zat_a2_stalker_mechanic  ; Cardan (Loner Mechanic, Zaton)
+;zat_b18_noah  ; Noah (Loner Honcho, Zaton)
+;zat_b22_stalker_medic  ; Axel (Loner Medic, Zaton)
+;zat_b30_owl_stalker_trader  ; Owl (Loner Trader, Zaton)
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Blacklisted Target Areas
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	November 30, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; List of smart terrains to exclude as task target areas:
+[smart_target_blacklist]
+agr_smart_terrain_1_6  ; Agroprom, Military Base
+agr_smart_terrain_1_6_near_1  ; Agroprom, Military Base
+agr_smart_terrain_1_6_near_2  ; Agroprom, Military Base
+bar_dolg_bunker  ; Rostok, Bar
+bar_dolg_general  ; Rostok, Bar
+bar_visitors  ; Rostok, Bar
+bar_zastava  ; Rostok, Bar
+bar_zastava_2  ; Rostok, Bar
+cit_killers  ; Dead City, Mercenary Base
+esc_smart_terrain_2_12  ; Cordon, Rookie Village
+esc_smart_terrain_5_7  ; Cordon, Farm
+gen_smart_terrain_cemetery  ; Generators
+gen_smart_terrain_forest  ; Generators
+gen_smart_terrain_junk  ; Generators
+gen_smart_terrain_lab_entrance  ; Generators
+gen_smart_terrain_lab_entrance_2  ; Generators
+gen_smart_terrain_military  ; Generators
+gen_smart_terrain_urod  ; Generators
+jup_a6  ; Jupiter, Yanov Station
+jup_b41  ; Jupiter, Ecologist Bunker
+mar_smart_terrain_base  ; Great Swamp, Hidden Base
+mil_smart_terrain_7_7  ; Army Warehouses, Freedom Base
+mil_smart_terrain_7_8  ; Army Warehouses, Freedom Base
+mil_smart_terrain_7_10  ; Army Warehouses, Freedom Base
+mil_smart_terrain_7_12  ; Army Warehouses, Freedom Base
+pri_a16  ; Outskirts, Laundromat
+pri_monolith  ; Pripyat, Monolith Base
+val_smart_terrain_7_3  ; Dark Valley, Bandit Base
+val_smart_terrain_7_4  ; Dark Valley, Bandit Base
+val_smart_terrain_7_5  ; Dark Valley, Bandit Base
+val_smart_terrain_8_6  ; Dark Valley, Bandit Base
+val_smart_terrain_9_4  ; Dark Valley, Bandit Base
+yan_smart_terrain_6_4  ; Yantar, Ecologist Bunker
+yan_smart_terrain_6_6  ; Yantar, Ecologist Bunker
+zat_b18  ; Zaton, Noah's Ark
+zat_b28  ; Zaton, Southern Plateau
+zat_stalker_base_smart  ; Zaton, Skadovsk
+
+; Smart terrains inaccessible while Miracle Machine active:
+[miracle_machine_smarts]
+x162_st_burer  ; Lab X-16 (Yantar)
+x162_st_gigant  ; Lab X-16 (Yantar)
+x162_st_poltergeist  ; Lab X-16 (Yantar)
+x162_st_snork  ; Lab X-16 (Yantar)
+yan_smart_terrain_1_6  ; Yantar, Factory Complex
+yan_smart_terrain_2_4  ; Yantar, Factory Complex
+yan_smart_terrain_2_5  ; Yantar, Factory Complex
+yan_smart_terrain_3_4  ; Yantar, Factory Complex
+yan_smart_terrain_4_5  ; Yantar, Factory Complex
+yan_smart_terrain_snork_u  ; Yantar, Factory Complex Underground
+yan_smart_terrain_zombie_spawn  ; Yantar, Factory Complex
+
+; Level prefixes of smart terrain areas inaccessible while Brain Scorcher active:
+[brain_scorcher_smart_prefixes]
+aes_  ; NPP (South)
+aes2_  ; NPP (North)
+bun_  ; Lab X-19 (Radar)
+bun2_  ; Lab X-19 (Radar)
+gen_  ; Generators
+pri_depot  ; Pripyat
+pri_smart_  ; Pripyat
+rad_  ; Radar
+rad2_  ; Radar
+sar_  ; Sarcofagus, Monolith Control Center (NPP)
+warlab_  ; Warlab (Generators)
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Buildings
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	February 09, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; List of smart terrains inside a building:
+[building_smarts]
+agr_smart_terrain_4_4  ; Agroprom, Train Station Compound
+agr_smart_terrain_6_4  ; Agroprom, Train Tunnel
+cit_killers_vs_bandits  ; Dead City,  Center Building
+ds_domic_st  ; Darkscape, Old Farmhouse
+ds_kem2  ; Darkscape, Abandoned Fuel Station
+esc_smart_terrain_5_9  ; Cordon, Mill
+esc_smart_terrain_6_6  ; Cordon, Abandoned Farmstead
+gar_smart_terrain_3_5  ; Garbage, Train Depot
+gar_smart_terrain_6_3  ; Garbage, Flea Market
+jup_a10_smart_terrain  ; Jupiter, Guard Post
+jup_b1  ; Jupiter, Northwest Tunnel
+jup_b8_smart_terrain  ; Jupiter, Jupiter Plant
+jup_b47  ; Jupiter, Jupiter Plant
+jup_b200  ; Jupiter, Concrete Plant
+jup_b200_tushkan_smart_terrain  ; Jupiter, Concrete Plant
+jup_b205_smart_terrain  ; Jupiter, Ammo Dump
+jup_b205_tushkan_smart_terrain  ; Jupiter, Ammo Dump
+jup_b208  ; Jupiter, Entrance to Jupiter Underground
+jup_b219  ; Jupiter, Jupiter Plant
+jup_b46  ; Jupiter, Dam
+katacomb_smart_terrain  ; Deserted Hospital
+lim_smart_terrain_6  ; Limansk, Central Building
+mar_smart_terrain_8_11  ; Great Swamp, Old Church
+mar_smart_terrain_10_5  ; Great Swamp, Machine Yard
+mil_smart_terrain_2_10  ; Army Warehouses, Abandoned Village
+mil_smart_terrain_7_4  ; Army Warehouses, Duty Camp
+pri_a17  ; Outskirts, Hospital
+pri_a21_smart_terrain  ; Outskirts, Western Building
+pri_b36_smart_terrain  ; Outskirts, Northeast Building
+pri_b301  ; Outskirts, School
+pri_b303  ; Outskirts, Northern Building
+pri_controller_lair1  ; Pripyat, Southeast Building
+pri_depot  ; Pripyat, Depot
+pri_sim_1  ; Outskirts, North Building
+red_smart_stalker_3_2  ; Red Forest, Mineshaft
+ros_smart_stalker_killers1  ; Wild Territory, Carport
+val_smart_terrain_1_2  ; Dark Valley, Lab X-18  Entrance
+val_smart_terrain_4_0  ; Dark Valley, Southwest Farm
+yan_smart_terrain_2_4  ; Yantar, Factory Complex
+yan_smart_terrain_2_5  ; Yantar, Factory Complex
+zat_a23_smart_terrain  ; Zaton, Testing Facility
+zat_b5_smart_terrain  ; Zaton, Ranger Station
+zat_b7  ; Zaton, Shevchenko
+zat_b38u  ; Zaton, Krug Antenna Complex Underground
+zat_b40_smart_terrain ; Zaton, Waste Processing Station
+zat_b103_merc_smart  ; Zaton, Substation Workshops
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Anomalous Areas
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	January 28, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; List of smart terrains containing a major anomaly field:
+[anomalous_smarts]
+agr_smart_terrain_1_3  ; Agroprom, near Claw anomaly
+agr_smart_terrain_5_2  ; Agroprom, hill north of Train Tunnel
+ds_kem3  ; Darkscape, Culvert
+ds_ptr  ; Darkscape, Train Bridge
+esc_smart_terrain_1_11  ; Cordon, Trash Pit
+esc_smart_terrain_8_9  ; Cordon, near Train Tunnel
+gar_smart_terrain_3_7  ; Garbage, Vehicle Graveyard
+gar_smart_terrain_6_7  ; Garbage, north of road to Cordon
+mar_smart_terrain_8_8  ; Great Swamp, Burnt Farmstead
+mar_smart_terrain_8_9  ; Great Swamp, near Old Church Cemetery
+mil_smart_terrain_2_1  ; Army Warehouses, north of shack
+mil_smart_terrain_4_3  ; Army Warehouses, near tower in abandoned village
+jup_b6_anom_2  ; Jupiter, northwest corner
+jup_sim_15  ; Jupiter, west lip of quarry
+pri_b302  ; Outskirts, northeast corner
+pri_b307  ; Outskirts, west side
+rad_pseudodogs  ; Radar, west side of dead forest
+red_smart_terrain_6_3  ; Red Forest, east side
+red_smart_terrain_monsters  ; Red Forest, northeast corner
+trc_sim_4  ; Truck Cemetery, southeast corner
+trc_sim_10  ; Truck Cemetery, southwest corner
+val_smart_terrain_9_10  ; Dark Valley, southeast corner
+yan_smart_terrain_4_2  ; Yantar, behind complex
+zat_b53  ; Zaton, northeast corner
+zat_sim_26  ; Zaton, north of Testing Workshop
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Task-Specific Squads
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	September 02, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Squad name sub-strings for squads that are only spawned for specific tasks:
+[task_specific_squads]
+_companion_task_
+drx_ql_assassin_squad_
+drx_ql_attack_squad_
+drx_ql_brawl_squad_
+drx_ql_designated_target_squad_
+drx_ql_mon_inf_
+drx_ql_raid_companion_squad_
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Assasination Task Target Squads
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	November 09, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; NPC name sub-strings for potential assassination targets:
+[assassination_target_names]
+drx_fem
+sim_default
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Assault Task Target Factions
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	December 06, 2017
+;
+;--------------------------------------------------------------------------------------------------
+
+; List of factions to include as potential targets for assault tasks:
+[assault_target_factions]
+stalker
+dolg
+freedom
+csky
+ecolog
+killer
+army
+bandit
+monolith
+; zombied
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Dynamic Brawl Task Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	August 08, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Brawl task settings:
+[brawl_settings]
+
+; Maximum number of brawl squads per faction (int):
+max_squad_count = 4
+
+; Rendezvous distance (float, meters):
+rendezvous_dist = 50
+
+; Smart terrain pairs for brawl tasks:
+[brawl_locations]
+agr_smart_terrain_1_2 = agr_smart_terrain_1_3  ; Agroprom, Swamp
+agr_smart_terrain_2_2 = agr_smart_terrain_5_2  ; Agroprom, Northern Plateau
+agr_smart_terrain_4_6 = agr_smart_terrain_5_7  ; Agroprom, South Central
+cit_bandits = cit_bandits_2  ; Dead City, South Side
+cit_killers_vs_bandits = cit_killers_2  ; Dead City, Northeast
+ds_boars_nest = ds_st_hoofs  ; Darkscape, Old Farmhouse
+ds_ptr4 = ds_st_dogs  ; Darkscape, South End
+gar_smart_terrain_4_2 = gar_smart_terrain_5_4  ; Garbage, North Pile
+gar_smart_terrain_6_6 = gar_smart_terrain_6_7  ; Garbage, Southeast
+gar_smart_terrain_7_4 = gar_smart_terrain_8_5  ; Garbage, West Central
+esc_smart_terrain_3_7 = esc_smart_terrain_4_9  ; Cordon, Underpass
+esc_smart_terrain_4_13 = esc_smart_terrain_5_12  ; Cordon, across from Rookie Village
+esc_smart_terrain_5_4 = esc_smart_terrain_5_6  ; Cordon, North of the Farm
+esc_smart_terrain_8_9 = esc_smart_terrain_8_10  ; Cordon, behind Carpark
+jup_a9 = jup_b47  ; Jupiter, Jupiter Plant
+jup_b1 = jup_b46  ; Jupiter, Dam
+jup_b19 = jup_sim_9  ; Jupiter, Irradiated Village
+jup_b207 = jup_b207_depot_attack  ; Jupiter, Trailer Camp
+jup_b209 = jup_sim_6  ; Jupiter, Bitumen Anomaly
+jup_b212 = jup_sim_12  ; Jupiter, Ventillation Complex
+lim_smart_terrain_3 = lim_smart_terrain_4  ; Limansk, South
+lim_smart_terrain_5 = lim_smart_terrain_6  ; Limansk, Bridge
+mar_smart_terrain_6_4 = mar_smart_terrain_8_4  ; Great Swamp, North Central
+mar_smart_terrain_6_7 = mar_smart_terrain_7_7  ; Great Swamp, Central Swamp
+mar_smart_terrain_8_8 = mar_smart_terrain_10_7  ; Great Swamp, Burnt Farmstead
+mar_smart_terrain_8_9 = mar_smart_terrain_10_10  ; Great Swamp, Cemetery
+mil_smart_terrain_2_10 = mil_smart_terrain_4_2  ; Army Warehouses, Bloodsucker Village
+mil_smart_terrain_4_7 = mil_smart_terrain_4_8  ; Army Warehouses, Barricade Trailer
+pri_a28_shop = pri_sim_5  ; Outskirts, Shop
+pri_a15 = pri_b305_dogs  ; Outskirts, Jupiter UG Entrance
+pri_smart_neutral_stalker1 = pri_smart_monolith_stalker3  ; Pripyat, South
+rad_after_valley = rad_zombied2  ; Radar, Northeast Forest
+rad_bloodsucker = rad_snork2  ; Radar, Northern Forest
+rad_pseudodogs = rad_zombied1  ; Radar, Central Forest
+red_smart_terrain_3_1 = red_smart_terrain_4_2  ; Red Forest, Forester's
+trk_sim_5 = trk_sim_18  ; Truck Cemetery, Southeast
+trk_sim_6 = trk_sim_15  ; Truck Cemetery, Heli's
+trk_sim_7 = trk_sim_21  ; Truck Cemetery, East Forest
+trk_sim_8 = trk_sim_13  ; Truck Cemetery, Northwest
+trk_sim_9 = trk_sim_16  ; Truck Cemetery, Central Forest
+trk_sim_10 = trk_sim_12  ; Truck Cemetery, Southwest Forest
+trk_sim_11 = trk_sim_14  ; Truck Cemetery, Northeast
+val_smart_terrain_3_0 = val_smart_terrain_5_10  ; Dark Valley, Southwest
+val_smart_terrain_8_7 = val_smart_terrain_9_6  ; Dark Valley, Bus Stop
+zat_b39 = zat_sim_13  ; Zaton, Oakpine Anomaly
+zat_b56 = zat_sim_14  ; Zaton, Circus Anomaly
+zat_b106_smart_terrain = zat_sim_17  ; Zaton, Young Pioneer Camp
+zat_sim_15 = zat_sim_22  ; Zaton, Northeast
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Hidden Target Task Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	March 26, 2018
+;
+;--------------------------------------------------------------------------------------------------
+
+; Hidden target task properties:
+[ht_task_props]
+
+; Percent chance an NPC will have information on a hidden target (float, decimal percent):
+ht_info_chance = 0.3  ; 30%
+
+; Length of time before an NPC can be asked about a hidden target again (int, seconds):
+ht_inquiry_reset_time = 3600  ; 1 hour
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Undiscovered Float Fetch Task Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	May 31, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Undiscovered float fetch task properties:
+[ff_task_props]
+
+; Percent chance an NPC will offer to help find an undiscovered float fetch item (float, decimal percent):
+ff_help_chance = 0.5  ; 50%
+
+; Length of time before an NPC can be asked about an undiscovered float fetch task again (int, seconds):
+ff_inquiry_reset_time = 3600  ; 1 hour
+
+; Minimum fee an NPC will charge to help find an undiscovered float fetch item (float, RU):
+ff_min_fee = 200
+
+; Maximum fee an NPC will charge to help find an undiscovered float fetch item (float, RU):
+ff_max_fee = 1700
+
+; Max distance from center of search area to trigger search timer (float, meters)
+ff_search_dist = 40
+
+; Minimum time a task helper will take to locate a float fetch item (int, seconds)
+ff_search_min_time = 600  ; 10 minutes
+
+; Maximum time a task helper will take to locate a float fetch item (int, seconds)
+ff_search_max_time = 900  ; 15 minutes
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Hunted Task Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	June 18, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Hunted task properties:
+[hunted_task_props]
+
+; Percent chance a hunted task will be given (float, decimal percent):
+hunted_chance = 0.1  ; 10%
+
+; Max length of time from last assassination to give hunted task (float, seconds)
+timeout = 64800  ; 18 hours
+
+; Percent chance an NPC will have information on a hidden assassin (float, decimal percent):
+info_chance = 0.3  ; 30%
+
+; Length of time before an NPC can be asked about a hidden assassin again (float, seconds)
+inquiry_reset_time = 3600  ; 1 hour
+
+; Task id of the player hunted task (string, task id):
+task_id = drx_ql_special_task_hunted
+
+; List of factions that can be assassins (string, faction names):
+[hunted_task_factions]
+stalker
+dolg
+freedom
+csky
+; ecolog
+killer
+army
+bandit
+; monolith
+; zombied
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Safecracker Task Settings
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	August 30, 2018
+;
+;--------------------------------------------------------------------------------------------------
+
+; Safecracker task properties:
+[safecracker_task_props]
+
+; Percent chance a NPC will offer a safecracker task (float, decimal percent):
+safecracker_chance = 0.15  ; 15%
+
+; Minimum reward item cost (int, RU):
+min_cost = 0
+
+; Maximum reward item cost (int, RU):
+max_cost = 6000
+
+; Quest item that triggers safecracker task (string, quest item section name):
+case_item = drx_ql_quest_item_case
+
+; Max actor reward item count for safecracker task (int):
+reward_count = 3
+
+; Safecracker task reward sections:
+[safecracker_task_reward_sections]
+items_ammo_list
+items_artefacts_list
+items_attachments_list
+items_pistols_list
+items_supplies_list
+
+; Factions that can offer a safecracker task:
+[safecracker_task_factions]
+stalker
+; dolg
+; freedom
+csky
+; ecolog
+killer
+; army
+bandit
+; monolith
+; zombied
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Defector Task Settings
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	February 10, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Defector task settings:
+[defector_task_settings]
+
+; Task to give containing defector dialog (string, task section name):
+defector_task = drx_ql_defector_sl_task_1
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Monolith Infiltrator Task Settings
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	August 10, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Monolith infiltrator task settings:
+[mon_inf_settings]
+
+; Actor level that triggers start of Monolith infiltrator task (string, level name):
+trigger_level = l11_pripyat  ; Pripyat
+
+; Faction to set actor to at start of Monolith infiltrator task (string, faction name):
+mon_inf_faction = monolith
+
+; Health level to give actor after death truck crash (0 = no change) (float, decimal percent):
+crash_health = 0.3  ; 30%
+
+; Death truck driver corpse (string, npc section name):
+driver_corpse = sim_default_monolith_0
+
+; Death truck rookie victim corpse (string, npc section name):
+rookie_corpse = sim_default_freedom_0
+
+; Death truck zombified victim corpse (string, npc section name):
+zombie_corpse = sim_default_zombied_1
+
+; Actor level that triggers extraction squad (string, level name):
+extraction_level = l10_radar  ; Radar
+
+; Smart terrain to spawn extraction squads (string, smart terrain name):
+extraction_smart = rad_antenna_monolith  ; Radar, south ramp in emitter compound
+
+; Smart terrain to spawn defending squads (string, smart terrain name):
+defenders_smart = rad_antenna_patrol  ; Radar, outside tunnel to X-19
+
+; Faction for defending squads (string, faction name):
+defenders_faction = monolith
+
+; Length of time between accepting task and receiving serum injection (float, seconds):
+injection_delay = 2
+
+; Length of time after receiving injection before getting lightheaded (float, seconds):
+serum_delay = 4
+
+; Length of time to hold lightheaded effect before full blackout (float, seconds):
+lightheaded_time = 5
+
+; Length of time to play fade to black effect (float, seconds):
+fade_to_black_time = 3
+
+; Length of time to hold black screen before playing cutscene (float, seconds):
+blackout_time = 2
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Operation Fairway Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	October 29, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Operation Fairway properties:
+[operation_fairway_props]
+
+; Number of Stingray crash sites (int):
+stingray_locations = 5
+
+; Minimum number of Stingray crash sites to visit before final Stingray mission (max = stingray_locations - 1) (int):
+min_sites = 2
+
+; Amount of money Noah will take if paid for information (int, RU):
+noah_payment = 2000
+
+; Smart terrain location of the survivor's rally point (string, smart terrain name):
+rally_smart = jup_b1
+
+; Distance to Stingray 4 crash site before calling it found (float, meters)
+max_discovery_dist = 10
+
+; Stingray 4 pilot squad (string, squad section name):
+pilot_squad = drx_ql_stingray_pilot_hostage_squad
+
+; Faction of the enemy hostage takers (string, faction name):
+enemy_faction = monolith
+
+; Hostage taker squads (string, squad section name):
+enemy_squad_1 = drx_ql_designated_target_squad_monolith_hostage_takers_1
+enemy_squad_2 = drx_ql_designated_target_squad_monolith_hostage_takers_2
+
+; Survivor corpses (string, NPC section name):
+survivor_corpse_1 = jup_b9_shliachin
+survivor_corpse_2 = pri_a17_military_captain_tarasov
+survivor_corpse_3 = pri_a17_military_prapor_valentyr
+survivor_corpse_4 = zat_b28_draper
+survivor_corpse_5 = zat_b28_umerov
+survivor_corpse_6 = zat_b100_military_1
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Oasis Task Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	July 27, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Oasis task properties:
+[oasis_task_props]
+
+; Percent chance the find Oasis task will be given (float, decimal percent):
+oasis_chance = 0.05  ; 5%
+
+; Task id of the find Oasis task (string, task id):
+task_id = drx_ql_special_task_find_oasis
+
+; List of factions that can get find Oasis task (string, faction names):
+[oasis_task_factions]
+stalker
+dolg
+freedom
+csky
+ecolog
+killer
+army
+bandit
+; monolith
+; zombied
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; End Game Questline
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	October 30, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; List of actor factions that can trigger the endgame questline:
+[end_game_factions]
+stalker
+dolg
+freedom
+csky
+ecolog
+killer
+army
+bandit
+; monolith
+; zombied
+
+; Endgame questline starting task:
+[end_game_task]
+
+; Endgame questline start task required infoportions:
+preconditions = drx_ql_info_main_task_agr_u_done, drx_ql_info_main_task_labx18_done, yan_labx16_switcher_primary_off, bar_deactivate_radar_done, drx_ql_info_main_task_jup_u_done, drx_ql_info_main_task_labx8_done, drx_ql_info_stingray_4_done
+
+; Maximum number of meet tasks to complete after meeting endgame questline preconditions (int):
+extension = 3
+
+; Endgame questline start task id (string, task id):
+task_id = drx_ql_special_task_meet_task_find_doc
+
+; Honcho to meet to start the endgame questline (string, npc name):
+meet_honcho = mar_smart_terrain_doc_doctor
+
+; Squad name of endgame honcho (string, squad name):
+meet_honcho_squad = mar_smart_terrain_doc_squad
+
+; Unique (fake) faction to use for endgame honcho (used for endgame questline task) (string):
+meet_honcho_faction = doc
+
+; Smart terrain to spawn endgame honcho at (string, smart terrain name):
+meet_honcho_smart = mar_smart_terrain_doc_2
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Osoznanie settings
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	October 09, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Osoznanie protector settings:
+[osoznanie_settings]
+
+; Level that will trigger bad ending sequence (string, level name):
+trigger_level = l13_generators
+
+; Length of pause before displaying Osoznanie fail message (float, seconds):
+fail_msg_delay = 12
+
+; Maximum number of Osoznanie protectors alive at one time (int):
+max_alive = 6
+
+; Osoznanie protectors:
+[osoznanie_protectors]
+sar2_tutorial_wounded
+sar2_stalker_freeman
+sar2_doctor
+sar2_dram_novice
+sar2_bandit_novice
+sar2_ranger
+sar2_bandit_general
+sar2_zombied_novice
+sar2_fox
+sar2_seriy
+sar2_ratcatcher
+sar2_wolf
+sar2_ecolog_professor
+sar2_psih
+sar2_stalker_explorer
+sar2_hellcar
+sar2_fanat
+sar2_gar_dolg_blokpost_commander
+sar2_krot
+sar2_bandit_borov
+sar2_arena_manager
+sar2_zastava_commander_1
+sar2_bandit_leader
+sar2_svoboda_zombi_stalker
+sar2_monolith_regular2
+sar2_monolith_regular
+sar2_bandit_veteran
+sar2_soldier_regular
+sar2_killer_regular
+sar2_killer_informator
+sar2_svoboda_cook
+sar2_svoboda_bodyguard
+sar2_svoboda_stukach
+sar2_esc_soldier_commander
+sar2_zombied_stalker
+sar2_soldier_specnaz
+sar2_killer_specnaz
+sar2_dolg_specnaz_cherep
+sar2_svoboda_blockpost_leader
+sar2_dolg_guard_commander
+sar2_dolg_ivancov
+sar2_dolg_petrenko
+sar2_dolg_leader
+sar2_svoboda_attack_commander
+sar2_crazy_veterans_lucky
+sar2_svoboda_engineer
+sar2_svoboda_leader
+sar2_svoboda_trader
+sar2_svoboda_master_max
+sar2_monolith_specnaz2
+sar2_monolith_specnaz
+sar2_svoboda_master_ugrumiy
+sar2_arena_savage
+sar2_zombied_exo
+sar2_monolith_leader
+sar2_killer_ambush_tiran
+sar2_killer_exo
+sar2_soldier_stalker
+sar2_monolith_exo
+sar2_monolith_exo2
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Local Warning Dialog Properties
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	February 20, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Local warning dialog properties:
+[local_warning_props]
+
+; Percent chance a npc will give a local warning (float, decimal percent):
+warning_chance = 0.3  ; 30%
+
+; Max radius to search for local threats (float, meters)
+max_radius = 500
+
+; Length of time before an npc can be asked for news again (float, seconds):
+news_reset_time = 3600  ; 1 hour
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; PDA Message Settings
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	October 15, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Dialog settings:
+[message_settings]
+
+; Minimum message display time (float, miliseconds):
+msg_time = 5000  ; 5 seconds
+
+; Message characters at minimum display time (int):
+max_chars = 100
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Dialog Settings
+;
+;	Created by DoctorX
+;	for DoctorX Questlines 2.0
+;	March 02, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; Dialog settings:
+[dialog_settings]
+
+; Max number of pre-task description dialogs (int):
+max_pre_desc = 3
+
+; Max number of hidden target dialogs (int):
+max_hidden_target = 5
+
+; Max number of undiscovered float fetch dialogs (int):
+max_float_fetch = 5
+
+; Max distance from actor for npc forced dialogs (float, meters):
+max_dist = 2
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

@@ -1,0 +1,455 @@
+--[[
+Original authors: Tris, Nuor, thales100
+Script_1(dfz_hide_wpn):
+\\File			:	dfz_hide_wpn.script
+\\Author		:	Tris (Modified by Nuor)
+
+Script_2(item_animations):
+\\File			:	item_animations.script
+\\Author		:	thales100
+
+Script_3(enhanced_animations):
+\\File			:	enhanced_animations.script
+\\Author		:	thales100
+
+Author: LilGABE
+]]--
+
+--[[
+CoC 1.5r7 jeredy_hothead
+]]--
+
+local active_slot,start_time,anims,item_tbl,keep_helm,ini,use_snd,act_anm_id,pending,start_anim,item_used,holster,item_activated,tmpd,anim_finish,detector,cls_monster,harvesting,harvesting_again,next_phase,prepare_knife,ready_to_skin,keep_active_slot,helmet_hidden,drag_detected,before_hit,prev_health,harvest_distance,hunting_mode
+feature_is_active, parts = nil, nil
+function activate()
+	anims = nil
+	feature_is_active = true
+	pending = false
+	start_anim = false
+	harvesting = false
+	harvesting_again = false
+	next_phase = false
+	prepare_knife = false
+	ready_to_skin = false
+	keep_active_slot = false
+	drag_detected = false
+	helmet_hidden = 0
+	prev_health = db.actor.health
+	item_tbl = {
+		bread = {snd = "interface\\item_usage\\food_use", anm = "anm_bread",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2100,helm = false},
+		conserva = {snd = "interface\\item_usage\\conserva_use", anm = "anm_tushka",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 8400,helm = false},
+		kolbasa = {snd = "interface\\item_usage\\food_use", anm = "anm_kolbasa",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 5000,helm = false},
+		energy_drink = {snd = "interface\\item_usage\\drink_soda_use", anm = "anm_energy_drink",cam = "itemuse_anm_effects\\banka_use.anm",tm = 3200,helm = false},
+		vodka = {snd = "interface\\item_usage\\vodka_use", anm = "anm_vodka",cam = "itemuse_anm_effects\\vodka_use.anm",cam2 = "camera_effects\\fatigue.anm",tm = 4100,helm = false},
+		water_drink = {snd = "interface\\item_usage\\drink_flask4", anm = "anm_voda",cam = "itemuse_anm_effects\\vodka_use.anm",tm = 4400,helm = false},
+		antirad = {snd = "interface\\item_usage\\antirad_use", anm = "anm_antirad", cam = "itemuse_anm_effects\\antirad_use.anm", ppe = "aftermath\\black_s5.ppe",tm = 4450, helm = true},
+		mutant_part_general_meat = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster1",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		mutant_part_flesh_meat = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster2",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		mutant_part_boar_chop = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster3",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		mutant_part_dog_meat = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster4",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		mutant_part_psevdodog_meat = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster5",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		mutant_part_krovosos_meat = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster6",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		mutant_part_chimera_meat = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster7",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		mutant_part_tushkano_meat = {snd = "interface\\inv_eat_mutant_food", anm = "anm_monster8",cam = "itemuse_anm_effects\\eat_kolbasa_d_use_h.anm",tm = 2000,helm = false},
+		meat_chimera = {snd = "interface\\item_usage\\plate_eat", anm = "anm_meat_chimera",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 7200,helm = false},
+		meat_tushkano = {snd = "interface\\item_usage\\plate_eat", anm = "anm_meat_chimera",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 7200,helm = false},
+		meat_bloodsucker = {snd = "interface\\item_usage\\plate_eat", anm = "anm_meat_chimera",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 7200,helm = false},
+		meat_boar = {snd = "interface\\item_usage\\plate_eat", anm = "anm_meat_chimera",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 7200,helm = false},
+		meat_flesh = {snd = "interface\\item_usage\\plate_eat", anm = "anm_meat_chimera",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 7200,helm = false},
+		meat_pseudodog = {snd = "interface\\item_usage\\plate_eat", anm = "anm_meat_chimera",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 7200,helm = false},
+		meat_dog = {snd = "interface\\item_usage\\plate_eat", anm = "anm_meat_chimera",cam = "itemuse_anm_effects\\eat_tushonka_d_use_h.anm",tm = 7200,helm = false},
+		drug_booster = {snd = "interface\\item_usage\\vodka_use", anm = "anm_drug_booster",cam = "itemuse_anm_effects\\vodka_use.anm",tm = 4000,helm = false},
+		medkit = {snd = "interface\\item_usage\\medkit_use", anm = "anm_medkit",cam = "itemuse_anm_effects\\aptechka_use.anm", ppe = "aftermath\\black_s5.ppe",tm = 4500,helm = true},
+		medkit_army = {snd = "interface\\item_usage\\medkit_use", anm = "anm_medkit_army",cam = "itemuse_anm_effects\\aptechka_use.anm", ppe = "aftermath\\black_s5.ppe",tm = 4500,helm = true},
+		medkit_scientic = {snd = "interface\\item_usage\\medkit_use", anm = "anm_medkit_scientic",cam = "itemuse_anm_effects\\aptechka_use.anm", ppe = "aftermath\\black_s5.ppe",tm = 4500,helm = true},
+		bandage = {snd = "interface\\item_usage\\bandage_use", anm = "anm_bandage",cam = "itemuse_anm_effects\\bint_use.anm",tm = 2900,helm = true},
+		drug_antidot = {snd = "interface\\item_usage\\pills_use", anm = "anm_drug_antidot",cam = "itemuse_anm_effects\\tabletki_use.anm",tm = 2300,helm = false},
+		drug_coagulant = {snd = "interface\\item_usage\\pills_use", anm = "anm_drug_coagulant",cam = "itemuse_anm_effects\\tabletki_use.anm",tm = 2300,helm = false},
+		drug_psy_blockade = {snd = "interface\\item_usage\\pills_use", anm = "anm_drug_psy_blocade",cam = "itemuse_anm_effects\\tabletki_use.anm",tm = 2300,helm = false},
+		drug_radioprotector = {snd = "interface\\item_usage\\pills_use", anm = "anm_drug_radioprotector",cam = "itemuse_anm_effects\\tabletki_use.anm",tm = 2300,helm = false},
+		["hit"] = {snd = "actor\\hit_7",anm = "anm_hit",tm = 6000, helm = true},
+	}
+	ini = system_ini()
+	RegisterScriptCallback("actor_on_update", update)
+	RegisterScriptCallback("actor_on_item_use", use_item)
+	RegisterScriptCallback("on_level_changing", on_level_changing)
+	RegisterScriptCallback("actor_on_hud_animation_end", actor_on_hud_animation_end)
+	RegisterScriptCallback("monster_on_actor_use_callback", monster_on_actor_use)
+	RegisterScriptCallback("on_key_hold", on_hold)
+	RegisterScriptCallback("on_key_release", on_release)
+end
+
+function activate_harvest()
+	hunting_mode = true
+end
+
+function deactivate_harvest()
+	hunting_mode = false
+end
+
+function deactivate()
+	if not (feature_is_active) then
+		return
+	end
+	feature_is_active = false
+	hunting_mode = false
+	pending = false
+	start_anim = false
+	harvesting = false
+	harvesting_again = false
+	next_phase = false
+	prepare_knife = false
+	ready_to_skin = false
+	drag_detected = false
+	item_tbl = nil
+	anims = nil
+	active_slot = nil
+	start_time = nil
+	time_to_relax = nil
+	keep_helm = nil
+	ini = nil
+	use_snd = nil
+	act_anm_id = nil
+	UnregisterScriptCallback("actor_on_update", update)
+	UnregisterScriptCallback("actor_on_item_use", use_item)
+	UnregisterScriptCallback("on_level_changing", on_level_changing)
+	UnregisterScriptCallback("actor_on_hud_animation_end", actor_on_hud_animation_end)
+	UnregisterScriptCallback("monster_on_actor_use_callback", monster_on_actor_use)
+	UnregisterScriptCallback("on_key_hold", on_hold)
+	UnregisterScriptCallback("on_key_release", on_release)
+end
+
+function on_game_start()
+	local function actor_on_first_update()
+		activate()
+	end
+	RegisterScriptCallback("actor_on_first_update",actor_on_first_update)
+end
+
+function on_level_changing()
+	if act_anm_id then
+		db.actor:activate_slot(active_slot or 0)
+		local se_anm_obj = alife_object(act_anm_id)
+		if (se_anm_obj) then
+			alife():release(se_anm_obj)
+		end
+		act_anm_id = nil
+	end
+	anims = nil
+	active_slot = nil
+	act_anm_id = nil
+	keep_helm = nil
+	time_to_relax = nil
+	start_time = nil
+	detector = nil
+end
+
+function use_helmet(status)
+	if (mask_hud.feature_is_active == true) then
+		if (mask_hud.prev_helmet) then
+			if (mask_hud.get_helmet_no_respi(mask_hud.prev_helmet) == false) then
+				if (status == false) then
+					if (mask_hud.helmet_hud_draw == true) then
+						mask_hud.play_sound(mask_hud.prev_helmet,"actor\\gasmask_off")
+					end
+					mask_hud.remove_texture(mask_hud.prev_helmet)
+				else
+					mask_hud.draw_texture()
+					if (mask_hud.helmet_hud_draw == true) then
+						mask_hud.play_sound(mask_hud.prev_helmet,"actor\\gasmask_on")
+					end
+				end
+			end
+		end
+	end
+end
+
+function level_input_on_key_press(dik, bind, flags)
+	if (bind == key_bindings.kQUICK_SAVE or key_bindings.kJUMP or key_bindings.kCAM_1 or key_bindings.kCAM_2 or key_bindings.kCAM_3 or key_bindings.kCAM_ZOOM_IN or key_bindings.kCAM_ZOOM_OUT or key_bindings.kTORCH or key_bindings.kNIGHT_VISION or key_bindings.kSHOW_DETECTOR or key_bindings.kWPN_1 or key_bindings.kWPN_2 or key_bindings.kWPN_3 or key_bindings.kWPN_4 or key_bindings.kWPN_5 or key_bindings.kWPN_6 or key_bindings.kARTEFACT or key_bindings.kWPN_NEXT or key_bindings.kWPN_FIRE or key_bindings.kWPN_ZOOM or key_bindings.kWPN_RELOAD or key_bindings.kWPN_FUNC or key_bindings.kWPN_FIREMODE_PREV or key_bindings.kWPN_FIREMODE_NEXT or key_bindings.kDROP or key_bindings.kUSE or key_bindings.kCONSOLE or key_bindings.kINVENTORY or key_bindings.kACTIVE_JOBS or key_bindings.kNEXT_SLOT or key_bindings.kPREV_SLOT or key_bindings.kSPEECH_MENU_0 or key_bindings.kQUICK_USE_1 or key_bindings.kQUICK_USE_2 or key_bindings.kQUICK_USE_3 or key_bindings.kQUICK_USE_4 or key_bindings.kQUICK_LOAD or key_bindings.kCUSTOM7 or key_bindings.kCUSTOM11 or key_bindings.kCAM_AUTOAIM or key_bindings.kPDA_TAB1 or key_bindings.kPDA_TAB2 or key_bindings.kPDA_TAB3 or key_bindings.kPDA_TAB4 or key_bindings.kPDA_TAB5 or key_bindings.kPDA_TAB6 or key_bindings.kKICK) then 
+		flags.ret = true
+	end
+	if (bind == key_bindings.kINVENTORY) then
+		local inventory = ActorMenu.get_actor_menu()
+		if (inventory and inventory:IsShown()) then
+			inventory:HideDialog()
+		end
+	end
+	if (bind == key_bindings.kACTIVE_JOBS or key_bindings.kPDA_TAB1 or key_bindings.kPDA_TAB2 or key_bindings.kPDA_TAB3 or key_bindings.kPDA_TAB4 or key_bindings.kPDA_TAB5 or key_bindings.kPDA_TAB6) then
+		local pda_menu = ActorMenu.get_pda_menu()
+		if (pda_menu and pda_menu:IsShown()) then
+			pda_menu:HideDialog()
+		end
+	end
+end
+
+function on_hold(dik)
+	if (dik == DIK_keys.DIK_LSHIFT) then
+		drag_detected = true
+	end
+end
+
+function on_release(dik)
+	if (dik == DIK_keys.DIK_LSHIFT) then
+		drag_detected = false
+	end
+end
+
+function actor_on_hud_animation_end(item, section, motion, state, slot)
+	if (ready_to_skin == true) then
+		holster = true
+		pending = false
+		ready_to_skin = false
+	end
+	if (pending == true) then
+		if (prepare_knife == false) then 
+			holster = true
+			pending = false
+		elseif (prepare_knife == true) then
+			db.actor:hide_weapon()
+			ready_to_skin = true
+		end
+	end
+	if (db.actor:active_slot() == 14) then
+		anim_finish = true
+		if (harvesting == true) then
+			next_phase = true
+		end
+	end
+end
+
+function before_anim()
+	if (active_slot ~= 1 and active_slot ~= 6 and active_slot ~= 4) then
+		db.actor:hide_weapon()
+	end
+	detector = db.actor:active_detector() or nil
+	if (detector) then
+		db.actor:drop_item(detector)
+		tmpd = alife():create(detector:section(), db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id())
+		db.actor:transfer_item(detector, db.actor)
+	end
+end
+
+function harvester()
+	keep_helm = true
+	act_anm_id = alife():create(anims,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id()).id
+	use_snd = sound_object(ini:r_string_ex(anims,"anim_sound") or "interface\\inv_nosound")
+	use_snd:play_at_pos(db.actor, vector():set(0,0,0), 0, sound_object.s2d)
+	db.actor:restore_weapon()
+end
+
+function monster_on_actor_use(obj,who)
+	if (hunting_mode == false) then return end
+	if not (db.actor:item_in_slot(1)) then return end
+	if (drag_detected == true) then return end
+	if not anims then
+		local id = obj:id()
+		if (string.find(obj:section(),"boar")) then
+			harvest_distance = "medium"
+		elseif (string.find(obj:section(),"chimera")) then
+			harvest_distance = "medium"
+		elseif (string.find(obj:section(),"flesh")) then
+			harvest_distance = "medium"
+		elseif (string.find(obj:section(),"burer")) then
+			harvest_distance = "short"
+		elseif (string.find(obj:section(),"gigant")) then
+			harvest_distance = "short"
+		else 
+			harvest_distance = "medium"
+		end
+		cls_monster = obj and obj:clsid()
+		local m_ini = ini_file("plugins\\itms_manager.ltx")
+		if not (m_ini:r_bool_ex("mutant_loot_mod","enable",true)) then
+			return
+		end
+		local st = db.storage[id]
+		if st and st.death_time and game.get_game_time():diffSec(st.death_time) > (m_ini:r_float_ex("mutant_loot_mod","decay_time") or 7200) then
+			return
+		end
+		level.disable_input()
+		local pda_menu = ActorMenu.get_pda_menu()
+		if (pda_menu and pda_menu:IsShown()) then
+			pda_menu:HideDialog()
+		end
+		active_slot = db.actor:active_slot()
+		harvesting = true
+		keep_active_slot = true
+		anims = "anm_harv1"
+		if (active_slot == 0) then
+			before_anim()
+			harvester()
+			level.add_cam_effector("camera_effects\\actor_move\\crouch_forward_"..harvest_distance..".anm",8010,false,"")
+		elseif (active_slot == 1 or active_slot == 6 or active_slot == 4) then
+			act_anm_id = alife():create(anims,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id()).id
+			use_snd = sound_object(ini:r_string_ex(anims,"anim_sound") or "interface\\inv_nosound")
+			use_snd:play_at_pos(db.actor, vector():set(0,0,0), 0.9, sound_object.s2d)
+			level.add_cam_effector("camera_effects\\actor_move\\crouch_forward_"..harvest_distance..".anm",8010,false,"")
+			local tmr = 8010
+			start_time = time_global() + tmr + 800
+			prepare_knife = true
+		else
+			db.actor:activate_slot(1)
+			detector = db.actor:active_detector() or nil
+			if (detector) then
+				db.actor:drop_item(detector)
+				tmpd = alife():create(detector:section(), db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id(), db.actor:id())
+				db.actor:transfer_item(detector, db.actor)
+			end
+			prepare_knife = true
+			pending = true		
+		end
+	end
+end
+
+function second_harvest()
+	if not anims then
+		level.disable_input()
+		if (active_slot == 0) then
+			before_anim()
+		else
+			db.actor:hide_weapon()
+		end
+		harvesting_again = true
+		anims = "anm_harv2"
+		keep_helm = true
+		act_anm_id = alife():create(anims,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id()).id
+		use_snd = sound_object(ini:r_string_ex(anims,"anim_sound") or "interface\\inv_nosound")
+		use_snd:play_at_pos(db.actor, vector():set(0,0,0), 0, sound_object.s2d)
+		db.actor:restore_weapon()
+		next_phase = false
+		keep_active_slot = false
+	end
+end
+
+function play_anim(item)
+	keep_helm = item_tbl[item].helm or ini:r_bool_ex(anims,"keep_helm") or false
+	if not keep_helm then use_helmet(false) end
+	act_anm_id = alife():create(anims,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id()).id
+	use_snd = sound_object(item_tbl[item].snd or ini:r_string_ex(anims,"anim_sound") or ini:r_string_ex(item,"use_sound") or "interface\\inv_nosound")
+	use_snd:play_at_pos(db.actor, vector():set(0,0,0), 0, sound_object.s2d)
+	if item_tbl[item].cam then
+		level.add_cam_effector(item_tbl[item].cam,8010,false,"")
+	end
+	db.actor:restore_weapon()
+end
+
+function use_item(obj, item)
+	local temp = item_tbl[item] and item_tbl[item].anm or ini:r_string_ex(item,"anim")
+	if temp and not anims then
+		RegisterScriptCallback("level_input_on_key_press", level_input_on_key_press)
+		active_slot = db.actor:active_slot()
+		before_anim()
+		local inventory = ActorMenu.get_actor_menu()
+		if (inventory and inventory:IsShown()) then
+			inventory:HideDialog()
+		end
+		local pda_menu = ActorMenu.get_pda_menu()
+		if (pda_menu and pda_menu:IsShown()) then
+			pda_menu:HideDialog()
+		end
+		temp = alun_utils.str_explode(temp,",")
+		anims = table.remove(temp)
+		item_activated = true
+		item_used = item
+		if (active_slot == 0) then
+			play_anim(item_used)
+		elseif (active_slot == 1 or active_slot == 6 or active_slot == 4) then
+			keep_helm = item_tbl[item].helm or ini:r_bool_ex(anims,"keep_helm") or false
+			keep_helm = keep_helm or mask_hud.keep_helm
+			if not keep_helm then use_helmet(false) end
+			act_anm_id = alife():create(anims,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id()).id
+			use_snd = sound_object(item_tbl[item].snd or ini:r_string_ex(anims,"anim_sound") or ini:r_string_ex(item,"use_sound") or "interface\\inv_nosound")
+			use_snd:play_at_pos(db.actor, vector():set(0,0,0), 0.9, sound_object.s2d)
+			if item_tbl[item].cam then
+				level.add_cam_effector(item_tbl[item].cam,8010,false,"")
+			end
+			local tmr = (item_tbl[item].tm or ini:r_float_ex(anims,"anim_length")) or use_snd:length()
+			start_time = time_global() + tmr + 800
+		else
+			pending = true
+		end
+	end
+end
+
+function final()
+	if (anims) then
+		if (db.actor:object(anims)) then
+			if (alife_object(db.actor:object(anims):id())) then
+				alife():release(alife_object(db.actor:object(anims):id()))
+				if not keep_helm then
+					if not (cls_monster) then
+						use_helmet(true) 
+					end
+					cls_monster = nil
+				end
+				anims = nil
+			end
+		end
+	end
+	if (detector) then
+		if (tmpd) then
+			alife():release(tmpd)
+			tmpd = nil
+		end
+		db.actor:make_item_active(detector)
+	end
+	act_anm_id = nil
+	keep_helm = nil
+	time_to_relax = nil
+	start_time = nil
+	detector = nil
+	level.enable_input()
+	UnregisterScriptCallback("level_input_on_key_press", level_input_on_key_press)
+	if (item_tbl and item_used) then
+		if item_tbl[item_used].cam2 then
+			level.add_cam_effector(item_tbl[item_used].cam2,8555,false,"")
+		end
+		if item_tbl[item_used].ppe then
+			level.add_pp_effector(item_tbl[item_used].ppe, 8556, false)
+		end
+	end
+	item_used = nil
+end
+
+function update()
+	if (next_phase == true) then
+		second_harvest()
+	end
+	if not anims then return end
+	local tg = time_global()
+	if (item_activated == true or harvesting == true or harvesting_again == true) then
+		db.actor:activate_slot(14)
+	end
+	if (holster == true and db.actor:active_slot() == 0) then
+		if (harvesting == false and harvesting_again == false) then
+			play_anim(item_used)
+			holster = false
+		else
+			harvester()
+			level.add_cam_effector("camera_effects\\actor_move\\crouch_forward_"..harvest_distance..".anm",8010,false,"")
+			holster = false
+		end
+	end
+	if (anim_finish == true) then
+		item_activated = false
+		harvesting = false
+		harvesting_again = false
+		if (prepare_knife == false) then
+			db.actor:activate_slot(active_slot)
+			if (db.actor:active_slot() == active_slot) then
+				final()
+				anim_finish = false
+				if (keep_active_slot == false) then 
+					active_slot = nil
+				end
+			end
+		else
+			db.actor:activate_slot(0)
+			if (db.actor:active_slot() == 0) then
+				final()
+				anim_finish = false
+				prepare_knife = false
+			end
+			
+		end
+	end
+end

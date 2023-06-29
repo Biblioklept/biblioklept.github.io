@@ -1,0 +1,85 @@
+[anm_meat_chimera]:anm_base
+$spawn                      = "food and drugs\meat_chimera"
+hud							= anm_meat_chimera_hud
+visual                      = dynamics\zpf\chimera_food.ogf
+description					= st_meat_chimera_descr
+inv_name_short              = st_meat_chimera
+inv_name                    = st_meat_chimera
+
+[anm_meat_chimera_hud]:anm_base_hud 
+hands_position				= 0.0500,-0.31,0.24
+hands_position_16x9			= 0.0500,-0.31,0.24
+item_visual             	= dynamics\weapons\wpn_eat\food\wpn_eat_plate_chimera.ogf
+anm_show					= eat_tushonka_d_use_h
+anm_hide					= hands_noanim
+anm_idle					= hands_noanim
+anm_idle_aim				= hands_noanim
+anm_idle_moving				= hands_noanim
+anm_idle_sprint				= hands_noanim
+anm_bore					= hands_noanim
+
+[anm_monster1]:anm_base
+$spawn						= "weapons\anm_monster1"
+visual						= dynamics\weapons\wpn_eat\food\meat_bloodsucker.ogf
+hud							= anm_monster1_hud
+
+[anm_monster1_hud]:anm_base_hud
+hands_position				= 0.0100, -0.1700, 0.3000
+hands_position_16x9			= 0.0100, -0.1700, 0.3000
+item_position    			= -0.020075,0.004612,0.001283
+item_orientation   			= -45.0000, -65.000, 45.0000
+item_visual             	= dynamics\hud_anims\food\meat_flesh.ogf
+anm_show					= eat_hleb_d_use_h
+anm_hide					= hands_noanim
+anm_idle					= hands_noanim
+anm_idle_aim				= hands_noanim
+anm_idle_moving				= hands_noanim
+anm_idle_sprint				= hands_noanim
+anm_bore					= hands_noanim
+
+[anm_monster2]:anm_monster1
+hud							= anm_monster2_hud
+
+[anm_monster2_hud]:anm_monster1_hud
+item_position    			= -0.040075, -0.042612, 0.0
+item_visual             	= dynamics\hud_anims\food\meat_chimer1.ogf
+
+[anm_monster3]:anm_monster1
+hud							= anm_monster3_hud
+
+[anm_monster3_hud]:anm_monster1_hud
+item_position    			= -0.040075, -0.042612, 0.0
+item_visual             	= dynamics\hud_anims\food\meat_chimer2.ogf
+
+[anm_monster4]:anm_monster1
+hud							= anm_monster4_hud
+
+[anm_monster4_hud]:anm_monster1_hud
+item_orientation   			= 145.0000, -65.000, 45.0000
+
+[anm_monster5]:anm_monster4
+hud							= anm_monster5_hud
+
+[anm_monster5_hud]:anm_monster1_hud
+item_orientation   			= 145.0000, -65.000, 45.0000
+
+[anm_monster6]:anm_monster3
+hud							= anm_monster6_hud
+visual						= dynamics\zpf\meat_bloodsucker.ogf
+
+[anm_monster6_hud]:anm_monster1_hud
+item_orientation   			= 145.0000, -65.000, 45.0000
+
+[anm_monster7]:anm_monster1
+hud							= anm_monster7_hud
+
+[anm_monster7_hud]:anm_monster1_hud
+item_position    			= -0.040075, -0.042612, 0.0
+item_visual             	= dynamics\hud_anims\food\meat_chimera.ogf
+
+[anm_monster8]:anm_monster3
+hud							= anm_monster8_hud
+
+[anm_monster8_hud]:anm_monster1_hud
+item_position    			= -0.040075, -0.033612, 0.0
+item_visual             	= dynamics\hud_anims\food\meat_tushkan1.ogf

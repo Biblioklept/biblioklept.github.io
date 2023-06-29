@@ -1,0 +1,39 @@
+[anm_medkit]:anm_base
+$spawn						= "weapons\anm_medkit"
+hud							= anm_medkit_hud
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_basic_world
+description					= st_medkit_descr
+inv_name					= st_medkit
+inv_name_short				= st_medkit
+
+[anm_medkit_hud]:anm_base_hud
+hands_position              = -0.0055,-0.07, 0.34
+hands_position_16x9         = -0.0055,-0.07, 0.34
+item_visual             	= dynamics\weapons\wpn_eat\aptechki\wpn_aptechka_basic_hud
+anm_show					= aptechka_hands_eat_invtrans,aptechka_wpn_eat
+anm_hide					= hands_noanim
+anm_idle					= hands_noanim
+anm_idle_aim				= hands_noanim
+anm_idle_moving				= hands_noanim
+anm_idle_sprint				= hands_noanim
+anm_bore					= hands_noanim
+
+[anm_medkit_army]:anm_medkit
+hud							= anm_medkit_army_hud
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_army_world
+description					= st_medkit_army_descr
+inv_name					= st_medkit_army
+inv_name_short				= st_medkit_army
+
+[anm_medkit_army_hud]:anm_medkit_hud
+item_visual             	= dynamics\weapons\wpn_eat\aptechki\wpn_aptechka_army_hud
+
+[anm_medkit_scientic]:anm_medkit
+hud							= anm_medkit_scientic_hud
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_scientific_world
+description					= st_medkit_science_descr
+inv_name					= st_medkit_science
+inv_name_short				= st_medkit_science
+
+[anm_medkit_scientic_hud]:anm_medkit_hud
+item_visual             	= dynamics\weapons\wpn_eat\aptechki\wpn_aptechka_scientific_hud

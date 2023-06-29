@@ -1,0 +1,60 @@
+;==============================================================
+;
+; light_night.ltx
+;	CoC 1.5b r4 - DoctorX Call of The Zone 1.0
+;
+;	Modified by: DoctorX
+;	Last revised: November 09, 2019
+;
+;==============================================================
+
+
+[torch_definition]
+
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////
+;
+; Flashlight glow settings
+;
+;	Modified by DoctorX
+;	for DoctorX Call of The Zone 1.0
+;	November 09, 2019
+;
+;--------------------------------------------------------------------------------------------------
+
+; range           = 35									; range                 <in meters>
+range = 25							; range                 <in meters>
+
+; range_r2        = 35			 						; range                 <in meters>
+range_r2 = 25			 						; range                 <in meters>
+
+; color           = 0.7,0.7,0.8,0.2						; four color components <r,g,b,a> 0.f<X<3.f
+color = 0.7,0.60,0.50,0.85
+
+; color_r2        = 0.9,0.9,1.0,0.8						; four color components <r,g,b,a> 0.f<X<3.f
+color_r2 = 0.7,0.60,0.50,0.85
+
+color_animator  = empty									; color animator name   (empty - not using animator) //light_torch_01
+
+omni_range      = 1.5									; range                 <in meters>
+omni_range_r2   = 0.75									; range                 <in meters>
+
+; omni_color      = 0.9,0.9,1.0,0.1						; four color components <r,g,b,a> 0.f<X<3.f
+omni_color = 0.15,0.15,0.15,0.9
+
+; omni_color_r2   = 0.9,0.9,1.0,0.1						; four color components <r,g,b,a> 0.f<X<3.f
+omni_color_r2 = 0.15,0.15,0.15,0.9
+
+spot_texture    = internal\internal_light_torch_r2		; spot texture name     (using only in Second Render)
+
+; spot_angle      = 70									; spot angle            <in gradus>
+spot_angle = 75
+
+glow_texture    = glow\glow_torch_r2					; glow texture name     (required)
+
+; glow_radius     = 0.3									; glow radius           <in meters>
+glow_radius = 0.1
+
+guide_bone      = lights_bone							; guid bone name        (required)
+
+; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
