@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-![JOURNEY](./img/branding/journey.png)
+![JOURNEY Logo](./img/branding/journey.png)
 
 ## About The Guide
 
