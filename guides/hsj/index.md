@@ -11,3 +11,5 @@ These set of modifications will likely work for any list, but you might need to 
 
 - [Skyrim SE](./skyrimse)
 - [Fallout 4](./fallout4)
+
+- [The Hoarder Selection](./hoarder)
