@@ -40,8 +40,3 @@ This list will be built off the belief you're using one or the other.
 > Provides the ability to automatically collect items into a dedicated inventory or link a dedicated inventory to a workshop.
 
 **IT IS RECOMMENDED YOU TWEAK THIS TO NOT BE OVERPOWERED, AS THE DEFAULT SETTINGS WILL TRIVIALIZE CERTAIN ASPECTS OF THE GAME**
-
-Alex's Fallout 4 Overhaul - Crafting Only
-> My edit of Alex's Fallout 4 Overhaul to only have the crafting recipes from their mod.
-
-> **Unreleased, Working On Permissions.**
