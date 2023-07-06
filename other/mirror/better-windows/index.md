@@ -36,7 +36,7 @@ If you planning on gaming only on your device and nothing else then instead of L
 
 1. Install [AtlasOS](https://atlasos.net/)
 2. Install & Run [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), allows you to install graphics driver without the bloat.
-	1. For AMD use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) or follow this guide [Stripping The AMD Driver](https://rentry.co/AMDDebloat)
+	1. For AMD use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) or follow this guide [Stripping The AMD Driver](./amddebloat)
 That's all for this section, scroll down to the bottom for [Post Debloating](https://biblioklept.github.io/other/mirror/better-windows#post-debloating) and follow that if you want.
 
 # First Method (Reinstalling Windows)
