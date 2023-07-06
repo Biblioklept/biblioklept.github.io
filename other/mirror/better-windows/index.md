@@ -33,6 +33,7 @@ If you don't know how to use the certain tools listed (e.g NVCleaninstall, CTT D
 ## For Pro Gamers
 If you planning on gaming only on your device and nothing else then instead of LTSC, use AtlasOS a custom Windows ISO for gamers.
 >	AtlasOS prioritizes performance/response over convenience and ease of use. There will be many useful features or stuff removed. Best not use this as a Daily Driver OS.
+
 1. Install [AtlasOS](https://atlasos.net/)
 2. Install & Run [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), allows you to install graphics driver without the bloat.
 	1. For AMD use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) or follow this guide [Stripping The AMD Driver](https://rentry.co/AMDDebloat)
@@ -40,6 +41,7 @@ That's all for this section, scroll down to the bottom for [Post Debloating](htt
 
 # First Method (Reinstalling Windows)
 >	Recommended if you just bought a new PC/Laptop.
+
 1. Install [Windows LTSC](https://supreme-gamers.com/t/windows-10-ltsc-the-best-windows-10-version-ever.845/), LTSC is windows but without the major bloatware.
 	Download LTSC from [here](https://bobpony.com/downloads/) 
 	Set the options like so for the dropdowns: 
@@ -54,6 +56,7 @@ That's all for this section, scroll down to the bottom for [Post Debloating](htt
 
 # Second Method (Pre-Installed Windows)
 >	Recommended if you're using a existing PC/Laptop
+
 1. Run (as Admin) [CTT Debloat](https://www.christitus.com/debloat-windows-10-2020/)
 2. Install & Run [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), allows you to install graphics driver without the bloat.
 	1. For AMD use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) or follow this guide [Stripping The AMD Driver](./AMDDebloat)
