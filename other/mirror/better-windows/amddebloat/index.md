@@ -1,6 +1,6 @@
 [BACK](..)
 
-Stripping The AMD Driver - [Original Here](https://rentry.co/gaydia)
+Stripping The AMD Driver - [Original Here](https://rentry.co/AMDDebloat)
 
 !!! note Discord
     For Support and Discussion, join https://fmhy.divolt.xyz/
