@@ -4,7 +4,7 @@
 Modding PDTH with DAHM/DorHUD
 
 ### Installing DAHM Itself
-1. Download either the "full version" (**all submods**) or the "essential version" (**essential mods only**) - [Download here](https://steamcommunity.com/groups/dahm4pd/discussions/3/3810655600549061009/).
+1. Download either the "full version" (**all submods**) or the "essential version" (**essential mods only**) - [Download here](https://steamcommunity.com/groups/dahm4pd/discussions/3/3810655600549061009/#:~:text=redist.x86.exe-,latest%20version,-Download%201.16).
 2. Install it into your root PDTH folder.
 
 ### Editing Corpse Despawn
@@ -18,7 +18,7 @@ This is a dirty edit of an already existing file in the full version of DAHM's f
 - [Borderless Window Plugin for DorHUD](https://steamcommunity.com/app/24240/discussions/0/3765606580163061345/#c3765607014586473776)
 Install this into your `plugins` folder in your PDTH folder. If you don't have one, make one.
 - [Borderless Window Plugin for DorHUD - INI](./dl/pdthhook.ini)
-Install this into your PDTH root folder.
+Install this into your root PDTH folder.
 
 ### A Couple Other Neat Mods I Personally Use
 - [Character and Mask in Loadout Menu](https://modworkshop.net/mod/36360)
