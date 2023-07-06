@@ -1,6 +1,8 @@
 
 My Guides
 
+- [DAHM Modding Guide](./dahminstall)
+> A guide for installing mods into PAYDAY: The Heist (PDTH)
 - [G.A.M.M.A. Tedium Removal](./gammatediumremoval)
 > A simple "enable this, disable this" guide to remove G.A.M.M.A.'s tedium. Feels good to have fun again.
 - [G.A.M.M.A.'s BHS For Escape From Pripyat](./gammabhsforefp)
