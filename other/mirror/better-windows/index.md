@@ -4,7 +4,7 @@
 Better Windows - [Original Here](https://rentry.co/better-windows)
 
 # Better Windows
--> ![Windows](https://icon-library.com/images/windows-10-logo-icon/windows-10-logo-icon-16.jpg) <-
+![Windows](https://icon-library.com/images/windows-10-logo-icon/windows-10-logo-icon-16.jpg)
 
 Debloating Windows can free up wasted System resources and can improve performance in games and what not for low end PCs. But that doesn't mean high-end PCs won't get any benefits. Debloating will make Windows more Private since you remove and disable all the telemetry and what not that is constantly running sending data to Microsoft. Another benefit is less clutter and more customization, since debloating removes all Windows UWP apps (e.g Groove Music, Movie Editor, and etc.) this gives space to use way better alternatives and remove apps you never use. Overall, whether you have a low end or high end PC, its def worth debloating windows as it will make the experience using Windows smoother and better.
 
