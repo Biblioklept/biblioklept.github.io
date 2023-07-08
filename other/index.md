@@ -10,4 +10,3 @@ My Other Files
 Disables: Water shaders, shadows, and anisotropy.
 Adds: Animation support (with additional anims), QoL settings.
 There's more, but this is the major changes.
-- [Battlefield 2](https://mega.nz/file/mbxARDhT#Bn4d_N7vq3Wq95hk7pFMy6xvpm52cJmJWFSrR34U8OI)
