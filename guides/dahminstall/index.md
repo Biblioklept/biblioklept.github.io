@@ -35,3 +35,6 @@ Allows you to change your character and the mask in the loadout menu.
 Adds a detection meter to the stealth section of diamond heist. A la PAYDAY 2.
 - [No Mercy Helper](https://modworkshop.net/mod/34152)
 Adds ! waypoints above civilian's heads who are at risk of running for the alarm buttons.
+
+### DAHM's Discord Server
+[Here] is the discord server if you need any support **WITH DAHM ITSELF** or are interested in talking to the community there.
