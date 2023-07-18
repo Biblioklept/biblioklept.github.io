@@ -3,7 +3,7 @@
 
 My Fallout 4 Mods.
 
-### [Biblioklept Gameplay Edits](./dl/BibliokleptGameplayEdits.esp)
+### Biblioklept Gameplay Edits
 
 Small edits to Fallout 4 that remove some of my gripes from the game. These being: 
 - No XP Bump (200 to level up always.)
@@ -35,3 +35,5 @@ Small edits to Fallout 4 that remove some of my gripes from the game. These bein
 		> I didn't like the other models for the Automatic and Sniper barrels.
 
 If you don't like any of these edits, feel free to remove said edit in xEdit.
+
+[Download](./dl/BibliokleptGameplayEdits.esp)

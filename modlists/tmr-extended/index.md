@@ -10,7 +10,7 @@ A list of mods for The Midnight Ride that aim to improve the user experience fur
 1. Select the MO2 profiles button at the top of MO2 to open the profiles menu.
 2. Select the `The Midnight Ride` profile, then select Copy.
 3. Name the new profile `The Midnight Ride Extended`.
-4. Select the `The Midnight Ride Extended` profile and make sure Use profile-specific Game INI Files is Disabled at the bottom.
+4. Select the **The Midnight Ride Extended** profile and make sure Use profile-specific Game INI Files is Disabled at the bottom.
 
 > Make sure the The Midnight Ride Extended profile is active before proceeding.
 
@@ -33,7 +33,8 @@ Adds advanced BCR+TR functionality to the lever action rifle from Far Harbor.
 ### [Biblioklept Gameplay Edits](https://biblioklept.github.io/mods/fallout4/)
 
 ### Installation instructions:
-- Click on **Biblioklept Gameplay Edits**.
+- Go to **Biblioklept Gameplay Edits**.
+- Click on **Download**.
 - Right-click the empty space in the left pane of MO2 and select **Create empty mod**.
 - Name it `Biblioklept Gameplay Edits`
 - Move the ESP file into `Biblioklept Gameplay Edits`
