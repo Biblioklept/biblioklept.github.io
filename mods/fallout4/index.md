@@ -36,4 +36,5 @@ Small edits to Fallout 4 that remove some of my gripes from the game. These bein
 
 If you don't like any of these edits, feel free to remove said edit in xEdit.
 
-[Download](./dl/BibliokleptGameplayEdits.esp)
+[Download - Non-Tactical Reload Version](./dl/bge/notr/BibliokleptGameplayEdits.esp)
+[Download - Tactical Reload Version](./dl/bge/tr/BibliokleptGameplayEdits.esp)

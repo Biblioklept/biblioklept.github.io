@@ -34,7 +34,7 @@ Adds advanced BCR+TR functionality to the lever action rifle from Far Harbor.
 
 ### Installation instructions:
 - Go to **Biblioklept Gameplay Edits**.
-- Click on **Download**.
+- Click on **Download - Tactical Reload Version**.
 - Right-click the empty space in the left pane of MO2 and select **Create empty mod**.
 - Name it `Biblioklept Gameplay Edits`
 - Move the ESP file into `Biblioklept Gameplay Edits`
