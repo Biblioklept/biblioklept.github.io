@@ -30,16 +30,35 @@ Start a new game in less than 2 minutes from Main menu > Looks menu > SPECIAL me
 
 Adds advanced BCR+TR functionality to the lever action rifle from Far Harbor.
 
-### [Biblioklept Gameplay Edits](https://biblioklept.github.io/mods/fallout4/)
+### [Stick Mag For Submachine Gun](https://www.nexusmods.com/fallout4/mods/34516)
 
-### Installation instructions:
-- Go to **Biblioklept Gameplay Edits**.
-- Click on **Download - Tactical Reload Version**.
-- Right-click the empty space in the left pane of MO2 and select **Create empty mod**.
-- Name it `Biblioklept Gameplay Edits`
-- Move the ESP file into `Biblioklept Gameplay Edits`
+#### Installation instructions:
+- Main Files - Stick Mag for Submachine gun
+
+Adds two stick magazines to the vanilla Submachine gun along side custom animations for it.
+
+### [Handmade Rifle - Classic Wooden Stock](https://www.nexusmods.com/fallout4/mods/22889)
+
+#### Installation instructions:
+- Main Files - Handmade Rifle Wooden Stock
+
+Add a custom wooden stock from an AKM DeadPool2099 made a long time ago.
+
+### [Useful Crank - Laser Musket Doesn't Require Ammo](https://www.nexusmods.com/fallout4/mods/24349)
+
+#### Installation instructions:
+- Main Files - Useful Crank
+
+Makes the Laser Musket not require ammo, instead it charges up ammo using the hand crank.
 
 ## Visuals
+
+### [Scrap Metal and Makeshift Welds - A Pipe Gun Retexture](https://www.nexusmods.com/fallout4/mods/54933)
+
+#### Installation instructions:
+- Main Files - Makeshift Textures - 1K
+
+A full retexture for the Pipe Gun series, including the pipe revolver and the Syringer.
 
 ### [Grab the Damn Mag](https://www.nexusmods.com/fallout4/mods/17299)
 
@@ -99,7 +118,7 @@ Reanimation for the default plasma gun and weapons using same animation.
 - Main Files - Hunting Rifle Reanimation
 - Optional Files - Hunting Rifle Reanimation - TR Plugin
 
-Reanimation for the default 10mm pistol and weapons using same animation.
+Reanimation for the default hunting rifle and weapons using same animation.
 
 ### [Vanilla Reanimation Project - Pipe Guns](https://www.nexusmods.com/fallout4/mods/72961)
 
@@ -109,33 +128,14 @@ Reanimation for the default 10mm pistol and weapons using same animation.
 
 Reanimation for all the default pipe guns and weapons using same animations.
 
-## Content
-
-### Creating a Seperator in MO2
-1. Right-click the empty space in the left pane of MO2 and select **Create seperator**.
-2. Name the seperator **Weapons**
-
-### [Stick Mag For Submachine Gun](https://www.nexusmods.com/fallout4/mods/34516)
+### [Vanilla Reanimation Project - Combat Rifle (and Shotgun)](https://www.nexusmods.com/fallout4/mods/73284)
 
 #### Installation instructions:
-- Main Files - Stick Mag for Submachine gun
+- Main Files - Vanilla Reanimation - Combat Rifle (Shotgun)
+- Optional Files - Vanilla Reanimation - Combat Rifle (Shotgun) TR
 
-Adds two stick magazines to the vanilla Submachine gun along side custom animations for it.
-
-### [Handmade Rifle - Classic Wooden Stock](https://www.nexusmods.com/fallout4/mods/)
-
-#### Installation instructions:
-- Main Files - Handmade Rifle Wooden Stock
-
-Add a custom wooden stock from an AKM DeadPool2099 made a long time ago.
-
-### [Useful Crank - Laser Musket Doesn't Require Ammo](https://www.nexusmods.com/fallout4/mods/)
-
-#### Installation instructions:
-- Main Files - Useful Crank
-
-Makes the Laser Musket not require ammo, instead it charges up ammo using the hand crank.
+Reanimation for the default combat rifle (and shotgun) and weapons using same animation.
 
 ## Final Steps
 
-### [Load Order]()
+### [Load Order](./dl/plugins.txt)
