@@ -54,7 +54,7 @@ Follow through the guide up until *Essential Mods*, everything mod-related will 
 ### Converting the modlist - Content
 - Disable/remove Uncut Wasteland
 - Reinstall Functional Post Game Ending
-> Select the TTW Patch option and the 
+> Select the TTW Patch option and the Uncut Wasteland plus NPCs option
 - Disable/remove FPGE - JSUE
 - Disable/remove Essential DLC Enhancements Merged - JSUE Patch
 - Install [The Living Desert - TTW Patch](https://www.nexusmods.com/newvegas/mods/77945)
