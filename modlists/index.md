@@ -11,11 +11,11 @@ My Modlists
 > A list of mods for The Midnight Ride that aim to improve the user experience further with some more subjective mods. Essentially it removes my personal gripes from the game while adding minimal content.
 - [The Midnight Ride WARS](./tmr-wars)
 > A list of mods for The Midnight Ride to install the WARS mod (and some of its sub-mods) on top of it.
-- [JOURNEY](./journey/)
-> My attempt to do a rework of EXPEDITION, with a focus on being more vanilla+, modular, and slimming down the stuff I found unnecessary to the STALKER Anomaly experience.
 
 ### Still worked on, though not actively
 
+- [JOURNEY](./journey/)
+> My attempt to do a rework of EXPEDITION, with a focus on being more vanilla+, modular, and slimming down the stuff I found unnecessary to the STALKER Anomaly experience.
 - [COTOZ](./cotoz/)
 > My vanilla+ modpack for Call of The Zone (RIP DR.X), with the only new content really being a reduction of the hud and animations. My preferred way to play the game.
 
