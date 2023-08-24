@@ -14,28 +14,6 @@ A list of mods for The Midnight Ride that aim to improve the user experience fur
 
 > Make sure the The Midnight Ride WARS profile is active before proceeding.
 
-## Main Mod and Its Dependencies
-
-### [Better Rank 4 Scrounger](https://www.nexusmods.com/fallout4/mods/48642)
-- Main Files - Better Scrounger
-
-Adjusts the scrounger perk rank 4 to refund ammo on reload instead of when you fire the last bullet from the weapon's magazine.
-
-### [Settlement Menu Manager](https://www.nexusmods.com/fallout4/mods/24204)
-- Main Files - SettlementMenuManagerMainFile
-
-SMM provides an easy way to add custom menus and makes said menus automatically disappear on uninstall (without breaking your build menu!) 
-
-### [AmmoTweaks](https://github.com/isathar/F4_AmmoTweaks/releases/latest)
-- Main Files - F4_AmmoTweaks_vX.7z
-
-Ammo switching, additional ammo types, a weapon condition system, ammo/explosives crafting, and more.
-
-### [WARS - Weapon Addition and Replacement Suite](https://www.nexusmods.com/fallout4/mods/73478)
-- Main Files - WARS - Weapon Addition and Replacement Suite v101
-
-Weapon/combat overhaul. New weapons, ammo-swapping, physical mags system, weapon durability, detailed weapon and ammo manufacturing, and much more.
-
 ## Tweaks
 
 ### [SKK Fast Start New Game](https://www.nexusmods.com/fallout4/mods/29227)
@@ -51,6 +29,27 @@ Start a new game in less than 2 minutes from Main menu > Looks menu > SPECIAL me
 - Optional Files - BCR plus TR - Lever Action Rifle v1.00
 
 Adds advanced BCR+TR functionality to the lever action rifle from Far Harbor.
+
+### [Settlement Menu Manager](https://www.nexusmods.com/fallout4/mods/24204)
+- Main Files - SettlementMenuManagerMainFile
+
+SMM provides an easy way to add custom menus and makes said menus automatically disappear on uninstall (without breaking your build menu!) 
+
+### [Better Rank 4 Scrounger](https://www.nexusmods.com/fallout4/mods/48642)
+- Main Files - Better Scrounger
+- Disable the .esl file.
+
+Adjusts the scrounger perk rank 4 to refund ammo on reload instead of when you fire the last bullet from the weapon's magazine.
+
+## Gameplay
+
+### [AmmoTweaks](https://github.com/isathar/F4_AmmoTweaks/releases/latest)
+- Main Files - F4_AmmoTweaks_vX.7z
+- Disable all .esp files except for the Core file.
+
+Ammo switching, additional ammo types, a weapon condition system, ammo/explosives crafting, and more.
+
+## Visuals
 
 ### [Immersive Animation Framework](https://www.nexusmods.com/fallout4/mods/50555)
 
@@ -76,19 +75,19 @@ Adds a second reload for when the magazine is not empty.
 
 Patch repository for Tactical Reload.
 
+## WARS Mods
+
+### [WARS - Weapon Addition and Replacement Suite](https://www.nexusmods.com/fallout4/mods/73478)
+- Main Files - WARS - Weapon Addition and Replacement Suite v101
+
+Weapon/combat overhaul. New weapons, ammo-swapping, physical mags system, weapon durability, detailed weapon and ammo manufacturing, and much more.
+
 ### [The War Room - WARS Compatibility Patches](https://www.nexusmods.com/fallout4/mods/73533)
 
 #### Installation instructions:
 - Main Files - WARS - Tactical Reload Patch v1_0_1
 
 Patch repository for Tactical Reload.
-
-### [Useful Crank - Laser Musket Doesn't Require Ammo](https://www.nexusmods.com/fallout4/mods/)
-
-#### Installation instructions:
-- Main Files - Useful Crank
-
-Makes the Laser Musket not require ammo, instead it charges up ammo using the hand crank.
 
 ## Final Steps
 
