@@ -26,6 +26,7 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 2. [Clientsided Uppers](https://modworkshop.net/mod/29645)
 3. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
 4. [The Fixes](https://modworkshop.net/mod/23732)
+5. [Visual Fixes](https://modworkshop.net/mod/37161)
 
 ### Bug Fixes (Mod_Overrides)
 1. [Better Sleeves & Fixes](https://modworkshop.net/mod/34542)
