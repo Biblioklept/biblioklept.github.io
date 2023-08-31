@@ -23,6 +23,7 @@ Get Rid of Gamma's Tedium
 -148- Outfit Drop Chance - arti  
 -Momopate's Barrel Condition Effects Display  
 -G.A.M.M.A. Armors repair like WPO  
+-G.A.M.M.A. Disable WPO Overheat  
 -G.A.M.M.A. Helmets need armor repair kits  
 -G.A.M.M.A. Items Parts Fixes  
 -Trabopap's Field Strip Shows Parts Health  
