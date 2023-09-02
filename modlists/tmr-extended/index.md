@@ -30,6 +30,28 @@ Start a new game in less than 2 minutes from Main menu > Looks menu > SPECIAL me
 
 Adds advanced BCR+TR functionality to the lever action rifle from Far Harbor.
 
+### [Tactical Reload](https://www.nexusmods.com/fallout4/mods/49444)
+
+#### Installation instructions:
+- Main Files - Tactical Reload Framework
+- Optional Files - Tactical Reload DLC Weapons
+- Optional Files - Tactical Reload Vanilla Weapons
+
+Adds a second reload for when the magazine is not empty.
+
+### [Tactical Reload Patch Repository](https://www.nexusmods.com/fallout4/mods/52619)
+
+#### Installation instructions:
+- Main Files - Tactical Reload Patch Repository
+- You will be prompted with a FOMOD installer, click next until you are in a `Compatibility Patches` section and select **Compatibility Fix** for both `Tactical Reload Vanilla Weapons` and `Tactical Reload DLC Weapons`
+
+### [Immersive Animation Framework](https://www.nexusmods.com/fallout4/mods/50555)
+
+#### Installation instructions:
+- Main Files - Immersive Animation Framework
+
+A full set of immersive ingestible animations.
+
 ### [Hunting Shotgun](https://www.nexusmods.com/fallout4/mods/22516)
 
 #### Installation instructions:
@@ -51,7 +73,7 @@ This mod adds pump Hunting Shotgun, which is based on famous gun from Fallout: N
 
 Adds two stick magazines to the vanilla Submachine gun along side custom animations for it.
 
-### [Stick Mag For Submachine Gun](https://www.nexusmods.com/fallout4/mods/65704)
+### [Stick Mag For Submachine Gun - Tactical Reload Patch](https://www.nexusmods.com/fallout4/mods/65704)
 
 #### Installation instructions:
 - Main Files - Stick Mag for Submachine gun Tactical Reload
@@ -87,28 +109,6 @@ A full retexture for the Pipe Gun series, including the pipe revolver and the Sy
 - Main Files - Grab the Damn Mag
 
 Fixes animation clipping on a lot of modded weapons, specifically the ones that go sideways.
-
-### [Immersive Animation Framework](https://www.nexusmods.com/fallout4/mods/50555)
-
-#### Installation instructions:
-- Main Files - Immersive Animation Framework
-
-A full set of immersive ingestible animations.
-
-### [Tactical Reload](https://www.nexusmods.com/fallout4/mods/49444)
-
-#### Installation instructions:
-- Main Files - Tactical Reload Framework
-- Optional Files - Tactical Reload DLC Weapons
-- Optional Files - Tactical Reload Vanilla Weapons
-
-Adds a second reload for when the magazine is not empty.
-
-### [Tactical Reload Patch Repository](https://www.nexusmods.com/fallout4/mods/52619)
-
-#### Installation instructions:
-- Main Files - Tactical Reload Patch Repository
-- You will be prompted with a FOMOD installer, click next until you are in a `Compatibility Patches` section and select **Compatibility Fix** for both `Tactical Reload Vanilla Weapons` and `Tactical Reload DLC Weapons`
 
 Patch repository for Tactical Reload.
 
