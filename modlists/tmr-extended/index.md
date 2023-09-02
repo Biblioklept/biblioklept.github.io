@@ -30,12 +30,33 @@ Start a new game in less than 2 minutes from Main menu > Looks menu > SPECIAL me
 
 Adds advanced BCR+TR functionality to the lever action rifle from Far Harbor.
 
+### [Hunting Shotgun](https://www.nexusmods.com/fallout4/mods/22516)
+
+#### Installation instructions:
+- Main Files - Hunting Shotgun 2k
+
+This mod adds pump Hunting Shotgun, which is based on famous gun from Fallout: New Vegas.
+
+### [Hunting Shotgun - Tactical Bullet Counted Reload Patch](https://www.nexusmods.com/fallout4/mods/72206)
+
+#### Installation instructions:
+- Main Files - Hunting Shotgun - Tactical Bullet Counted Reload
+
+This mod adds pump Hunting Shotgun, which is based on famous gun from Fallout: New Vegas.
+
 ### [Stick Mag For Submachine Gun](https://www.nexusmods.com/fallout4/mods/34516)
 
 #### Installation instructions:
 - Main Files - Stick Mag for Submachine gun
 
 Adds two stick magazines to the vanilla Submachine gun along side custom animations for it.
+
+### [Stick Mag For Submachine Gun](https://www.nexusmods.com/fallout4/mods/65704)
+
+#### Installation instructions:
+- Main Files - Stick Mag for Submachine gun Tactical Reload
+
+Tactical Reload patch for Stick Mag for Submachine gun.
 
 ### [Handmade Rifle - Classic Wooden Stock](https://www.nexusmods.com/fallout4/mods/22889)
 
@@ -135,6 +156,42 @@ Reanimation for all the default pipe guns and weapons using same animations.
 - Optional Files - Vanilla Reanimation - Combat Rifle (Shotgun) TR
 
 Reanimation for the default combat rifle (and shotgun) and weapons using same animation.
+
+### [Double Action Revolver](https://www.nexusmods.com/fallout4/mods/32926)
+
+#### Installation instructions:
+- Main Files - WD_44_SA_V3
+
+New single action animations for the .44 pistol.
+
+### [Pistol Reanimation Pack REBORN](https://www.nexusmods.com/fallout4/mods/65468)
+
+#### Installation instructions:
+- Main Files - Pistol Reanimation Pack REBORN Hotfix 2
+
+Makes the Deliverer use the Shiny Haxorus' animation set from ajhakra's Glock 17-18 mod!
+
+### [Assault Rifle Reanimated](https://www.nexusmods.com/fallout4/mods/61012)
+
+#### Installation instructions:
+- Main Files - Main
+
+A new animation set for the quote "Assault Rifle". First and 3rd person.
+
+### [Laser Rifle Reanimation](https://www.nexusmods.com/fallout4/mods/62410)
+
+#### Installation instructions:
+- Main Files - Laser Reanimation
+- Update Files - Laser Reanimation Update 1.2
+
+Adds a new animation set for the laser rifle/pistol.
+
+### [Random Weapon Sound Replacers](https://www.nexusmods.com/fallout4/mods/63952)
+
+#### Installation instructions:
+- Optional Files - Random Weapon Sound Replacers - Vanilla Sound Replacers
+
+Replaces sounds with vanilla sounds.
 
 ## Final Steps
 
