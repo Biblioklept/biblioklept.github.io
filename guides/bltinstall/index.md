@@ -13,24 +13,29 @@ Modding PD2 with SuperBLT
 1. Download the latest release of [BeardLib](https://modworkshop.net/mod/14924).
 2. Extract the BeardLib folder into your `mods` folder.
 
+### Moving Forward
+- You are free to pick and choose whichever mods you wish to install. 
+- If you want a recommendation for the pure essentials, the T-PACK b-raw mod.txt install and the Bug Fixes section are all you need to run the game well. The rest of these mods are optimizations for lower end computers and small files to aid you in gameplay.
+- HUD mods are everywhere, and there's quite a few that don't work right. Please make sure if you use a hud mod to check if it's still updated.
+
 ### T-PACK
 T-PACK does a lot of things by itself, however, I've made my own mod.txt file to replace the one in the regular T-PACK to remove all the silly and gameplay altering mods. Here's how you install my modified T-PACK.
 1. Download and install [T-PACK](https://pd2mods.z77.fr/t-pack.html).
-2. Go to [my modified T-PACK mod.txt file](https://gist.github.com/Biblioklept/4db89e8ef03738c99b9c73bb64fa89fa) and click on **Raw**.
+2. Go to [my modified T-PACK mod.txt files](https://gist.github.com/Biblioklept/4db89e8ef03738c99b9c73bb64fa89fa) (choose whichever by description sounds more your style.) and click on **Raw**.
 3. Press **CTRL + S**
 4. Move the mod.txt file to your T-PACK mod folder and overwrite.
 5. Now launch your game and download all updates.
 
 ### Bug Fixes (Mods)
-1. [Clientsided Blankets](https://modworkshop.net/mod/32055)
-2. [Clientsided Uppers](https://modworkshop.net/mod/29645)
-3. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
-4. [The Fixes](https://modworkshop.net/mod/23732)
-5. [Visual Fixes](https://modworkshop.net/mod/37161)
+1. [The Fixes](https://modworkshop.net/mod/23732)
+2. [Clientsided Blankets](https://modworkshop.net/mod/32055)
+3. [Clientsided Uppers](https://modworkshop.net/mod/29645)
+4. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
 
 ### Bug Fixes (Mod_Overrides)
-1. [Better Sleeves & Fixes](https://modworkshop.net/mod/34542)
-2. [Restored Heister Sleeves](https://modworkshop.net/mod/33204)
+1. [Visual Fixes](https://modworkshop.net/mod/37161)
+2. [Better Sleeves & Fixes](https://modworkshop.net/mod/34542)
+3. [Restored Heister Sleeves](https://modworkshop.net/mod/33204)
 
 ### Performance (Mods)
 1. [CRIME.NET Performance Improvement Fixed](https://modworkshop.net/mod/42769)
@@ -62,7 +67,7 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 ### Aim Helpers (Mods)
 1. [Bag Carrying Tilt Removal](https://modworkshop.net/mod/16487)
 2. [No Additional ADS Movement](https://modworkshop.net/mod/32461)
-3. [No ADS Breathing Effect](https://modworkshop.net/mod/21246/)
+3. [No ADS Breathing Effect](https://modworkshop.net/mod/21246)
 4. [No Screen Shake 2.0](https://modworkshop.net/mod/34446)
 5. [Rats Blur Removal](https://modworkshop.net/mod/15368)
 6. [Reduced Headbob](https://modworkshop.net/mod/36376)
