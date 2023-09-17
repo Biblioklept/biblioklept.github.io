@@ -51,6 +51,30 @@ Follow through the guide up until *Essential Mods*, everything mod-related will 
 - Disable/remove Vanilla Enhancements Merged - JSawyer Ultimate Push Tweaks Patch
 - Disable/remove Navmesh Overhaul VNV Patch
 
+### Optional mods - Overhauls
+- Install [TTW Fix Famine Raven Rock](https://www.nexusmods.com/newvegas/mods/81011)
+	- Makes Raven Rock confiscated gear locker to be "No AI Acquire" for compatibility between TTW and Famine.
+- Install [Tweaks for TTW](https://www.nexusmods.com/newvegas/mods/77934)
+	- A very simple collection of miscellaneous tweaks to TTW. Read mod description for more information about tweaks.
+- Install [(Benny Humbles You) and Steals Your Stuff](https://www.nexusmods.com/newvegas/mods/71112)
+	- Benny takes all the player's gear when they enter the Mojave, locks it in a safe in the Tops Presidential Suite, and gives him the key.
+- Install [TTW Benny Humbles You Steals Your Stuff and Locks You Out of DC](https://www.nexusmods.com/newvegas/mods/81023)
+	- Locks New Vegas train station entrance with Benny's Tops Presidential Safe Key.
+- Install [TTW Reputations](https://www.nexusmods.com/newvegas/mods/68604)
+	- Adds a functional reputation system to Fallout 3 alike New Vegas.
+- Install [TTW New Vegas Speech Checks](https://www.nexusmods.com/newvegas/mods/68736)
+	- Converts all Fallout 3 dialogue to use the New Vegas speech system.
+- Install [TTW New Vegas Speech Checks - TTW Reputations Patch](https://www.nexusmods.com/newvegas/mods/68736)
+	- Patch.
+- Install [TTW Ain't That A Kick In The Head Fix](https://www.nexusmods.com/newvegas/mods/81048)
+	- Fixes some issues with TTW, Ain't That A Kick In The Head, and Hardcore Mode.
+- Install [TTW Ain't That A Kick In The Head Fix - (Benny Humbles You) and Steals Your Stuff Patch](https://www.nexusmods.com/newvegas/mods/81048)
+	- Patch.
+- Install [TTW - Anchorage Skip](https://www.nexusmods.com/newvegas/mods/77871)
+	- Adds a very hard terminal into the Gary room in the VSS outpost to bypass the Anchorage DLC.
+- Install [TTW - Bypass Tranquility Lane](https://www.nexusmods.com/newvegas/mods/81182)
+	- Allows you to skip Tranquility Lane without ever entering in a lore friendly manner.
+
 ### Converting the modlist - Content
 - Disable/remove Uncut Wasteland
 - Reinstall Functional Post Game Ending
