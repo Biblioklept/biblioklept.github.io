@@ -78,9 +78,48 @@ My current list of mods used are as follows:
 	- Starfrost - Injury Integration Addon
 	- Starfrost - Survival Spells Addon
 
-Starfrost DOES require [Survival Mode Improved - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/78244), so get that if you are using it.
+[Oblivion - An Atronach Forge Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/69513)
 
-### Items and Distribution
+A complete overhaul of Skyrim's Atronach Forge, designed to expand its functionality.
+
+[Darenii's Spell Packs](https://www.nexusmods.com/skyrimspecialedition/users/5073294?tab=user+files)
+
+	- Natura
+	- Natura - Spriggans
+	- Lunaris
+	- Abyss
+	- Bloodmoon
+	- Bloodmoon - Scion Perks for Vampires (SPID)
+	- Flames of Coldharbour
+	- Necrom
+	- Necrom - SimonRim - Black Book Companions Patch
+	- Stellaris
+	- Vulcano
+	- Arclight
+	- Desecration
+	- Arcane
+	- Nimbus - Aura Enchantments
+	- Plague - Poison Spells Mysticism Addon
+	- Inquisition
+	- Inquisition - Adamant Patch
+	- Inquisition for Vigilants of Stendarr (SPID)
+
+
+[Sorcerer Patches](https://www.nexusmods.com/skyrimspecialedition/mods/95212)
+
+	- Sorcerer - Abyss Patch
+	- Sorcerer - Arcane Patch
+	- Sorcerer - Arclight Patch
+	- Sorcerer - Bloodmoon Patch
+	- Sorcerer - Desecration Patch
+	- Sorcerer - Flames of Coldharbour Patch
+	- Sorcerer - Inquisition Patch
+	- Sorcerer - Lunaris Patch
+	- Sorcerer - Natura Patch
+	- Sorcerer - Necrom Patch
+	- Sorcerer - Stellaris Patch
+
+#### Items and Distribution
 
 [The Cause - Reduced Cut](https://www.nexusmods.com/skyrimspecialedition/mods/66676)
 
@@ -121,6 +160,10 @@ An all-encompassing integration and distribution mod that includes modules for a
 [Recipe Auto-Learn](https://www.nexusmods.com/skyrimspecialedition/mods/84909)
 
 Allows the player to automatically learn ingredient effects when reading recipes and corrects all recipes to show the correct ingredients.
+
+[Survival Mode Improved - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/78244)
+
+Rewritten Survival Mode.
 
 #### Combat
 
@@ -172,13 +215,21 @@ Replaces the greatsword animations that animations that also fit the vanilla ani
 
 Improve first person aiming with crossbows.
 
+[Simple Dual Sheath](https://www.nexusmods.com/skyrimspecialedition/mods/50049)
+
+Makes equipped left hand weapons and both staves visible on the player or NPCs.
+
 [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001)
 
 Display unequipped gear and custom items on the player or NPCs.
 
-[Simple Dual Sheath](https://www.nexusmods.com/skyrimspecialedition/mods/50049)
+[Open Animation Replacer - IED Conditions](https://www.nexusmods.com/skyrimspecialedition/mods/98308)
 
-Makes equipped left hand weapons and both staves visible on the player or NPCs.
+Adds new conditions to Open Animation Replacer for use with Immersive Equipment Displays and Simple Dual Sheath.
+
+[Weapon Styles - Draw-Sheathe animations for IED](https://www.nexusmods.com/skyrimspecialedition/mods/85085)
+
+Provides you with equip/unequip animations to be used with Immersive Equipment Displays.
 
 [Believable Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/37737)
 
