@@ -6,6 +6,7 @@ Get Rid of Gamma's Tedium
 ### Table of Contents
 `- = Disable`  
 `+ = Enable`
+`#/B = Move to that priority/bottom (overwrite all)`
 
 ### Economy
 ```
@@ -35,6 +36,14 @@ Get Rid of Gamma's Tedium
 -111- Immersive Sleep - tkcrits  
 -112- FDDA Immersive Sleep Patch - Feel_fried  
 -G.A.M.M.A. Sleep Balance
+```
+
+### Remove Body Health System
+
+```
+-184- Body Health System - Grokitach  
+-G.A.M.M.A. Minimalist HUD  
+B - 168- Alternative icons - Strogglet15
 ```
 
 ### Other Tweaks
