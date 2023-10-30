@@ -19,21 +19,28 @@ Many think this deck is weak, but it is actually a great support deck and benefi
 - Revert Improved Combined Tactical Vest - Remove all skills in Tank tree except for: Resilience (Aced + Basic) and Bullseye (Basic). Equip Heavy Ballistic Vest.
 - Revert Drill Skills - Remove Drill Sawgent (Aced + Basic)
 - Change Deployable to Doctor Bag - Change Quick Fixed (Aced + Basic) and Uppers (Aced + Basic) to Painkillers (Aced + Basic) and Combat Doctor (Aced + Basic). Equip Doctor Bag.
-- Change Deployable to Ammo Bag (Primary) + Doctor Bag (Secondary) - Remove all skills in Medic tree except for: Combat Medic (Basic). Add Bulletstorm (Aced + Basic), Extra Lead (Aced + Basic) and Fully Loaded (Basic) skills in Ammo Specialist tree. Optionally, add Portable Saw (Aced + Basic) and equip OVE9000 Portable Saw in secondary.
+- Change Deployable to Ammo Bag (Primary) + (optionally) Doctor Bag (Secondary) - Remove all skills in Medic tree except for: Combat Medic (Basic). Add Bulletstorm (Aced + Basic), Extra Lead (Aced + Basic) and Fully Loaded (Basic) skills in Ammo Specialist tree. Optionally, add Portable Saw (Aced + Basic) and equip OVE9000 Portable Saw in secondary. Lastly, add Third Law (Basic), Eco Sentry (Basic) and Jack of All Trades (Aced + Basic). Equip Ammo Bag primary and Doctor Bag secondary.
 
 ### [Muscle](https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=1&a=3)
 
+Muscle fills Stoic's role of tank with passive health regen instead of an active item and more health. This health increase is increased by Hostage Taker (Aced + Basic) increasing the regen to 9.5% of your total health every 5 seconds.
+
 ### [Armorer](https://pd2builder.netlify.app/?s=0-410008N100010-51010-4100&p=2&a=6)
+
+Armorer is the definition of tank. Incredible armor values with Improved Combined Tactical Vest, with 2 second god mode when it breaks. Definitely a more passive tank but still incredibly effective.
 
 ### [Rogue](https://pd2builder.netlify.app/?s=003I100081100010-6110-4100&p=3&a=0)
 
+Rogue is the passive dodge deck, providing more dodge at a relatively static value. While it's not the most dodge, it's incredibly easy to get into and its chance to pierce armor makes it still pretty useful
+for point economy. Without any extra flat dodge increases, the dodge of this build goes to 50.
+
 - [More Dodge - V1 Setup](https://pd2builder.netlify.app/?s=003I100081100010-5w710-4100&p=3&a=0)
 
-Allows for more concealment on weapons, movement speed, and reloading while sprinting (both good and bad).
+Allows for more concealment on weapons, movement speed, and reloading while sprinting (both good and bad, as while you can maintain pressure and speed, it's much more slow to reload cancel).
 
 - [More Dodge - V2 Setup](https://pd2builder.netlify.app/?s=003I100081100010-5Eh10-4100&p=3&a=0)
 
-Gives chance to backfire tasers and gives staggers who shoot you initially (and for 6 seconds post-armor recovery).
+Gives chance to backfire tasers and gives staggers who shoot you initially (and for 6 seconds post-armor recovery), generally better than V1 unless you need the concealment.
 
 ### [Hitman]()
 
