@@ -24,6 +24,8 @@ Allows for more concealment on weapons, movement speed, and reloading while spri
 https://pd2builder.netlify.app/?s=003I100081100010-5Eh10-4100&p=3&a=0	Rogue More Dodge - V2 Setup
 Gives chance to backfire tasers and gives staggers who shoot you initially (and for 6 seconds post-armor recovery).
 
+https://pd2builder.netlify.app/?s=0-4100081100010-55g01000158&p=b&a=0&t=6	Yakuza
+
 https://pd2builder.netlify.app/?s=0038100081100010-51010-4100&p=e&a=0	Anarchist
 
 https://pd2builder.netlify.app/?s=0038100081100010-51010-4158&p=e&a=0&t=6	Anarchist Zerk Setup
