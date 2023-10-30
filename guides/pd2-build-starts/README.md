@@ -49,7 +49,9 @@ Gives chance to backfire tasers and gives staggers who shoot you initially (and 
 
 ### [Grinder]()
 
-### [Yakuza]()
+### [Yakuza](https://pd2builder.netlify.app/?s=0-4100081100010-55g01000158&p=b&a=0&t=6)
+
+Yakuza's a weird deck, and I ended up deciding to prioritize speed, second chances after your armor breaks, and berzerker (as you'll be doing that anyways). Definitely a difficult perk deck to play but that's a part of the charm of the deck. 
 
 ### [Ex-President]()
 
