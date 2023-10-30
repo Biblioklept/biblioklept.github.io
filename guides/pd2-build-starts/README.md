@@ -23,8 +23,6 @@ Many think this deck is weak, but it is actually a great support deck and benefi
 
 ### [Muscle](https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=1&a=3)
 
-Equivalent to Stoic.
-
 ### [Armorer](https://pd2builder.netlify.app/?s=0-410008N100010-51010-4100&p=2&a=6)
 
 ### [Rogue](https://pd2builder.netlify.app/?s=003I100081100010-6110-4100&p=3&a=0)
@@ -67,9 +65,7 @@ Gives chance to backfire tasers and gives staggers who shoot you initially (and 
 
 ### [Sicario]()
 
-### [Stoic](https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=i&a=3)
-
-Equivalent to Muscle.
+### [Stoic](https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=i&a=3&t=c)
 
 ### [Tag Team]()
 
@@ -82,3 +78,5 @@ Equivalent to Muscle.
 ### [BuilDB File](./dl/buildb_builds.txt)
 
 For those who don't have it, BuilDB is [here](https://pd2mods.z77.fr/buildb.html).
+
+Install in `mods/saves/`. Replace if asked.

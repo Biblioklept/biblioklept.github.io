@@ -1,0 +1,31 @@
+# Keep the UTF-8 encoding of this file or some characters may not appear correctly in the game!
+# Only lines matching the format "URL + 1 tabulation + build title"
+# will be listed in the import menu.
+
+# https://pd2builder.netlify.app/	Build
+
+https://pd2builder.netlify.app/?s=0-4100081100010-51010-4100	Baseline
+
+https://pd2builder.netlify.app/?s=1Q3I1000sz1000120-41010-4100&p=0&a=6&d=5	Crew Chief
+Revert Improved Combined Tactical Vest - Remove all skills in Tank tree except for: Resilience (Aced + Basic) and Bullseye (Basic). Equip Heavy Ballistic Vest.
+Revert Drill Skills - Remove Drill Sawgent (Aced + Basic)
+Change Deployable to Doctor Bag - Change Quick Fixed (Aced + Basic) and Uppers (Aced + Basic) to Painkillers (Aced + Basic) and Combat Doctor (Aced + Basic). Equip Doctor Bag.
+Change Deployable to Ammo Bag (Primary) + Doctor Bag (Secondary) - Remove all skills in Medic tree except for: Combat Medic (Basic). Add Bulletstorm (Aced + Basic), Extra Lead (Aced + Basic) and Fully Loaded (Basic) skills in Ammo Specialist tree. Optionally, add Portable Saw (Aced + Basic) and equip OVE9000 Portable Saw in secondary.
+
+https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=1&a=3	Muscle
+
+https://pd2builder.netlify.app/?s=0-410008N100010-51010-4100&p=2&a=6	Armorer
+
+https://pd2builder.netlify.app/?s=003I100081100010-6110-4100&p=3&a=0	Rogue
+
+https://pd2builder.netlify.app/?s=003I100081100010-5w710-4100&p=3&a=0	Rogue More Dodge - V1 Setup
+Allows for more concealment on weapons, movement speed, and reloading while sprinting (both good and bad).
+
+https://pd2builder.netlify.app/?s=003I100081100010-5Eh10-4100&p=3&a=0	Rogue More Dodge - V2 Setup
+Gives chance to backfire tasers and gives staggers who shoot you initially (and for 6 seconds post-armor recovery).
+
+https://pd2builder.netlify.app/?s=0038100081100010-51010-4100&p=e&a=0	Anarchist
+
+https://pd2builder.netlify.app/?s=0038100081100010-51010-4158&p=e&a=0&t=6	Anarchist Zerk Setup
+
+https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=i&a=3&t=c	Stoic
