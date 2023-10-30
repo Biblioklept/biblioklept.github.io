@@ -5,6 +5,8 @@ My Guides
 > A guide for installing mods into PAYDAY The Heist (PDTH).
 - [(Super)BLT Modding Guide](./bltinstall)
 > A guide for installing mods into PAYDAY 2 (PD2).
+- [PAYDAY 2 Build Guides (WIP)](./pd2-build-starts)
+> Links to build starts for PAYDAY 2 perk decks.
 - [G.A.M.M.A. Tedium Removal](./gammatediumremoval)
 > A simple "enable this, disable this" guide to remove G.A.M.M.A.'s tedium. Feels good to have fun again.
 - [G.A.M.M.A.'s BHS For Escape From Pripyat](./gammabhsforefp)
