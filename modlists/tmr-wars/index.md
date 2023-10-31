@@ -35,11 +35,10 @@ Adds advanced BCR+TR functionality to the lever action rifle from Far Harbor.
 
 SMM provides an easy way to add custom menus and makes said menus automatically disappear on uninstall (without breaking your build menu!) 
 
-### [Better Rank 4 Scrounger](https://www.nexusmods.com/fallout4/mods/48642)
-- Main Files - Better Scrounger
-- Disable the .esl file.
+### [Lighthouse Papyrus Extender](https://www.nexusmods.com/fallout4/mods/71420)
+- Main Files - Lighthouse Papyrus Extender
 
-Adjusts the scrounger perk rank 4 to refund ammo on reload instead of when you fire the last bullet from the weapon's magazine.
+WARS uses functions added by Lighthouse to (among other things) make the Physical Mags system possible.
 
 ## Gameplay
 
@@ -78,14 +77,14 @@ Patch repository for Tactical Reload.
 ## WARS Mods
 
 ### [WARS - Weapon Addition and Replacement Suite](https://www.nexusmods.com/fallout4/mods/73478)
-- Main Files - WARS - Weapon Addition and Replacement Suite v101
+- Main Files - WARS - Weapon Addition and Replacement Suite v103
 
 Weapon/combat overhaul. New weapons, ammo-swapping, physical mags system, weapon durability, detailed weapon and ammo manufacturing, and much more.
 
 ### [The War Room - WARS Compatibility Patches](https://www.nexusmods.com/fallout4/mods/73533)
 
 #### Installation instructions:
-- Main Files - WARS - Tactical Reload Patch v1_0_1
+- Main Files - WARS - Tactical Reload Patch v1_0_3
 
 Patch repository for Tactical Reload.
 
