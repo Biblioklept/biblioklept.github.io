@@ -94,9 +94,10 @@ User Interface mods are usually highly subjective in the feel and what you're lo
 2. [Health Flash Fix V2](https://modworkshop.net/mod/39838)
 3. [Void UI Scoreboard Standalone](https://modworkshop.net/mod/30948)
 4. [Extra Heist Info](https://modworkshop.net/mod/31915)
-5. [Quiet Main Menu](https://modworkshop.net/mod/38037)
-6. [Shuffle Play](https://modworkshop.net/mod/37959)
-7. [My Personal Saves (settings) Folder For The Above Mods](./dl/saves/saves.7z)
+5. [Better Crew Management](https://modworkshop.net/mod/30505)
+6. [Quiet Main Menu](https://modworkshop.net/mod/38037)
+7. [Shuffle Play](https://modworkshop.net/mod/37959)
+8. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves/saves.7z)
 
 ### User Interface (Mod_Overrides)
 1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
