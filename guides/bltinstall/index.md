@@ -16,7 +16,7 @@ Modding PD2 with SuperBLT
 ### Moving Forward
 - You are free to pick and choose whichever mods you wish to install. 
 - If you want a recommendation for the pure essentials, the T-PACK b-raw mod.txt install and the Bug Fixes section are all you need to run the game well. The rest of these mods are optimizations for lower end computers and small files to aid you in gameplay.
-- HUD mods are everywhere, and there's quite a few that don't work right. Please make sure if you use a hud mod to check if it's still updated.
+- HUD mods are everywhere, and there's quite a few that don't work right. Please make sure if you use a hud mod to check if it's still updated. There is a User Interface section at the end with my personal selection of HUD mods.
 
 ### T-PACK
 T-PACK does a lot of things by itself, however, I've made my own mod.txt file to replace the one in the regular T-PACK to remove all the silly and gameplay altering mods. Here's how you install my modified T-PACK.
@@ -27,10 +27,13 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 5. Now launch your game and download all updates.
 
 ### Bug Fixes (Mods)
+General bug fixes with the game that I would consider essential.
+
 1. [The Fixes](https://modworkshop.net/mod/23732)
 2. [Clientsided Blankets](https://modworkshop.net/mod/32055)
 3. [Clientsided Uppers](https://modworkshop.net/mod/29645)
 4. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
+5. [Improved Single Fire Input](https://modworkshop.net/mod/40710)
 
 ### Bug Fixes (Mod_Overrides)
 1. [Visual Fixes](https://modworkshop.net/mod/37161)
@@ -38,6 +41,8 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 3. [Restored Heister Sleeves](https://modworkshop.net/mod/33204)
 
 ### Performance (Mods)
+Mods to improve the performance of the game.
+
 1. [CRIME.NET Performance Improvement Fixed](https://modworkshop.net/mod/42769)
 2. [Disable Fog](https://modworkshop.net/mod/32328)
 3. [Fading Ammo Box Contours](https://modworkshop.net/mod/37310)
@@ -65,6 +70,8 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 14. [Remove smoke from main menu](https://modworkshop.net/mod/25372)
 
 ### Aim Helpers (Mods)
+Mods dedicated to removing/reducing aspects of the game that can mess with aiming. Things such as camera effects, overlays, etc.
+
 1. [Bag Carrying Tilt Removal](https://modworkshop.net/mod/16487)
 2. [No Additional ADS Movement](https://modworkshop.net/mod/32461)
 3. [No ADS Breathing Effect](https://modworkshop.net/mod/21246)
@@ -81,7 +88,7 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 5. [No Dirt Camera](https://modworkshop.net/mod/833)
 
 ### User Interface (Mods)
-User Interface mods are usually highly subjective in the feel and what you're looking for, so for the purpose of this guide, I'll recommend using my personal setup of lightweight and Vanilla-esque UI mods.
+User Interface mods are usually highly subjective in the feel and what you're looking for, so for the purpose of this guide, I'll recommend using my personal setup of lightweight and vanilla-esque UI mods.
 
 1. [Health and Armor As Numbers Standalone](https://modworkshop.net/mod/30159)
 2. [Health Flash Fix V2](https://modworkshop.net/mod/39838)
@@ -92,6 +99,5 @@ User Interface mods are usually highly subjective in the feel and what you're lo
 7. [My Personal Saves (settings) Folder For The Above Mods](./dl/saves/saves.7z)
 
 ### User Interface (Mod_Overrides)
-
 1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
 2. [Meta Melees Highlighted](https://modworkshop.net/mod/23043)
