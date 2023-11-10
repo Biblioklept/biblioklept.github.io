@@ -79,3 +79,19 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 3. [Clear Sights](https://modworkshop.net/mod/20896)
 4. [Clear Sights Extras](https://modworkshop.net/mod/27788)
 5. [No Dirt Camera](https://modworkshop.net/mod/833)
+
+### User Interface (Mods)
+User Interface mods are usually highly subjective in the feel and what you're looking for, so for the purpose of this guide, I'll recommend using my personal setup of lightweight and Vanilla-esque UI mods.
+
+1. [Health and Armor As Numbers Standalone](https://modworkshop.net/mod/30159)
+2. [Health Flash Fix V2](https://modworkshop.net/mod/39838)
+3. [Void UI Scoreboard Standalone](https://modworkshop.net/mod/30948)
+4. [Extra Heist Info](https://modworkshop.net/mod/31915)
+5. [Quiet Main Menu](https://modworkshop.net/mod/38037)
+6. [Shuffle Play](https://modworkshop.net/mod/37959)
+7. [My Personal Saves (settings) Folder For The Above Mods](./dl/saves/saves.7z)
+
+### User Interface (Mod_Overrides)
+
+1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
+2. [Meta Melees Highlighted](https://modworkshop.net/mod/23043)
