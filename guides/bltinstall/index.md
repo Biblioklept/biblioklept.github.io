@@ -76,9 +76,12 @@ Mods dedicated to removing/reducing aspects of the game that can mess with aimin
 2. [No Additional ADS Movement](https://modworkshop.net/mod/32461)
 3. [No ADS Breathing Effect](https://modworkshop.net/mod/21246)
 4. [No Screen Shake 2.0](https://modworkshop.net/mod/34446)
-5. [Rats Blur Removal](https://modworkshop.net/mod/15368)
-6. [Reduced Headbob](https://modworkshop.net/mod/36376)
-7. [Reticle Size Fix BLT](https://modworkshop.net/mod/29162)
+5. [Adjustable Weapon Sway](https://modworkshop.net/mod/33179)
+6. [Rats Blur Removal](https://modworkshop.net/mod/15368)
+7. [Reduced Headbob](https://modworkshop.net/mod/36376)
+8. [Reticle Size Fix](https://modworkshop.net/mod/29162)
+> Note: You need to move the Reticle Size Fix modoverride folder to your mod_overrides folder.
+9. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-aim.7z)
 
 ### Aim Helpers (Mod_Overrides)
 1. [Bloody Screen Effect Removal](https://modworkshop.net/mod/32280)
@@ -97,7 +100,7 @@ User Interface mods are usually highly subjective in the feel and what you're lo
 5. [Better Crew Management](https://modworkshop.net/mod/30505)
 6. [Quiet Main Menu](https://modworkshop.net/mod/38037)
 7. [Shuffle Play](https://modworkshop.net/mod/37959)
-8. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves/saves.7z)
+8. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-hud.7z)
 
 ### User Interface (Mod_Overrides)
 1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
