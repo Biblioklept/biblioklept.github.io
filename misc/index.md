@@ -1,8 +1,6 @@
 
-My Other Files
+My Miscellaneous Files
 
-- [Mirrors](./mirror/)
-> Mirrors of websites or guides just incase they go down (for whatever reason)
 - [Cheat Fallout File](./dl/fallout/cheat)
 > Sets all your S.P.E.C.I.A.L. stats to 10 and also adds Scrapper perks if you're in Fallout 4 (vanilla IDs). Works with Fallout 3, New Vegas, and 4.
 - [OpenMW Settings Config File](./dl/openmw/settings.cfg)
