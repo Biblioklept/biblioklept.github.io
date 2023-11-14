@@ -34,16 +34,20 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay the
 	- Main Files - FNV Clean Animations - Assault Carbine Redux
 10. [FNV Clean Animations - Grenade Rifle Redux](https://www.nexusmods.com/newvegas/mods/83503)
 	- Main Files - FNV Clean Animations - Grenade Rifle Redux
-11. [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
+11. [FNV Clean Animations - FNV Clean Animations - 12.7mm Pistol](https://www.nexusmods.com/newvegas/mods/83683)
+	- Main Files - FNV Clean Animations - 12.7mm Pistol (1.0.1)
+12. [FNV Clean Animations - Grenades Pack](https://www.nexusmods.com/newvegas/mods/83735)
+	- Main Files - FNV Clean Animations - Grenades Pack
+13. [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
 	- Main Files - Iron Sights Aligned
 		- Select whichever weapon meshes you use in Weapon Meshes
 		- Select FNV Clean Animations in Base Animations
 		- Select Rockbiter's kNVSE Animations in kNVSE Animations
 		- Select Yukichigai's Unofficial Patch in Additional Patches
-12. [Butcher Pete Complete - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/79146)
+14. [Butcher Pete Complete - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/79146)
 	- Main Files - 2. Butcher Pete Complete - A Melee Animation Overhaul (No Locomotion)
 	- Optional Files - Restored Dress Cane and Cattle Prod Animations
-13. [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
+15. [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
 	- Main Files - 2. Wasteland Warrior - A Melee Animation Overhaul (No Locomotion)
 	- Update Files - Update 1.0.1
 

@@ -68,6 +68,14 @@ Yakuza's a weird deck, and I ended up deciding to prioritize speed, second chanc
 
 - [For Zerk Setup](https://pd2builder.netlify.app/?s=0038100081100010-51010-4158&p=e&a=0&t=6)
 
+Click For Videos
+
+[![Regular Zerk Molotov Setup](http://img.youtube.com/vi/FzeXBF5M52c/0.jpg)](http://www.youtube.com/watch?v=FzeXBF5M52c "Payday 2 - ZERK Molotov setup")
+
+- [For 205 Zerk Setup](https://pd2builder.netlify.app/?s=00381000Eh100010-51010-4158&p=e&a=0&t=6)
+
+[![205 Zerk Molotov Setup](http://img.youtube.com/vi/cxWgv_Tsj48/0.jpg)](http://www.youtube.com/watch?v=cxWgv_Tsj48 "Perfect 99% Zerk Anarchist")
+
 ### [Biker]()
 
 ### [Kingpin]()
