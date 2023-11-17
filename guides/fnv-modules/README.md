@@ -7,9 +7,26 @@ Fallout: New Vegas Modding Modules
 
 For this guide there will be a baseline install of Viva New Vegas *Basic*, which you can find [here](https://vivanewvegas.moddinglinked.com/)
 
-### Combat
+### Modern Gameplay
 
-An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay the same (no JAM).
+An overhaul of how the game actually plays.
+
+1. [JAM - Just Assorted Mods](https://www.nexusmods.com/newvegas/mods/66666)
+	- Main Files - Just Assorted Mods
+2. [Just Sprint Plus - Expansion for JAM and JVS](https://www.nexusmods.com/newvegas/mods/83797)
+	- Main Files - Just Sprint Plus - Expansion for JAM and JVS
+3. [NPCs Sprint kNVSE - ESPless](https://www.nexusmods.com/newvegas/mods/83745)
+	- Main Files - NPCs Sprint kNVSE - ESPless
+4. [Bullet Time Improved - a JAM addon](https://www.nexusmods.com/newvegas/mods/78324)
+	- Main Files - JBT Improved 1.01
+5. [Immersive Recoil 2.0](https://www.nexusmods.com/newvegas/mods/61973)
+	- Main Files - Immersive Recoil 2.4.1
+6. [Immersive Recoil NPC](https://www.nexusmods.com/newvegas/mods/69971)
+	- Main Files - Immersive Recoil NPC 1.4.1
+
+### Combat Animations
+
+An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (roughly) the same (no JAM).
 
 1. [B42 Optics](https://www.nexusmods.com/newvegas/mods/81641)
 	- Main Files - B42 Optics
@@ -50,6 +67,22 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay the
 15. [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
 	- Main Files - 2. Wasteland Warrior - A Melee Animation Overhaul (No Locomotion)
 	- Update Files - Update 1.0.1
+16. [Unarmed Animations](https://www.nexusmods.com/newvegas/mods/75909)
+	- Main Files - Unarmed Animations 1.00
+
+### Movement Animations
+1. [360 Movement](https://www.nexusmods.com/newvegas/mods/71940)
+	- Main Files - 360 Movement
+2. [3rd Person Movement Animations Overhaul (and Bugfix)](https://www.nexusmods.com/newvegas/mods/80699)
+	- Main Files - SIGMA - 3rd person animations
+3. [360 Movement Patch for 3rd Person Movement Animations Overhaul](https://www.nexusmods.com/newvegas/mods/80812)
+	- Main Files - 360 Patch
+4. [Faster Melee Recoil Animations](https://www.nexusmods.com/newvegas/mods/83694)
+	- Main Files - Vanilla Melee Faster Recoil Animations
+	- Optional Files - Johnsonn Unarmed Faster Recoil Animations (If using Combat Animations section)
+	- Optional Files - Rock Melee Faster Recoil Animations (If using Combat Animations section)
+5. [Modern Stagger Animations](https://www.nexusmods.com/newvegas/mods/80456)
+	- Main Files - Modern Stagger
 
 ### Inject And Interact
 
