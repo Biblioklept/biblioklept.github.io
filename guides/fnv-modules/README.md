@@ -94,10 +94,12 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 	- Main Files - Hit - B42 Inject Anim Pack - Season 1
 4. [B42 Inject - Random Stimpak Animation](https://www.nexusmods.com/newvegas/mods/80705)
 	- Main Files - Random Stimpak
-5. [B42 Interact - Animated Items and Interactions Framework](https://www.nexusmods.com/newvegas/mods/83119)
+5. [Hit - B42 Inject - Water Animations](https://www.nexusmods.com/newvegas/mods/83812)
+	- Main Files - Hit - B42 Inject - Water Anims
+6. [B42 Interact - Animated Items and Interactions Framework](https://www.nexusmods.com/newvegas/mods/83119)
 	- Main Files - B42 Interact
-6. [Hit - B42 Interact Animation Pack](https://www.nexusmods.com/newvegas/mods/83096)
+7. [Hit - B42 Interact Animation Pack](https://www.nexusmods.com/newvegas/mods/83096)
 	- Main Files - Hit - B42 Interact Animation Pack
-7. [Hit - B42 Interact Skinning](https://www.nexusmods.com/newvegas/mods/83161)
+8. [Hit - B42 Interact Skinning](https://www.nexusmods.com/newvegas/mods/83161)
 	- Main Files - Hit - B42 Interact Skinning
 	- Optional Files - Hit - B42 Interact Skinning - Human Addon
