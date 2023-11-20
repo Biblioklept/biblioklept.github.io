@@ -5,6 +5,7 @@
 # https://pd2builder.netlify.app/	Build
 
 https://pd2builder.netlify.app/?s=0-4100081100010-51010-4100	Baseline
+Remove Hardware Expert and Nine Lives for 5 points.
 
 https://pd2builder.netlify.app/?s=1Q3I1000sz1000120-41010-4100&p=0&a=6&d=5	Crew Chief
 Revert Improved Combined Tactical Vest - Remove all skills in Tank tree except for: Resilience (Aced + Basic) and Bullseye (Basic). Equip Heavy Ballistic Vest.
@@ -24,10 +25,15 @@ Allows for more concealment on weapons, movement speed, and reloading while spri
 https://pd2builder.netlify.app/?s=003I100081100010-5Eh10-4100&p=3&a=0	Rogue More Dodge - V2 Setup
 Gives chance to backfire tasers and gives staggers who shoot you initially (and for 6 seconds post-armor recovery).
 
+https://pd2builder.netlify.app/?s=0-4100081100010-51010-4100&p=a&a=0	Grinder
+Use gas grenades on grenade launchers and shoot spawn points, don't over extend.
+
 https://pd2builder.netlify.app/?s=0-4100081100010-55g01000158&p=b&a=0&t=6	Yakuza
 
 https://pd2builder.netlify.app/?s=0038100081100010-51010-4100&p=e&a=0	Anarchist
 
 https://pd2builder.netlify.app/?s=0038100081100010-51010-4158&p=e&a=0&t=6	Anarchist Zerk Setup
+
+https://pd2builder.netlify.app/?s=00381000Eh100010-51010-4158&p=e&a=0&t=6	Anarchist 205 Zerk Setup
 
 https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=i&a=3&t=c	Stoic

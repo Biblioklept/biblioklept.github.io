@@ -23,7 +23,7 @@ Many think this deck is weak, but it is actually a great support deck and benefi
 
 ### [Muscle](https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=1&a=3)
 
-Muscle fills Stoic's role of tank with passive health regen instead of an active item and more health. This health increase is increased by Hostage Taker (Aced + Basic) increasing the regen to 9.5% of your total health every 5 seconds.
+Muscle fills Stoic's role of tank with passive health regen instead of an active item and more health. This health regeneration is increased by Hostage Taker (Aced + Basic) increasing the regen to 9.5% of your total health every 5 seconds.
 
 ### [Armorer](https://pd2builder.netlify.app/?s=0-410008N100010-51010-4100&p=2&a=6)
 
@@ -44,7 +44,9 @@ Gives chance to backfire tasers and gives staggers who shoot you initially (and 
 
 ### [Hitman]()
 
-### [Crook]()
+### [Crook](https://pd2builder.netlify.app/?s=0-41000U5100010-6110-4100&p=5&a=3)
+
+Crook is a mix of armor and dodge. Good for if you can't decide which playstyle to dedicate yourself to, however it might take some getting used to.
 
 ### [Burglar]()
 
@@ -54,11 +56,13 @@ Gives chance to backfire tasers and gives staggers who shoot you initially (and 
 
 ### [Gambler]()
 
-### [Grinder]()
+### [Grinder](https://pd2builder.netlify.app/?s=0-4100081100010-51010-4100&p=a&a=0)
+
+Grinder is one of the most friendly decks to play if you're new to the game and don't really know where to start. Use gas grenades on grenade launchers and shoot spawn points and you should be good, just don't over extend.
 
 ### [Yakuza](https://pd2builder.netlify.app/?s=0-4100081100010-55g01000158&p=b&a=0&t=6)
 
-Yakuza's a weird deck, and I ended up deciding to prioritize speed, second chances after your armor breaks, and berzerker (as you'll be doing that anyways). Definitely a difficult perk deck to play but that's a part of the charm of the deck. 
+Yakuza's a weird deck, as such I ended up deciding to prioritize speed, second chances after your armor breaks, and berzerker (as you'll be doing that anyways). Definitely a difficult perk deck to play but that's a part of the charm of the deck. 
 
 ### [Ex-President]()
 
@@ -82,7 +86,9 @@ Click For Videos
 
 ### [Sicario]()
 
-### [Stoic](https://pd2builder.netlify.app/?s=003I100081100010-51010-4100&p=i&a=3&t=c)
+### [Stoic](https://pd2builder.netlify.app/?s=003I10-41100010-51010-4100&p=i&a=3&t=c)
+
+Stoic is the more aggressive and generally better Muscle. The same idea follows, however you don't use bulleye (as you have no armor to regenerate).
 
 ### [Tag Team]()
 
