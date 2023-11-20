@@ -55,34 +55,55 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 	- Main Files - FNV Clean Animations - 12.7mm Pistol (1.0.1)
 12. [FNV Clean Animations - Grenades Pack](https://www.nexusmods.com/newvegas/mods/83735)
 	- Main Files - FNV Clean Animations - Grenades Pack
-13. [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
+13. [Hit's Anims - Season 1](https://www.nexusmods.com/newvegas/mods/73856)
+	- Main Files - Hit's Anims - Season 1
+14. [Hit's Anims - Season 2](https://www.nexusmods.com/newvegas/mods/75208)
+	- Main Files - Hit's Anims - Season 2
+15. [Hit's Anims - Season 3](https://www.nexusmods.com/newvegas/mods/76843)
+	- Main Files - Hit's Anims - Season 3
+16. [Hit's Anims - Animation Fixes](https://www.nexusmods.com/newvegas/mods/76457)
+	- Main Files - Hit's Anims - Animation Fixes
+	- Optional Files - Hit's Anims - Vanilla Fire Rates
+17. [Hit's Anims - Some More Animation Fixes](https://www.nexusmods.com/newvegas/mods/83557)
+	- Main Files - Hit's Anims - Some More Animation Fixes
+18. [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
 	- Main Files - Iron Sights Aligned
 		- Select whichever weapon meshes you use in Weapon Meshes
 		- Select FNV Clean Animations in Base Animations
 		- Select Rockbiter's kNVSE Animations in kNVSE Animations
+		- Select Hitman's kNVSE Animations in kNVSE Animations
 		- Select Yukichigai's Unofficial Patch in Additional Patches
-14. [Butcher Pete Complete - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/79146)
+		- Select Rockbiter's animations for all the animations you choose from.
+19. [Butcher Pete Complete - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/79146)
 	- Main Files - 2. Butcher Pete Complete - A Melee Animation Overhaul (No Locomotion)
 	- Optional Files - Restored Dress Cane and Cattle Prod Animations
-15. [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
+20. [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
 	- Main Files - 2. Wasteland Warrior - A Melee Animation Overhaul (No Locomotion)
 	- Update Files - Update 1.0.1
-16. [Unarmed Animations](https://www.nexusmods.com/newvegas/mods/75909)
+21. [Unarmed Animations](https://www.nexusmods.com/newvegas/mods/75909)
 	- Main Files - Unarmed Animations 1.00
 
-### Movement Animations
+### N/PC Animations
+
 1. [360 Movement](https://www.nexusmods.com/newvegas/mods/71940)
 	- Main Files - 360 Movement
+		- If you prefer the alternative run, use that instead.
 2. [3rd Person Movement Animations Overhaul (and Bugfix)](https://www.nexusmods.com/newvegas/mods/80699)
 	- Main Files - SIGMA - 3rd person animations
 3. [360 Movement Patch for 3rd Person Movement Animations Overhaul](https://www.nexusmods.com/newvegas/mods/80812)
 	- Main Files - 360 Patch
+		- If you are using the alternate animations, use the alternative run patch.
 4. [Faster Melee Recoil Animations](https://www.nexusmods.com/newvegas/mods/83694)
 	- Main Files - Vanilla Melee Faster Recoil Animations
 	- Optional Files - Johnsonn Unarmed Faster Recoil Animations (If using Combat Animations section)
 	- Optional Files - Rock Melee Faster Recoil Animations (If using Combat Animations section)
 5. [Modern Stagger Animations](https://www.nexusmods.com/newvegas/mods/80456)
 	- Main Files - Modern Stagger
+6. [Different Pip-Boy Animations](https://www.nexusmods.com/newvegas/mods/75420)
+	- Main Files - Female Anim A
+	- Main Files - Male Anim A
+7. [No More Pip-Boy Glove](https://www.nexusmods.com/newvegas/mods/69258)
+	- Main Files - No More Pip-Boy Glove (No Plugin)
 
 ### Inject And Interact
 
@@ -103,3 +124,18 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 8. [Hit - B42 Interact Skinning](https://www.nexusmods.com/newvegas/mods/83161)
 	- Main Files - Hit - B42 Interact Skinning
 	- Optional Files - Hit - B42 Interact Skinning - Human Addon
+
+### Hardcore HUD
+
+1. [B42 Inspect](https://www.nexusmods.com/newvegas/mods/71624)
+	- Main Files - B42 Inspect
+2. [B42 Wristwatch](https://www.nexusmods.com/newvegas/mods/67890)
+	- Main Files - B42 Wristwatch 1.2
+3. [B42 Notify](https://www.nexusmods.com/newvegas/mods/80085)
+	- Main Files - B42 Notify
+4. [Shuddup and SayThis - A Message Overhaul](https://www.nexusmods.com/newvegas/mods/83666)
+	- Main Files - Shuddup and SayThis
+5. [Helmet Overlay](https://www.nexusmods.com/newvegas/mods/67870)
+	- Main Files - Helmet Overlay
+6. [No HUD Without Power Armor](https://www.nexusmods.com/newvegas/mods/79791)
+	- Main Files - No HUD Without Power Armor NV
