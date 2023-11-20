@@ -37,8 +37,6 @@ General bug fixes with the game that I would consider essential.
 
 ### Bug Fixes (Mod_Overrides)
 1. [Visual Fixes](https://modworkshop.net/mod/37161)
-2. [Better Sleeves & Fixes](https://modworkshop.net/mod/34542)
-3. [Restored Heister Sleeves](https://modworkshop.net/mod/33204)
 
 ### Performance (Mods)
 Mods to improve the performance of the game.
@@ -105,3 +103,17 @@ User Interface mods are usually highly subjective in the feel and what you're lo
 ### User Interface (Mod_Overrides)
 1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
 2. [Meta Melees Highlighted](https://modworkshop.net/mod/23043)
+
+### Consistent Visuals (Mods)
+1. [Streamlined SWATs](https://modworkshop.net/mod/41726)
+2. [Streamlined FBIs](https://modworkshop.net/mod/41728	)
+3. [Streamlined GenSecs](https://modworkshop.net/mod/41712)
+4. [Streamlined ZEALs](https://modworkshop.net/mod/41711)
+5. [Streamlined Murkies](https://modworkshop.net/mod/41727)
+6. [Streamlined Mercs](https://modworkshop.net/mod/41725)
+7. [Streamlined Federales](https://modworkshop.net/mod/41701)
+
+### Consistent Visuals (Mod_Overrides)
+1. [Better Sleeves & Fixes](https://modworkshop.net/mod/34542)
+2. [Restored Heister Sleeves](https://modworkshop.net/mod/33204)
+3. [Unique Loot REBOOT](https://modworkshop.net/mod/27711)
