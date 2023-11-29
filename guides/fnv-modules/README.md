@@ -11,6 +11,11 @@ For this guide there will be a baseline install of Viva New Vegas *Basic*, which
 
 An overhaul of how the game actually plays.
 
+Creating a Separator in MO2.
+
+1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
+2. Name the separator **Gameplay**.
+
 1. [JAM - Just Assorted Mods](https://www.nexusmods.com/newvegas/mods/66666)
 	- Main Files - Just Assorted Mods
 2. [Just Sprint Plus - Expansion for JAM and JVS](https://www.nexusmods.com/newvegas/mods/83797)
@@ -27,6 +32,9 @@ An overhaul of how the game actually plays.
 ### Combat Animations
 
 An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (roughly) the same (no JAM).
+
+1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
+2. Name the separator **Combat Animations**.
 
 1. [B42 Optics](https://www.nexusmods.com/newvegas/mods/81641)
 	- Main Files - B42 Optics
@@ -83,7 +91,10 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 21. [Unarmed Animations](https://www.nexusmods.com/newvegas/mods/75909)
 	- Main Files - Unarmed Animations 1.00
 
-### N/PC Animations
+### Character Animations
+
+1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
+2. Name the separator **Character Animations**.
 
 1. [360 Movement](https://www.nexusmods.com/newvegas/mods/71940)
 	- Main Files - 360 Movement
@@ -107,6 +118,9 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 
 ### Inject And Interact
 
+1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
+2. Name the separator **Inject and Interaction Animations**.
+
 1. [B42 Loot - Animated Physical Item Pickup](https://www.nexusmods.com/newvegas/mods/82369)
 	- Main Files - B42 Loot
 2. [B42 Inject - Animated Item Use](https://www.nexusmods.com/newvegas/mods/80437)
@@ -128,6 +142,9 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 	- Optional Files - Hit - B42 Interact Skinning - Human Addon
 
 ### Hardcore HUD
+
+1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
+2. Name the separator **Hardcore HUD**.
 
 1. [B42 Inspect](https://www.nexusmods.com/newvegas/mods/71624)
 	- Main Files - B42 Inspect
