@@ -9,12 +9,14 @@ For this guide there will be a baseline install of Viva New Vegas *Basic*, which
 
 ### Modern Gameplay
 
-An overhaul of how the game actually plays.
+Improves the combat gameplay of Fallout: New Vegas, bringing it to more modern standards.
 
-Creating a Separator in MO2.
+#### Creating a Separator in MO2.
 
 1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
 2. Name the separator **Gameplay**.
+
+#### Mods
 
 1. [JAM - Just Assorted Mods](https://www.nexusmods.com/newvegas/mods/66666)
 	- Main Files - Just Assorted Mods
@@ -31,10 +33,14 @@ Creating a Separator in MO2.
 
 ### Combat Animations
 
-An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (roughly) the same (no JAM).
+An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gameplay (roughly) the same.
+
+#### Creating a Separator in MO2.
 
 1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
 2. Name the separator **Combat Animations**.
+
+#### Mods
 
 1. [B42 Optics](https://www.nexusmods.com/newvegas/mods/81641)
 	- Main Files - B42 Optics
@@ -97,8 +103,14 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 
 ### Character Animations
 
+Overhauls of how the (non-)player characters move, including the Pip-Boy.
+
+#### Creating a Separator in MO2.
+
 1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
 2. Name the separator **Character Animations**.
+
+#### Mods
 
 1. [360 Movement](https://www.nexusmods.com/newvegas/mods/71940)
 	- Main Files - 360 Movement
@@ -122,8 +134,14 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 
 ### Inject And Interact
 
+Animations that make the game more "immersive", playing eating, drinking, interaction, and drug animations in first person.
+
+#### Creating a Separator in MO2.
+
 1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
 2. Name the separator **Inject and Interaction Animations**.
+
+#### Mods
 
 1. [B42 Loot - Animated Physical Item Pickup](https://www.nexusmods.com/newvegas/mods/82369)
 	- Main Files - B42 Loot
@@ -147,8 +165,14 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 
 ### Hardcore HUD
 
+Mods that remove the HUD as much as possible.
+
+#### Creating a Separator in MO2.
+
 1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
 2. Name the separator **Hardcore HUD**.
+
+#### Mods
 
 1. [B42 Inspect](https://www.nexusmods.com/newvegas/mods/71624)
 	- Main Files - B42 Inspect
