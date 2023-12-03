@@ -13,3 +13,5 @@ My Guides
 > Adds G.A.M.M.A.'s BHS into Escape From Pripyat, I liked it more.
 - [Fallout: New Vegas Modding Modules](./fnv-modules)
 > Modules you can put on top of a base modding install of Fallout: New Vegas.
+- [Good Old Games: Fixes and Tweaks](./gogfnt)
+> A collection of fixes and tweaks for older games, usually consistenting of bug fixes and improved controls.
