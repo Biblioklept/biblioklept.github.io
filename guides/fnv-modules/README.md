@@ -188,5 +188,14 @@ Mods that remove the HUD as much as possible.
 	- Main Files - No HUD Without Power Armor NV
 7. [Custom Health and AP Visuals](https://www.nexusmods.com/newvegas/mods/67696)
 	- Main Files - PHW HPAP Visuals
-8. [One HUD - oHUD](https://www.nexusmods.com/newvegas/mods/44757)
-	- Main Files - One HUD (oHUD)
+	
+### Config Files
+
+#### Creating a Separator in MO2.
+
+1. Right-click the empty space in the left pane of MO2 and select **Create separator**.
+2. Name the separator **Config Files**.
+
+#### Config File
+
+[Download](./dl/config.7z)
