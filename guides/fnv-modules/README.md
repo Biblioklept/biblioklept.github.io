@@ -60,21 +60,23 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 10. [FNV Clean Animations - Grenade Rifle Redux](https://www.nexusmods.com/newvegas/mods/83503)
 	- Main Files - FNV Clean Animations - Grenade Rifle Redux
 11. [FNV Clean Animations - FNV Clean Animations - 12.7mm Pistol](https://www.nexusmods.com/newvegas/mods/83683)
-	- Main Files - FNV Clean Animations - 12.7mm Pistol (1.0.1)
+	- Main Files - FNV Clean Animations - 12.7mm Pistol
 12. [FNV Clean Animations - Grenades Pack](https://www.nexusmods.com/newvegas/mods/83735)
 	- Main Files - FNV Clean Animations - Grenades Pack
-13. [Hit's Anims - Season 1](https://www.nexusmods.com/newvegas/mods/73856)
+13. [FNV Clean Animations - Tesla Cannon](https://www.nexusmods.com/newvegas/mods/83951)
+	- Main Files - FNV Clean Animations - Tesla Cannon
+14. [Hit's Anims - Season 1](https://www.nexusmods.com/newvegas/mods/73856)
 	- Main Files - Hit's Anims - Season 1
-14. [Hit's Anims - Season 2](https://www.nexusmods.com/newvegas/mods/75208)
+15. [Hit's Anims - Season 2](https://www.nexusmods.com/newvegas/mods/75208)
 	- Main Files - Hit's Anims - Season 2
-15. [Hit's Anims - Season 3](https://www.nexusmods.com/newvegas/mods/76843)
+16. [Hit's Anims - Season 3](https://www.nexusmods.com/newvegas/mods/76843)
 	- Main Files - Hit's Anims - Season 3
-16. [Hit's Anims - Animation Fixes](https://www.nexusmods.com/newvegas/mods/76457)
+17. [Hit's Anims - Animation Fixes](https://www.nexusmods.com/newvegas/mods/76457)
 	- Main Files - Hit's Anims - Animation Fixes
 	- Optional Files - Hit's Anims - Vanilla Fire Rates
-17. [Hit's Anims - Some More Animation Fixes](https://www.nexusmods.com/newvegas/mods/83557)
+18. [Hit's Anims - Some More Animation Fixes](https://www.nexusmods.com/newvegas/mods/83557)
 	- Main Files - Hit's Anims - Some More Animation Fixes
-18. [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
+19. [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
 	- Main Files - Iron Sights Aligned
 		- Select whichever weapon meshes you use in Weapon Meshes
 		- Select FNV Clean Animations in Base Animations
@@ -82,13 +84,15 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 		- Select Hitman's kNVSE Animations in kNVSE Animations
 		- Select Yukichigai's Unofficial Patch in Additional Patches
 		- Select Rockbiter's animations for all the animations you choose from.
-19. [Butcher Pete Complete - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/79146)
+20. [B42 Optics NV Patches](https://www.nexusmods.com/newvegas/mods/82136)
+	- Main Files - B42 Optics NV Patches
+21. [Butcher Pete Complete - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/79146)
 	- Main Files - 2. Butcher Pete Complete - A Melee Animation Overhaul (No Locomotion)
 	- Optional Files - Restored Dress Cane and Cattle Prod Animations
-20. [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
+22. [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
 	- Main Files - 2. Wasteland Warrior - A Melee Animation Overhaul (No Locomotion)
 	- Update Files - Update 1.0.1
-21. [Unarmed Animations](https://www.nexusmods.com/newvegas/mods/75909)
+23. [Unarmed Animations](https://www.nexusmods.com/newvegas/mods/75909)
 	- Main Files - Unarmed Animations 1.00
 
 ### Character Animations
@@ -158,3 +162,7 @@ An overhaul of the combat feel in Fallout: New Vegas, while keeping gameplay (ro
 	- Main Files - Helmet Overlay
 6. [No HUD Without Power Armor](https://www.nexusmods.com/newvegas/mods/79791)
 	- Main Files - No HUD Without Power Armor NV
+7. [Custom Health and AP Visuals](https://www.nexusmods.com/newvegas/mods/67696)
+	- Main Files - PHW HPAP Visuals
+8. [One HUD - oHUD](https://www.nexusmods.com/newvegas/mods/44757)
+	- Main Files - One HUD (oHUD)
