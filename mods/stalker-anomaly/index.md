@@ -1,11 +1,10 @@
 
 [BACK](..)
 
-My S.T.A.L.K.E.R. Anomaly Mods.
+My S.T.A.L.K.E.R. Anomaly mods.
 
-### Holy Tweaks
- 
-A collection of cheat-y DLTX files to make the game more forgiving.
+- [Holy Tweaks](./dl/Holy Tweaks.7z) 
+> A collection of cheat-y DLTX files to make the game more forgiving.
 
 ```
 mod_system_5usemedkit.ltx: Makes the Medkits have 5 uses, as shown in FDDA.
@@ -17,5 +16,3 @@ mod_system_no_dura_repair.ltx: Removes the durability from the multitool and the
 mod_system_weightless_ammo.ltx: Removes weight from ammo.
 mod_system_weightless_crafting.ltx: Removes weight from crafting parts and other assorted stuffs.
 ```
-
-[Download](./dl/Holy Tweaks.7z)

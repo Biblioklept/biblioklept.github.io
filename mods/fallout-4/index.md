@@ -1,9 +1,10 @@
 
 [BACK](..)
 
-My Fallout 4 Mods.
+My Fallout 4 mods. 
 
-### Biblioklept Gameplay Edits
+[Biblioklept Gameplay Edits - Non-Tactical Reload Version](./dl/bge/notr/BibliokleptGameplayEdits.esp)
+[Biblioklept Gameplay Edits - Tactical Reload Version](./dl/bge/tr/BibliokleptGameplayEdits.esp)
 
 Small edits to Fallout 4 that remove some of my gripes from the game. These being: 
 - No XP Bump (200 to level up always.)
@@ -35,6 +36,3 @@ Small edits to Fallout 4 that remove some of my gripes from the game. These bein
 		> I didn't like the other models for the Automatic and Sniper barrels.
 
 If you don't like any of these edits, feel free to remove said edit in xEdit.
-
-[Download - Non-Tactical Reload Version](./dl/bge/notr/BibliokleptGameplayEdits.esp)
-[Download - Tactical Reload Version](./dl/bge/tr/BibliokleptGameplayEdits.esp)
