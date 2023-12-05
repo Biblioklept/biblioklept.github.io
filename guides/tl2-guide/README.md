@@ -17,14 +17,10 @@ Download [here](https://steamcommunity.com/sharedfiles/filedetails/?id=286884107
 
 ### Getting To Know The Charge Bar
 
-1. Berserkers
-Berserkers with a full charge bar enter a "Frenzy" state, triggered by the first critical hit they inflict while the bar is full. This state lasts for a few seconds. In this state, all attacks against the Berserker's Primary targets become critical hits, and they gain increased Critical Hit chance against Area-of-Effect (AoE) targets.
+1. Berserkers with a full charge bar enter a "Frenzy" state, triggered by the first critical hit they inflict while the bar is full. This state lasts for a few seconds. In this state, all attacks against the Berserker's Primary targets become critical hits, and they gain increased Critical Hit chance against Area-of-Effect (AoE) targets.
 
-2. Embermages
-Embermages with a full charge bar immediately enter a "total concentration" state for twelve seconds, during which their skills cost no mana to cast, and all of their offensive skills gains a 25% damage bonus on top of any other bonuses that already apply.
+2. Embermages with a full charge bar immediately enter a "total concentration" state for twelve seconds, during which their skills cost no mana to cast, and all of their offensive skills gains a 25% damage bonus on top of any other bonuses that already apply.
 
-3. Engineers
-Engineers have the most complex charge bar system, directly influencing and influenced by their Skills. Their charge bar is marked with five "pips", spaced evenly along its length. When the Engineer has one or more charge pips filled, some of their class skills drain these pips to produce more powerful effects. Some other skills merely become more powerful with each subsequent Charge pip without actually draining them. The Engineer's Charge is the quickest to build, primarily because certain skills drain it in exchange for their bonus effects.
+3. Engineers have the most complex charge bar system, directly influencing and influenced by their Skills. Their charge bar is marked with five "pips", spaced evenly along its length. When the Engineer has one or more charge pips filled, some of their class skills drain these pips to produce more powerful effects. Some other skills merely become more powerful with each subsequent Charge pip without actually draining them. The Engineer's Charge is the quickest to build, primarily because certain skills drain it in exchange for their bonus effects.
 
-4. Outlanders
-Outlanders' charge bar grants a percent bonus on Casting Speed, Dodge Chance, Critical Hit Chance, and attack speed. The bonus ranges from 0% to 10% to each state, and is proportional to how much of the charge bar is filled. Additionally, when the Outlander's charge bar is empty, their next attack will inflict additional damage, and is guaranteed to stun the first enemy it hits. Of the four, the Outlander's Charge takes the longest to build.
+4. Outlanders' charge bar grants a percent bonus on Casting Speed, Dodge Chance, Critical Hit Chance, and attack speed. The bonus ranges from 0% to 10% to each state, and is proportional to how much of the charge bar is filled. Additionally, when the Outlander's charge bar is empty, their next attack will inflict additional damage, and is guaranteed to stun the first enemy it hits. Of the four, the Outlander's Charge takes the longest to build.
