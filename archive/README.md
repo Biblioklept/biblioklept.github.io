@@ -16,6 +16,11 @@ THESE ARE UNSUPPORTED.
 > A guide to convert [Viva New Vegas](https://vivanewvegas.moddinglinked.com) to Tale of Two Wastelands. Archived 11/11/2023.
 - [HSJ Lists](./hsj)
 > Small lists of mods that require another modlist (your own or someone else's) to setup. I usually use these with vanilla+ modlists because there's some part of the game I still dislike. *Highly subjective, modular, and lightweight*. Archived 11/11/2023.
+- [G.A.M.M.A. Tedium Removal](./gamma-tedium-removal)
+> A simple "enable this, disable this" guide to remove G.A.M.M.A.'s tedium. Feels good to have fun again. Archived 08/12/2023.
+- [G.A.M.M.A.'s BHS For Escape From Pripyat](./gamma-bhs-for-efp)
+> Adds G.A.M.M.A.'s BHS into Escape From Pripyat, I liked it more. Archived 08/12/2023.
+
 
 ### Archived Mods
 
