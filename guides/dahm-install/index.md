@@ -16,22 +16,22 @@ This is a dirty edit of an already existing file in the full version of DAHM's f
 
 ### Borderless Window Plugin
 - [Borderless Window Plugin for DorHUD](https://steamcommunity.com/app/24240/discussions/0/3765606580163061345/#c3765607014586473776)
-Install this into your `plugins` folder in your PDTH folder. If you don't have one, make one.
+> Install this into your `plugins` folder in your PDTH folder. If you don't have one, make one.
 - [Borderless Window Plugin for DorHUD - INI](./dl/pdthhook.ini)
-Install this into your root PDTH folder.
+> Install this into your root PDTH folder.
 
 ### A Couple Other Neat Mods I Personally Use
 - [No ADS Sway](https://modworkshop.net/mod/38786)
-Removes the sway when you aim down the sights.
+> Removes the sway when you aim down the sights.
 - [Motion Sickness Helper](https://modworkshop.net/mod/40746)
-Removes the camera breathing effect, the melee camera shake and the camera shake effect when getting shot at.
+> Removes the camera breathing effect, the melee camera shake and the camera shake effect when getting shot at.
 - [Viewmodel Mod](https://modworkshop.net/game/pdth/mods?query=viewmodel)
-Changes your viewmodel to your preference. There's a couple on the workshop.
+> Changes your viewmodel to your preference. There's a couple on the workshop.
 - [WHERE'S THE FUCKING BANK MANAGER HUD](https://modworkshop.net/mod/19303)
-HUD mod that allows for a whole lot more customization and QoL improvments.
+> HUD mod that allows for a whole lot more customization and QoL improvments.
 - [Character and Mask in Loadout Menu](https://modworkshop.net/mod/36360)
 Allows you to change your character and the mask in the loadout menu.
 - [Diamond Heist Detection Meter](https://modworkshop.net/mod/34123)
-Adds a detection meter to the stealth section of diamond heist. A la PAYDAY 2.
+> Adds a detection meter to the stealth section of diamond heist. A la PAYDAY 2.
 - [No Mercy Helper](https://modworkshop.net/mod/34152)
-Adds ! waypoints above civilian's heads who are at risk of running for the alarm buttons.
+> Adds ! waypoints above civilian's heads who are at risk of running for the alarm buttons.
