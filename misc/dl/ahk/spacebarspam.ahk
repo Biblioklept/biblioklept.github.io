@@ -2,7 +2,7 @@
 #SingleInstance ; Skips the "Replace it with this instance?" message, instant overwrite.
 ; #Warn ; Enable warnings to assist with detecting common errors.
 
-*xbutton1::
+*xbutton1:: ; Change keybind here. To find keys use this: https://www.autohotkey.com/docs/KeyList.htm
     toggle := !toggle
     if (toggle) {
         SetTimer, Spam_Space, 10
