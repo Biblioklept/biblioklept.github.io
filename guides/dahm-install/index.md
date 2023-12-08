@@ -30,7 +30,7 @@ This is a dirty edit of an already existing file in the full version of DAHM's f
 - [WHERE'S THE FUCKING BANK MANAGER HUD](https://modworkshop.net/mod/19303)
 > HUD mod that allows for a whole lot more customization and QoL improvments.
 - [Character and Mask in Loadout Menu](https://modworkshop.net/mod/36360)
-Allows you to change your character and the mask in the loadout menu.
+> Allows you to change your character and the mask in the loadout menu.
 - [Diamond Heist Detection Meter](https://modworkshop.net/mod/34123)
 > Adds a detection meter to the stealth section of diamond heist. A la PAYDAY 2.
 - [No Mercy Helper](https://modworkshop.net/mod/34152)
