@@ -10,6 +10,12 @@ Disables: Water shaders, shadows, and anisotropy.
 Adds: Animation support (with additional anims), QoL settings.  
 There's more, but this is the major changes.
 
+### AHK Scripts
+- [Centre Window](./dl/ahk/centrewindow.ahk)
+> Centres windows to be in the centre of your screen, pressing it again will swap it to a different monitor. **Default keybind is Alt + C.**
+- [Spacebar Spam](./dl/ahk/spacebarspam.ahk)
+> Spams spacebar. **Default keybind is F3.**
+
 ### Scripts
 - [Mod Organizer 2 Install Script](./dl/mo2/install.bat)
 > Installs Mod Organizer 2 and the RootBuilder plugin by Kezyma, then cleans up the folder of the archive files downloaded and the script.
