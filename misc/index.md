@@ -11,6 +11,8 @@ Adds: Animation support (with additional anims), QoL settings.
 There's more, but this is the major changes.
 
 ### AHK Scripts
+It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases/latest) program to convert these to an executable script. The scripts are editable with a simple notepad program (Notepad++ recommended for Windows users).
+
 - [Centre Window](./dl/ahk/centrewindow.ahk)
 > Centres windows to be in the centre of your screen, pressing it again will swap it to a different monitor. **Default keybind is Alt + C.**
 - [Spacebar Spam](./dl/ahk/spacebarspam.ahk)
@@ -31,3 +33,27 @@ There's more, but this is the major changes.
 > Use with GOG to remove the extra files included, I made this for Morrowind#, but it could prove just as useful with any other mod setup. Put in root of game folder **NOT DATA FILES** and run, script will clean up after itself
 - [ZRP Install Script](./dl/shoc/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
+
+### IWADS
+- [AIO Download](./dl/aio.7z)
+> AIO download with all wad files.
+
+- [Chex Quest](./dl/chex.wad)
+- [Chex Quest 2](./dl/chex2.wad)
+- [Chex Quest 3](./dl/chex3.wad)
+> Chex Quest files.
+
+- [Ultimate Doom](./dl/doomu.wad)
+- [Doom 2: Hell On Earth](./dl/doom2.wad)
+- [Final Doom: TNT: Evilution](./dl/tnt.wad)
+- [Final Doom: Plutonium](./dl/plutonium.wad)
+> Doom series files.
+
+- [Heretic](./dl/heretic.wad)
+- [Hexen: Beyond Heretic](./dl/hexen.wad)
+- [Hexen - Deathkings of the Dark Citadel](./dl/hexdd.wad)
+> Heretic/Hexen series files.
+
+- [Strife](./dl/strife1.wad)
+- [Voices (Recommended to load with Strife)](./dl/voices.wad)
+> Strife files.
