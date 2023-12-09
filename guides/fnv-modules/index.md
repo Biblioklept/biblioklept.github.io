@@ -186,11 +186,15 @@ Mods that remove the HUD as much as possible.
 	- Main Files - Shuddup and SayThis
 5. [Helmet Overlay](https://www.nexusmods.com/newvegas/mods/67870)
 	- Main Files - Helmet Overlay
-6. [No HUD Without Power Armor](https://www.nexusmods.com/newvegas/mods/79791)
-	- Main Files - No HUD Without Power Armor NV
-7. [Custom Health and AP Visuals](https://www.nexusmods.com/newvegas/mods/67696)
+6. [Custom Health and AP Visuals](https://www.nexusmods.com/newvegas/mods/67696)
 	- Main Files - PHW HPAP Visuals
-	
+7. [No HUD Without Power Armor](https://www.nexusmods.com/newvegas/mods/79791)
+	- Main Files - No HUD Without Power Armor NV
+8. [No Pip-Boy in Power Armor](https://www.nexusmods.com/newvegas/mods/66916)
+	- Main Files - No Pipboy in Power Armor
+9. [Hit - Power Armor Pip-Boy Anim](https://www.nexusmods.com/newvegas/mods/84046)
+	- Main Files - Hit - Power Armor Pip-Boy Anim
+
 ### Config Files
 
 #### Creating a Separator in MO2.
