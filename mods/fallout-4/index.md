@@ -3,7 +3,7 @@
 
 My Fallout 4 mods. 
 
-[Biblioklept Gameplay Edits - Non-Tactical Reload Version](./dl/BibliokleptGameplayEdits.esp)
+- [Biblioklept Gameplay Edits](./dl/BibliokleptGameplayEdits.esp)
 
 Small edits to Fallout 4 that remove some of my gripes from the game. These being: 
 - No XP Bump (200 to level up always.)
@@ -35,3 +35,9 @@ Small edits to Fallout 4 that remove some of my gripes from the game. These bein
 		> I didn't like the other models for the Automatic and Sniper barrels.
 
 If you don't like any of these edits, feel free to remove said edit in xEdit.
+
+I would recommend using [Leveled Item Fixes (LIF)](https://www.nexusmods.com/fallout4/mods/63914) to integrate the handmade rifle and its ammo.
+
+- [Weightless Items INI](./dl/WeightlessItems.ini)
+> Removes weight only from alchemy, miscellaneous items (i.e. junk), ingredients, and books. Keeps the game relatively fair.  
+[Required Mod](https://www.nexusmods.com/fallout4/mods/73640).
