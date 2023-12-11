@@ -91,7 +91,7 @@ By default, Windows Explorer will not show file extensions (such as .exe, .dll, 
 5.  On the next page, select `STALKER Anomaly`
 6.  On the next page, keep the `Location` file path default
 
-> If you have MO2 installed on an SSD or a HDD with little space, you can check the **Show advanced options** box and change the **Downloads** file path to a different drive with more space. This will not effect download/game performance, and the downloads can be deleted after the mods have been installed.
+> If you have MO2 installed on an SSD or a HDD with little space, you can check the **Show advanced options** box and change the **Downloads** file path to a different drive with more space. This will not affect download/game performance, and the downloads can be deleted after the mods have been installed.
 
 7.  On the last page, select `Finish`
 8.  MO2 will launch and prompt you with a pop-up called `Show tutorial?`, in which you should select `No`
