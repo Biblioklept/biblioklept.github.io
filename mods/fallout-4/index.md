@@ -3,8 +3,7 @@
 
 My Fallout 4 mods. 
 
-[Biblioklept Gameplay Edits - Non-Tactical Reload Version](./dl/bge/notr/BibliokleptGameplayEdits.esp)
-[Biblioklept Gameplay Edits - Tactical Reload Version](./dl/bge/tr/BibliokleptGameplayEdits.esp)
+[Biblioklept Gameplay Edits - Non-Tactical Reload Version](./dl/BibliokleptGameplayEdits.esp)
 
 Small edits to Fallout 4 that remove some of my gripes from the game. These being: 
 - No XP Bump (200 to level up always.)
