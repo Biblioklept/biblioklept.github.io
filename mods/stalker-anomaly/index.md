@@ -3,8 +3,8 @@
 
 My S.T.A.L.K.E.R. Anomaly mods.
 
-- [Holy Tweaks](./dl/Holy Tweaks.7z) 
-> A collection of cheat-y DLTX files to make the game more forgiving.
+#### [Holy Tweaks](./dl/Holy Tweaks.7z) 
+A collection of cheat-y DLTX files to make the game more forgiving.
 
 ```
 mod_system_5usemedkit.ltx: Makes the Medkits have 5 uses, as shown in FDDA.
