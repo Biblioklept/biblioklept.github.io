@@ -15,3 +15,5 @@ My Guides
 > A collection of basic information to getting yourself started on Torchlight 2. Skips most things you can easily figure out by yourself. Updated whenever I get asked too much about a certain question from one of my friends.
 - [Windows 10 Setup](./windows-10-setup)
 > A quick little guide to setup Windows 10 (my way).
+- [Modlist Additions](./modlist-additions)
+> Personal modlist additions that aim that are my preferred way to play some games.
