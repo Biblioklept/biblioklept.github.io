@@ -10,7 +10,7 @@ My Personal Modlist Additions
 For this guide there will be a baseline install of ModdingLinked's modlists, which you can find [here](https://moddinglinked.com/).
 
 #### Gameplay
-- [Biblioklept Gameplay Edits](https://biblioklept.github.io/mods/fallout-4#biblioklept-gameplay-additions)
+- [Biblioklept Gameplay Edits](https://biblioklept.github.io/mods/fallout-4#biblioklept-gameplay-edits)
 - [Leveled Item Fixes (LIF)](https://www.nexusmods.com/fallout4/mods/63914)
 - [Weightless Items](https://www.nexusmods.com/fallout4/mods/73640)
 > [Weightless Items INI](https://biblioklept.github.io/mods/fallout-4/#weightless-items-ini)
