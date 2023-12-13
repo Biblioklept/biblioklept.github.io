@@ -5,7 +5,7 @@ Fallout: New Vegas Modding Modules
 
 ### The Baseline
 
-For this guide there will be a baseline install of Viva New Vegas *Basic*, which you can find [here](https://vivanewvegas.moddinglinked.com/)
+For this guide there will be a baseline install of Viva New Vegas *Basic*, which you can find [here](https://vivanewvegas.moddinglinked.com/).
 
 ### Modern Gameplay
 

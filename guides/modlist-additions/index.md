@@ -7,7 +7,7 @@ My Personal Modlist Additions
 
 #### The Baseline
 
-For this guide there will be a baseline install of ModdingLinked's modlists, which you can find [here](https://moddinglinked.com/)
+For this guide there will be a baseline install of ModdingLinked's modlists, which you can find [here](https://moddinglinked.com/).
 
 #### Gameplay
 - [Biblioklept Gameplay Edits](https://biblioklept.github.io/mods/fallout-4#biblioklept-gameplay-additions
@@ -21,7 +21,7 @@ These are the mods I would recommend if you want to still keep the game relative
 - [SCOURGE - Unleveled and Standardised NPC Stats](https://www.nexusmods.com/fallout4/mods/60917)
 
 #### Weapons
-This section is to fill out more of the list and fill in the weapon roster a little bit more. T6M's mods are great for this as they're nif-bashed, same with the Unique Weapons Concept by the CSEP team. Here's the ones I personally use, along with some additions.
+This section is to fill out more of the list and fill in the weapon roster a little bit more. [T6M](https://www.nexusmods.com/fallout4/search/?BH=0&RH_ModList=nav:true,home:false,type:0,user_id:0,game_id:1151,advfilt:true,include_adult:true,show_game_filter:false,page_size:20,open:true,language:5,categories%5B%5D:41,search%5Bauthor%5D:The6thMessenger&RH_ModList=nav:true,home:false,type:0,user_id:0,game_id:1151,advfilt:true,include_adult:true,show_game_filter:false,page_size:20,open:true,language:5,categories%5B%5D:41,search%5Bauthor%5D:The6thMessenger)'s mods are great for this as they're nif-bashed, same with the [Unique Weapons Concept](https://www.nexusmods.com/fallout4/search/?BH=1&RH_ModList=nav:true,home:false,type:0,user_id:0,game_id:1151,advfilt:true,search%5Bfilename%5D:unique+weapons+concept,include_adult:true,show_game_filter:false,page_size:20,open:true,language:5&RH_ModList=nav:true,home:false,type:0,user_id:0,game_id:1151,advfilt:true,search%5Bfilename%5D:Unique+Weapons+Concept,show_game_filter:false,page_size:20,open:true,time:0,include_adult:true,language:5,categories%5B%5D:41&RH_ModList=nav:true,home:false,type:0,user_id:0,game_id:1151,advfilt:true,search%5Bfilename%5D:Unique+Weapons+Concept,show_game_filter:false,page_size:20,open:true,time:0,include_adult:true,language:5) mods by the CSEP team. Here's the ones I personally use, along with some additions.
 
 - [T6M's Standalone Handmade Shotgun](https://www.nexusmods.com/fallout4/mods/75813)
 - [T6M's Pump-Action Shotgun](https://www.nexusmods.com/fallout4/mods/57245)
