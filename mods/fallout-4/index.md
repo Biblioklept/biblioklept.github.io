@@ -20,23 +20,25 @@ Edits: uSPECIALPoints in Game Settings
 		- Increased firerate by 20%
 		- Increased default capacity to 50 rounds
 		- Decreased damage by 5
-		
+
 		> These changes make the Assault Rifle more fitting of its model and (supposedly original) role of a machine gun.  
+		Edits: mod_AssaultRifle_Mag_Medium in Object Modification  
+		Edits: mod_AssaultRifle_Mag_MediumQuick in Object Modification
 		Edits: AssaultRifle in Weapon
-		
+
 	- Combat Rifle 
 		- Rechambered in 5.56mm 
 		- Increased damage by 2
 		
 		> My purpose for these changes is to replace the (now) Light Machine Gun's old role to replace it. This is now the assault rifle.  
 		Edits: CombatRifle in Weapon
-		
+
 	- Handmade Rifle
 		- Increased damage by 8
 		
 		> Made the rifle deal more damage to fit its larger calibre.  
 		Edits: DLC04_HandMadeGun in Weapon
-		
+
 	- Laser Guns
 		- Changed the Automatic and Sniper models to Long Barrel's model
 		
