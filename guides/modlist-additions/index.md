@@ -3,11 +3,68 @@
 
 My Personal Modlist Additions
 
+### Oblivion
+
+#### The Baseline
+For this guide there will be an install of Oblivion Modding Essentials as a base, which you can find [here](https://github.com/KingKai-1906/ome/).
+
+#### Patches
+- [Unofficial Oblivion Tree Patch](https://www.nexusmods.com/oblivion/mods/53079)
+- [Unofficial Shivering Isles Tree Patch](https://www.nexusmods.com/oblivion/mods/53101)
+
+#### User Interface
+- [NorthernUI](https://www.nexusmods.com/oblivion/mods/48577)
+- [NorthernUI Hotkeys](https://www.nexusmods.com/oblivion/mods/51534)
+- [NorthernUI Rumble](https://www.nexusmods.com/oblivion/mods/52259)
+
+#### Tweaks
+- [Faster Dungeon Doors](https://www.nexusmods.com/oblivion/mods/46889)
+- [Faster Horse Dismount](https://www.nexusmods.com/oblivion/mods/50226)
+- [Quest NPCs Run](https://www.nexusmods.com/oblivion/mods/49893)
+- [Simple Saves Plus](https://www.nexusmods.com/oblivion/mods/51122)
+- [AutoHaggle](https://www.nexusmods.com/oblivion/mods/52532)
+- [Nascent - Quick Start](https://www.nexusmods.com/oblivion/mods/52330)
+
+#### Balancing
+- [Attribute Progression Redesign](https://www.nexusmods.com/oblivion/mods/49385)
+- [Practical Training](https://www.nexusmods.com/oblivion/mods/50101)
+- [Balanced Creature Stats](https://www.nexusmods.com/oblivion/mods/49194)
+- [Balanced NPC Level Cap](https://www.nexusmods.com/oblivion/mods/50094)
+- [Balanced Unleveled Rewards](https://www.nexusmods.com/oblivion/mods/51050)
+
+#### Content Integration
+- [Knights of the Nine - Improved Infamy System](https://www.nexusmods.com/oblivion/mods/50195)
+- [SM DLC Plugin Refurbish](https://www.nexusmods.com/oblivion/mods/11474)
+- [SM DLC Plugin Refurbish - Voiced Addon BSA](https://www.nexusmods.com/oblivion/mods/52772)
+
+#### Content
+- [Maskar's Unarmored Skill](https://www.nexusmods.com/oblivion/mods/49555)
+- [Av Latta Magicka - Oblivion Magic Overhaul](https://www.nexusmods.com/oblivion/mods/49096)
+
+#### Combat
+- [WalkBlessed OBSE Plugin](https://www.nexusmods.com/oblivion/mods/49067)
+- [Accurate Skyrim Camera for WalkBlessed](https://www.nexusmods.com/oblivion/mods/53503)
+- [Oblivion Subtle Sprint](https://www.nexusmods.com/oblivion/mods/49209)
+- [Combat Additions](https://www.nexusmods.com/oblivion/mods/49939)
+> [Combat Additions INI](https://biblioklept.github.io/mods/oblivion/#combat-additions-ini)
+
+### Fallout 3
+
+#### The Baseline
+For this guide there will be a baseline install of HyperEssentials - Fallout 3 as a base, which you can find [here](https://github.com/Biblioklept/hyperessentials/tree/main/he-fo3/).
+
+#### Content Integration
+- [Delay DLC Plus Updated](https://www.nexusmods.com/fallout3/mods/25573)
+- [DLC Weapons into the Capitol Wasteland](https://www.nexusmods.com/fallout3/mods/25532)
+- [DLC Armors into the Capitol Wasteland](https://www.nexusmods.com/fallout3/mods/25689)
+
+#### Tweaks
+- [Fallout 3 Quick Start](https://www.nexusmods.com/fallout3/mods/24644)
+
 ### Fallout 4
 
 #### The Baseline
-
-For this guide there will be a baseline install of ModdingLinked's modlists, which you can find [here](https://moddinglinked.com/).
+For this guide there will be an install of The Midnight Ride as a base, which you can find [here](https://themidnightride.moddinglinked.com/).
 
 #### Gameplay
 - [Biblioklept Gameplay Edits](https://biblioklept.github.io/mods/fallout-4#biblioklept-gameplay-edits)
@@ -29,5 +86,3 @@ This section is to fill out more of the list and fill in the weapon roster a lit
 - [Heavy Energy Weapon Combo Deal](https://www.nexusmods.com/fallout4/mods/63513)
 - [Thompson SMG Replacer](https://www.nexusmods.com/fallout4/mods/42225)
 - [M1911 - WARS Standalone Weapon](https://www.nexusmods.com/fallout4/mods/49038)
-
-> Note: Keep an eye on [Weapons Overhaul Systems](https://www.nexusmods.com/fallout4/mods/71653). Mod looks super interesting and might fit what I would've wanted out of WARS. It also seems to stick to a more nif-bashed and vanilla-esque asthetic.
