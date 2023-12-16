@@ -5,6 +5,8 @@ My Mods
 > My 7 Days To Die mods.
 - [Fallout 4 Mods](./fallout-4)
 > My Fallout 4 mods.
+- [Oblivion Mods](./oblivion)
+> My Oblivion mods.
 - [S.T.A.L.K.E.R. Anomaly](./stalker-anomaly)
 > My S.T.A.L.K.E.R. Anomaly mods.
 - [Team Fortress 2 Mods](./team-fortress-2)
