@@ -8,6 +8,9 @@ My Personal Modlist Additions
 #### The Baseline
 For this guide there will be an install of Oblivion Modding Essentials as a base, which you can find [here](https://github.com/KingKai-1906/ome/).
 
+#### Utils
+- [Oblivion Magic Extender](https://www.nexusmods.com/oblivion/mods/31981)
+
 #### Patches
 - [Unofficial Oblivion Tree Patch](https://www.nexusmods.com/oblivion/mods/53079)
 - [Unofficial Shivering Isles Tree Patch](https://www.nexusmods.com/oblivion/mods/53101)
@@ -32,14 +35,13 @@ For this guide there will be an install of Oblivion Modding Essentials as a base
 - [Balanced NPC Level Cap](https://www.nexusmods.com/oblivion/mods/50094)
 - [Balanced Unleveled Rewards](https://www.nexusmods.com/oblivion/mods/51050)
 
-#### Content Integration
+#### Content And Integration
+- [Maskar's Unarmored Skill](https://www.nexusmods.com/oblivion/mods/49555)
+- [Av Latta Magicka - Oblivion Magic Overhaul](https://www.nexusmods.com/oblivion/mods/49096)
+- [Weapon Expansion Pack for Oblivion Nthusiasts](https://www.nexusmods.com/oblivion/mods/35560)
 - [Knights of the Nine - Improved Infamy System](https://www.nexusmods.com/oblivion/mods/50195)
 - [SM DLC Plugin Refurbish](https://www.nexusmods.com/oblivion/mods/11474)
 - [SM DLC Plugin Refurbish - Voiced Addon BSA](https://www.nexusmods.com/oblivion/mods/52772)
-
-#### Content
-- [Maskar's Unarmored Skill](https://www.nexusmods.com/oblivion/mods/49555)
-- [Av Latta Magicka - Oblivion Magic Overhaul](https://www.nexusmods.com/oblivion/mods/49096)
 
 #### Combat
 - [WalkBlessed OBSE Plugin](https://www.nexusmods.com/oblivion/mods/49067)
