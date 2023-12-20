@@ -2,12 +2,12 @@
 My Modlists
 
 ### Actively Worked On
-
 - [HyperEssentials](https://github.com/Biblioklept/hyperessentials)
 > An on-going project to provide a simple Wabbajack installation to get the game running with anything else you'd need to run mods (script extender mods for Bethesda games) and usually a quickstart if warrented.
+- [Lethal Company+](./lethal-company-plus)
+>A vanilla+ modpack for Lethal Company.
 
 ### Infrequently Updated (LTS)
-
 - [Dusty Sands](https://github.com/Biblioklept/dusty-sands)
 > A modlist that attempts to recreate the Dust experience in the vanilla New Vegas gameworld, while expanding on what we were given with tweaks that improve New Vegas itself.
 - [JOURNEY](./journey/)
