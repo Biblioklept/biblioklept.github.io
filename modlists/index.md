@@ -4,7 +4,7 @@ My Modlists
 ### Actively Worked On
 - [HyperEssentials](https://github.com/Biblioklept/hyperessentials)
 > An on-going project to provide a simple Wabbajack installation to get the game running with anything else you'd need to run mods (script extender mods for Bethesda games) and usually a quickstart if warrented.
-- [Lethal Company+](./lethal-company-plus)
+- [Lethal Company Plus](./lethal-company-plus)
 >A vanilla+ modpack for Lethal Company.
 
 ### Infrequently Updated (LTS)
