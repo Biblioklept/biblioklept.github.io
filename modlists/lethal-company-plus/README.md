@@ -6,7 +6,7 @@
 ### Description
 Lethal Company Plus is a modlist that aims to add as little gameplay-affecting-content as possible (the content it does add is purely cosmetic), gameplay tweaks, and quality of life mods.
 
-### Notes on modpack:
+### Notes on mods:
 RemoveMotionSway removes a huge amount of what I like to call "visual-bloat", configure or disable to your liking.
 
 Added user interface elements:
@@ -40,12 +40,13 @@ Important gameplay altering mods:
 - NoPenalty
 - FasterItemDropship
 
-
 ### Changelog
 
 #### 1.0.1
-Updated mods and documentation
-Added: Too Many Emotes
+- Updated mods and documentation.
+- Added: Too Many Emotes.
+> 33 mods.
 
 #### 1.0.0
-Release - 32 mods.
+- Release
+> 32 mods.
