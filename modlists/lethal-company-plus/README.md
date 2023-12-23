@@ -45,8 +45,15 @@ Important gameplay altering mods:
 
 ### Changelog
 
+#### 1.0.2
+- Updated documentation further.
+- Updated mods.
+- Added configuration files.
+> 33 mods.
+
 #### 1.0.1
-- Updated mods and documentation.
+- Updated mods.
+- Updated documentation.
 - Added: Too Many Emotes.
 > 33 mods.
 
