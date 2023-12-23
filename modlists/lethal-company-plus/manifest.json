@@ -4,7 +4,7 @@
   "website_url": "https://biblioklept.github.io/modlists/lethal-company-plus",
   "description": "A vanilla+ modpack for Lethal Company.",
   "dependencies": [
-	"2018-LC_API-3.0.1",
+	"2018-LC_API-3.0.2",
 	"BepInEx-BepInExPack-5.4.2100",
 	"notnotnotswipez-MoreCompany-1.7.2",
 	"tinyhoot-ShipLoot-1.0.0",
@@ -26,7 +26,7 @@
 	"Sombre-No_Shake_Spray_Paint-1.0.0",
 	"an0nymooose-An0n_Patches-1.0.3",
 	"BatTeam-LethalFashion-1.0.4",
-	"bizzlemip-NoPenalty-1.0.1",
+	"MigisFring-ScaledPenalties-1.0.0",
 	"KoderTeh-Boombox_Controller-1.1.2",
 	"FlipMods-FasterItemDropship-1.2.0",
 	"Evaisa-HookGenPatcher-0.0.5",
@@ -36,6 +36,7 @@
 	"TheBeeTeam-PersistentPurchases-1.2.0",
 	"MegaPiggy-BuyableShotgunShells-1.0.1",
 	"kz-RemoveMotionSway-1.1.1",
-	"FlipMods-TooManyEmotes-1.5.3"
+	"FlipMods-TooManyEmotes-1.5.3",
+	"gamendegamer-Lethal_Admin-1.1.0"
 	]
 }

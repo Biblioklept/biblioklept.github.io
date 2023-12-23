@@ -7,7 +7,7 @@
 Lethal Company Plus is a modpack that aims to add as little gameplay-affecting-content as possible (the content it does add is purely cosmetic), gameplay tweaks, and quality of life mods.
 
 ### Information
-There's two sets of emotes, the third person ones and the first person ones. **First-person emotes are activated with Z, third-person emotes are activated with tilde**
+There's two sets of emotes, the third person ones and the first person ones. **First-person emotes are activated with Z, third-person emotes are activated with tilde**.
 
 ### Notes on mods:
 RemoveMotionSway removes a huge amount of what I like to call "visual-bloat", configure or disable to your liking.
@@ -45,6 +45,12 @@ Important gameplay altering mods:
 
 ### Changelog
 
+#### 1.0.3
+- Updated mods.
+- Added: Lethal Admin, ScaledPenalties.
+- Removed: NoPenalty.
+> 34 mods.
+
 #### 1.0.2
 - Updated documentation further.
 - Updated mods.
@@ -58,5 +64,5 @@ Important gameplay altering mods:
 > 33 mods.
 
 #### 1.0.0
-- Release
+- Release.
 > 32 mods.
