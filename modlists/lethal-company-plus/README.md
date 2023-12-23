@@ -40,7 +40,7 @@ Important gameplay altering mods:
 - BetterStamina
 - PushCompany
 > Recommended to disable if you have trolls frequently.
-- NoPenalty
+- ScaledPenalties
 - FasterItemDropship
 
 ### Changelog
