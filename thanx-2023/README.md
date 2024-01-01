@@ -33,8 +33,8 @@ A great musician and a greater friend, seriously, man, your stuff rocks. Stick w
 ### To Luke:
 Thanks for being the reason for me being able to talk to Fisher and Nick; without you three, school would've been a bigger hell than it already was. While we have our disputes, we can always be reasonable, agree to disagree, and never hold each other in a negative light.
 
-### To Nick:
-You are the reason I got back into cars and found them even remotely interesting again. The passion you put into your work is unmatched and truly inspiring. If the passion you currently carry for cars follows you throughout the rest of your life, you'll have a great life ahead of you.
-
 ### To Mathze:
 Super funny, relatable, and nice. I haven't known you for too long, so I can't say much, but I feel like we're going to be talking for a long time. Incredibly focused and caring, talking with you has been a blast, and I've enjoyed it immensely so far.
+
+### To Nick:
+You are the reason I got back into cars and found them even remotely interesting again. The passion you put into your work is unmatched and truly inspiring. If the passion you currently carry for cars follows you throughout the rest of your life, you'll have a great life ahead of you.
