@@ -40,6 +40,10 @@ Important gameplay altering mods:
 
 ### Changelog
 
+#### 1.0.5
+- Updated mods.
+> 33 mods.
+
 #### 1.0.4
 - Updated mods.
 - Removed: TooManyEmotes. Reason: Buggy.
