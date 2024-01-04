@@ -27,33 +27,33 @@ It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Ex
 > Same as the install script, without the RootBuilder plugin installation.
 - [Mod Organizer 2 NoRB NoDel Install Script](./dl/mo2/install-norb-nodel.bat)
 > Same as above, without the deletion of the script afterwords.
-- [Mod Organizer 2 AIO File](./dl/mo2/aio-mo2.7z)
-> All the scripts in one 7-zip file.
 - [GOG Morrowind Clean Script](./dl/mw/gogmwclean.bat)
 > Use with GOG to remove the extra files included, I made this for Morrowind#, but it could prove just as useful with any other mod setup. Put in root of game folder **NOT DATA FILES** and run, script will clean up after itself
 - [ZRP Install Script](./dl/shoc/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
 
 ### IWADS
-- [AIO Download](./dl/aio.7z)
+
+##### AIO IWAD Download
+- [AIO Download](./dl/wads/aio.7z)
 > AIO download with all wad files.
 
-- [Chex Quest](./dl/chex.wad)
-- [Chex Quest 2](./dl/chex2.wad)
-- [Chex Quest 3](./dl/chex3.wad)
-> Chex Quest files.
+##### Chex Quest Files
+- [Chex Quest](./dl/wads/chex.wad)
+- [Chex Quest 2](./dl/wads/chex2.wad)
+- [Chex Quest 3](./dl/wads/chex3.wad)
 
-- [Ultimate Doom](./dl/doomu.wad)
-- [Doom 2: Hell On Earth](./dl/doom2.wad)
-- [Final Doom: TNT: Evilution](./dl/tnt.wad)
-- [Final Doom: Plutonium](./dl/plutonium.wad)
-> Doom series files.
+##### Doom Files
+- [Ultimate Doom](./dl/wads/doomu.wad)
+- [Doom 2: Hell On Earth](./dl/wads/doom2.wad)
+- [Final Doom: TNT: Evilution](./dl/wads/tnt.wad)
+- [Final Doom: Plutonium](./dl/wads/plutonium.wad)
 
-- [Heretic](./dl/heretic.wad)
-- [Hexen: Beyond Heretic](./dl/hexen.wad)
-- [Hexen - Deathkings of the Dark Citadel](./dl/hexdd.wad)
-> Heretic/Hexen series files.
+##### Heretic/Hexen Files
+- [Heretic](./dl/wads/heretic.wad)
+- [Hexen: Beyond Heretic](./dl/wads/hexen.wad)
+- [Hexen - Deathkings of the Dark Citadel](./dl/wads/hexdd.wad)
 
-- [Strife](./dl/strife1.wad)
-- [Voices (Recommended to load with Strife)](./dl/voices.wad)
-> Strife files.
+##### Strife Files
+- [Strife](./dl/wads/strife1.wad)
+- [Voices (Recommended to load with Strife)](./dl/wads/voices.wad)
