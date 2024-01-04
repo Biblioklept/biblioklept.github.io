@@ -32,20 +32,3 @@ Reason: I no longer enjoy playing G.A.M.M.A. or "hardcore" S.T.A.L.K.E.R., for a
 > Adds G.A.M.M.A.'s BHS into Escape From Pripyat, I liked it more.  
 Archived 08/12/2023.  
 Reason: I no longer enjoy playing Escape From Pripyat or "hardcore" S.T.A.L.K.E.R., for anyone else like me, I recommend NOMAD. The modlist can be found on Reddit.
-
-### Archived Mods
-
-- N/A
-> None yet!
-
-### Archived Scripts
-
-- N/A
-> None yet!
-
-### Archived Miscellaneous
-
-- [Mirrors](./mirror/)
-> Mirrors of websites or guides just incase they go down (for whatever reason).  
-Archived 11/11/2023.  
-Reason: These mirrors were never expanded on and the Better Windows guide is updated from time to time.
