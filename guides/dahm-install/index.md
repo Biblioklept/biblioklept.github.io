@@ -21,15 +21,20 @@ Allows your game to run in borderless windowed mode.
 - [Borderless Window Plugin for DorHUD - INI](./dl/pdthhook.ini)
 > Install this into your root PDTH folder.
 
-### A Couple Other Neat Mods I Personally Use
-Install these mods into your `mods` folder in your PDTH folder. If you don't have one, make one.
+### Personal Suggestions
+Install these mods into your `mods` folder in your PDTH folder.
 
+#### Visual Mods
 - [No ADS Sway](https://modworkshop.net/mod/38786)
 > Removes the sway when you aim down the sights.
 - [Motion Sickness Helper](https://modworkshop.net/mod/40746)
 > Removes the camera breathing effect, the melee camera shake and the camera shake effect when getting shot at.
 - [No Post Processing But With Outlines](https://modworkshop.net/mod/46356)
 > Removes post-processing and keeps important gameplay processing.
+- [Viewmodel Mod](https://modworkshop.net/game/pdth/mods?query=viewmodel)
+> Changes your viewmodel to your preference. There's a couple on the workshop.
+
+#### HUD Mods
 - [WHERE'S THE FUCKING BANK MANAGER HUD](https://modworkshop.net/mod/19303)
 > HUD mod that allows for a whole lot more customization and QoL improvments.
 - [Character and Mask in Loadout Menu](https://modworkshop.net/mod/36360)
@@ -38,5 +43,3 @@ Install these mods into your `mods` folder in your PDTH folder. If you don't hav
 > Adds a detection meter to the stealth section of diamond heist. A la PAYDAY 2.
 - [No Mercy Helper](https://modworkshop.net/mod/34152)
 > Adds ! waypoints above civilian's heads who are at risk of running for the alarm buttons.
-- [Viewmodel Mod](https://modworkshop.net/game/pdth/mods?query=viewmodel)
-> Changes your viewmodel to your preference. There's a couple on the workshop.

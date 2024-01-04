@@ -105,6 +105,8 @@ User Interface mods are usually highly subjective in the feel and what you're lo
 2. [Meta Melees Highlighted](https://modworkshop.net/mod/23043)
 
 ### Consistent Visuals (Mods)
+Mods that make the visuals consistent and overall less scattered than the original game. Highly subjective.
+
 1. [Streamlined SWATs](https://modworkshop.net/mod/41726)
 2. [Streamlined FBIs](https://modworkshop.net/mod/41728	)
 3. [Streamlined GenSecs](https://modworkshop.net/mod/41712)
