@@ -6,9 +6,11 @@
 ### Description
 Lethal Company Plus is a modpack that aims to add as little gameplay-affecting-content as possible (the content it does add is purely cosmetic), gameplay tweaks, and quality of life mods.
 
-### Notes on mods:
-RemoveMotionSway removes a huge amount of what I like to call "visual-bloat", configure or disable to your liking.
+### Notes on Mods:
+- RemoveMotionSway removes a huge amount of what I like to call "visual-bloat" disable if you like things like bobbing and the helmet on your HUD.
+- Alter FOV_Adjust to alter your in-game FOV and HDLethalCompany to tweak your visuals to however you like.
 
+### Important Groups of Mods:
 Added user interface elements:
 - ShipLoot
 - VoiceHUD
@@ -27,7 +29,6 @@ Better vanilla content integration:
 - Skinwalkers
 - No_Shake_Spray_Paint
 - LethalFashion
-- BuyableShotgun
 - PersistentPurchases
 - BuyableShotgunShells
 
@@ -39,6 +40,12 @@ Important gameplay altering mods:
 - FasterItemDropship
 
 ### Changelog
+
+#### 1.0.6
+- Updated mods.
+- Removed: BuyableShotgun. Reason: Requested to remove as it disincentivizes killing the Nutcracker.
+- Removed: SkipToMultiplayerMenu. Reason: Redundant with IntroTweaks.
+> 31 mods.
 
 #### 1.0.5
 - Updated mods.
