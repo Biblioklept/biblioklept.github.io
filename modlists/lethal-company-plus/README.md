@@ -41,6 +41,11 @@ Important gameplay altering mods:
 
 ### Changelog
 
+#### 1.0.7
+- Updated mods.
+Added: LethalCompany_InputUtils; Runtime_Netcode_Patcher.
+> 33 mods.
+
 #### 1.0.6
 - Updated mods.
 - Removed: BuyableShotgun. Reason: Requested to remove as it disincentivizes killing the Nutcracker.
@@ -58,7 +63,7 @@ Important gameplay altering mods:
 
 #### 1.0.3
 - Updated mods.
-- Added: Lethal Admin, ScaledPenalties.
+- Added: Lethal Admin; ScaledPenalties.
 - Removed: NoPenalty. Reason: Replaced by ScaledPenalties
 > 34 mods.
 
