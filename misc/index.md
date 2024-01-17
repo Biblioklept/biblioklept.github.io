@@ -9,6 +9,10 @@ My Miscellaneous Files
 Disables: Water shaders, shadows, and anisotropy.  
 Adds: Animation support (with additional anims), QoL settings.  
 There's more, but this is the major changes.
+- [OpenShell Menu Settings](./dl/openshell/Menu Settings.xml)
+> Improves the Start Menu functionality to my liking (made to be used with Windows 10, Dark Mode). Internet searching is disabled and the search is reduced down to "apps" and programs. Rule of thumb: bloat is removed from the UX.
+- [OpenShell Explorer Settings](./dl/openshell/Explorer Settings.xml)
+> Removes the status bar at the bottom.
 
 ### AHK Scripts
 It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases/latest) program to convert these to an executable script. The scripts are editable with a simple notepad program (Notepad++ recommended for Windows users).
