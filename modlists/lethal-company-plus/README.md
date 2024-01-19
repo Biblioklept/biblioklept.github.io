@@ -41,6 +41,11 @@ Important gameplay altering mods:
 
 ### Changelog
 
+#### 1.0.8
+- Updated mods.
+- Reordered manifest.json file.
+> 33 mods.
+
 #### 1.0.7
 - Updated mods.
 Added: LethalCompany_InputUtils; Runtime_Netcode_Patcher.
