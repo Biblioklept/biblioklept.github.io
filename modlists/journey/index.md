@@ -130,12 +130,12 @@ Mod Organizer 2's "Profiles" feature allows for easy switching between different
 
 ### Mod Installation Advice
 
-1.  Click the `DOWNLOAD NOW!` button (or whatever the download button is for the respective site)
+1.  Click the `Download` button (or whatever the download button is for the respective site).
 
 > I recommend moving the downloaded files to your JOURNEY MO2 `downloads` (i.e. `JOURNEY\downloads`) folder.
 
-2.  Once the download has finished, click the `Archive` button at the top of MO2
-3.  From the new window, navigate to where the file was downloaded to and double-click it
+2.  Once the download has finished, click the `Archive` button at the top of MO2.
+3.  From the new window, navigate to where the file was downloaded to and double-click it.
 
 When downloading multiple files from the same page, you will be prompted with a box in Mod Organizer 2 with the options `Merge`, `Replace`, and `Rename`. You should select the `Rename` option and rename the mod to its respective file name. This will make MO2 install them as separate files for easier management. If you are updating from an old version of a mod, you should select `Replace`. This will delete all the files from the old version of the mod and replace them,with the ones from the new version. This is the only time you should use the `Replace` option, otherwise always use `Rename`.
 
@@ -144,7 +144,7 @@ When downloading multiple files from the same page, you will be prompted with a 
 ## Modlist Setup
 
 ### Initial Setup
-To begin, you will need to download the [Anomaly Modded EXE Files](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/raw/main/STALKER-Anomaly-modded-exes.zip) and extract the files into your root STALKER Anomaly game folder.
+To begin, you will need to download the [Anomaly Modded EXE Files](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/releases/latest) and extract the files into your root STALKER Anomaly game folder.
 
 ### User Interface
 [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)  
@@ -159,9 +159,10 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 ### Visuals
 [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)  
-[MP-133 Fix](https://www.moddb.com/mods/stalker-anomaly/addons/mp-133-fix)  
+[Beef's NVG, Improved](https://www.moddb.com/mods/stalker-anomaly/addons/beefs-nvg-improved)  
 [Glossy Surfaces and Water SSR](https://www.moddb.com/mods/stalker-anomaly/addons/glossy-surfaces-ssr)  
-![Glossy Surfaces and Water SSR Installation Tutorial Image](./img/tutorialimgs/GSSSRTUT.png)  
+> When prompted for install, select `OK`.
+
 [Fixed Vanilla Models & Textures](https://www.moddb.com/mods/stalker-anomaly/addons/fvm)  
 [Dux's Innumerable Character Kit](https://www.moddb.com/mods/stalker-anomaly/addons/dick)  
 > When prompted for install, select `Next`, then `Install`.
@@ -172,15 +173,17 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [1st Person Visible Body](https://www.moddb.com/mods/stalker-anomaly/addons/swm-ported-visible-body-starter-version)  
 
 ### Gunplay
-[Yet Another Reposition Mod](https://www.moddb.com/mods/stalker-anomaly/addons/yet-another-reposition-mod-v-1-0-melee-and-pistols)  
 [Machine Pistols & Sawn Off in Sidearm Slot](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-machine-pistols-sawn-off-in-sidearm-slot)  
 > When prompted for install, select `OK`.
 
 [Simple Unjam Animation](https://www.moddb.com/mods/stalker-anomaly/addons/simple-unjam-animation)  
 [Lowered Sprinting Animations Optimized](https://www.moddb.com/mods/stalker-anomaly/addons/lower-weapon-sprint-optimized)  
+[Private's Gun Reposition](https://www.moddb.com/mods/stalker-anomaly/addons/privates-gun-reposition-aka-pgr)  
+[Vanilla Weapons Resmoothed & Relensed](https://www.moddb.com/mods/stalker-anomaly/addons/vanilla-weapons-resmoothed-relensed)  
 [Sights Without Dirt/Clean Sights](https://www.moddb.com/mods/stalker-anomaly/addons/sights-without-dirt-clean-sights)  
-[Shader Based 2D Scopes](https://www.moddb.com/mods/stalker-anomaly/addons/shader-based-2d-scopes-151dx11engine-mod)  
-![Shader Based 2D Scopes Installation Tutorial Image](./img/tutorialimgs/SB2DSTUT.png)  
+[Better Red Dots For Default Weapons](https://www.moddb.com/mods/stalker-anomaly/addons/better-red-dots-for-default-weapons)  
+[Parallax Reflex Sights](https://www.moddb.com/mods/stalker-anomaly/addons/parallax-reflex-sights)  
+[Overheat Gunsmoke](https://www.moddb.com/mods/stalker-anomaly/addons/overheat-gunsmoke)  
 
 ### Gameplay
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
@@ -190,13 +193,11 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 ### Tweaks
 [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)  
-![Nitpicker's Modpack Installation Tutorial Image](./img/tutorialimgs/NPMPTUT.png)  
+> When prompted for install, select `OK`.
 [Modular Miscellaneous Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks)  
-![Modular Miscellaneous Tweaks Installation Tutorial Image](./img/tutorialimgs/MMTTUT.png)  
+> When prompted for install, select `OK`.
 [Crafting With Multi-Use Items Fix](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-crafting-with-multi-use-items)  
-![Crafting With Multi-Use Items Fix Installation Tutorial Image](./img/tutorialimgs/CWMUIFTUT1.png)  
-![Crafting With Multi-Use Items Fix Installation Tutorial Image](./img/tutorialimgs/CWMUIFTUT2.png)  
-![Crafting With Multi-Use Items Fix Installation Tutorial Image](./img/tutorialimgs/CWMUIFTUT3.png)  
+> When prompted for install, select `OK`.
 [UNISG Hollow Boundaries Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/unisg-hollow-boundaries-fixes-v110)  
 [Sin Upgrade Software](https://www.moddb.com/mods/stalker-anomaly/addons/sin-upgrade-software)  
 [Sin Upgrade Software - DICK Patch](./dl/Sin Upgrade Software - DICK Patch.7z)  
@@ -224,13 +225,11 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Damien's Animation Compendium](https://www.moddb.com/mods/stalker-anomaly/addons/damiens-animation-compedium)  
 > Don't let the [Unmaintained] scare you away, the mod works perfectly fine and has for as long as 1.5.2 has been out.
 
-![BAIN Prompt Tutorial Image](./img/tutorialimgs/BAINPROMPT2.png)  
-![Damien's Animation Compendium](./img/tutorialimgs/DACTUT1.png)  
-> Move these gamedata folders to the `<stalker anomaly section>`. Then click ok. **If you installed Yet Another Reposition Mod, go to that mod, open the `mod_system_yarm_rrepo.ltx` file, and remove all references to the knife. Not doing so will cause your knife to block your vision almost completely.
-
+> When prompted for install, select `OK`.
 [Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
-![FDDA Installation Tutorial Image](./img/tutorialimgs/FDDATUT.png)  
+> When prompted for install, select `OK`.
 [Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
+[MFS Team Bread And Sausage Anims](https://www.moddb.com/mods/stalker-anomaly/addons/mfs-team-bread-and-sausage-anims)  
 [Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)  
 [Cooking Animation System](https://www.moddb.com/mods/stalker-anomaly/addons/fieldcooker-animation-reloaded)  
 
@@ -246,7 +245,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 ### Warfare Mods [OPTIONAL]
 [Warfare ALife Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/warfare-alife-overhaul)  
-![Warfare ALife Overhaul Installation Tutorial Image](./img/tutorialimgs/WALOTUT.png)  
+> When prompted for install, select `OK`.
 [Hawkie's Warfare Mechanic Fix](https://www.moddb.com/mods/stalker-anomaly/addons/hawkies-warfare-mechanic-fix)
 
 ### ReShade [OPTIONAL]
