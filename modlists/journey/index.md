@@ -20,7 +20,7 @@ The goal of this modlist is to provide a base to build upon with mods of your ow
 
 ## Initial Setup
 
-***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.moddinglinked.com/setup.html). All credits to Qolore07***.
+***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.moddinglinked.com/setup.html). All credits to the ModdingLinked team***.
 
 ### Uninstalling the Game
 
@@ -40,39 +40,39 @@ The goal of this modlist is to provide a base to build upon with mods of your ow
 
 Now that the game is installed, there are two folders from it that will be referred to in the guide often:
 
-- **Root** folder: Where the game is installed
+- **Root** folder: Where the game is installed.
 
-> Example: `D:\STALKER Anomaly\`
+> Example: `D:\STALKER Anomaly\`.
 
-- **gamedata** folder: Where all of the game's assets are located
+- **gamedata** folder: Where all of the game's assets are located.
 
-> Example: `D:\STALKER Anomaly\gamedata`
+> Example: `D:\STALKER Anomaly\gamedata`.
 
-- **bin** folder: Where the executables and engine modifications are installed
+- **bin** folder: Where the executables and engine modifications are installed.
 
-> Example: `D:\STALKER Anomaly\bin`
+> Example: `D:\STALKER Anomaly\bin`.
 
 ### Quickly Running The Game
 
-1.  Run `AnomalyLauncher.exe` from the game's `Root` folder
+1.  Run `AnomalyLauncher.exe` from the game's `Root` folder.
 
-- If you do not know what the game's `Root` folder is, read the **Key Terminology** section above
+- If you do not know what the game's `Root` folder is, read the **Key Terminology** section above.
 
-2.  Select **DirectX 10 or DirectX 11**
+2.  Select **DirectX 10 or DirectX 11**.
 
 - If you have a lower-end PC, or want to squeeze as much performance out of the game as possible, you can select the I'd recommend DirectX 10. It offers pretty similar lighting quality for performance improvement, especially on older hardware. **Using a lower DirectX version will result in crashes**. Another great way to improve performance is tweaking the visuals/graphics in-game and lowering the shadow map to 1536.
 
-3.  Tick the `Reset graphics settings` box
-4.  Set the `Resolution` option to your preference
-5.  Click the drop-down box and choose either `Borderless Windowed` or `Fullscreen`
+3.  Tick the `Reset graphics settings` box.
+4.  Set the `Resolution` option to your preference.
+5.  Click the drop-down box and choose either `Borderless Windowed` or `Fullscreen`.
 
 ### Enabling File Extensions
 
 By default, Windows Explorer will not show file extensions (such as .exe, .dll, or .esp). These extensions are very important when going through the guide, so it is highly recommended to enable file extensions:
 
-1.  Open Windows Explorer
-2.  Select the **View** tab at the top
-3.  Check the box next to **File name extensions**
+1.  Open Windows Explorer.
+2.  Select the **View** tab at the top.
+3.  Check the box next to **File name extensions**.
 
 ## Mod Organizer 2 Setup
 
@@ -80,53 +80,53 @@ By default, Windows Explorer will not show file extensions (such as .exe, .dll, 
 
 ### Installing Mod Organizer 2
 
-1.  Download the latest `Mod Organizer 2` file from [here](https://github.com/ModOrganizer2/modorganizer/releases/latest)
-2.  Once downloaded, extract it to any location outside of any default Window folders (like `Program Files x86`) and outside of the game's `Root` folder (the installer's default location will work)
+1.  Download the latest `Mod Organizer 2` file from [here](https://github.com/ModOrganizer2/modorganizer/releases/latest).
+2.  Once downloaded, extract it to any location outside of any default Window folders (like `Program Files x86`) and outside of the game's `Root` folder (the installer's default location will work).
 
 ### Initial Setup
 
-1.  Run `ModOrganizer.exe`
-2.  You will be prompted with a pop-up called `Creating an instance`, in which you should just select `Next`
-3.  On the next page, select `Create a portable instance`
-5.  On the next page, select `STALKER Anomaly`
-6.  On the next page, keep the `Location` file path default
+1.  Run `ModOrganizer.exe`.
+2.  You will be prompted with a pop-up called `Creating an instance`, in which you should just select `Next`.
+3.  On the next page, select `Create a portable instance`.
+5.  On the next page, select `STALKER Anomaly`.
+6.  On the next page, keep the `Location` file path default.
 
 > If you have MO2 installed on an SSD or a HDD with little space, you can check the **Show advanced options** box and change the **Downloads** file path to a different drive with more space. This will not affect download/game performance, and the downloads can be deleted after the mods have been installed.
 
-7.  On the last page, select `Finish`
-8.  MO2 will launch and prompt you with a pop-up called `Show tutorial?`, in which you should select `No`
-9.  From the pop-up called `Register?`, select `Yes`
+7.  On the last page, select `Finish`.
+8.  MO2 will launch and prompt you with a pop-up called `Show tutorial?`, in which you should select `No`.
+9.  From the pop-up called `Register?`, select `Yes`.
 
-- This pop-up will not show up if you have already registered a different instance of MO2
+- This pop-up will not show up if you have already registered a different instance of MO2.
 
 ### Configuring Settings
 
-1.  Select the `X` in the bottom right of MO2 to close the log window
-2.  Select the `Settings` button at the top of MO2 to open the settings
-3.  In the **Theme** tab, you can select a different style from the drop-down menu at the top
+1.  Select the `X` in the bottom right of MO2 to close the log window.
+2.  Select the `Settings` button at the top of MO2 to open the settings.
+3.  In the **Theme** tab, you can select a different style from the drop-down menu at the top.
 
-- I use the `1809 Dark Mode` theme
+- I use the `1809 Dark Mode` theme.
 
-4.  In the `Nexus` tab, select `Connect to Nexus`
+4.  In the `Nexus` tab, select `Connect to Nexus`.
 
-- This option will not show up if you have already connected your Nexus account on a different MO2 instance
+- This option will not show up if you have already connected your Nexus account on a different MO2 instance.
 
-5.  MO2 will open your browser and prompt you to authorize the connection
-6.  Once you authorize it, you can close out of your browser and of the MO2 settings
-7.  Allow MO2 to restart if it asks
+5.  MO2 will open your browser and prompt you to authorize the connection.
+6.  Once you authorize it, you can close out of your browser and of the MO2 settings.
+7.  Allow MO2 to restart if it asks.
 
 ### Creating Profiles
 
 Mod Organizer 2's "Profiles" feature allows for easy switching between different mod configurations. In this step, we will create a profile for the guide while keeping a strictly-vanilla profile for testing/de-bugging. Profiles can be selected via the drop-down menu above the left pane.
 
-1.  Select the `Profiles` button at the top of MO2 to open the profiles menu
-2.  Select the `Default` profile, then select `Copy`
-3.  Name the new profile `JOURNEY`
-4.  Select the `JOURNEY` profile and make sure both `Use profile-specific Game INI Files` is checked at the bottom
+1.  Select the `Profiles` button at the top of MO2 to open the profiles menu.
+2.  Select the `Default` profile, then select `Copy`.
+3.  Name the new profile `JOURNEY`.
+4.  Select the `JOURNEY` profile and make sure both `Use profile-specific Game INI Files` is checked at the bottom.
 
-> You may get a pop-up called `INI file is read-only` when attempting to make/select a new profile. If so then select `Remember my choice` from the drop-down at the bottom then click `Clear the read-only flag`
+> You may get a pop-up called `INI file is read-only` when attempting to make/select a new profile. If so then select `Remember my choice` from the drop-down at the bottom then click `Clear the read-only flag`.
 
-5.  Exit out of the profiles menu and select the `JOURNEY` profile from the drop-down above the left pane
+5.  Exit out of the profiles menu and select the `JOURNEY` profile from the drop-down above the left pane.
 
 ### Mod Installation Advice
 
@@ -149,19 +149,26 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 ### User Interface
 [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)  
 [Crispy Options UI](https://www.moddb.com/mods/stalker-anomaly/addons/crispy-options-ui)  
+> When prompted for install, select whichever options you want, but `Sliders` is the most important option.
+
 [DLTX'd Persistent MCM Configuration](https://www.moddb.com/mods/stalker-anomaly/addons/dltxs-persistent-mcm-configuration)  
 [Hunger, Thirst, Sleep UI](https://www.moddb.com/mods/stalker-anomaly/addons/hunger-thirst-sleepiness-bars)  
+> When prompted for install, select `00. UI Main`, then `OK`.
+
 [Crook's Faction Identification UI](https://www.moddb.com/mods/stalker-anomaly/addons/crooks-faction-identification-ui)  
-[Unification - Patch replacer for Crook's Faction Identification](https://www.moddb.com/mods/stalker-anomaly/addons/unification-patch-replacer-for-crooks-faction-identification)  
+> When prompted for install, select `00. Crook's Faction Identification UI`, then `OK`.
+
+[Unification - Patch Replacer for Crook's Faction Identification](https://www.moddb.com/mods/stalker-anomaly/addons/unification-patch-replacer-for-crooks-faction-identification)  
 [Instant Tooltip](https://www.moddb.com/mods/stalker-anomaly/addons/instant-tooltip-for-rc18-23)  
 [Cost In Tooltip](https://www.moddb.com/mods/stalker-anomaly/addons/cost-in-tool-tip-u4h8-and-rc18-23)  
 [Battery Warning](https://www.moddb.com/mods/stalker-anomaly/addons/batterywarning)
 
 ### Visuals
 [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)  
+> When prompted for install, select all options.
+
 [Beef's NVG, Improved](https://www.moddb.com/mods/stalker-anomaly/addons/beefs-nvg-improved)  
-[Glossy Surfaces and Water SSR](https://www.moddb.com/mods/stalker-anomaly/addons/glossy-surfaces-ssr)  
-> When prompted for install, select `OK`.
+> When prompted for install, select `Beef's NVGs`, then `OK`.
 
 [Fixed Vanilla Models & Textures](https://www.moddb.com/mods/stalker-anomaly/addons/fvm)  
 [Dux's Innumerable Character Kit](https://www.moddb.com/mods/stalker-anomaly/addons/dick)  
@@ -174,30 +181,49 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 ### Gunplay
 [Machine Pistols & Sawn Off in Sidearm Slot](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-machine-pistols-sawn-off-in-sidearm-slot)  
-> When prompted for install, select `OK`.
+> When prompted for install, select `00 Vanilla DLTX`, then `OK`.
 
 [Simple Unjam Animation](https://www.moddb.com/mods/stalker-anomaly/addons/simple-unjam-animation)  
 [Lowered Sprinting Animations Optimized](https://www.moddb.com/mods/stalker-anomaly/addons/lower-weapon-sprint-optimized)  
 [Private's Gun Reposition](https://www.moddb.com/mods/stalker-anomaly/addons/privates-gun-reposition-aka-pgr)  
+> When prompted for install, hit `Next` through the installer, select `hud fov 0.65`, any and all weapons, then `Install`.
+
 [Vanilla Weapons Resmoothed & Relensed](https://www.moddb.com/mods/stalker-anomaly/addons/vanilla-weapons-resmoothed-relensed)  
 [Sights Without Dirt/Clean Sights](https://www.moddb.com/mods/stalker-anomaly/addons/sights-without-dirt-clean-sights)  
 [Better Red Dots For Default Weapons](https://www.moddb.com/mods/stalker-anomaly/addons/better-red-dots-for-default-weapons)  
 [Parallax Reflex Sights](https://www.moddb.com/mods/stalker-anomaly/addons/parallax-reflex-sights)  
 [Overheat Gunsmoke](https://www.moddb.com/mods/stalker-anomaly/addons/overheat-gunsmoke)  
+> When prompted for install, select `Modded Exes version`, then `OK`.
+
+### Audio
+[JSRS Sound Mod](https://www.moddb.com/mods/stalker-anomaly/addons/jsrs-sound-mod-50-preview-for-152)  
+> When prompted for install, select `JSRS P.1 - Main Addon` and `JSRS P.2 - Cracks + Impacts Patch - NEW`, then `OK`.
+
+[Soundscape Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/soundscape-overhaul-2)  
+> When prompted for install, select `SCO3 Addon - Anomaly Sounds`, `SCO3 Addon - New Footsteps`, `SCO3 Addon - New Object Sounds`, `SCO3 P.1 Real Mutant Sounds`, `SCO3 P.2 New Outdoor Sounds`, and `SCO3 P.3 New Underground Sounds`, then `OK`.
+
+[Soundscape Overhaul - Quieter Rain](https://www.moddb.com/mods/stalker-anomaly/addons/soundscape-overhaul-quieter-rain)  
+[Low Health & Geiger Ticking Sounds Lowered](https://www.moddb.com/mods/stalker-anomaly/addons/low-health-geiger-ticking-sounds-lowered)  
+> When prompted for install, select `GeigerVolume10dbLowered` and `NoLowHealthSound`, then `OK`.
+
+[Noodlesmile's Better Controller Tinnitus](https://www.moddb.com/mods/stalker-anomaly/addons/noodlesmiles-better-controller-tinnitus)
 
 ### Gameplay
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
 [Bounty Squads Expanded](https://www.moddb.com/mods/stalker-anomaly/addons/bounty-squads-expanded1)  
 [Stealth](https://www.moddb.com/mods/stalker-anomaly/addons/stealth1)  
-> When prompted for install, select `OK`.
+> When prompted for install, select `Stealth_2.3`, then `OK`.
 
 ### Tweaks
 [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)  
-> When prompted for install, select `OK`.
+> When prompted for install, select `Install`.
+
 [Modular Miscellaneous Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks)  
-> When prompted for install, select `OK`.
+> When prompted for install, select all options, then `Install`.
+
 [Crafting With Multi-Use Items Fix](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-crafting-with-multi-use-items)  
-> When prompted for install, select `OK`.
+> When prompted for install, right click on `Main` and set it as the directory.
+
 [UNISG Hollow Boundaries Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/unisg-hollow-boundaries-fixes-v110)  
 [Sin Upgrade Software](https://www.moddb.com/mods/stalker-anomaly/addons/sin-upgrade-software)  
 [Sin Upgrade Software - DICK Patch](./dl/Sin Upgrade Software - DICK Patch.7z)  
@@ -211,32 +237,30 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Bugged Stashes Fix](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-bugged-stashes-fix)  
 [Transition Between Locations Without Confirmation](https://www.moddb.com/mods/stalker-anomaly/addons/transition-between-locations-without-confirmation)  
 
-### Audio
-[JSRS Sound Mod](https://www.moddb.com/mods/stalker-anomaly/addons/jsrs-sound-mod-50-preview-for-152)  
-[Soundscape Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/soundscape-overhaul-2)  
-[Soundscape Overhaul - Quieter Rain](https://www.moddb.com/mods/stalker-anomaly/addons/soundscape-overhaul-quieter-rain)  
-[Low Health & Geiger Ticking Sounds Lowered](https://www.moddb.com/mods/stalker-anomaly/addons/low-health-geiger-ticking-sounds-lowered)  
-[Noodlesmile's Better Controller Tinnitus](https://www.moddb.com/mods/stalker-anomaly/addons/noodlesmiles-better-controller-tinnitus)
-
 ### Animations
 [Torch Animation Fixed](https://www.moddb.com/mods/stalker-anomaly/addons/torch-animation-fixed)  
 [Faster SKS Reload](https://www.moddb.com/mods/stalker-anomaly/addons/petethegoat)  
 [Camera Reanimation Project - I.N.E.R.T.I.A.](https://www.moddb.com/mods/stalker-anomaly/addons/camera-reanimation-project-inertia)   
 [Damien's Animation Compendium](https://www.moddb.com/mods/stalker-anomaly/addons/damiens-animation-compedium)  
-> Don't let the [Unmaintained] scare you away, the mod works perfectly fine and has for as long as 1.5.2 has been out.
+> When prompted for install, select `OK`.
 
-> When prompted for install, select `OK`.
 [Food, Drug and Drinks Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)  
-> When prompted for install, select `OK`.
-[Asnen's Better Cigarettes Animations](https://www.moddb.com/mods/stalker-anomaly/addons/asnen-and-grok-better-cigarettes-animation)  
-[MFS Team Bread And Sausage Anims](https://www.moddb.com/mods/stalker-anomaly/addons/mfs-team-bread-and-sausage-anims)  
-[Water Flask Rework](https://www.moddb.com/mods/stalker-anomaly/addons/water-flask-rework)  
+> When prompted for install, select `Install`.
+
+[FDDA Enhanced Animations - Food and Drinks](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-enhanced-animations-food-n-drinks)  
+> When prompted for install, hit `Next` through the installer, then `Install`.
+
+[FDDA Enhanced animations - Medical / Exo Anims](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-enhanced-animations-medical-exo-anims)  
 [Cooking Animation System](https://www.moddb.com/mods/stalker-anomaly/addons/fieldcooker-animation-reloaded)  
+> When prompted for install, hit `Next` through the installer, then `Install`.
 
 ### Final Steps
 
 [AXR_Options Config](./dl/AXR_Options Config.7z)  
 > All the tweaks to make the game just a little more playable. Increases your FOV, disables unnecessary animations, disables crosshair, and unlocks the rest of the factions from the start.
+
+### Additional Notes
+- Glossy Surfaces and Water SSR and Enhanced Shaders were removed for compatibility reasons, ease of installation, and more performance. You are free to install these mods as long as you understand that this **NULLS** the support you'll receive for the mod list. It is a simple addition and you will need to reinstall Beef's NVGs for it to work properly.
 
 ## Optional Mods
 

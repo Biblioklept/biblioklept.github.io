@@ -9,4 +9,9 @@ https://open.spotify.com/playlist/5xgktNkfLj3z5M2b9v6oAJ
 - Streetlight Manifesto
 - The Lemonheads
 - Phish
-- Denzel Curry
+- ~~Denzel Curry~~ Added
+- Pinback
+- The Extra Lens (Glenns)
+- King Missile
+- Shintaro Sakamoto
+- The Incredible String Band
