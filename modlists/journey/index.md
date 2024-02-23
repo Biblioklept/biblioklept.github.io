@@ -209,6 +209,12 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [Noodlesmile's Better Controller Tinnitus](https://www.moddb.com/mods/stalker-anomaly/addons/noodlesmiles-better-controller-tinnitus)
 
 ### Gameplay
+[Renegade Recreation Mod](https://www.moddb.com/mods/stalker-anomaly/addons/renegade-recreation-mod-vanilla)  
+[Sin Upgrade Software](https://www.moddb.com/mods/stalker-anomaly/addons/sin-upgrade-software)  
+[Sin Upgrade Software - DICK Patch](./dl/Sin Upgrade Software - DICK Patch.7z)  
+[Trader Overhaul Complete](https://www.moddb.com/mods/stalker-anomaly/addons/trader-overhaul-complete)  
+> When prompted for install, don't do a BAIN install. Instead, do a manual and browse the `1.5.2 Update Version` folder and set the `Trader Overhaul - Outfit Version` as the directory, up to you if you want to install the optional files (drag the gamedata folder from the addon into the `Trader Overhaul - Outfit Version` folder), then `OK`.
+
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
 [Bounty Squads Expanded](https://www.moddb.com/mods/stalker-anomaly/addons/bounty-squads-expanded1)  
 [Stealth](https://www.moddb.com/mods/stalker-anomaly/addons/stealth1)  
@@ -225,8 +231,6 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 > When prompted for install, right click on `Main` and set it as the directory.
 
 [UNISG Hollow Boundaries Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/unisg-hollow-boundaries-fixes-v110)  
-[Sin Upgrade Software](https://www.moddb.com/mods/stalker-anomaly/addons/sin-upgrade-software)  
-[Sin Upgrade Software - DICK Patch](./dl/Sin Upgrade Software - DICK Patch.7z)  
 [Fixed Player Thermal Resistance](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-player-thermal-resistance)  
 [He Is With Me](https://www.moddb.com/mods/stalker-anomaly/addons/he-is-with-me)  
 [Angry Chimera Growls](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-angry-chimera-growls-v10)  
@@ -239,7 +243,6 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 ### Animations
 [Torch Animation Fixed](https://www.moddb.com/mods/stalker-anomaly/addons/torch-animation-fixed)  
-[Faster SKS Reload](https://www.moddb.com/mods/stalker-anomaly/addons/petethegoat)  
 [Camera Reanimation Project - I.N.E.R.T.I.A.](https://www.moddb.com/mods/stalker-anomaly/addons/camera-reanimation-project-inertia)   
 [Damien's Animation Compendium](https://www.moddb.com/mods/stalker-anomaly/addons/damiens-animation-compedium)  
 > When prompted for install, select `OK`.
