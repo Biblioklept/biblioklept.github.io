@@ -175,25 +175,9 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 > When prompted for install, select `Next`, then `Install`.
 
 [T.H.A.P. Rework](https://www.moddb.com/mods/stalker-anomaly/addons/thap-rework)  
-> When prompted for install, right click on `T.H.A.P. Rework 2.1.1` and set it as the directory.
+> When prompted for install, right click on `T.H.A.P. Rework 2.1.1` and set it as the directory, then `OK`.
 
 [1st Person Visible Body](https://www.moddb.com/mods/stalker-anomaly/addons/swm-ported-visible-body-starter-version)  
-
-### Gunplay
-[Machine Pistols & Sawn Off in Sidearm Slot](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-machine-pistols-sawn-off-in-sidearm-slot)  
-> When prompted for install, select `00 Vanilla DLTX`, then `OK`.
-
-[Simple Unjam Animation](https://www.moddb.com/mods/stalker-anomaly/addons/simple-unjam-animation)  
-[Lowered Sprinting Animations Optimized](https://www.moddb.com/mods/stalker-anomaly/addons/lower-weapon-sprint-optimized)  
-[Private's Gun Reposition](https://www.moddb.com/mods/stalker-anomaly/addons/privates-gun-reposition-aka-pgr)  
-> When prompted for install, hit `Next` through the installer, select `hud fov 0.65`, any and all weapons, then `Install`.
-
-[Vanilla Weapons Resmoothed & Relensed](https://www.moddb.com/mods/stalker-anomaly/addons/vanilla-weapons-resmoothed-relensed)  
-[Sights Without Dirt/Clean Sights](https://www.moddb.com/mods/stalker-anomaly/addons/sights-without-dirt-clean-sights)  
-[Better Red Dots For Default Weapons](https://www.moddb.com/mods/stalker-anomaly/addons/better-red-dots-for-default-weapons)  
-[Parallax Reflex Sights](https://www.moddb.com/mods/stalker-anomaly/addons/parallax-reflex-sights)  
-[Overheat Gunsmoke](https://www.moddb.com/mods/stalker-anomaly/addons/overheat-gunsmoke)  
-> When prompted for install, select `Modded Exes version`, then `OK`.
 
 ### Audio
 [JSRS Sound Mod](https://www.moddb.com/mods/stalker-anomaly/addons/jsrs-sound-mod-50-preview-for-152)  
@@ -208,17 +192,32 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 
 [Noodlesmile's Better Controller Tinnitus](https://www.moddb.com/mods/stalker-anomaly/addons/noodlesmiles-better-controller-tinnitus)
 
+### Gunplay
+[Simple Unjam Animation](https://www.moddb.com/mods/stalker-anomaly/addons/simple-unjam-animation)  
+[Lowered Sprinting Animations Optimized](https://www.moddb.com/mods/stalker-anomaly/addons/lower-weapon-sprint-optimized)  
+[Private's Gun Reposition](https://www.moddb.com/mods/stalker-anomaly/addons/privates-gun-reposition-aka-pgr)  
+> When prompted for install, hit `Next` through the installer, select `hud fov 0.65`, any and all weapons, then `Install`.
+
+[Vanilla Weapons Resmoothed & Relensed](https://www.moddb.com/mods/stalker-anomaly/addons/vanilla-weapons-resmoothed-relensed)  
+[Sights Without Dirt/Clean Sights](https://www.moddb.com/mods/stalker-anomaly/addons/sights-without-dirt-clean-sights)  
+[Better Red Dots For Default Weapons](https://www.moddb.com/mods/stalker-anomaly/addons/better-red-dots-for-default-weapons)  
+[Parallax Reflex Sights](https://www.moddb.com/mods/stalker-anomaly/addons/parallax-reflex-sights)  
+[Overheat Gunsmoke](https://www.moddb.com/mods/stalker-anomaly/addons/overheat-gunsmoke)  
+> When prompted for install, select `Modded Exes version`, then `OK`.
+
 ### Gameplay
 [Renegade Recreation Mod](https://www.moddb.com/mods/stalker-anomaly/addons/renegade-recreation-mod-vanilla)  
 [Sin Upgrade Software](https://www.moddb.com/mods/stalker-anomaly/addons/sin-upgrade-software)  
 [Sin Upgrade Software - DICK Patch](./dl/Sin Upgrade Software - DICK Patch.7z)  
 [Trader Overhaul Complete](https://www.moddb.com/mods/stalker-anomaly/addons/trader-overhaul-complete)  
-> When prompted for install, don't do a BAIN install. Instead, do a manual and browse the `1.5.2 Update Version` folder and set the `Trader Overhaul - Outfit Version` as the directory, up to you if you want to install the optional files (drag the gamedata folder from the addon into the `Trader Overhaul - Outfit Version` folder), then `OK`.
+> When prompted for install, don't do a BAIN install. Instead, do a manual and right click on `1.5.2 Update Version\Optional files\Trader Overhaul - Outfit Version\` and set it as the directory.
 
 [RF Receiver Hidden Package Sidequests](https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests)  
 [Bounty Squads Expanded](https://www.moddb.com/mods/stalker-anomaly/addons/bounty-squads-expanded1)  
 [Stealth](https://www.moddb.com/mods/stalker-anomaly/addons/stealth1)  
 > When prompted for install, select `Stealth_2.3`, then `OK`.
+[Machine Pistols & Sawn Off in Sidearm Slot](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-machine-pistols-sawn-off-in-sidearm-slot)  
+> When prompted for install, select `00 Vanilla DLTX`, then `OK`.
 
 ### Tweaks
 [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)  
@@ -228,7 +227,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 > When prompted for install, select all options, then `Install`.
 
 [Crafting With Multi-Use Items Fix](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-crafting-with-multi-use-items)  
-> When prompted for install, right click on `Main` and set it as the directory.
+> When prompted for install, right click on `Main` and set it as the directory, then `OK`.
 
 [UNISG Hollow Boundaries Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/unisg-hollow-boundaries-fixes-v110)  
 [Fixed Player Thermal Resistance](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-player-thermal-resistance)  
