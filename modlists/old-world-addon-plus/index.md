@@ -155,7 +155,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 [FDDA](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)
 > Interactable items animations. Animations janky enough to look like it comes with the base game.
 
-[Food, Drugs, and Drink Animations for Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/food-drugs-and-drink-animations-for-old-world-addon]
+[Food, Drugs, and Drink Animations for Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/food-drugs-and-drink-animations-for-old-world-addon)
 > Gives the sausage it's animations and reskins the vodka.
 
 [Old Backpack Model for FDDA](https://www.moddb.com/mods/stalker-anomaly/addons/old-backpack-model-for-fdda)
@@ -230,4 +230,15 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 > Changed formula for NPC's detection. It is now heavily based on light and distance. Added weight, body state, memory and many other factors. Flashlights/headlamps/campfires are now giving visibility boost to enemy. Modified luminosity itself (a lot).
 
 [Stealth - Old World Addon Patch](./dl/Stealth - OWA Patch.zip)
+> Patch for above mod to work with Old World Addon.
+
+### Warfare - OPTIONAL
+
+[Warfare ALife Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/warfare-alife-overhaul)
+> Simultaneous story mode + Warfare, new loner and ecologist behaviors, faction AI overhaul, bug fixing, and more.
+
+[Hawkie's Warfare Mechanic Fix](https://www.moddb.com/mods/stalker-anomaly/addons/hawkies-warfare-mechanic-fix)
+> Giving toolkits to faction mechanics unlocks the toolkit on Warfare faction workbenches.
+
+[Old World Warfare ALife Overhaul Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-warfarealifeoverhaul-142-patch)
 > Patch for above mod to work with Old World Addon.
