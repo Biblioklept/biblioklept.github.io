@@ -27,12 +27,12 @@ The goal of this modlist is to provide a base to build upon with mods of your ow
 
 > If you do not have the game installed yet, skip this step.
 
-1.  Find where you installed `STALKER Anomaly` and delete it completely.
+1.  Find where you installed `S.T.A.L.K.E.R. Anomaly` and delete it completely.
 
 ### Installing the Game
 
-1.  Download [STALKER Anomaly 1.5.1](https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-151)
-2.  Download [STALKER Anomaly 1.5.2](https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-151-to-152)
+1.  Download [S.T.A.L.K.E.R. Anomaly 1.5.1](https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-151)
+2.  Download [S.T.A.L.K.E.R. Anomaly 1.5.2](https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-151-to-152)
 3.  Extract it to any location outside of any default Window folders (like `Program Files x86`)
 
 ## Post-Installation
@@ -145,7 +145,7 @@ When downloading multiple files from the same page, you will be prompted with a 
 ## Modlist Setup
 
 ### Modded EXE Files Setup
-To begin, you will need to download the [Anomaly Modded EXE Files](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/releases/latest) and extract the files into your root STALKER Anomaly game folder.
+To begin, you will need to download the [Anomaly Modded EXE Files](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/releases/latest) and extract the files into your root S.T.A.L.K.E.R. Anomaly game folder.
 
 ### Old World Addon - Base
 [Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/152-old-world-addon)
