@@ -204,7 +204,7 @@ To begin, you will need to download the [Anomaly Modded EXE Files](https://githu
 > Mods that add small improvements to Anomaly via scripts. I recommend: **Tool Tip In Corner, Mini Map Toggle, Sorting Plus, No More Companion Friendly Fire, Companion Carry Weight Unlimiter, Instant Tooltip, He Is With Me, Cost In Tooltop, and Body Dots Mini Map**.
 
 [Utjan's QoL Bundle](Utjan's QoL Bundle)
-> Bundle of small but significant Quality of Life mods. I recommend: **Show Total Uses, Fetch Task Shows Your Items, Weight of Category, Scroll Sort Categories, Quick Slot and Item Stack Use Priority, Show Icon On Task Items, Sleep Gain Indicator, Craft Uses Lowest Condition Items, and Devices Drain Inventory Batteries.
+> Bundle of small but significant Quality of Life mods. I recommend: **Show Total Uses, Fetch Task Shows Your Items, Weight of Category, Scroll Sort Categories, Quick Slot and Item Stack Use Priority, Show Icon On Task Items, Sleep Gain Indicator, Craft Uses Lowest Condition Items, and Devices Drain Inventory Batteries**.
 
 [Transition Between Locations Without Confirmation](https://www.moddb.com/mods/stalker-anomaly/addons/transition-between-locations-without-confirmation)
 > Transition between locations without confirmation aka seamless map loading transitions.
