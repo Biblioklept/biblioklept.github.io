@@ -3,9 +3,10 @@
 
 ![JOURNEY Logo](./img/branding/journey.png)
 
+[Jump To The Guide](#Modlist-Setup)
+
 ## About The Guide
 
-### Goal
 The goal of this modlist is to provide a base to build upon with mods of your own choosing, whilst providing a perfectly good experience on its own, should you choose to not go any further. Initially a remake of EXPIDITION with less crashes, more vanilla assets, less overkill ReShades, and modularity, it's quickly become it's own modlist.
 
 ### First, Important, and Final Warning Before Starting
@@ -76,7 +77,7 @@ By default, Windows Explorer will not show file extensions (such as .exe, .dll, 
 
 ## Mod Organizer 2 Setup
 
-***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.moddinglinked.com/mo2.html). All credits to Qolore07***.
+***This section was completely ripped off and converted from [Viva New Vegas](https://vivanewvegas.moddinglinked.com/mo2.html). All credits to the ModdingLinked team***.
 
 ### Installing Mod Organizer 2
 
@@ -143,7 +144,7 @@ When downloading multiple files from the same page, you will be prompted with a 
 
 ## Modlist Setup
 
-### Initial Setup
+### Modded EXE Files Setup
 To begin, you will need to download the [Anomaly Modded EXE Files](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/releases/latest) and extract the files into your root STALKER Anomaly game folder.
 
 ### User Interface
