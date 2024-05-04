@@ -82,7 +82,7 @@ Improves the combat gameplay of Fallout: New Vegas, bringing it to more modern s
 	- Main Files - NPCs Sprint kNVSE - ESPless
 - [Bullet Time Improved - a JAM addon](https://www.nexusmods.com/newvegas/mods/78324)
 	- Main Files - JBT Improved 2.01
-- [Immersive Recoil -0](https://www.nexusmods.com/newvegas/mods/61973)
+- [Immersive Recoil 2.0](https://www.nexusmods.com/newvegas/mods/61973)
 	- Main Files - Immersive Recoil 2.1
 - [Immersive Recoil NPC](https://www.nexusmods.com/newvegas/mods/69971)
 	- Main Files - Immersive Recoil NPC 2.1
@@ -209,7 +209,7 @@ Mods that remove the HUD as much as possible.
 - [B42 Inspect](https://www.nexusmods.com/newvegas/mods/71624)
 	- Main Files - B42 Inspect
 - [B42 Wristwatch](https://www.nexusmods.com/newvegas/mods/67890)
-	- Main Files - B42 Wristwatch -2
+	- Main Files - B42 Wristwatch 1.2
 - [B42 Notify](https://www.nexusmods.com/newvegas/mods/80085)
 	- Main Files - B42 Notify
 - [Shuddup and SayThis - A Message Overhaul](https://www.nexusmods.com/newvegas/mods/83666)
