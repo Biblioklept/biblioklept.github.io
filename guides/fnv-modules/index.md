@@ -4,20 +4,76 @@
 Fallout: New Vegas Modding Modules
 
 ### The Baseline
-
 For this guide there will be a baseline install of Viva New Vegas *Basic*, which you can find [here](https://vivanewvegas.moddinglinked.com/).
 
-### Modern Gameplay
+### Common Sense Warning
+This guide assumes you know the basics of installing mods on MO2 and also that you know that if you choose not to install a certain mod, to not install the patches for that mod. The guide will be provided as is, however you can pick and choose what you want.
 
+### Content Integration
+Integrates the DLC content and some other parts of the vanilla game a little better.
+
+#### Creating a Separator in MO2.
+- Right-click the empty space in the left pane of MO2 and select **Create separator**.
+- Name the separator **Content Integration**.
+
+#### Mods
+- [New Vegas Quick Start](https://www.nexusmods.com/newvegas/mods/76497)
+	- Main Files - NewVegasQuickStart
+- [Sparse Starting Gear](https://www.nexusmods.com/newvegas/mods/78088)
+	- Main Files - Sparse Starting Gear NV
+- [Wild Wasteland Forever](https://www.nexusmods.com/newvegas/mods/71609)
+	- Main Files - Wild Wasteland Forever
+- [NV Collectibles - Merged](https://www.nexusmods.com/newvegas/mods/80939)
+	- Main Files - NV Collectibles - Merged
+- [Delay DLC Redux](https://www.nexusmods.com/newvegas/mods/75851)
+	- Main Files - Delay DLC Redux
+	- Optional Files - Delay DLC Redux - Pre-Order Pack Placement
+- [DLC Weapon Integration](https://www.nexusmods.com/newvegas/mods/47880)
+	- Main Files - DLC Weapon Integration
+- [Gun Runners' Arsenal Merged](https://www.nexusmods.com/newvegas/mods/45111)
+	- Main Files - Gun Runners' Arsenal Merged
+- [Gun Runners' Arsenal Unique Weapons Relocated](https://www.nexusmods.com/newvegas/mods/68153)
+	- Main Files - GUWR Unbalanced
+- [Supplemental Ammo Crafting](https://www.nexusmods.com/newvegas/mods/76175)
+	- Main Files - Supplemental Ammo Crafting
+
+### Difficulty Overhaul
+Increases the difficulty of New Vegas as it's lackluster on repeat playthroughs. Read the Vigor and Economy Item Values Overhaul pages for more information as that's the base of this section.
+
+#### Creating a Separator in MO2.
+- Right-click the empty space in the left pane of MO2 and select **Create separator**.
+- Name the separator **Difficulty Overhaul**.
+
+#### Mods
+- [Vigor - A Vanilla JSawyer Fork](https://www.nexusmods.com/newvegas/mods/83576)
+	- Main Files - Vigor
+	- Optional Files - Vigor - Armor Integration
+		- IMPORTANT: **IF YOU HAVE DELAY DLC REDUX - PRE-ORDER PACK PLACEMENT INSTALLED, DISABLE IT**
+- [Vigor - SMIM Patch](https://www.nexusmods.com/newvegas/mods/83056)
+	- Main Files - smim - vigor patch
+- [Vigor - Gun Runners' Arsenal Merged Patch](https://www.nexusmods.com/newvegas/mods/83916)
+	- Main Files - Vigor - GRAM Patch
+- [Vigor - Supplemental Ammo Crafting Patch](https://www.nexusmods.com/newvegas/mods/85254)
+	- Main Files - Supplemental Ammo Crafting - Vigor Patch
+- [PerkSawyer - A JSawyer Addon](https://www.nexusmods.com/newvegas/mods/80309)
+	- Main Files - PerkSawyer - Vigor
+- [PerkSawyer - Vigor Tweaks](https://www.nexusmods.com/newvegas/mods/83806)
+	- Main Files - PerkSawyer Vigor Tweaks
+- [Simple Vigor Config](https://www.nexusmods.com/newvegas/mods/84396)
+	- Main Files - Simple Vigor Config
+	- Optional Files - Varmint Rifle 22LR
+- [Economy Item Values Overhaul - ESPLess](https://www.nexusmods.com/newvegas/mods/83924)
+	- Main Files - Item Values Overhaul - ESPLess
+		- [Patch File - Vigor](./dl/Vigor - Economy Item Values Overhaul - ESPLess Patch.7z)
+
+### Modern Gameplay
 Improves the combat gameplay of Fallout: New Vegas, bringing it to more modern standards.
 
 #### Creating a Separator in MO2.
-
 - Right-click the empty space in the left pane of MO2 and select **Create separator**.
 - Name the separator **Gameplay**.
 
 #### Mods
-
 - [JAM - Just Assorted Mods](https://www.nexusmods.com/newvegas/mods/66666)
 	- Main Files - Just Assorted Mods
 - [Enhanced Movement](https://www.nexusmods.com/newvegas/mods/85459)
@@ -25,23 +81,20 @@ Improves the combat gameplay of Fallout: New Vegas, bringing it to more modern s
 - [NPCs Sprint kNVSE - ESPless](https://www.nexusmods.com/newvegas/mods/83745)
 	- Main Files - NPCs Sprint kNVSE - ESPless
 - [Bullet Time Improved - a JAM addon](https://www.nexusmods.com/newvegas/mods/78324)
-	- Main Files - JBT Improved -01
+	- Main Files - JBT Improved 2.01
 - [Immersive Recoil -0](https://www.nexusmods.com/newvegas/mods/61973)
-	- Main Files - Immersive Recoil --1
+	- Main Files - Immersive Recoil 2.1
 - [Immersive Recoil NPC](https://www.nexusmods.com/newvegas/mods/69971)
-	- Main Files - Immersive Recoil NPC --1
+	- Main Files - Immersive Recoil NPC 2.1
 
 ### Combat Animations
-
 An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gameplay (roughly) the same.
 
 #### Creating a Separator in MO2.
-
 - Right-click the empty space in the left pane of MO2 and select **Create separator**.
 - Name the separator **Combat Animations**.
 
 #### Mods
-
 - [Blended Locomotion](https://www.nexusmods.com/newvegas/mods/79295)
 	- Main Files - Blended Locomotion
 - [New Vegas Animation Overhaul - Guns](https://www.nexusmods.com/newvegas/mods/86354)
@@ -82,16 +135,13 @@ An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gam
 	- Main Files - B42 Optics NV Patches
 
 ### Character Animations
-
 Overhauls of how the (non-)player characters move, including the Pip-Boy.
 
 #### Creating a Separator in MO2.
-
 - Right-click the empty space in the left pane of MO2 and select **Create separator**.
 - Name the separator **Character Animations**.
 
 #### Mods
-
 - [Diagonal Movement](https://www.nexusmods.com/newvegas/mods/64333)
 	- Main Files - Diagonal Movement 0.6b
 - [360 Movement](https://www.nexusmods.com/newvegas/mods/71940)
@@ -111,16 +161,13 @@ Overhauls of how the (non-)player characters move, including the Pip-Boy.
 	- Main Files - No More Pip-Boy Glove (No Plugin)
 
 ### Inject And Interact
-
 Animations that make the game more "immersive", playing eating, drinking, interaction, and drug animations in first person.
 
 #### Creating a Separator in MO2.
-
 - Right-click the empty space in the left pane of MO2 and select **Create separator**.
 - Name the separator **Inject and Interaction Animations**.
 
 #### Mods
-
 - [B42 Loot - Animated Physical Item Pickup](https://www.nexusmods.com/newvegas/mods/82369)
 	- Main Files - B42 Loot
 - [B42 Inject - Animated Item Use](https://www.nexusmods.com/newvegas/mods/80437)
@@ -152,16 +199,13 @@ Animations that make the game more "immersive", playing eating, drinking, intera
 	- Optional Files - Hit - B42 Interact Skinning - Human Addon
 
 ### Hardcore HUD
-
 Mods that remove the HUD as much as possible.
 
 #### Creating a Separator in MO2.
-
 - Right-click the empty space in the left pane of MO2 and select **Create separator**.
 - Name the separator **Hardcore HUD**.
 
 #### Mods
-
 - [B42 Inspect](https://www.nexusmods.com/newvegas/mods/71624)
 	- Main Files - B42 Inspect
 - [B42 Wristwatch](https://www.nexusmods.com/newvegas/mods/67890)
@@ -181,14 +225,10 @@ Mods that remove the HUD as much as possible.
 - [Hit - Power Armor Pip-Boy Anim](https://www.nexusmods.com/newvegas/mods/84046)
 	- Main Files - Hit - Power Armor Pip-Boy Anim
 
-### Config Files
-
 #### Creating a Separator in MO2.
-
 - Right-click the empty space in the left pane of MO2 and select **Create separator**.
 - Name the separator **Config Files**.
 
 #### Config File
-
 [Perfected INI Settings](https://www.nexusmods.com/newvegas/mods/85586)
 > Good replacement until I get my settings updated.
