@@ -5,7 +5,9 @@ My Modlists
 - [Lethal Company Plus](./lethal-company-plus)
 > A vanilla+ modpack for Lethal Company.
 - [Old World Addon Plus](./old-world-addon-plus)
-> A vanilla+ modlist for the Old World Addon mod for S.T.A.L.K.E.R. Anomaly
+> A vanilla+ modlist for the Old World Addon mod for S.T.A.L.K.E.R. Anomaly.
+- [Dust and Death]
+> A vanilla+ modlist for Fallout: New Vegas.
 
 ### Infrequently Updated (LTS)
 - [Dusty Sands](https://github.com/Biblioklept/dusty-sands)
