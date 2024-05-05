@@ -1,0 +1,41 @@
+[
+  {
+    "$type": "ModListMetadata, Wabbajack.Lib",
+    "title": "Dust and Death",
+    "description": "Dust and Death is a vanilla+ Wabbajack modlist that provides bugfixes and some minor gameplay and graphical tweaks. More of a purist experience than most vanilla+ modlists.",
+    "author": "Biblioklept",
+    "maintainers": [
+      "github/Biblioklept"
+    ],
+    "game": "falloutnewvegas",
+    "tags": [
+      "Vanilla Plus",
+      "Lightweight",
+      "Lore-Friendly",
+      "Performance",
+      "Stability",
+      "Customizability"
+    ],
+    "nsfw": false,
+    "image_contains_title": true,
+    "force_down": false,
+    "links": {
+      "$type": "Links, Wabbajack.Lib",
+      "image": "https://biblioklept.github.io/modlists/dust-and-death/img/branding/dustanddeath.png",
+      "readme": "https://biblioklept.github.io/modlists/dust-and-death/",
+      "download": "https://authored-files.wabbajack.org/Dust%20and%20Death.wabbajack_45937a1d-8062-4c6a-aea6-4ace62f9c3cb",
+      "machineURL": "dustanddeath",
+      "discordURL": ""
+    },
+    "download_metadata": {
+      "$type": "DownloadMetadata, Wabbajack.Lib",
+      "Hash": "hJ8KfxjcHIQ=",
+      "Size": 20929553,
+      "NumberOfArchives": 300,
+      "SizeOfArchives": 1260663846,
+      "NumberOfInstalledFiles": 8708,
+      "SizeOfInstalledFiles": 3231998648
+    },
+    "version": "1.0"
+  }
+]
