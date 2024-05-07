@@ -7,7 +7,7 @@
     "maintainers": [
       "github/Biblioklept"
     ],
-    "game": "falloutnewvegas",
+    "game": "newvegas",
     "tags": [
       "Vanilla Plus",
       "Lightweight",
@@ -29,12 +29,12 @@
     },
     "download_metadata": {
       "$type": "DownloadMetadata, Wabbajack.Lib",
-      "Hash": "hJ8KfxjcHIQ=",
-      "Size": 20929553,
-      "NumberOfArchives": 300,
-      "SizeOfArchives": 1260663846,
-      "NumberOfInstalledFiles": 8708,
-      "SizeOfInstalledFiles": 3231998648
+	  "Hash":"+uLPeJcWLeM=",
+	  "Size":16870164,
+	  "NumberOfArchives":145,
+	  "SizeOfArchives":1135450469,
+	  "NumberOfInstalledFiles":8570,
+	  "SizeOfInstalledFiles":3069022770
     },
     "version": "1.0"
   }
