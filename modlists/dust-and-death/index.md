@@ -9,9 +9,6 @@ Dust and Death is a vanilla+ Wabbajack modlist that provides bugfixes and some m
 
 ### Post-Installation Steps
 - Go to the Dust and Death separator
-- Go to Ultimate Edition ESM Fixes and run the Installer.exe under the Build folder.
-- In the ESM Fixes directory and direct it towards the mod folder (ex. Dust and Death\mods\Ultimate Edition ESM Fixes). Select Install.
-- When its done select Exit.
 - Go to FNV BSA Decompressor and run the FNV BSA Decompressor.exe under the Build folder.
 - In the Decompressed Archives directory and direct it towards the mod folder (ex. Dust and Death\mods\FNV BSA Decompressor). Select Decompress.
 - When its done select Exit.
