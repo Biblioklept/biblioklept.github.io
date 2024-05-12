@@ -28,6 +28,7 @@ Generally, this modlist will stick to the vanilla game as close as possible. How
 
 #### Difficulty Overhaul
 - Vigor is a more "vanilla" version of JSawyer's mod that increases the difficulty without being too artificial. Definitely better for players who play this game on repeat. It also integrates DLC.
+	- Vigor - Expired and Homemade Stimpaks Removed gets rid of the expired and homemade stimpaks because I have found it makes the inventory already more bloated than it needs to be. This also makes the mod more "purist".
 - Economy Item Values Overhaul reduces the prices for everything, while this makes buying things cheaper it also makes selling things cheaper.
 
 #### Combat
