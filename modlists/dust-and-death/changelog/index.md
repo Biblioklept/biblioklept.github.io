@@ -5,6 +5,13 @@
 
 ## Changelog
 
+### Update 1.0.3
+- Save safe.
+- Updated mods.
+- Added DLC Hostility Fixes - ESPless by ObieDwyer.
+
+Thank you to Fish in the Discord server for pointing it out to me in DMs. However please use the support channel for the modlist to report bugs.
+
 ### Update 1.0.2
 - Save safe.
 	- Important note: **Re-enable Vigor - Armor Integration if not on a new save**. While the Armor assets and items are built into Vigor base, it's best to be safe.

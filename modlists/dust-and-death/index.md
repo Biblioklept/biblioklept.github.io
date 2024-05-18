@@ -4,17 +4,24 @@
 ![Dust and Death Logo](./img/branding/dustanddeath.png)
 
 ## Description
-
 Dust and Death is a vanilla+ Wabbajack modlist that provides bugfixes and some minor gameplay and graphical tweaks. Even after all the new mods and modernization this game gets I always come back to this list to experience something more "purist".
+
+## Requirements
+- An fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG
+- The game MUST be installed outside of any default Windows folders (i.e. Program Files). 
+	- If you have your Steam library in any of these locations, please follow [these](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) instructions.
+- [Microsoft Visual C++ Redistributable Package](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+- The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) installed outside of any default Windows folders.
 
 ### Post-Installation Steps
 - Go to the Dust and Death separator
 - Go to FNV BSA Decompressor and run the FNV BSA Decompressor.exe under the Build folder.
-- In the Decompressed Archives directory and direct it towards the mod folder (ex. Dust and Death\mods\FNV BSA Decompressor). Select Decompress.
+- In the Decompressed Archives directory and direct it towards `Dust and Death\mods\FNV BSA Decompressor`. Select Decompress.
 - When its done select Exit.
-- Go to FNV 4GB Patcher, open the Root folder, right click on FNVpatch.exe and select Execute with VFS.
+- Go to `FNV 4GB Patcher\Root`, right click on FNVpatch.exe and select Execute with VFS.
 - When FalloutNV.exe is patched close out of the program.
-- Move the files in Overwrite into [NoDelete] Root - Overwrite.
+- Move the files in Overwrite into `[NoDelete] Root - Overwrite`.
+- If you run into the "NVHR - No valid HR binary found" issue when initially running the game, please copy the contents of `New Vegas Heap Replacer\Root` to your game folder.
 
 ### Modlist Notes
 Generally, this modlist will stick to the vanilla game as close as possible. However, there are some mods that will change the game as I find them refreshing.
