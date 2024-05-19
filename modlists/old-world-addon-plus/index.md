@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-![Old World Addon Plus Logo](./img/branding/owaplus.png)
+![Old World Addon Plus Logo](./img/branding/owaplus2.png)
 
 [Jump To The Guide](#modlist-setup)
 
