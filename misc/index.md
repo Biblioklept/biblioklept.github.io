@@ -36,7 +36,7 @@ It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Ex
 - [ZRP Install Script](./dl/scripts/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
 - [G.A.M.M.A. Patcher Script](./dl/scripts/gammapatcher.ps1)
-> A patcher file that will change the modlist.txt file to fit my preferred changes to G.A.M.M.A. Should be future-proof. Place the gammapatcher.ps1 in your "G.A.M.M.A" profile folder and run it.
+> A patcher file that will change the modlist.txt and MCM files to fit my preferred changes to G.A.M.M.A. Should be future-proof. Place the gammapatcher.ps1 in your "G.A.M.M.A" instance folder and run it.
 - [Cheat Fallout File](./dl/scripts/cheat)
 > Sets all your S.P.E.C.I.A.L. stats to 10 and also adds Scrapper perks if you're in Fallout 4 (vanilla IDs). Works with Fallout 3, New Vegas, and 4.
 
