@@ -5,6 +5,10 @@
 
 ## Changelog
 
+### Update 1.0.4
+- Save safe.
+- Updated mods.
+
 ### Update 1.0.3
 - Save safe.
 - Updated mods.
