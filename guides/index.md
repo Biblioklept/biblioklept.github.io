@@ -9,6 +9,8 @@ My Guides
 > Modules you can put on top of a base modding install of Fallout: New Vegas.
 - [Good Old Games: Fixes and Tweaks](./gog-fnt)
 > A collection of fixes and tweaks for older games, usually consistenting of bug fixes and improved controls.
+- [Linux](./linux)
+> A collection of little linux guides using information compiled from various sources.
 - [Modlist Additions](./modlist-additions)
 > Personal modlist additions that aim that are my preferred way to play some games.
 - [PAYDAY 2 Build Guides (WIP)](./pd2-build-starts)

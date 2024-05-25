@@ -1,6 +1,6 @@
 # Define the path to the input and output files
-$inputFilePath = "modlist.txt"
-$outputFilePath = "modlist.txt"
+$inputFilePath = "C:\path\to\your\inputfile.txt"
+$outputFilePath = "C:\path\to\your\outputfile.txt"
 
 # Define the strings to replace and their replacements
 $replacements = @{
@@ -23,6 +23,4 @@ $updatedContent = $content | ForEach-Object {
 # Write the updated content to the output file
 $updatedContent | Set-Content -Path $outputFilePath
 
-# Alert completion of script
-Write-Output "File patched!"
-Read-Host -Prompt "Press any key to continue"
+Write-Output "Text replacements complete. Output saved to $outputFilePath"
