@@ -5,6 +5,18 @@
 
 ## Changelog
 
+### Update 1.0.5
+- Save safe.
+- Updated mods.
+- Removed Simple Vigor Config - Varmint Rifle 22LR by Biggie404. Redundant with the new update.
+- Added SUP NVSE by TommInfinite.
+- Added Slideshow FOV Fix - ESPLess by archds.
+- Added Reset Settings Prompt by Stentorious.
+- Added Quality of Life ESPless by Wombat.
+- Added Diagonal Movement by Xilandro.
+- Added Bloodbath - ESPless by Spifferino.
+- Got rid of the Logs - Overwrite files. Just check your Overwrite section.
+
 ### Update 1.0.4
 - Save safe.
 - Updated mods.
