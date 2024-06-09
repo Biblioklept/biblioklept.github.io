@@ -91,7 +91,7 @@ Setting up QVM with GPU Passthrough
 7. **Start the VM:**
    - Ensure that your VM is configured correctly and start it using `virt-manager`.
 
-#### Arch Linux
+#### Arch
 1. **Install Necessary Packages:**
    ```bash
    sudo pacman -Syu
