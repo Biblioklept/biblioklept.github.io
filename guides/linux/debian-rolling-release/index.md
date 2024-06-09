@@ -87,3 +87,5 @@ Pin-Priority: 100
 ```
 
 This configuration makes the Testing repository the default but allows you to pull packages from Sid if needed.
+
+### [Download](./dl/debian-rolling-release.sh)

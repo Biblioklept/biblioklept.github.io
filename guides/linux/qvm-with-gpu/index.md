@@ -170,3 +170,5 @@ Setting up QVM with GPU Passthrough
 - **Driver Issues:** If the host binds to the GPU, ensure it's blacklisted and vfio-pci is used.
 - **IOMMU Groups:** Devices in the same group may interfere with passthrough. Consider hardware supporting better IOMMU isolation.
 - **Performance:** Use hugepages for better VM performance.
+
+### [Download](./dl/qvm-with-gpu.sh)
