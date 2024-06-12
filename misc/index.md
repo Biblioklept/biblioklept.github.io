@@ -2,14 +2,16 @@
 My Miscellaneous Files
 
 ### Configuration Files
-- [OpenMW Settings Config File](./dl/configs/settings.cfg)
+- [OpenMW Settings Config File](./dl/configs/openmw/settings.cfg)
 > Sets: textures to be chunky, FOV to 90, distant land to max, screenshot format to png.  
 Disables: Water shaders, shadows, and anisotropy.  
 Adds: Animation support (with additional anims), QoL settings.  
 There's more, but these are the major changes.
-- [OpenShell Menu Settings](./dl/configs/Menu Settings.xml)
+- [Call of Duty: Black Ops III](./dl/configs/blackops3/config.ini)
+> My BO3 config. Nothing special.
+- [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
 > Improves the Start Menu functionality to my liking (made to be used with Windows 10, Dark Mode). Internet searching is disabled and the search is reduced down to "apps" and programs. Rule of thumb: bloat is removed from the UX.
-- [OpenShell Explorer Settings](./dl/configs/Explorer Settings.xml)
+- [OpenShell Explorer Settings](./dl/configs/openshell/Explorer Settings.xml)
 > Removes the status bar at the bottom.
 
 ### AHK Scripts
@@ -53,25 +55,25 @@ It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Ex
 ### IWADS
 
 ##### AIO IWAD Download
-- [AIO Download](./dl/wads/aio.7z)
+- [AIO Download](./dl/iwads/aio.7z)
 > AIO download with all wad files.
 
 ##### Chex Quest Files
-- [Chex Quest](./dl/wads/chex.wad)
-- [Chex Quest 2](./dl/wads/chex2.wad)
-- [Chex Quest 3](./dl/wads/chex3.wad)
+- [Chex Quest](./dl/iwads/chex.wad)
+- [Chex Quest 2](./dl/iwads/chex2.wad)
+- [Chex Quest 3](./dl/iwads/chex3.wad)
 
 ##### Doom Files
-- [Ultimate Doom](./dl/wads/doomu.wad)
-- [Doom 2: Hell On Earth](./dl/wads/doom2.wad)
-- [Final Doom: TNT: Evilution](./dl/wads/tnt.wad)
-- [Final Doom: Plutonium](./dl/wads/plutonium.wad)
+- [Ultimate Doom](./dl/iwads/doomu.wad)
+- [Doom 2: Hell On Earth](./dl/iwads/doom2.wad)
+- [Final Doom: TNT: Evilution](./dl/iwads/tnt.wad)
+- [Final Doom: Plutonium](./dl/iwads/plutonium.wad)
 
 ##### Heretic/Hexen Files
-- [Heretic](./dl/wads/heretic.wad)
-- [Hexen: Beyond Heretic](./dl/wads/hexen.wad)
-- [Hexen - Deathkings of the Dark Citadel](./dl/wads/hexdd.wad)
+- [Heretic](./dl/iwads/heretic.wad)
+- [Hexen: Beyond Heretic](./dl/iwads/hexen.wad)
+- [Hexen - Deathkings of the Dark Citadel](./dl/iwads/hexdd.wad)
 
 ##### Strife Files
-- [Strife](./dl/wads/strife1.wad)
-- [Voices (Recommended to load with Strife)](./dl/wads/voices.wad)
+- [Strife](./dl/iwads/strife1.wad)
+- [Voices (Recommended to load with Strife)](./dl/iwads/voices.wad)
