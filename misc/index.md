@@ -9,6 +9,8 @@ Adds: Animation support (with additional anims), QoL settings.
 There's more, but these are the major changes.
 - [Call of Duty: Black Ops III](./dl/configs/blackops3/config.ini)
 > My BO3 config. Nothing special.
+- [Project Zomboid Server Config](./dlzomboidserver)
+> All my server settings for Zomboid.
 - [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
 > Improves the Start Menu functionality to my liking (made to be used with Windows 10, Dark Mode). Internet searching is disabled and the search is reduced down to "apps" and programs. Rule of thumb: bloat is removed from the UX.
 - [OpenShell Explorer Settings](./dl/configs/openshell/Explorer Settings.xml)
