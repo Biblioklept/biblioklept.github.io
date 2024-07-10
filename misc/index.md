@@ -2,13 +2,17 @@
 My Miscellaneous Files
 
 ### Configuration Files
-- [OpenMW Settings Config File](./dl/configs/openmw/settings.cfg)
+- [OpenMW Config](./dl/configs/openmw/settings.cfg)
 > Sets: textures to be chunky, FOV to 90, distant land to max, screenshot format to png.  
 Disables: Water shaders, shadows, and anisotropy.  
 Adds: Animation support (with additional anims), QoL settings.  
 There's more, but these are the major changes.
-- [Call of Duty: Black Ops III](./dl/configs/blackops3/config.ini)
+- [Call of Duty: Black Ops I Config](./dl/configs/plutonium/blackops1/conLZM.cfg)
+- [Call of Duty: Black Ops II Config](./dl/configs/plutonium/blackops2/plutonium_zm.cfg)
+- [Call of Duty: Black Ops III Config](./dl/configs/blackops3/config.ini)
 > My BO3 config. Nothing special.
+- [Team Fortress 2 MasterComfig Files](./dltf2)
+> My personalized MasterComfig files. **Comes with both "none" preset (minimal graphical changes) and "medium-low" preset (maximum fps with no graphical errors.) Choose one.
 - [Project Zomboid Server Config](./dlzomboidserver)
 > All my server settings for Zomboid.
 - [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
