@@ -7,14 +7,12 @@ My Miscellaneous Files
 Disables: Water shaders, shadows, and anisotropy.  
 Adds: Animation support (with additional anims), QoL settings.  
 There's more, but these are the major changes.
-- [Call of Duty: Black Ops I Config](./dl/configs/plutonium/blackops1/conLZM.cfg)
-- [Call of Duty: Black Ops II Config](./dl/configs/plutonium/blackops2/plutonium_zm.cfg)
+- [Call of Duty: Black Ops I Config (Plutonium)](./dl/configs/plutonium/blackops1/conLZM.cfg)
+- [Call of Duty: Black Ops II Config (Plutonium)](./dl/configs/plutonium/blackops2/plutonium_zm.cfg)
 - [Call of Duty: Black Ops III Config](./dl/configs/blackops3/config.ini)
-> My BO3 config. Nothing special.
-- [Team Fortress 2 MasterComfig Files](./dltf2)
+- [Team Fortress 2 MasterComfig Files](./dlteamfortress2config)
 > My personalized MasterComfig files. **Comes with both "none" preset (minimal graphical changes) and "medium-low" preset (maximum fps with no graphical errors.) Choose one.
 - [Project Zomboid Server Config](./dlzomboidserver)
-> All my server settings for Zomboid.
 - [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
 > Improves the Start Menu functionality to my liking (made to be used with Windows 10, Dark Mode). Internet searching is disabled and the search is reduced down to "apps" and programs. Rule of thumb: bloat is removed from the UX.
 - [OpenShell Explorer Settings](./dl/configs/openshell/Explorer Settings.xml)
