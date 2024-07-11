@@ -15,7 +15,8 @@ There's more, but these are the major changes.
 - [Call of Duty: Modern Warfare 2 Config (IW4X)](./dl/configs/callofduty/modernwarfare2iw4x/)
 - [Call of Duty: Modern Warfare 3 Config (Plutonium)](./dl/configs/callofduty/dlmodernwarfare3config)
 - [Team Fortress 2 MasterComfig Files](./dlteamfortress2config)
-> My personalized MasterComfig files. **Comes with both "none" preset (minimal graphical changes) and "medium-low" preset (maximum fps with no graphical errors.) Choose one.
+> My personalized MasterComfig files. **Comes with both "none" preset (minimal graphical changes) and "medium-low" preset (maximum fps with no graphical errors.) Choose one.**  
+For my others settings, I recommend getting [technohud](https://github.com/tekunotri/technohud/releases/latest) and my [Quake 3 hit and kill sounds](https://biblioklept.github.io/mods/team-fortress-2/#quake-3-hit--kill-sounds).
 - [Counter-Strike 2 Config](./dl/configs/counterstrike2/autoexec.cfg)
 - [Project Zomboid Server Config](./dlzomboidserver)
 - [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
