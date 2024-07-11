@@ -12,6 +12,7 @@ There's more, but these are the major changes.
 - [Call of Duty: Black Ops III Config](./dl/configs/blackops3/config.ini)
 - [Team Fortress 2 MasterComfig Files](./dlteamfortress2config)
 > My personalized MasterComfig files. **Comes with both "none" preset (minimal graphical changes) and "medium-low" preset (maximum fps with no graphical errors.) Choose one.
+- [Counter-Strike 2 Config](./dl/configs/counterstrike2/autoexec.cfg)
 - [Project Zomboid Server Config](./dlzomboidserver)
 - [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
 > Improves the Start Menu functionality to my liking (made to be used with Windows 10, Dark Mode). Internet searching is disabled and the search is reduced down to "apps" and programs. Rule of thumb: bloat is removed from the UX.
