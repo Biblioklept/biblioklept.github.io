@@ -10,12 +10,12 @@ There's more, but these are the major changes.
 - [Call of Duty: World At War Config (Plutonium)](./dl/configs/callofduty/worldatwar/plutonium.cfg)
 - [Call of Duty: Black Ops I Config (Plutonium)](./dl/configs/callofduty/dlblackops1config)
 - [Call of Duty: Black Ops II Config (Plutonium)](./dl/configs/callofduty/dlblackops2config)
-- [Call of Duty: Black Ops III Config](./dl/configs/blackops3/config.ini)
+- [Call of Duty: Black Ops III Config](./dl/configs/callofduty/blackops3/config.ini)
 - [Call of Duty: Modern Warfare 1 Config (COD4X)](./dl/configs/callofduty/modernwarfare1cod4x/)
 - [Call of Duty: Modern Warfare 2 Config (IW4X)](./dl/configs/callofduty/modernwarfare2iw4x/)
 - [Call of Duty: Modern Warfare 3 Config (Plutonium)](./dl/configs/callofduty/dlmodernwarfare3config)
 - [Team Fortress 2 MasterComfig Files](./dlteamfortress2config)
-> My personalized MasterComfig files. **Comes with both "none" preset (minimal graphical changes) and "medium-low" preset (maximum fps with no graphical errors.) Choose one.**  
+> My personalized MasterComfig files. **You need to install at least the NONE preset on [MasterComfig's site](https://comfig.app)**  
 For my others settings, I recommend getting [technohud](https://github.com/tekunotri/technohud/releases/latest) and my [Quake 3 hit and kill sounds](https://biblioklept.github.io/mods/team-fortress-2/#quake-3-hit--kill-sounds).
 - [Counter-Strike 2 Config](./dl/configs/counterstrike2/autoexec.cfg)
 - [Project Zomboid Server Config](./dlzomboidserver)
