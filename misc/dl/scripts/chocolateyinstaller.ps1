@@ -20,6 +20,41 @@ if (!(Get-Command "directx" -ErrorAction SilentlyContinue)) {
     Write-Output "DirectX is already installed."
 }
 
+# Install .NET 8.0 using Chocolatey
+if (!(Get-Command "dotnet-8.0-runtime" -ErrorAction SilentlyContinue)) {
+    choco install dotnet-8.0-runtime -y
+} else {
+    Write-Output ".NET 8.0 is already installed."
+}
+
+# Install .NET 7.0 using Chocolatey
+if (!(Get-Command "dotnet-7.0-runtime" -ErrorAction SilentlyContinue)) {
+    choco install dotnet-7.0-runtime -y
+} else {
+    Write-Output ".NET 7.0 is already installed."
+}
+
+# Install .NET 6.0 using Chocolatey
+if (!(Get-Command "dotnet-6.0-runtime" -ErrorAction SilentlyContinue)) {
+    choco install dotnet-6.0-runtime -y
+} else {
+    Write-Output ".NET 6.0 is already installed."
+}
+
+# Install .NET 5.0 using Chocolatey
+if (!(Get-Command "dotnet-5.0-runtime" -ErrorAction SilentlyContinue)) {
+    choco install dotnet-5.0-runtime -y
+} else {
+    Write-Output ".NET 5.0 is already installed."
+}
+
+# Install NET Core 3.1 using Chocolatey
+if (!(Get-Command "dotnetcore-3.1-runtime" -ErrorAction SilentlyContinue)) {
+    choco install dotnetcore-3.1-runtime -y
+} else {
+    Write-Output ".NET Core 3.1 is already installed."
+}
+
 # Install 7-Zip using Chocolatey
 if (!(Get-Command "7zip.install" -ErrorAction SilentlyContinue)) {
     choco install 7zip.install -y
@@ -48,9 +83,9 @@ if (!(Get-Command "firefox" -ErrorAction SilentlyContinue)) {
     Write-Output "Firefox is already installed."
 }
 
-## Install Thorium using Chocolatey
-#if (!(Get-Command "thorium" -ErrorAction SilentlyContinue)) {
-#    choco install thorium -y
-#} else {
-#    Write-Output "Thorium is already installed."
-#}
+# Install Thorium using Chocolatey
+if (!(Get-Command "thorium" -ErrorAction SilentlyContinue)) {
+    choco install thorium -y
+} else {
+    Write-Output "Thorium is already installed."
+}
