@@ -44,7 +44,12 @@ It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Ex
 - [G.A.M.M.A. Patcher Script](./dl/scripts/gammapatcher.ps1)
 > A patcher file that will change the modlist.txt and MCM files to fit my preferred changes to G.A.M.M.A. Should be future-proof. Place the gammapatcher.ps1 in your "GAMMA" instance folder and run it.
 - [Chocolatey Installer Script](./dl/scripts/chocolateyinstaller.ps1)
-> Installs Chocolatey and my preferred setup of tools for Windows.
+> Installs Chocolatey and my preferred setup of tools for Windows.  
+Steps to run:  
+Open a administrator Powershell prompt and point it to the directory where chocolateyinstaller.ps1 is located: `cd "C:\path\to\script\directory"`  
+Check if the file is blocked, if so unblock it: `Unblock-File chocolateyinstaller.ps1`  
+Temporarily allow execution of script: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`  
+Run the script: `.\chocolateyinstaller.ps1`
 
 ### Batch Scripts
 - [Mod Organizer 2 Install Script](./dl/scripts/install.bat)

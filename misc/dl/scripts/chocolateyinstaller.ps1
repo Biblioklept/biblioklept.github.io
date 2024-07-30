@@ -1,3 +1,24 @@
+### Administrator check
+
+# Check if the script is running with administrative privileges
+function Test-IsElevated {
+    $currentIdentity = [System.Security.Principal.WindowsIdentity]::GetCurrent()
+    $principal = New-Object System.Security.Principal.WindowsPrincipal($currentIdentity)
+    return $principal.IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)
+}
+
+# If not elevated, relaunch the script with elevated permissions
+if (-not (Test-IsElevated)) {
+    $scriptPath = $MyInvocation.MyCommand.Path
+    $arguments = "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`""
+
+    # Use Start-Process to launch the script with elevated permissions
+    Start-Process powershell -ArgumentList $arguments -Verb RunAs
+    exit
+}
+
+### Chocolatey install
+
 # Check if Chocolatey is already installed
 if (!(Test-Path -Path "C:\ProgramData\chocolatey\bin\choco.exe")) {
     # Install Chocolatey
@@ -5,6 +26,8 @@ if (!(Test-Path -Path "C:\ProgramData\chocolatey\bin\choco.exe")) {
 } else {
     Write-Output "Chocolatey is already installed."
 }
+
+### Common dependencies
 
 # Install Visual C++ Redistributables All-in-One (AIO) using Chocolatey
 if (!(Get-Command "vcredist-all" -ErrorAction SilentlyContinue)) {
@@ -55,6 +78,8 @@ if (!(Get-Command "dotnetcore-3.1-runtime" -ErrorAction SilentlyContinue)) {
     Write-Output ".NET Core 3.1 is already installed."
 }
 
+### Common utilities
+
 # Install 7-Zip using Chocolatey
 if (!(Get-Command "7zip.install" -ErrorAction SilentlyContinue)) {
     choco install 7zip.install -y
@@ -67,6 +92,13 @@ if (!(Get-Command "notepadplusplus" -ErrorAction SilentlyContinue)) {
     choco install notepadplusplus -y
 } else {
     Write-Output "Notepad++ is already installed."
+}
+
+# Install VLC using Chocolatey
+if (!(Get-Command "vlc" -ErrorAction SilentlyContinue)) {
+    choco install vlc -y
+} else {
+    Write-Output "VLC is already installed."
 }
 
 # Install Paint.NET using Chocolatey
