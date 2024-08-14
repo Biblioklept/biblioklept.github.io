@@ -7,6 +7,8 @@ My Mods
 > My Fallout 4 mods.
 - [Oblivion Mods](./oblivion)
 > My Oblivion mods.
+- [PAYDAY 2 Mods](./payday-2)
+> My PAYDAY 2 mods.
 - [S.T.A.L.K.E.R. Anomaly](./stalker-anomaly)
 > My S.T.A.L.K.E.R. Anomaly mods.
 - [Team Fortress 2 Mods](./team-fortress-2)
