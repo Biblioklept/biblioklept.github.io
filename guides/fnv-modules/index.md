@@ -95,8 +95,8 @@ An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gam
 - Name the separator **Combat Animations**.
 
 #### Mods
-- [Blended Locomotion](https://www.nexusmods.com/newvegas/mods/79295)
-	- Main Files - Blended Locomotion
+- [Enhanced Locomotion](https://www.nexusmods.com/newvegas/mods/88446)
+	- Main Files - Enhanced Locomotion
 - [New Vegas Animation Overhaul - Guns](https://www.nexusmods.com/newvegas/mods/86354)
 	- Main Files - New Vegas Animation Overhaul - Guns - FOMOD
 		- Select Vanilla
