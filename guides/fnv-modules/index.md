@@ -100,21 +100,9 @@ An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gam
 - [New Vegas Animation Overhaul - Guns](https://www.nexusmods.com/newvegas/mods/86354)
 	- Main Files - New Vegas Animation Overhaul - Guns - FOMOD
 		- Select Vanilla
-- [Butcher Pete Complete - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/79146)
-	- Main Files - - Butcher Pete Complete - A Melee Animation Overhaul (No Locomotion)
-	- Optional Files - Restored Dress Cane and Cattle Prod Animations
-- [Wasteland Warrior - A Melee Animation Overhaul](https://www.nexusmods.com/newvegas/mods/80277)
-	- Main Files - - Wasteland Warrior - A Melee Animation Overhaul (No Locomotion)
-	- Update Files - LeftAttack Fix
-- [Assume the Position - An Unarmed Animation Overhaul - Part 1](https://www.nexusmods.com/newvegas/mods/86055)
-	- Main Files - Assume the Position - Unarmed Animation Overhaul
-- [FNV Clean Animations - Ripper](https://www.nexusmods.com/newvegas/mods/85887)
-	- Main Files - FNV Clean Animations - Ripper (No Locomotion)
-- [Faster Melee Recoil Animations](https://www.nexusmods.com/newvegas/mods/83694)
-	- Main Files - Vanilla Melee Faster Recoil Animations
-	- Optional Files - Rock Melee Faster Recoil Animations (If using Combat Animations section)
-	- Optional Files - Rock Ripper Faster Recoil Animations (If using Combat Animations section)
-	- Optional Files - Rock Unarmed Faster Recoil Animations (If using Combat Animations section)
+- [New Vegas Animation Overhaul - Melee](https://www.nexusmods.com/newvegas/mods/88830)
+	- Main Files - New Vegas Animation Overhaul - Melee
+	- Optional Files - Vanilla Equip Timings for Shishkebab
 - [FNV Clean Animations - Throwing Weapons Pack](https://www.nexusmods.com/newvegas/mods/81472)
 	- Main Files - FNV Clean Animations - Throwing Weapons Pack
 - [FNV Clean Animations - Grenades Pack](https://www.nexusmods.com/newvegas/mods/83735)
@@ -122,6 +110,8 @@ An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gam
 	- Update Files - Update 1.1.1
 - [FNV Clean Animations - Explosive Mines Pack](https://www.nexusmods.com/newvegas/mods/85242)
 	- Main Files - FNV Clean Animations - Explosive Mines Pack
+- [DONT INSTALL - WAIT FOR UPDATE](https://www.nexusmods.com/newvegas/mods/83694)
+	- Main Files - Vanilla Melee Faster Recoil Animations
 - [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
 	- Main Files - Iron Sights Aligned
 		- Select whichever weapon meshes you use in Weapon Meshes
