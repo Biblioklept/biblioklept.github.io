@@ -3,6 +3,8 @@ Archived Pages, to Keep The Website Clean.
 
 THESE ARE UNSUPPORTED.
 
+
+
 ### Archived Modlists
 
 - [The Midnight Ride Extended](./tmr-extended)
@@ -32,3 +34,14 @@ Reason: I no longer enjoy playing G.A.M.M.A. or "hardcore" S.T.A.L.K.E.R., for a
 > Adds G.A.M.M.A.'s BHS into Escape From Pripyat, I liked it more.  
 Archived 08/12/2023.  
 Reason: I no longer enjoy playing Escape From Pripyat or "hardcore" S.T.A.L.K.E.R., for anyone else like me, I recommend NOMAD. The modlist can be found on Reddit.
+
+### Archived Miscellaneous
+- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./dl/scripts/socminirepack.bat)
+> Installs [my preferred modpack for Shadow of Chernobyl](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/soc_vanilla-plus_alt-ballistics).  
+Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
+- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: CS Edition](./dl/scripts/csminirepack.bat)
+> Installs [my preferred modpack for Clear Sky](https://github.com/forbiddenspiral/cs_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cs_vanilla-plus_alt-ballistics).  
+Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
+- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: COP Edition](./dl/scripts/copminirepack.bat)
+> Installs [my preferred modpack for Call of Pripyat](https://github.com/forbiddenspiral/cop_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cop_vanilla-plus_alt-ballistics).  
+Archived 09/26/2024.  Reason: Merged into one big all-in-one script.

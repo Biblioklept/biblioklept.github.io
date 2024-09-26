@@ -64,12 +64,8 @@ Run the script: `.\chocolateyinstaller.ps1`
 > Use with GOG to remove the extra files included, I made this for Morrowind#, but it could prove just as useful with any other mod setup. Put in root of game folder **NOT DATA FILES** and run, script will clean up after itself
 - [ZRP Install Script](./dl/scripts/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
-- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./dl/scripts/socminirepack.bat)
-> Installs [my preferred modpack for Shadow of Chernobyl](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/soc_vanilla-plus_alt-ballistics).
-- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: CS Edition](./dl/scripts/csminirepack.bat)
-> Installs [my preferred modpack for Clear Sky](https://github.com/forbiddenspiral/cs_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cs_vanilla-plus_alt-ballistics).
-- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: COP Edition](./dl/scripts/copminirepack.bat)
-> Installs [my preferred modpack for Call of Pripyat](https://github.com/forbiddenspiral/cop_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cop_vanilla-plus_alt-ballistics).
+- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.](./dl/scripts/stalkerminirepack.bat)
+> Installs [my preferred modpack for S.T.A.L.K.E.R by forbiddenspiral](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for alternative balistics (check author pages).
 
 ### Other Scripts
 - [Cheat Fallout File](./dl/scripts/cheat)
