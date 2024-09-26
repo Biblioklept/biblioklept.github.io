@@ -6,9 +6,11 @@
 	<AllProgramsMetro value="1"/>
 	<HideProgramsMetro value="1"/>
 	<PinnedPrograms value="PinnedItems"/>
-	<RecentPrograms value="Frequent"/>
+	<RecentPrograms value="None"/>
 	<RecentMetroApps value="1"/>
 	<StartScreenShortcut value="0"/>
+	<HighlightNew value="0"/>
+	<BoldSettings value="1"/>
 	<SearchBox value="Normal"/>
 	<SearchPrograms value="1"/>
 	<SearchPath value="0"/>
@@ -18,6 +20,8 @@
 	<SearchFiles value="0"/>
 	<SearchContents value="0"/>
 	<SearchInternet value="0"/>
+	<MainMenuAnimation value="Slide"/>
+	<SubMenuAnimation value="Slide"/>
 	<GlassOverride value="1"/>
 	<GlassColor value="4144959"/>
 	<SkinC1 value="Immersive"/>
