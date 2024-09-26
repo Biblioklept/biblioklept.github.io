@@ -65,7 +65,7 @@ Run the script: `.\chocolateyinstaller.ps1`
 - [ZRP Install Script](./dl/scripts/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.](./dl/scripts/stalkerminirepack.bat)
-> Installs [my preferred modpack for S.T.A.L.K.E.R by forbiddenspiral](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for alternative balistics (check author pages).
+> Installs [my preferred modpack for S.T.A.L.K.E.R by forbiddenspiral](https://github.com/forbiddenspiral?tab=repositories&q=_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral?tab=repositories&q=_vanilla-plus_alt-ballistics).
 
 ### Other Scripts
 - [Cheat Fallout File](./dl/scripts/cheat)
