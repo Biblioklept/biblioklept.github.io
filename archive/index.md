@@ -6,7 +6,6 @@ THESE ARE UNSUPPORTED.
 
 
 ### Archived Modlists
-
 - [The Midnight Ride Extended](./tmr-extended)
 > A list of mods for The Midnight Ride that aim to improve the user experience further with some more subjective mods. Essentially it removes my personal gripes from the game while adding minimal content.  
 Archived 11/11/2023.  
@@ -15,9 +14,16 @@ Reason: I have severely reduced the amount of mods I use on top, as such, I have
 > A list of mods for The Midnight Ride to install the WARS mod (and some of its sub-mods) on top of it.  
 Archived 11/11/2023.  
 Reason: WARS is extremely finicky and deeply unsatisfying to play personally, weapons were neat though.
+- [JOURNEY](./journey)
+> My attempt to do a rework of EXPEDITION, with a focus on being more vanilla+, modular, and slimming down the stuff I found unnecessary to the S.T.A.L.K.E.R. Anomaly experience.  
+Archived 27/08/2023.  
+Reason: Not interested in maintaining. Super Simple S.T.A.L.K.E.R. kinda usurps this list.
+- [Old World Addon Plus](./old-world-addon-plus)
+> A vanilla+ modlist for the Old World Addon mod for S.T.A.L.K.E.R. Anomaly.  
+Archived 27/08/2023.  
+Reason: Not interested in maintaining. Super Simple S.T.A.L.K.E.R. kinda usurps this list.
 
 ### Archived Guides
-
 - [Viva New Wastelands](./vnv-to-ttw)
 > A guide to convert [Viva New Vegas](https://vivanewvegas.moddinglinked.com) to Tale of Two Wastelands.  
 Archived 11/11/2023.  
