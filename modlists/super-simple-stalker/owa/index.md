@@ -4,6 +4,9 @@
 Super Simple S.T.A.L.K.E.R.: Old World Addon
 
 ### Base
+- [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/releases/latest)
+> Adds more functionality to the EXE files of the game. **Install in your game folder.**
+
 - [Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/152-old-world-addon)
 > Converts Anomaly into a more trilogy-like experience.
 
