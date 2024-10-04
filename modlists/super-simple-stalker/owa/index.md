@@ -4,7 +4,7 @@
 Super Simple S.T.A.L.K.E.R.: Old World Addon
 
 ### Base
-- [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/releases/latest)
+- [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/xray-monolith/releases/latest)
 > Adds more functionality to the EXE files of the game. **Install in your game folder.**
 
 - [Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/152-old-world-addon)
@@ -33,6 +33,9 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)
 > Quality of life additions to the game that you can't live without.
 
+- [No Fake Collision](https://www.moddb.com/mods/stalker-anomaly/addons/no-fake-collision)
+> Removes fake_collision zones (i.e. fence around rookie village).
+
 ### Visuals
 - [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)
 > Fix for artefact collision issues and broken visuals.
@@ -47,7 +50,10 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 > Adds food, drug, and drink animations to the various items in the game. **OPTIONAL: Will make the game harder as you can't spam drugs.**
 
 ### Compatibility
-- [Old World - Mod Configuration Menu (MCM) Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-mod-configuration-menu-mcm-patch)
+- [Old World Addon - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-addon-adaptation-for-anomaly-153)
+> Patches Old World Addon to work with Anomaly 1.5.3.
+
+- [Old World Addon - Anomaly Mod Configuration Menu - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/mcm-patch-for-old-world-aaddon-anomaly-153-153)
 > Patches the mod configuration menu to work with Old World Addon.
 
 - [Food, Drug, and Drink Animations for Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/food-drugs-and-drink-animations-for-old-world-addon)

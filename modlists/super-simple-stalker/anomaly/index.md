@@ -4,7 +4,7 @@
 Super Simple S.T.A.L.K.E.R.: Anomaly
 
 ### Base
-- [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/releases/latest)
+- [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/xray-monolith/releases/latest)
 > Adds more functionality to the EXE files of the game. **Install in your game folder.**
 
 - [Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
@@ -32,6 +32,9 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 - [Modular Miscellaneous Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks)
 > More quality of life changes such as talking to everyone, removing companions ruining disguises, etc.
+
+- [No Fake Collision](https://www.moddb.com/mods/stalker-anomaly/addons/no-fake-collision)
+> Removes fake_collision zones (i.e. fence around rookie village).
 
 - [Food, Drug, and Drink Animations - Visual Accuracy Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-drink-visual-accuracy-tweaks)
 > Gives you more bang for your buck on drugs and drinks. **You can install this even if you don't have Food, Drug, and Drink Animations installed.**
