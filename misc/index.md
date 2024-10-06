@@ -64,8 +64,6 @@ Run the script: `.\chocolateyinstaller.ps1`
 > Use with GOG to remove the extra files included, I made this for Morrowind#, but it could prove just as useful with any other mod setup. Put in root of game folder **NOT DATA FILES** and run, script will clean up after itself
 - [ZRP Install Script](./dl/scripts/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
-- [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.](./dl/scripts/stalkerminirepack.bat)
-> Installs [my preferred modpack for S.T.A.L.K.E.R by forbiddenspiral](https://github.com/forbiddenspiral?tab=repositories&q=_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral?tab=repositories&q=_vanilla-plus_alt-ballistics).
 
 ### Other Scripts
 - [Cheat Fallout File](./dl/scripts/cheat)
