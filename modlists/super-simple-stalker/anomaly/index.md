@@ -27,6 +27,9 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 > Shows body dots on your minimap/PDA.
 
 ### Tweaks
+- [Small Configuration Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/small-configuration-fixes-10-153-dltx)
+> A few fixes (mostly typos) in some configs files (and some audio).
+
 - [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)
 > Quality of life additions to the game that you can't live without.
 
