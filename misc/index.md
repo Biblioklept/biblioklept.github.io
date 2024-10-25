@@ -7,6 +7,7 @@ My Miscellaneous Files
 Disables: Water shaders, shadows, and anisotropy.  
 Adds: Animation support (with additional anims), QoL settings.  
 There's more, but these are the major changes.
+- [Unturned Gameplay Config](./dl/configs/unturned/gameplay/Config.json)
 - [Call of Duty: World At War Config (Plutonium)](./dl/configs/callofduty/worldatwar/plutonium.cfg)
 - [Call of Duty: Black Ops I Config (Plutonium)](./dl/configs/callofduty/dlblackops1config)
 - [Call of Duty: Black Ops II Config (Plutonium)](./dl/configs/callofduty/dlblackops2config)
