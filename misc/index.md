@@ -6,8 +6,11 @@ My Miscellaneous Files
 > Sets: textures to be chunky, FOV to 90, distant land to max, screenshot format to png.  
 Disables: Water shaders, shadows, and anisotropy.  
 Adds: Animation support (with additional anims), QoL settings.  
-There's more, but these are the major changes.
+Move to `My Games/OpenMW`.
 - [Unturned Gameplay Config](./dl/configs/unturned/gameplay/Config.json)
+> Move to `Worlds/Singleplayer_0`.
+- [Unturned Preferences Config](./dl/configs/unturned/preferences/Preferences.json)
+> Move to root folder.
 - [Call of Duty: World At War Config (Plutonium)](./dl/configs/callofduty/worldatwar/plutonium.cfg)
 - [Call of Duty: Black Ops I Config (Plutonium)](./dl/configs/callofduty/dlblackops1config)
 - [Call of Duty: Black Ops II Config (Plutonium)](./dl/configs/callofduty/dlblackops2config)
@@ -23,7 +26,8 @@ For my others settings, I recommend getting [technohud](https://github.com/tekun
 - [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
 > Improves the Start Menu functionality to my liking (made to be used with Windows 10, Dark Mode). Internet searching is disabled and the search is reduced down to "apps" and programs. Rule of thumb: bloat is removed from the UX.
 - [OpenShell Explorer Settings](./dl/configs/openshell/Explorer Settings.xml)
-> Removes the status bar at the bottom.
+> Removes the status bar at the bottom.  
+Install via `Backup > Load from XML file...`
 
 ### AHK Scripts
 It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases/latest) program to convert these to an executable script. The scripts are editable with a simple notepad program (Notepad++ recommended for Windows users).
