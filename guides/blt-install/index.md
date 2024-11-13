@@ -30,10 +30,8 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 General bug fixes with the game that I would consider essential.
 
 1. [The Fixes](https://modworkshop.net/mod/23732)
-2. [Clientsided Blankets](https://modworkshop.net/mod/32055)
-3. [Clientsided Uppers](https://modworkshop.net/mod/29645)
-4. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
-5. [Improved Single Fire Input](https://modworkshop.net/mod/40710)
+2. [Clientsided Uppers](https://modworkshop.net/mod/29645)
+3. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
 
 ### Bug Fixes (Mod_Overrides)
 1. [Visual Fixes](https://modworkshop.net/mod/37161)
