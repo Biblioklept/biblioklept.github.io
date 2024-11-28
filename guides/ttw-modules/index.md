@@ -1,71 +1,75 @@
-
 [BACK](..)
 
-Fallout: New Vegas Modding Modules
+Tale of Two Wastelands Modding Modules
 
 ### The Baseline
-For this guide there will be a baseline install of Viva New Vegas *Basic*, which you can find [here](https://vivanewvegas.moddinglinked.com/).
+For this guide there will be a baseline install of The Best of Times, which you can find [here](https://thebestoftimes.moddinglinked.com/).
 
 ### Common Sense Warning
 This guide assumes you know the basics of installing mods on MO2 and also that you know that if you choose not to install a certain mod, to not install the patches for that mod. The guide will be provided as is, however you can pick and choose what you want.
 
 ### Gameplay
-Integrates the DLC content and makes some parts of the game play better.
+Makes Fallout 3 more of an RPG with more dialogue options and better content integration.
 
 #### Mods
-- [New Vegas Quick Start](https://www.nexusmods.com/newvegas/mods/76497)
-	- Main Files - NewVegasQuickStart
-- [Sparse Starting Gear](https://www.nexusmods.com/newvegas/mods/78088)
-	- Main Files - Sparse Starting Gear NV
-- [Wild Wasteland Forever](https://www.nexusmods.com/newvegas/mods/71609)
-	- Main Files - Wild Wasteland Forever
+- [TTW Quickstart](https://www.nexusmods.com/newvegas/mods/65937)
+	- Main Files - TTWQuickStart
+- [TTW Quick Start Item Remover](https://www.nexusmods.com/newvegas/mods/75832)
+	- Main Files - TTW Quick Start Item Remover
+- [TTW Redundant Weapon Remover](https://www.nexusmods.com/newvegas/mods/89490)
+	- Main Files - TTW Redundant Weapon Remover
+- [TTW Reputations](https://www.nexusmods.com/newvegas/mods/68604)
+	- Main Files - TTW Reputations
+- [TTW New Vegas Speech Checks](https://www.nexusmods.com/newvegas/mods/68736)
+	- Main Files - TTW New Vegas Speech Checks
+	- Optional Files - TTW New Vegas Speech Checks - Reputations Patch
+- [Tale of Bi Wastelands](https://www.nexusmods.com/newvegas/mods/72721)
+	- Main Files - Tale of Bi Wastelands 1.1
+- [Tale of Bi Wastelands - Reputations and Speech Checks Patches](https://www.nexusmods.com/newvegas/mods/76206)
+	- Main Files - Tale of Bi Wastelands - TTW New Vegas Speech Checks
+	- Main Files - Tale of Bi Wastelands - TTW Reputations patch
+- [TTW (D.I.E.O.) Dialogue and Interactions Expansion Overhaul](https://www.nexusmods.com/newvegas/mods/78189)
+	- Main Files - TTW (D.I.E.O.) Dialogue and Interactions Expansion
+- [Tweaks for TTW](https://www.nexusmods.com/newvegas/mods/77934)
+	- Main Files - Tweaks for TTW x.xx
+	- Optional Files - SMIM Patch
+		**Only install if you are using SMIM**
+- [TTW More Map Markers](https://www.nexusmods.com/newvegas/mods/67022)
+	- Main Files - TTW 3.3 - More Map Markers
+- [TTW More Map Markers - No Download Map Markers](https://www.nexusmods.com/newvegas/mods/86655)
+	- Main Files - TTW - More Map Markers - No Download Map Makers
+- [TTW Wasteland Supplements](https://www.nexusmods.com/newvegas/mods/79005)
+	- Main Files - DIEO - Tale of Bi Wastelands Patch
+	- Main Files - Hardcore Perk Every Level
+	- Main Files - Reputations - More Map Markers Patch
+	- Main Files - Tree New Perks
+	- Main Files - Tweaks for TTW - Custom INI
+	- Main Files - Wild Wasteland Prompt
+- [Essential Capital Enhancemented Merged](https://www.nexusmods.com/newvegas/mods/89636)
+	- Main Files - Essential Capital Enhancements Merged
+- [Benny Humbles You and Steals Your Stuff](https://www.nexusmods.com/newvegas/mods/71112)
+	- Main Files - BHYSYS
 - [Essential Vanilla Enhancements Merged](https://www.nexusmods.com/newvegas/mods/78877)
 	- Main Files - Vanilla Enhancements Merged
 - [Essential DLC Enhancements Merged](https://www.nexusmods.com/newvegas/mods/73803)
-- [NV Collectibles - Merged](https://www.nexusmods.com/newvegas/mods/80939)
-	- Main Files - NV Collectibles - Merged
-- [Delay DLC Redux](https://www.nexusmods.com/newvegas/mods/75851)
-	- Main Files - Delay DLC Redux
-	- Optional Files - Delay DLC Redux - Pre-Order Pack Placement
-- [DLC Weapon Integration](https://www.nexusmods.com/newvegas/mods/47880)
-	- Main Files - DLC Weapon Integration
-- [Gun Runners' Arsenal Merged](https://www.nexusmods.com/newvegas/mods/45111)
-	- Main Files - Gun Runners' Arsenal Merged
-- [Gun Runners' Arsenal Unique Weapons Relocated](https://www.nexusmods.com/newvegas/mods/68153)
-	- Main Files - GUWR Unbalanced
-- [Supplemental Ammo Crafting](https://www.nexusmods.com/newvegas/mods/76175)
-	- Main Files - Supplemental Ammo Crafting
+	- Main Files - Essential DLC Enhancements
+- [Piber's Patch and Micro Mod Hell](https://www.nexusmods.com/newvegas/mods/77674)
+    - Main Files - DLC Enhancements - TTW Patch
+    - Main Files - Vanilla Enhancements - TTW Patch
 
 ### Difficulty Overhaul
-Increases the difficulty of New Vegas as it's lackluster on repeat playthroughs. Read the Vigor and Economy Item Values Overhaul pages for more information as that's the base of this section.
+Increases the difficulty of TTW as it's lackluster on repeat playthroughs.
 
 #### Mods
-- [Vigor - A Vanilla JSawyer Fork](https://www.nexusmods.com/newvegas/mods/83576)
-	- Main Files - Vigor
-	- Optional Files - Vigor - Armor Integration
-		- **Disable/Uninstall Delay DLC Redux Pre-Order Placement**
-- [Vigor - SMIM Patch](https://www.nexusmods.com/newvegas/mods/83056)
-	- Main Files - smim - vigor patch
+- [SawyerBatty TTW](https://www.nexusmods.com/newvegas/mods/75598)
+	- Main Files - TTWSawyerBatty
+- [SawyerBatty TTW - Expired and Homemade Stimpaks Removed](https://www.nexusmods.com/newvegas/mods/81703)
+- [SMIM Patches for All Them JSawyer Derivatives](https://www.nexusmods.com/newvegas/mods/83056)
+	- Main Files - jsawyer derivative smim patches - fomod edition
 		- **Only install if you are using SMIM**
-- [Vigor - Gun Runners' Arsenal Merged Patch](https://www.nexusmods.com/newvegas/mods/83916)
-	- Main Files - Vigor - GRAM Patch
-		- **Only install if you are using Gun Runners' Arsenal Merged Patch**
-- [Vigor - Supplemental Ammo Crafting Patch](https://www.nexusmods.com/newvegas/mods/85254)
-	- Main Files - Supplemental Ammo Crafting - Vigor Patch
-		- **Only install if you are using Supplemental Ammo Crafting**
-- [PerkSawyer - A JSawyer Addon](https://www.nexusmods.com/newvegas/mods/80309)
-	- Main Files - PerkSawyer - Vigor
-- [PerkSawyer - Vigor Tweaks](https://www.nexusmods.com/newvegas/mods/83806)
-	- Main Files - PerkSawyer Vigor Tweaks
-- [Simple Vigor Config](https://www.nexusmods.com/newvegas/mods/84396)
-	- Main Files - Simple Vigor Config
-	- Optional Files - Varmint Rifle 22LR
-- [Economy Item Values Overhaul - ESPLess](https://www.nexusmods.com/newvegas/mods/83924)
-	- Main Files - Item Values Overhaul - ESPLess
-		- [Patch File - Vigor](./dl/Vigor - Economy Item Values Overhaul - ESPLess Patch.7z)
 
 ### Modern Gameplay
-Improves the combat gameplay of Fallout: New Vegas, bringing it to more modern standards.
+Improves the combat gameplay of TTW, bringing it to more modern standards.
 
 #### Mods
 - [JAM - Just Assorted Mods](https://www.nexusmods.com/newvegas/mods/66666)
@@ -82,7 +86,7 @@ Improves the combat gameplay of Fallout: New Vegas, bringing it to more modern s
 	- Main Files - Immersive Recoil NPC 2.1
 
 ### Combat Animations
-An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gameplay (roughly) the same.
+An overhaul of the combat feel and look in TTW, while keeping gameplay (roughly) the same.
 
 #### Mods
 - [Enhanced Locomotion](https://www.nexusmods.com/newvegas/mods/88446)
@@ -133,6 +137,11 @@ Overhauls of how the (non-)player characters move, including the Pip-Boy.
 - [Titans of The New West 2.0 - SMIM Patch](https://www.nexusmods.com/newvegas/mods/83164)
 	- Main Files - fixy crap ttw TOTNW
 		- **Only install if you are using SMIM**
+- [Tweaks for TTW - Titans Patch](https://www.nexusmods.com/newvegas/mods/89666)
+	- Main Files - Tweaks for TTW - Titans Patch
+	- Optional Files - T-51 Gloves Matched
+	- Optional Files - Winterized Display Fix
+		- **Only install if you are using Tweaks for TTW**
 - [Different Pip-Boy Animations](https://www.nexusmods.com/newvegas/mods/75420)
 	- Main Files - Female Anim A
 	- Main Files - Male Anim A
@@ -174,6 +183,8 @@ Animations that make the game more "immersive", playing eating, drinking, intera
 - [Hit - B42 Interact Skinning](https://www.nexusmods.com/newvegas/mods/83161)
 	- Main Files - Hit - B42 Interact Skinning
 	- Optional Files - Hit - B42 Interact Skinning - Human Addon
+- [B42 Inject Animation - TTW Food Plus](https://www.nexusmods.com/newvegas/mods/89083)
+	- Main Files - TTW Food Plus Animation
 
 ### Hardcore HUD
 Mods that remove the HUD as much as possible.
@@ -195,6 +206,8 @@ Mods that remove the HUD as much as possible.
 	- Main Files - No HUD Without Power Armor NV
 - [No Pip-Boy in Power Armor](https://www.nexusmods.com/newvegas/mods/66916)
 	- Main Files - No Pipboy in Power Armor
+- [No Pipboy in Power Armor - TTW Patch](https://www.nexusmods.com/newvegas/mods/82846)
+	- Main Files - No Pipboy in Power Armor - TTW Patch
 - [Hit - Power Armor Pip-Boy Anim](https://www.nexusmods.com/newvegas/mods/84046)
 	- Main Files - Hit - Power Armor Pip-Boy Anim
 
@@ -204,3 +217,5 @@ Minor world tweaks that improve the overall game feel when travelling.
 #### Mods
 - [Simple Open Freeside](https://www.nexusmods.com/newvegas/mods/73128)
 	- Main Files - Simple Open Freeside
+- [Simple Open Freeside - TTW 3.3.3 Patch](https://www.nexusmods.com/newvegas/mods/89862)
+	- Main Files - Simple Open Freeside - TTW Patch

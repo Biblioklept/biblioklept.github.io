@@ -40,6 +40,9 @@ Reason: I no longer enjoy playing G.A.M.M.A. or "hardcore" S.T.A.L.K.E.R., for a
 > Adds G.A.M.M.A.'s BHS into Escape From Pripyat, I liked it more.  
 Archived 08/12/2023.  
 Reason: I no longer enjoy playing Escape From Pripyat or "hardcore" S.T.A.L.K.E.R., for anyone else like me, I recommend NOMAD. The modlist can be found on Reddit.
+- [Modlist Additions](./modlist-additions)
+> Personal modlist additions that aim that are my preferred way to play some games.  
+Archived 28/11/2024.
 
 ### Archived Miscellaneous
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./dl/scripts/socminirepack.bat)

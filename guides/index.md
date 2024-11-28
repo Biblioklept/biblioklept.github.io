@@ -16,8 +16,8 @@ My Guides
 > A guide for installing mods into PAYDAY The Heist (PDTH).
 - [Fallout: New Vegas Modding Modules](./fnv-modules)
 > Modules you can put on top of a base modding install of Fallout: New Vegas.
-- [Modlist Additions](./modlist-additions)
-> Personal modlist additions that aim that are my preferred way to play some games.
+- [Tale of Two Wastelands Modding Modules](./ttw-modules)
+> Modules you can put on top of a base modding install of Tale of Two Wastelands.
 - [Good Old Games: Fixes and Tweaks](./gog-fnt)
 > A collection of fixes and tweaks for older games, usually consistenting of bug fixes and improved controls.
 
