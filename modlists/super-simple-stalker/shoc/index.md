@@ -23,3 +23,11 @@ Super Simple S.T.A.L.K.E.R.: Shadow of Chernobyl
     - Search for `local hide = `.
     - Change `true` to `false`.
     > Note: this won't remove it so you still can't spam but it will make it more like the originals until I can figure out a more permanent solution. But this will keep the game more fast paced and make gunfights more fun as your weapon wont hide when using items.
+
+- BM16 and MP5 as secondaries
+    - Open `gamedata/config/weapons/w_bm16.ltx`.
+    - Search for `slot`.
+    - Change `2` to `1`.
+    - Open `gamedata/config/weapons/w_mp5.ltx`.
+    - Search for `slot`.
+    - Change `2` to `1`.
