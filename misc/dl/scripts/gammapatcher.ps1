@@ -1,13 +1,24 @@
-# Define the paths to the input and output files for both sets of files
-$inputFilePath1 = "profiles\G.A.M.M.A\modlist.txt"
-$outputFilePath1 = "profiles\G.A.M.M.A\modlist.txt"
+# Delete old profile and MCM values
+Remove-Item -Path ".\profiles\G.A.M.M.A Patched\" -Recurse
+Remove-Item -Path ".\mods\G.A.M.M.A. MCM values - Patched\" -Recurse
 
-$inputFilePath2 = "mods\G.A.M.M.A. MCM values - Rename to keep your personal changes\gamedata\configs\axr_options.ltx"
-$outputFilePath2 = "mods\G.A.M.M.A. MCM values - Rename to keep your personal changes\gamedata\configs\axr_options.ltx"
+# Make new profile and MCM values
+Copy-Item -Path ".\profiles\G.A.M.M.A\" -Destination ".\profiles\G.A.M.M.A Patched\" -Recurse
+Copy-Item -Path ".\mods\G.A.M.M.A. MCM values - Rename to keep your personal changes\" -Destination ".\mods\G.A.M.M.A. MCM values - Patched\" -Recurse
+
+# Define the paths to the input and output files for both sets of files
+$inputFilePath1 = "profiles\G.A.M.M.A Patched\modlist.txt"
+$outputFilePath1 = "profiles\G.A.M.M.A Patched\modlist.txt"
+
+$inputFilePath2 = "mods\G.A.M.M.A. MCM values - Patched\gamedata\configs\axr_options.ltx"
+$outputFilePath2 = "mods\G.A.M.M.A. MCM values - Patched\gamedata\configs\axr_options.ltx"
+
+$inputFilePath3 = "ModOrganizer.ini"
+$outputFilePath3 = "ModOrganizer.ini"
 
 # Define the strings to replace and their replacements for each file
 $replacements1 = @{
-#    "oldText1" = "newText1"
+#   "oldText1" = "newText1"
     "-212- Trader Destockifier (shrinks and randomize traders stocks) - Demonized" = "+212- Trader Destockifier (shrinks and randomize traders stocks) - Demonized"
     "-213- Trader Overhaul (if you do not want the true GAMMA experience) - AGoodSetOfPistol" = "+213- Trader Overhaul (if you do not want the true GAMMA experience) - AGoodSetOfPistol"
     "+G.A.M.M.A. Economy" = "-G.A.M.M.A. Economy"
@@ -34,7 +45,7 @@ $replacements1 = @{
 }
 
 $replacements2 = @{
-#    "oldText2" = "newText2"
+#   "oldText2" = "newText2"
     "dph_loot_cond/ammo/factor        = 1" = "dph_loot_cond/ammo/factor        = 5"
     "dph_loot_cond/outfit/experienced_max = 20" = "dph_loot_cond/outfit/experienced_max = 100"
     "dph_loot_cond/outfit/expert_max  = 25" = "dph_loot_cond/outfit/expert_max  = 100"
@@ -54,6 +65,11 @@ $replacements2 = @{
     "dph_loot_cond/weapon/trainee_max = 25" = "dph_loot_cond/weapon/trainee_max = 100"
     "dph_loot_cond/weapon/veteran_max = 25" = "dph_loot_cond/weapon/veteran_max = 100"
     "dph_loot_cond/weapon/zombied_max = 20" = "dph_loot_cond/weapon/zombied_max = 100"
+}
+
+$replacements3 =@{
+#   "oldText3" = "newText3"
+    "selected_profile=@ByteArray(G.A.M.M.A)" = "selected_profile=@ByteArray(G.A.M.M.A Patched)"
 }
 
 # Function to replace text in a file
@@ -86,7 +102,12 @@ function Replace-TextInFile {
 # Call the function for both files with their respective replacements
 Replace-TextInFile -inputFilePath $inputFilePath1 -outputFilePath $outputFilePath1 -replacements $replacements1
 Replace-TextInFile -inputFilePath $inputFilePath2 -outputFilePath $outputFilePath2 -replacements $replacements2
+Replace-TextInFile -inputFilePath $inputFilePath3 -outputFilePath $outputFilePath3 -replacements $replacements3
 
 # Alert completion of script
-Write-Output "Modlist patched! REBIND F10 TO R. IF YOU DON'T YOUR GAME WILL CRASH."
-Read-Host -Prompt "Press any key to continue"
+Write-Output "Modlist patched!"
+Write-Output "Enable G.A.M.M.A. MCM values - Patched in your profile"
+Write-Output "REBIND F10 TO R. IF YOU DON'T YOUR GAME WILL CRASH."
+Read-Host -Prompt "Press any key once you have finished reading."
+
+.\ModOrganizer.exe
