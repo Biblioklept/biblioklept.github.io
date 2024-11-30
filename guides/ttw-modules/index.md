@@ -1,6 +1,6 @@
 [BACK](..)
 
-Tale of Two Wastelands Modding Modules
+Tale of Two Wastelands Modding Modules - [FNV Version](../fnv-modules)
 
 ### The Baseline
 For this guide there will be a baseline install of The Best of Times, which you can find [here](https://thebestoftimes.moddinglinked.com/).
@@ -31,7 +31,7 @@ Makes Fallout 3 more of an RPG with more dialogue options and better content int
 - [TTW (D.I.E.O.) Dialogue and Interactions Expansion Overhaul](https://www.nexusmods.com/newvegas/mods/78189)
 	- Main Files - TTW (D.I.E.O.) Dialogue and Interactions Expansion
 - [Tweaks for TTW](https://www.nexusmods.com/newvegas/mods/77934)
-	- Main Files - Tweaks for TTW x.xx
+	- Main Files - Tweaks for TTW
 	- Optional Files - SMIM Patch
 		**Only install if you are using SMIM**
 - [TTW More Map Markers](https://www.nexusmods.com/newvegas/mods/67022)

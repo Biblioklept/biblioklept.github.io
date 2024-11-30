@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-![Lethal Company Plus Logo](https://biblioklept.github.io/modlists/lethal-company-plus/icon.png)
+![Lethal Company Plus Logo](./icon.png)
 
 ### Description
 Lethal Company Plus is a modpack that aims to add as little gameplay-affecting-content as possible (the content it does add is purely cosmetic), gameplay tweaks, and quality of life mods.

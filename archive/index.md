@@ -42,7 +42,12 @@ Archived 08/12/2023.
 Reason: I no longer enjoy playing Escape From Pripyat or "hardcore" S.T.A.L.K.E.R., for anyone else like me, I recommend NOMAD. The modlist can be found on Reddit.
 - [Modlist Additions](./modlist-additions)
 > Personal modlist additions that aim that are my preferred way to play some games.  
-Archived 28/11/2024.
+Archived 28/11/2024.  
+Pointless.
+- [PAYDAY 2 Build Guides (WIP)](./pd2-build-starts)
+> Links to build starts for PAYDAY 2 perk decks.  
+Archives 29/11/2024.  
+I do not play PAYDAY 2 as much as I used to and do not have the energy to maintain this.
 
 ### Archived Miscellaneous
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./dl/scripts/socminirepack.bat)
