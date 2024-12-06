@@ -3,9 +3,7 @@ Archived Pages, to Keep The Website Clean.
 
 THESE ARE UNSUPPORTED.
 
-
-
-### Archived Modlists
+### Modlists
 - [The Midnight Ride Extended](./tmr-extended)
 > A list of mods for The Midnight Ride that aim to improve the user experience further with some more subjective mods. Essentially it removes my personal gripes from the game while adding minimal content.  
 Archived 11/11/2023.  
@@ -23,7 +21,7 @@ Reason: Not interested in maintaining. Super Simple S.T.A.L.K.E.R. kinda usurps 
 Archived 27/08/2023.  
 Reason: Not interested in maintaining. Super Simple S.T.A.L.K.E.R. kinda usurps this list.
 
-### Archived Guides
+### Guides
 - [Viva New Wastelands](./vnv-to-ttw)
 > A guide to convert [Viva New Vegas](https://vivanewvegas.moddinglinked.com) to Tale of Two Wastelands.  
 Archived 11/11/2023.  
@@ -43,13 +41,17 @@ Reason: I no longer enjoy playing Escape From Pripyat or "hardcore" S.T.A.L.K.E.
 - [Modlist Additions](./modlist-additions)
 > Personal modlist additions that aim that are my preferred way to play some games.  
 Archived 28/11/2024.  
-Pointless.
+Reason: Pointless.
 - [PAYDAY 2 Build Guides (WIP)](./pd2-build-starts)
 > Links to build starts for PAYDAY 2 perk decks.  
-Archives 29/11/2024.  
-I do not play PAYDAY 2 as much as I used to and do not have the energy to maintain this.
+Archived 29/11/2024.  
+Reason: I do not play PAYDAY 2 as much as I used to and do not have the energy to maintain this.
+- [Good Old Games: Fixes and Tweaks](./gog-fnt)
+> A collection of fixes and tweaks for older games, usually consistenting of bug fixes and improved controls.  
+Archived 06/12/2024.  
+Reason: Not really needed when [PCGamingWiki](https://pcgamingwiki.com) exists.
 
-### Archived Miscellaneous
+### Miscellaneous
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./dl/scripts/socminirepack.bat)
 > Installs [my preferred modpack for Shadow of Chernobyl](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/soc_vanilla-plus_alt-ballistics).  
 Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
@@ -59,3 +61,23 @@ Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: COP Edition](./dl/scripts/copminirepack.bat)
 > Installs [my preferred modpack for Call of Pripyat](https://github.com/forbiddenspiral/cop_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cop_vanilla-plus_alt-ballistics).  
 Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
+- [Mod Organizer 2 Install Script](./dl/scripts/install.bat)
+> Installs Mod Organizer 2 and the RootBuilder plugin by Kezyma, then cleans up the folder of the archive files downloaded and the script.  
+Archived 06/12/2024.  
+Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
+- [Mod Organizer 2 NoDel Install Script](./dl/scripts/install-nodel.bat)
+> Same as above, without the deletion of the script afterwords.  
+Archived 06/12/2024.  
+Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
+- [Mod Organizer 2 NoRB Install Script](./dl/scripts/install-norb.bat)
+> Same as the install script, without the RootBuilder plugin installation.  
+Archived 06/12/2024.  
+Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
+- [Mod Organizer 2 NoRB NoDel Install Script](./dl/scripts/install-norb-nodel.bat)
+> Same as above, without the deletion of the script afterwords.  
+Archived 06/12/2024.  
+Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
+- [Cheat Fallout File](./dl/scripts/cheat)
+> Sets all your S.P.E.C.I.A.L. stats to 10 and also adds Scrapper perks if you're in Fallout 4 (vanilla IDs). Works with Fallout 3, New Vegas, and 4.  
+Archived 06/12/2024.  
+Reason: Don't have a need for it.

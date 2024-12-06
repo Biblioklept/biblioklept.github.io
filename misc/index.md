@@ -62,22 +62,10 @@ Temporarily allow execution of script: `Set-ExecutionPolicy -ExecutionPolicy Rem
 Run the script: `.\chocolateyinstaller.ps1`
 
 ### Batch Scripts
-- [Mod Organizer 2 Install Script](./dl/scripts/install.bat)
-> Installs Mod Organizer 2 and the RootBuilder plugin by Kezyma, then cleans up the folder of the archive files downloaded and the script.
-- [Mod Organizer 2 NoDel Install Script](./dl/scripts/install-nodel.bat)
-> Same as above, without the deletion of the script afterwords.
-- [Mod Organizer 2 NoRB Install Script](./dl/scripts/install-norb.bat)
-> Same as the install script, without the RootBuilder plugin installation.
-- [Mod Organizer 2 NoRB NoDel Install Script](./dl/scripts/install-norb-nodel.bat)
-> Same as above, without the deletion of the script afterwords.
 - [GOG Morrowind Clean Script](./dl/scripts/gogmwclean.bat)
 > Use with GOG to remove the extra files included, I made this for Morrowind#, but it could prove just as useful with any other mod setup. Put in root of game folder **NOT DATA FILES** and run, script will clean up after itself
 - [ZRP Install Script](./dl/scripts/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
-
-### Other Scripts
-- [Cheat Fallout File](./dl/scripts/cheat)
-> Sets all your S.P.E.C.I.A.L. stats to 10 and also adds Scrapper perks if you're in Fallout 4 (vanilla IDs). Works with Fallout 3, New Vegas, and 4.
 
 ### IWADS
 
