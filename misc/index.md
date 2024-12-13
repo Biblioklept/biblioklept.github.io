@@ -24,7 +24,7 @@ Move to `My Games/OpenMW`.
 - [Call of Duty: Modern Warfare 2 Config (IW4X)](./dl/configs/callofduty/modernwarfare2iw4x/)
 - [Call of Duty: Modern Warfare 3 Config (Plutonium)](./dl/configs/callofduty/modernwarfare3plutonium)
 > Move to `AppData\Local\Plutonium\storage\iw5\players`.
-- [Team Fortress 2 MasterComfig Files](./dlteamfortress2config)
+- [Team Fortress 2 MasterComfig Files](./configs/teamfortress2/)
 > My personalized MasterComfig files. **You need to install at least the NONE preset on [MasterComfig's site](https://comfig.app)**  
 For my others settings, I recommend getting [technohud](https://github.com/tekunotri/technohud/releases/latest) and my [Quake 3 hit and kill sounds](https://biblioklept.github.io/mods/team-fortress-2/#quake-3-hit--kill-sounds).
 - [Counter-Strike 2 Config](./dl/configs/counterstrike2/autoexec.cfg)
