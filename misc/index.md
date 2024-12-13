@@ -7,26 +7,28 @@ My Miscellaneous Files
 Disables: Water shaders, shadows, and anisotropy.  
 Adds: Animation support (with additional anims), QoL settings.  
 Move to `My Games/OpenMW`.
+- [Crime Boss: Rockay City Config](./dl/configs/crimeboss)
+> Place in `User/Saved Games`.
 - [Unturned Gameplay Config](./dl/configs/unturned/gameplay/Config.json)
 > Move to `Worlds/Singleplayer_0`.
 - [Unturned Preferences Config](./dl/configs/unturned/preferences/Preferences.json)
 > Move to root folder.
-- [Call of Duty: World At War Config (Plutonium)](./dl/configs/callofduty/worldatwar/plutonium.cfg)
+- [Call of Duty: World At War Config (Plutonium)](./dl/configs/callofduty/worldatwarplutonium)
 > Move to `AppData\Local\Plutonium\storage\t4\players`.
-- [Call of Duty: Black Ops I Config (Plutonium)](./dl/configs/callofduty/dlblackops1config)
+- [Call of Duty: Black Ops I Config (Plutonium)](./dl/configs/callofduty/blackops1plutonium)
 > Move to `AppData\Local\Plutonium\storage\t5\players`.
-- [Call of Duty: Black Ops II Config (Plutonium)](./dl/configs/callofduty/dlblackops2config)
+- [Call of Duty: Black Ops II Config (Plutonium)](./dl/configs/callofduty/blackops2plutonium)
 > Move to `AppData\Local\Plutonium\storage\t6\players`.
 - [Call of Duty: Black Ops III Config](./dl/configs/callofduty/blackops3/config.ini)
 - [Call of Duty: Modern Warfare 1 Config (COD4X)](./dl/configs/callofduty/modernwarfare1cod4x/)
 - [Call of Duty: Modern Warfare 2 Config (IW4X)](./dl/configs/callofduty/modernwarfare2iw4x/)
-- [Call of Duty: Modern Warfare 3 Config (Plutonium)](./dl/configs/callofduty/dlmodernwarfare3config)
+- [Call of Duty: Modern Warfare 3 Config (Plutonium)](./dl/configs/callofduty/modernwarfare3plutonium)
 > Move to `AppData\Local\Plutonium\storage\iw5\players`.
 - [Team Fortress 2 MasterComfig Files](./dlteamfortress2config)
 > My personalized MasterComfig files. **You need to install at least the NONE preset on [MasterComfig's site](https://comfig.app)**  
 For my others settings, I recommend getting [technohud](https://github.com/tekunotri/technohud/releases/latest) and my [Quake 3 hit and kill sounds](https://biblioklept.github.io/mods/team-fortress-2/#quake-3-hit--kill-sounds).
 - [Counter-Strike 2 Config](./dl/configs/counterstrike2/autoexec.cfg)
-- [Project Zomboid Server Config](./dlzomboidserver)
+- [Project Zomboid Server Config](./configs/zomboid/)
 > Move to `Users/User/Zomboid`.
 - [OpenShell Menu Settings](./dl/configs/openshell/Menu Settings.xml)
 > Improves the Start Menu functionality to my liking (made to be used with Windows 10, Dark Mode). Internet searching is disabled and the search is reduced down to "apps" and programs. Rule of thumb: bloat is removed from the UX.
