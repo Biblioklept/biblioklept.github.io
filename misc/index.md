@@ -36,14 +36,6 @@ For my others settings, I recommend getting [technohud](https://github.com/tekun
 > Removes the status bar at the bottom.  
 Install via `Backup > Load from XML file...`
 
-### AHK Scripts
-It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases/latest) program to convert these to an executable script. The scripts are editable with a simple notepad program (Notepad++ recommended for Windows users).
-
-- [Centre Window](./dl/scripts/centrewindow.ahk)
-> Centres windows to be in the centre of your screen, pressing it again will swap it to a different monitor. **Default keybind is Alt + C.**
-- [Spacebar Spam](./dl/scripts/spacebarspam.ahk)
-> Spams spacebar. **Default keybind is F3.**
-
 ### Powershell Scripts
 - [Text Replacer Script (1 replacement 1 file)](./dl/scripts/textreplacer-1.ps1)
 > Replaces all the text in a file with a hash table.
@@ -55,13 +47,6 @@ It's recommended that you use the [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Ex
 > Collects all folder names in a folder.
 - [G.A.M.M.A. Patcher Script](./dl/scripts/gammapatcher.ps1)
 > A patcher file that will change the modlist.txt and MCM files to fit my preferred changes to G.A.M.M.A. Should be future-proof. Place the gammapatcher.ps1 in your "GAMMA" instance folder and run it.
-- [Chocolatey Installer Script](./dl/scripts/chocolateyinstaller.ps1)
-> Installs Chocolatey and my preferred setup of tools for Windows.  
-Steps to run:  
-Open a administrator Powershell prompt and point it to the directory where chocolateyinstaller.ps1 is located: `cd "C:\path\to\script\directory"`  
-Check if the file is blocked, if so unblock it: `Unblock-File chocolateyinstaller.ps1`  
-Temporarily allow execution of script: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`  
-Run the script: `.\chocolateyinstaller.ps1`
 
 ### Batch Scripts
 - [GOG Morrowind Clean Script](./dl/scripts/gogmwclean.bat)

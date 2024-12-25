@@ -23,7 +23,6 @@ Borderlands 2/TPS Modlist
 - [Better Spawns and Better Travel](https://bl-sdk.github.io/mods/BetterSpawnsandBetterTravelBSABT)
 - [Cleaning Up Pandora](https://bl-sdk.github.io/mods/CleaningUpPandora)
 - [Dialog Skipper](https://bl-sdk.github.io/mods/DialogSkipper)
-- [Skill Saver](https://bl-sdk.github.io/mods/SkillSaver)
 - [Text Mod Loader](https://bl-sdk.github.io/mods/TextModLoader)
 
 ### Farming

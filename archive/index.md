@@ -53,31 +53,51 @@ Reason: Not really needed when [PCGamingWiki](https://pcgamingwiki.com) exists.
 
 ### Miscellaneous
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./dl/scripts/socminirepack.bat)
-> Installs [my preferred modpack for Shadow of Chernobyl](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/soc_vanilla-plus_alt-ballistics).  
-Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
+> Batch script. Installs [my preferred modpack for Shadow of Chernobyl](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/soc_vanilla-plus_alt-ballistics).  
+Archived 09/26/2024.  
+Reason: Merged into one big all-in-one script.
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: CS Edition](./dl/scripts/csminirepack.bat)
-> Installs [my preferred modpack for Clear Sky](https://github.com/forbiddenspiral/cs_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cs_vanilla-plus_alt-ballistics).  
-Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
+> Batch script. Installs [my preferred modpack for Clear Sky](https://github.com/forbiddenspiral/cs_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cs_vanilla-plus_alt-ballistics).  
+Archived 09/26/2024.  
+Reason: Merged into one big all-in-one script.
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: COP Edition](./dl/scripts/copminirepack.bat)
-> Installs [my preferred modpack for Call of Pripyat](https://github.com/forbiddenspiral/cop_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cop_vanilla-plus_alt-ballistics).  
-Archived 09/26/2024.  Reason: Merged into one big all-in-one script.
+> Batch script. Installs [my preferred modpack for Call of Pripyat](https://github.com/forbiddenspiral/cop_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/cop_vanilla-plus_alt-ballistics).  
+Archived 09/26/2024.  
+Reason: Merged into one big all-in-one script.
 - [Mod Organizer 2 Install Script](./dl/scripts/install.bat)
-> Installs Mod Organizer 2 and the RootBuilder plugin by Kezyma, then cleans up the folder of the archive files downloaded and the script.  
+> Batch script. Installs Mod Organizer 2 and the RootBuilder plugin by Kezyma, then cleans up the folder of the archive files downloaded and the script.  
 Archived 06/12/2024.  
 Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
 - [Mod Organizer 2 NoDel Install Script](./dl/scripts/install-nodel.bat)
-> Same as above, without the deletion of the script afterwords.  
+> Batch script. Same as above, without the deletion of the script afterwords.  
 Archived 06/12/2024.  
 Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
 - [Mod Organizer 2 NoRB Install Script](./dl/scripts/install-norb.bat)
-> Same as the install script, without the RootBuilder plugin installation.  
+> Batch script. Same as the install script, without the RootBuilder plugin installation.  
 Archived 06/12/2024.  
 Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
 - [Mod Organizer 2 NoRB NoDel Install Script](./dl/scripts/install-norb-nodel.bat)
-> Same as above, without the deletion of the script afterwords.  
+> Batch script. Same as above, without the deletion of the script afterwords.  
 Archived 06/12/2024.  
 Reason: Use [Kezyma's Setup Tool](https://www.nexusmods.com/site/mods/599) instead.
 - [Cheat Fallout File](./dl/scripts/cheat)
 > Sets all your S.P.E.C.I.A.L. stats to 10 and also adds Scrapper perks if you're in Fallout 4 (vanilla IDs). Works with Fallout 3, New Vegas, and 4.  
 Archived 06/12/2024.  
 Reason: Don't have a need for it.
+- [Chocolatey Installer Script](./dl/scripts/chocolateyinstaller.ps1)
+> Installs Chocolatey and my preferred setup of tools for Windows.  
+Steps to run:  
+Open a administrator Powershell prompt and point it to the directory where chocolateyinstaller.ps1 is located: `cd "C:\path\to\script\directory"`  
+Check if the file is blocked, if so unblock it: `Unblock-File chocolateyinstaller.ps1`  
+Temporarily allow execution of script: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`  
+Run the script: `.\chocolateyinstaller.ps1`  
+Archived 25/12/2024.  
+Reason: Use [winutil](https://github.com/christitustech/winutil) instead.
+- [Centre Window](./dl/scripts/centrewindow.ahk)
+> AHK script. Centres windows to be in the centre of your screen, pressing it again will swap it to a different monitor. **Default keybind is Alt + C.**  
+Archived 25/12/2024.  
+Reason: Use [Window Center & Resizer](https://github.com/Devail1/window-center-resize) instead.
+- [Spacebar Spam](./dl/scripts/spacebarspam.ahk)
+> AHK script. Spams spacebar. **Default keybind is F3.**  
+Archived 25/12/2024.  
+Reason: Useless.
