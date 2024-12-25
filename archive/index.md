@@ -51,6 +51,20 @@ Reason: I do not play PAYDAY 2 as much as I used to and do not have the energy t
 Archived 06/12/2024.  
 Reason: Not really needed when [PCGamingWiki](https://pcgamingwiki.com) exists.
 
+### Mods
+- [Fallout 4 Mods](./fallout-4)
+> My Fallout 4 mods.  
+Archived 25/12/2024.  
+Reason: I don't maintain the mods here.
+- [Oblivion Mods](./oblivion)
+> My Oblivion mods.  
+Archived 25/12/2024.  
+Reason: I don't maintain the mods here.
+- [Torchlight 2](./torchlight-2)
+> My Torchlight 2 mods.  
+Archived 25/12/2024.  
+Reason: I don't maintain the mods here.
+
 ### Miscellaneous
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./dl/scripts/socminirepack.bat)
 > Batch script. Installs [my preferred modpack for Shadow of Chernobyl](https://github.com/forbiddenspiral/soc_vanilla-plus_mini_repack). Has a prompt for [alternative balistics](https://github.com/forbiddenspiral/soc_vanilla-plus_alt-ballistics).  
