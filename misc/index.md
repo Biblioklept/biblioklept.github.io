@@ -35,6 +35,9 @@ For my others settings, I recommend getting [technohud](https://github.com/tekun
 - [OpenShell Explorer Settings](./dl/configs/openshell/Explorer Settings.xml)
 > Removes the status bar at the bottom.  
 Install via `Backup > Load from XML file...`
+- [Nilesoft Shell](./dl/configs/nilesoftshell/shell.nss)
+> Removes a bunch of context menu items and also the taskbar items.  
+Install by putting it where you installed Nilesoft Shell.
 
 ### Powershell Scripts
 - [Text Replacer Script (1 replacement 1 file)](./dl/scripts/textreplacer-1.ps1)
