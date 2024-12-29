@@ -1,8 +1,18 @@
 
 [BACK](..)
 
-Call of Duty: Black Ops III Setup
+Call of Duty: Black Ops III (ZM) Setup
 
+- Before or after installing BO3, go to Properties > DLC and click on Size once. Disable the following DLC's if you're only interested in zombies.
+    - Call of Duty Black Ops III - Multiplayer DLC Trial Pack
+    - Call of Duty Black Ops III - Campaign
+    - Call of Duty Black Ops III - Salvation DLC Pack
+    - Call of Duty Black Ops III - Multiplayer
+    - Call of Duty Black Ops III - Descent DLC Pack
+    - Call of Duty Black Ops III - Descent DLC Pack
+    - Call of Duty Black Ops III - Eclipse DLC Pack
+    - Call of Duty Black Ops III - Awakening DLC Pack
+    - Call of Duty Black Ops III - NUK3TOWN Bonus Map
 - Download and install the [T7 Patch](https://github.com/shiversoftdev/t7patch/releases/download/Current/Linux.Steamdeck.and.Manual.Windows.Install.zip).
 > Most people who play BO3 already know about the T7 patch, but most people don't know that they can actually just use the commonly referred to "Linux" version on Windows and basically skip having to launch the injector everytime. **After installing, make sure to edit the .conf file.**
 - Download the [All-Around Enhancement mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2994481309).
