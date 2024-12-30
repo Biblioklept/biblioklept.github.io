@@ -18,6 +18,5 @@ Call of Duty: Black Ops III (ZM) Setup
 - Download the [All-Around Enhancement mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2994481309).
 > AAE is by far the best mod to run with Black Ops III, and the lite version allows you to play far more maps with it.
 - If on Linux put this in launch arguments: `WINEDLLOVERRIDES="dsound=n,b" %command%.`
-- For both Linux and Windows, use `+set fs_game 2994481309` at the end of your launch arguments.
 - Go to your BO3 install folder, and open the `video` folder. Delete `BO3_Global_Logo_LogoSequence.mkv`.
 - Optionally install my [config files (includes AAE weapon kits and settings)](../../misc/dl/configs/callofduty/blackops3/).
