@@ -14,9 +14,9 @@ Call of Duty: Black Ops III (ZM) Setup
     - Call of Duty Black Ops III - Awakening DLC Pack
     - Call of Duty Black Ops III - NUK3TOWN Bonus Map
 - Download and install the [T7 Patch](https://github.com/shiversoftdev/t7patch/releases/download/Current/Linux.Steamdeck.and.Manual.Windows.Install.zip).
-> Most people who play BO3 already know about the T7 patch, but most people don't know that they can actually just use the commonly referred to "Linux" version on Windows and basically skip having to launch the injector everytime. **After installing, make sure to edit the .conf file.**
+> Using the manual version allows you to skip launching the injector (even on Windows). **After installing, make sure to edit the .conf file.**
 - Download the [All-Around Enhancement mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2994481309).
-> AAE is by far the best mod to run with Black Ops III, and the lite version allows you to play far more maps with it.
+> This is optional, but adds a lot of QoL additions.
 - If on Linux put this in launch arguments: `WINEDLLOVERRIDES="dsound=n,b" %command%.`
 - Go to your BO3 install folder, and open the `video` folder. Delete `BO3_Global_Logo_LogoSequence.mkv`.
 - Optionally install my [config files (includes AAE weapon kits and settings)](../../misc/dl/configs/callofduty/blackops3/).
