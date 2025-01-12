@@ -15,4 +15,6 @@ My Modlists
 - [Borderlands 2/TPS Modlist](./borderlands-2-tps-modlist)
 > Simple modlist to add a couple of quality of life fixes to BL2/TPS.
 - [Borderlands 3 Modlist](./borderlands-3-modlist)
-> My preferred way to play BL3 definitely a little cheat-y.
+> My preferred way to play BL3.
+- [Wonderlands Modlist](./borderlands-3-modlist)
+> My preferred way to play WL.

@@ -27,6 +27,5 @@ Borderlands 3 Modlist
 - [Cheaper Eridian Economy](https://github.com/BLCM/bl3mods/wiki/Cheaper-Eridium-Economy)
 - [Cheaper SDUs](https://github.com/BLCM/bl3mods/wiki/Cheaper-SDUs)
 - [Cheaper Slots](https://github.com/BLCM/bl3mods/wiki/Cheaper-Slots)
-- [Diamond Chest: Eridium Cost](https://github.com/BLCM/bl3mods/wiki/Diamond-Chest:-Eridium-Cost)
 - [Gold Chest: Money Cost](https://github.com/BLCM/bl3mods/wiki/Gold-Chest:-Money-Cost)
 - [Legendary Price Scaling](https://github.com/BLCM/bl3mods/wiki/Legendary-Price-Scaling)
