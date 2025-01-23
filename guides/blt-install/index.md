@@ -26,6 +26,9 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 4. Move the mod.txt file to your T-PACK mod folder and overwrite.
 5. Now launch your game and download all updates.
 
+### [Sniff Utils 2](https://github.com/Biblioklept/sniff-utils-2)
+Sniff Utils 2 is a mod merge of mods previously featured on this guide and more. This mod has mods that apply to all sections on this guide.
+
 ### Bug Fixes (Mods)
 General bug fixes with the game that I would consider essential.
 
@@ -39,45 +42,33 @@ General bug fixes with the game that I would consider essential.
 ### Performance (Mods)
 Mods to improve the performance of the game.
 
-1. [CRIME.NET Performance Improvement Fixed](https://modworkshop.net/mod/42769)
-2. [Disable Fog](https://modworkshop.net/mod/32328)
-3. [Fading Ammo Box Contours](https://modworkshop.net/mod/37310)
-4. [Load Steam Inventory Once](https://modworkshop.net/mod/24008)
-5. [Low Violence Mode](https://modworkshop.net/mod/14602)
-6. [Mod List Lite](https://modworkshop.net/mod/40504)
-7. [No More Ads](https://modworkshop.net/mod/34268)
-8. [No Prints](https://modworkshop.net/mod/21549)
+1. [Fading Ammo Box Contours](https://modworkshop.net/mod/37310)
 
 ### Performance (Mod_Overrides)
 1. [Black Cat Heist Optimization](https://modworkshop.net/mod/34645)
 2. [Compressed Hell's Island](https://modworkshop.net/mod/29420)
 3. [Compressed Marshals](https://modworkshop.net/mod/38240)
-3. [Compressed MurkyHumvee](https://modworkshop.net/mod/25896)
-4. [Compressed San Martin Bank](https://modworkshop.net/mod/29382)
-5. [Compressed Tailor Pack 2](https://modworkshop.net/mod/26764)
-6. [Compressed White House](https://modworkshop.net/mod/29447)
-7. [Compressed Winter Suit](https://modworkshop.net/mod/25951)
-8. [LemonCat MacroPack Smoke](https://modworkshop.net/mod/15173)
-9. [Graffiti Cleanup](https://modworkshop.net/mod/19278)
-10. [No Blood Impact Decals](https://modworkshop.net/mod/25468)
-11. [No Trash](https://modworkshop.net/mod/12465)
-12. [Performance Friendly Flame Weapons](https://modworkshop.net/mod/23006)
-13. [Reduced Sicario Smoke](https://modworkshop.net/mod/22674)
-14. [Remove smoke from main menu](https://modworkshop.net/mod/25372)
+4. [Compressed MurkyHumvee](https://modworkshop.net/mod/25896)
+5. [Compressed San Martin Bank](https://modworkshop.net/mod/29382)
+6. [Compressed Tailor Pack 2](https://modworkshop.net/mod/26764)
+7. [Compressed White House](https://modworkshop.net/mod/29447)
+8. [Compressed Winter Suit](https://modworkshop.net/mod/25951)
+9. [LemonCat MacroPack Smoke](https://modworkshop.net/mod/15173)
+10. [Graffiti Cleanup](https://modworkshop.net/mod/19278)
+11. [No Blood Impact Decals](https://modworkshop.net/mod/25468)
+12. [No Trash](https://modworkshop.net/mod/12465)
+13. [Performance Friendly Flame Weapons](https://modworkshop.net/mod/23006)
+14. [Reduced Sicario Smoke](https://modworkshop.net/mod/22674)
+15. [Remove smoke from main menu](https://modworkshop.net/mod/25372)
 
 ### Aim Helpers (Mods)
 Mods dedicated to removing/reducing aspects of the game that can mess with aiming. Things such as camera effects, overlays, etc.
 
-1. [Bag Carrying Tilt Removal](https://modworkshop.net/mod/16487)
-2. [No Additional ADS Movement](https://modworkshop.net/mod/32461)
-3. [No ADS Breathing Effect](https://modworkshop.net/mod/21246)
-4. [No Screen Shake 2.0](https://modworkshop.net/mod/34446)
-5. [Adjustable Weapon Sway](https://modworkshop.net/mod/33179)
-6. [Rats Blur Removal](https://modworkshop.net/mod/15368)
-7. [Reduced Headbob](https://modworkshop.net/mod/36376)
-8. [Reticle Size Fix](https://modworkshop.net/mod/29162)
+1. [Adjustable Weapon Sway](https://modworkshop.net/mod/33179)
+2. [Reduced Headbob](https://modworkshop.net/mod/36376)
+3. [Reticle Size Fix](https://modworkshop.net/mod/29162)
 > Note: You need to move the Reticle Size Fix modoverride folder to your mod_overrides folder.
-9. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-aim.7z)
+4. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-aim.7z)
 
 ### Aim Helpers (Mod_Overrides)
 1. [Bloody Screen Effect Removal](https://modworkshop.net/mod/32280)
@@ -90,13 +81,12 @@ Mods dedicated to removing/reducing aspects of the game that can mess with aimin
 User Interface mods are usually highly subjective in the feel and what you're looking for, so for the purpose of this guide, I'll recommend using my personal setup of lightweight and vanilla-esque UI mods.
 
 1. [Health and Armor As Numbers Standalone](https://modworkshop.net/mod/30159)
-2. [Health Flash Fix V2](https://modworkshop.net/mod/39838)
-3. [Void UI Scoreboard Standalone](https://modworkshop.net/mod/30948)
-4. [Extra Heist Info](https://modworkshop.net/mod/31915)
-5. [Better Crew Management](https://modworkshop.net/mod/30505)
-6. [Quiet Main Menu](https://modworkshop.net/mod/38037)
-7. [Shuffle Play](https://modworkshop.net/mod/37959)
-8. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-hud.7z)
+2. [Void UI Scoreboard Standalone](https://modworkshop.net/mod/30948)
+3. [Extra Heist Info](https://modworkshop.net/mod/31915)
+4. [Better Crew Management](https://modworkshop.net/mod/30505)
+5. [Quiet Main Menu](https://modworkshop.net/mod/38037)
+6. [Shuffle Play](https://modworkshop.net/mod/37959)
+7. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-hud.7z)
 
 ### User Interface (Mod_Overrides)
 1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
