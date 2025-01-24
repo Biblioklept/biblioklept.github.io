@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-Super Simple S.T.A.L.K.E.R. modlists
+Super Simple S.T.A.L.K.E.R. Modlists
 
 ### [S.T.A.L.K.E.R.: Shadow of Chernobyl](./shoc)
 

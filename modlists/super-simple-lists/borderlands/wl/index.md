@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-Tiny Tina's Wonderlands Modlist
+Super Simple Tiny Tina's Wonderlands
 
 ### OpenHotFixLoader
 > These are needed for all mods listed.

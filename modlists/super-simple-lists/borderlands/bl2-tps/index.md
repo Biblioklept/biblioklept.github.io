@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-Borderlands 2/TPS Modlist
+Super Simple Borderlands 2/TPS
 
 ### PythonSDK
 - [PythonSDK](https://github.com/bl-sdk/willow2-mod-manager/releases/)

@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-Super Simple Borderlands modlists
+Super Simple Borderlands Modlists
 
 ### [Borderlands 2/TPS](./bl2-tps)
 

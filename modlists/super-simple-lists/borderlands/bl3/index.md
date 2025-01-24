@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-Borderlands 3 Modlist
+Super Simple Borderlands 3
 
 ### OpenHotFixLoader
 > These are needed for all mods listed.

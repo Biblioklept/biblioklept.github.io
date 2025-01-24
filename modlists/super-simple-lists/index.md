@@ -3,5 +3,6 @@
 
 Super Simple Lists
 
-### [S.T.A.L.K.E.R.](./stalker)
 ### [Borderlands](./borderlands)
+### [Fatshark Tide Games](./fatshark-tide)
+### [S.T.A.L.K.E.R.](./stalker)
