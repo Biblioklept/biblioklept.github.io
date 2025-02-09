@@ -12,26 +12,26 @@ List of Alterations
 
 Table of Contents
 
-- [Baby, Take Your Teeth Out - DONE](#baby-take-your-teeth-out---done)
-- [Tinsel Town Rebellion - WIP](#tinsel-town-rebellion---wip)
-- [Be In My Video - DONE](#be-in-my-video---done)
-- [Harder Than Your Husband (+1) - DONE](#harder-than-your-husband-1---done)
-- [My Boyfriend's Back - DONE](#my-boyfriends-back---done)
-- [Bust His Head - DONE](#bust-his-head---done)
-- [Memories Of El Monte - DONE](#memories-of-el-monte---done)
-- [Oh, In The Sky - DONE](#oh-in-the-sky---done)
-- [Valarie - DONE](#valarie---done)
-- [Who Are The Brain Police? - WIP](#who-are-the-brain-police---wip)
-- [Cock-Suckers Ball - WIP](#cock-suckers-ball---wip)
-- [Lonesome Cowboy Burt (Trump Version) - DONE](#lonesome-cowboy-burt-trump-version---done)
-- [Find Her Finer (+2) - WIP](#find-her-finer-2---wip)
-- [Magdalena - WIP](#magdalena---wip)
-- [Daddy, Daddy, Daddy - WIP](#daddy-daddy-daddy---wip)
-- [Would You Go All The Way? - WIP](#would-you-go-all-the-way---wip)
-- [Jesus Thinks You're A Jerk (Cutdown Trump Version) - WIP](#jesus-thinks-youre-a-jerk-cutdown-trump-version---wip)
-- [Plastic People - SOON DONE](#plastic-people---soon-done)
+- [Baby, Take Your Teeth Out (Them Or Us)](#baby-take-your-teeth-out-them-or-us)
+- [Tinsel Town Rebellion (Have I Offended Someone?)](#tinsel-town-rebellion-have-i-offended-someone)
+- [Be In My Video (Them Or Us)](#be-in-my-video-them-or-us)
+- [Harder Than Your Husband \[+1\] (You Are What You Is)](#harder-than-your-husband-1-you-are-what-you-is)
+- [My Boyfriend's Back (Whisky A Go Go, 1968)](#my-boyfriends-back-whisky-a-go-go-1968)
+- [Bust His Head (Whisky A Go Go, 1968)](#bust-his-head-whisky-a-go-go-1968)
+- [Memories Of El Monte (Whisky A Go Go, 1968)](#memories-of-el-monte-whisky-a-go-go-1968)
+- [Oh, In The Sky (Whisky A Go Go, 1968)](#oh-in-the-sky-whisky-a-go-go-1968)
+- [Valarie (Whisky A Go Go, 1968)](#valarie-whisky-a-go-go-1968)
+- [Who Are The Brain Police? (Carnegie Hall)](#who-are-the-brain-police-carnegie-hall)
+- [Cock-Suckers Ball (Does Humour Belong In Music?)](#cock-suckers-ball-does-humour-belong-in-music)
+- [Lonesome Cowboy Burt \[Trump Version\] (The Best Band You Never Heard In Your Life)](#lonesome-cowboy-burt-trump-version-the-best-band-you-never-heard-in-your-life)
+- [Find Her Finer \[+2\] (The Best Band You Never Heard In Your Life)](#find-her-finer-2-the-best-band-you-never-heard-in-your-life)
+- [Magdalena (Carnegie Hall)](#magdalena-carnegie-hall)
+- [Daddy, Daddy, Daddy (Philly '76)](#daddy-daddy-daddy-philly-76)
+- [Would You Go All The Way? (Chunga's Revenge)](#would-you-go-all-the-way-chungas-revenge)
+- [Jesus Thinks You're A Jerk \[Cutdown Trump Version\] (Broadway The Hard Way)](#jesus-thinks-youre-a-jerk-cutdown-trump-version-broadway-the-hard-way)
+- [Plastic People (Whisky A Go Go, 1968)](#plastic-people-whisky-a-go-go-1968)
 
-### Baby, Take Your Teeth Out - DONE
+### Baby, Take Your Teeth Out (Them Or Us)
 ```
 MOO-AHHH!
 
@@ -110,7 +110,7 @@ Baby take your teeth out
 There ain't nothin' left to talk about 
 ```
 
-### Tinsel Town Rebellion - WIP
+### Tinsel Town Rebellion (Have I Offended Someone?)
 ```
 From Madam Wong's to Starwood
 To the Whiskey on the Strip
@@ -198,7 +198,7 @@ An incredible ugly little town!
 It's really boring!
 ```
 
-### Be In My Video - DONE
+### Be In My Video (Them Or Us)
 ```
 [C]
 Be in my video,
@@ -351,7 +351,7 @@ And then we'll dance your sinus
 MOO-AHHHH!
 ```
 
-### Harder Than Your Husband (+1) - DONE
+### Harder Than Your Husband [+1] (You Are What You Is)
 ```
 [G]              [A]
 We must say good-bye
@@ -445,7 +445,7 @@ Harder than yer husband
 Harder than yer...
 ```
 
-### My Boyfriend's Back - DONE
+### My Boyfriend's Back (Whisky A Go Go, 1968)
 ```
 [D]
 My boyfriend's back and you're gonna be in trouble 
@@ -480,7 +480,7 @@ Yeah! My boyfriend's back
 Yeah! You know he's gonna do
 ```
 
-### Bust His Head - DONE
+### Bust His Head (Whisky A Go Go, 1968)
 ```
        [E]
 Here I come
@@ -528,7 +528,7 @@ You know I've got what I need
 Come on and watch him bleed
 ```
 
-### Memories Of El Monte - DONE
+### Memories Of El Monte (Whisky A Go Go, 1968)
 ```
 [G]      [Em]
 I'm all alone
@@ -650,7 +650,7 @@ Yes, it's you I adore"
 The Paragons... singing "Oh! In The Sky"...
 ```
 
-### Oh, In The Sky - DONE
+### Oh, In The Sky (Whisky A Go Go, 1968)
 ```
 [G]        [Em]
 Oh, in the sky
@@ -704,7 +704,7 @@ Oh oh oh oh oh
 Oh, in the sky
 ```
 
-### Valarie - DONE
+### Valarie (Whisky A Go Go, 1968)
 ```
 [G]
 La la, la la la, la la
@@ -799,7 +799,7 @@ La la, la la la, la la
 (Look out!)
 ```
 
-### Who Are The Brain Police? - WIP
+### Who Are The Brain Police? (Carnegie Hall)
 ```
 What will you do if we let you go home
 And the plastic's all melted
@@ -860,7 +860,7 @@ Who are the brain police?
 Who are the brain police?
 ```
 
-### Cock-Suckers Ball - WIP
+### Cock-Suckers Ball (Does Humour Belong In Music?)
 ```
 This show's for all the Republicans here.
 
@@ -903,7 +903,7 @@ Yeah yeah yeah yeah
 Tomorrow night at the Rotten Cock-Suckers' Ball!
 ```
 
-### Lonesome Cowboy Burt (Trump Version) - DONE
+### Lonesome Cowboy Burt [Trump Version] (The Best Band You Never Heard In Your Life)
 ```
 [C]
 My name is Trump
@@ -1112,7 +1112,7 @@ Where's my porn star?
 Stormy, you hot little bitch!
 ```
 
-### Find Her Finer (+2) - WIP
+### Find Her Finer [+2] (The Best Band You Never Heard In Your Life)
 ```
 Find her finer, sneak up behind her
 Wrapped like a mummy till you finally unwind her
@@ -1155,7 +1155,7 @@ Act like a dummy till you finally grind her
 [Continue for as long as necessary] 
 ```
 
-### Magdalena - WIP
+### Magdalena (Carnegie Hall)
 ```
 There was a man
 A little old man
@@ -1301,7 +1301,7 @@ Come back to your daddy,
 It's you and me, Magdalena, for the rest of our lives...
 ```
 
-### Daddy, Daddy, Daddy - WIP
+### Daddy, Daddy, Daddy (Philly '76)
 ```
 [F#]                   [G#m]
 She's such a dignified lady
@@ -1356,7 +1356,7 @@ All right
 You got 'em screamin' all night
 ```
 
-### Would You Go All The Way? - WIP
+### Would You Go All The Way? (Chunga's Revenge)
 ```
 [C]
                      [F]
@@ -1471,7 +1471,7 @@ Would you go all the way?
 Would you go all the way?
 ```
 
-### Jesus Thinks You're A Jerk (Cutdown Trump Version) - WIP
+### Jesus Thinks You're A Jerk [Cutdown Trump Version] (Broadway The Hard Way)
 ```
 There's an ugly wasel 'bout six-foot two
 Face puffed up from cryin' 'n lyin'
@@ -1579,7 +1579,7 @@ You gotta go!
 You really got to go
 ```
 
-### Plastic People - SOON DONE
+### Plastic People (Whisky A Go Go, 1968)
 ```
 [A] [D] [Em] [D]
 Plastic people
