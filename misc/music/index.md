@@ -3,18 +3,14 @@
 
 Transcribed Music (Chords)
 
-<details>
-<summary>List of Alterations</summary>
+List of Alterations
 
 - General lyric changes to work against Trump (obvious examples being **Lonesome Cowboy Burt** and **Jesus Thnks You're A Jerk**).
 - **Harder Than Your Husband** is transposed +1.
 - **Find Her Finer** is transposed +2.
 - **Jesus Thinks You're A Jerk** is lyrically and musically cut down.
 
-</details>
-
-<details>
-<summary>Table of Contents</summary>
+Table of Contents
 
 - [Baby, Take Your Teeth Out - DONE](#baby-take-your-teeth-out---done)
 - [Tinsel Town Rebellion - WIP](#tinsel-town-rebellion---wip)
@@ -34,9 +30,6 @@ Transcribed Music (Chords)
 - [Would You Go All The Way? - WIP](#would-you-go-all-the-way---wip)
 - [Jesus Thinks You're A Jerk (Cutdown Trump Version) - WIP](#jesus-thinks-youre-a-jerk-cutdown-trump-version---wip)
 - [Plastic People - SOON DONE](#plastic-people---soon-done)
-
-
-</details>
 
 ### Baby, Take Your Teeth Out - DONE
 ```
