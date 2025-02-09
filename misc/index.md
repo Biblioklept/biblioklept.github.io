@@ -1,6 +1,9 @@
 
 My Miscellaneous Files
 
+### [Music](./music)
+> A list of music I've chorded into markdown (whether through my own work or someone else's) and altered.
+
 ### Configuration Files
 - [OpenMW Config](./dl/configs/openmw/settings.cfg)
 > Sets: textures to be chunky, FOV to 90, distant land to max, screenshot format to png.  
