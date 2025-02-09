@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ModInstallerPreset>
+  <GameType>6</GameType>
+  <Packages>
+    <Package FileName="Bowmore Wrinklemaps.a3"></Package>
+    <Package FileName="Burke Trailer Fix.a3"></Package>
+    <Package FileName="Detailed FPS arms.a3"></Package>
+    <Package FileName="Disable DOF.a3"></Package>
+    <Package FileName="Flight Crew Shorts Fix.a3"></Package>
+    <Package FileName="Floating Tree Fix.a3"></Package>
+    <Package FileName="Z FOV Remake Main.a3"></Package>
+    <Package FileName="FOV unlocker.a3">
+      <Options>
+        <Option ID="Fov">0</Option>
+        <Option ID="WaterFix">1</Option>
+      </Options>
+    </Package>
+    <Package FileName="FPS Glove Fix.a3"></Package>
+    <Package FileName="ImprovedShotgunSpread FC5.a3"></Package>
+    <Package FileName="John Seed Inventory Fix.a2"></Package>
+    <Package FileName="Keybindings Faster Parachute.a3"></Package>
+    <Package FileName="Languages Resistance.a3"></Package>
+    <Package FileName="M133Short IronSightFix.a3"></Package>
+    <Package FileName="No Menu Ads.a3"></Package>
+    <Package FileName="Nolan Shop Dock Location Fix.a3"></Package>
+    <Package FileName="NPC Weapons Support.a3"></Package>
+    <Package FileName="Random NPC Weapons.a3"></Package>
+    <Package FileName="Remove Startup Videos.a3"></Package>
+    <Package FileName="Scalable Ironsight FOV.a3">
+      <Options>
+        <Option ID="IronFOV">5</Option>
+      </Options>
+    </Package>
+    <Package FileName="Fix Scout Pants.a3"></Package>
+    <Package FileName="Skip Intro Missions.a3"></Package>
+    <Package FileName="St. Francis Veterans Center.a3"></Package>
+    <Package FileName="The Confession Equipment Fix.a3"></Package>
+  </Packages>
+</ModInstallerPreset>

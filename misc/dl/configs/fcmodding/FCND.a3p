@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ModInstallerPreset>
+  <GameType>7</GameType>
+  <Packages>
+    <Package FileName="Bigger Fires.a3"></Package>
+    <Package FileName="Custom Weapon FOV.a3">
+      <Options>
+        <Option ID="Pistols">5</Option>
+        <Option ID="PistolsV">5</Option>
+        <Option ID="Revolvers">5</Option>
+        <Option ID="RevolversV">5</Option>
+        <Option ID="ARs">5</Option>
+        <Option ID="ARsV">5</Option>
+        <Option ID="LMGs">5</Option>
+        <Option ID="LMGsV">5</Option>
+        <Option ID="SMGs">5</Option>
+        <Option ID="SMGsV">5</Option>
+        <Option ID="Autopistols">5</Option>
+        <Option ID="AutopistolsV">5</Option>
+        <Option ID="Shotguns">5</Option>
+        <Option ID="ShotgunsV">5</Option>
+        <Option ID="Snipers">5</Option>
+        <Option ID="SnipersV">5</Option>
+        <Option ID="Launchers">5</Option>
+        <Option ID="LaunchersV">5</Option>
+        <Option ID="RPG">5</Option>
+        <Option ID="RPGV">5</Option>
+        <Option ID="Flamethrower">5</Option>
+        <Option ID="FlamethrowerV">5</Option>
+        <Option ID="Bows">5</Option>
+        <Option ID="BowsV">5</Option>
+        <Option ID="SawLauncher">5</Option>
+        <Option ID="SawLauncherV">5</Option>
+        <Option ID="Melee">5</Option>
+        <Option ID="MeleeV">5</Option>
+        <Option ID="Mounted">5</Option>
+        <Option ID="MountedV">5</Option>
+      </Options>
+    </Package>
+    <Package FileName="Disable DOF.a3"></Package>
+    <Package FileName="FOV unlocker.a3">
+      <Options>
+        <Option ID="Fov">0</Option>
+        <Option ID="WaterFix">1</Option>
+      </Options>
+    </Package>
+    <Package FileName="Keybindings.a3"></Package>
+    <Package FileName="Languages Scavenger.a3"></Package>
+    <Package FileName="M133Short IronSightFix.a3"></Package>
+    <Package FileName="NPC Weapons Support.a3"></Package>
+    <Package FileName="Store Items Packs.a3"></Package>
+    <Package FileName="Random NPC Weapons Only Friendly.a3"></Package>
+    <Package FileName="Random NPC Weapons Only Highwaymen.a3"></Package>
+    <Package FileName="Remove Breathing Sounds.a3"></Package>
+    <Package FileName="Remove Film Grain.a3"></Package>
+    <Package FileName="Remove Flying Dust.a3"></Package>
+    <Package FileName="Remove Startup Videos.a3"></Package>
+    <Package FileName="Skip Intro Missions.a3"></Package>
+    <Package FileName="Unscaled Reload Time FCND.a3"></Package>
+  </Packages>
+</ModInstallerPreset>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ModInstallerPreset>
+  <GameType>8</GameType>
+  <Packages>
+    <Package FileName="60 FPS Cutscenes.a2"></Package>
+    <Package FileName="Remove phone cracks.a3"></Package>
+    <Package FileName="Disable DOF.a3"></Package>
+    <Package FileName="FOV unlocker.a3">
+      <Options>
+        <Option ID="21CutFix">1</Option>
+        <Option ID="ExtFov">1</Option>
+        <Option ID="FovSlider">1</Option>
+        <Option ID="FovTrans">1</Option>
+        <Option ID="WaterFix">1</Option>
+      </Options>
+    </Package>
+    <Package FileName="Keybindings Settings.a3"></Package>
+    <Package FileName="Languages Libertad.a3">
+      <Options>
+        <Option ID="Lang">0</Option>
+      </Options>
+    </Package>
+    <Package FileName="Remove Chromatic Aberration.a2"></Package>
+    <Package FileName="Remove screen grid.a3"></Package>
+    <Package FileName="Remove Startup Videos.a3"></Package>
+    <Package FileName="Script Functions.a3"></Package>
+    <Package FileName="Shut Up Dani.a2"></Package>
+    <Package FileName="The Vanishing Final Cutscene Fix.a3"></Package>
+    <Package FileName="Unlock Black Market Outfits.a3"></Package>
+    <Package FileName="Unlock Black Market Weapons.a3"></Package>
+    <Package FileName="Unlock Bundles.a3"></Package>
+    <Package FileName="Unlock Unique Weapons.a3"></Package>
+    <Package FileName="zz WeaponFovMod FC6.a3">
+      <Options>
+        <Option ID="WpnFOV">2</Option>
+      </Options>
+    </Package>
+    <Package FileName="Zenia Garage Opener.a3"></Package>
+  </Packages>
+</ModInstallerPreset>

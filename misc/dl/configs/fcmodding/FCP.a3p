@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ModInstallerPreset>
+  <GameType>5</GameType>
+  <Packages>
+    <Package FileName="BloodierCombat.a3"></Package>
+    <Package FileName="Languages Wenja.a3"></Package>
+    <Package FileName="Remove Startup Videos.a3"></Package>
+    <Package FileName="Viewmodel FOV.a2">
+      <Options>
+        <Option ID="WpnFOV">3</Option>
+      </Options>
+    </Package>
+  </Packages>
+</ModInstallerPreset>

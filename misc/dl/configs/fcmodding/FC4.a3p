@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ModInstallerPreset>
+  <GameType>4</GameType>
+  <Packages>
+    <Package FileName="Arena MG42 Fixer.a3"></Package>
+    <Package FileName="Better CommandersEquipment Variants.a3"></Package>
+    <Package FileName="reflections.a3"></Package>
+    <Package FileName="BetterShotgunSpread FC4.a3"></Package>
+    <Package FileName="Ceano's Better Sights.a3"></Package>
+    <Package FileName="CoD AW Dual Render Scopes.a3"></Package>
+    <Package FileName="DOF Remover FC4.a3"></Package>
+    <Package FileName="Drunk Kanak’s Truck Location Fix.a3"></Package>
+    <Package FileName="FOV Scaler.a3">
+      <Options>
+        <Option ID="CommonFOV">3</Option>
+        <Option ID="TDFOV">3</Option>
+        <Option ID="VehicleFOV">3</Option>
+        <Option ID="WeaponFOV">3</Option>
+      </Options>
+    </Package>
+    <Package FileName="FOV Unlocker.a3"></Package>
+    <Package FileName="Auto F1 FC4.a3"></Package>
+    <Package FileName="HD UI Remake.a3"></Package>
+    <Package FileName="BP HUD Icon Display Files.a3"></Package>
+    <Package FileName="Languages Golden Path.a3"></Package>
+    <Package FileName="Loading Screen Music Fix.a3"></Package>
+    <Package FileName="Mouse Fix.a3"></Package>
+    <Package FileName="MusicFixer FC4.a3"></Package>
+    <Package FileName="AOY - No Startup Videos_FC4.a3"></Package>
+    <Package FileName="Press To Interact.a3"></Package>
+    <Package FileName="Random NPC Weapons.a3"></Package>
+    <Package FileName="Royal Fast Reaction Unit.a3"></Package>
+    <Package FileName="Skip Intro Missions_FC4.a3"></Package>
+    <Package FileName="z_VFM_FC4_90.a3"></Package>
+    <Package FileName="vibrantwater.a3"></Package>
+  </Packages>
+</ModInstallerPreset>
