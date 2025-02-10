@@ -39,21 +39,11 @@ General bug fixes with the game that I would consider essential.
 ### Performance (Mod_Overrides)
 Mods to improve the performance of the game.
 
-1. [Black Cat Heist Optimization](https://modworkshop.net/mod/34645)
-2. [Compressed Hell's Island](https://modworkshop.net/mod/29420)
-3. [Compressed Marshals](https://modworkshop.net/mod/38240)
-4. [Compressed MurkyHumvee](https://modworkshop.net/mod/25896)
-5. [Compressed San Martin Bank](https://modworkshop.net/mod/29382)
-6. [Compressed Tailor Pack 2](https://modworkshop.net/mod/26764)
-7. [Compressed White House](https://modworkshop.net/mod/29447)
-8. [Compressed Winter Suit](https://modworkshop.net/mod/25951)
-9. [LemonCat MacroPack Smoke](https://modworkshop.net/mod/15173)
-10. [Graffiti Cleanup](https://modworkshop.net/mod/19278)
-11. [No Blood Impact Decals](https://modworkshop.net/mod/25468)
-12. [No Trash](https://modworkshop.net/mod/12465)
-13. [Performance Friendly Flame Weapons](https://modworkshop.net/mod/23006)
-14. [Reduced Sicario Smoke](https://modworkshop.net/mod/22674)
-15. [Remove smoke from main menu](https://modworkshop.net/mod/25372)
+1. [Optimized Assets](https://github.com/Biblioklept/optimized-assets)
+2. [Graffiti Cleanup](https://modworkshop.net/mod/19278)
+3. [No Blood Impact Decals](https://modworkshop.net/mod/25468)
+4. [No Trash](https://modworkshop.net/mod/12465)
+5. [Remove smoke from main menu](https://modworkshop.net/mod/25372)
 
 ### Aim Helpers (Mods)
 Mods dedicated to removing/reducing aspects of the game that can mess with aiming. Things such as camera effects, overlays, etc.
