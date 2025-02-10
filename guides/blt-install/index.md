@@ -26,9 +26,6 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 4. Move the mod.txt file to your T-PACK mod folder and overwrite.
 5. Now launch your game and download all updates.
 
-### [Sniff Utils 2](https://github.com/Biblioklept/sniff-utils-2)
-Sniff Utils 2 is a mod merge of mods previously featured on this guide and more. This mod has mods that apply to all sections on this guide.
-
 ### Bug Fixes (Mods)
 General bug fixes with the game that I would consider essential.
 
@@ -39,12 +36,9 @@ General bug fixes with the game that I would consider essential.
 ### Bug Fixes (Mod_Overrides)
 1. [Visual Fixes](https://modworkshop.net/mod/37161)
 
-### Performance (Mods)
+### Performance (Mod_Overrides)
 Mods to improve the performance of the game.
 
-1. [Fading Ammo Box Contours](https://modworkshop.net/mod/37310)
-
-### Performance (Mod_Overrides)
 1. [Black Cat Heist Optimization](https://modworkshop.net/mod/34645)
 2. [Compressed Hell's Island](https://modworkshop.net/mod/29420)
 3. [Compressed Marshals](https://modworkshop.net/mod/38240)
@@ -64,11 +58,9 @@ Mods to improve the performance of the game.
 ### Aim Helpers (Mods)
 Mods dedicated to removing/reducing aspects of the game that can mess with aiming. Things such as camera effects, overlays, etc.
 
-1. [Adjustable Weapon Sway](https://modworkshop.net/mod/33179)
-2. [Reduced Headbob](https://modworkshop.net/mod/36376)
-3. [Reticle Size Fix](https://modworkshop.net/mod/29162)
+1. [Motion Sickness Helper 2](https://github.com/Biblioklept/motion-sickness-helper-2)
+2. [Reticle Size Fix](https://modworkshop.net/mod/29162)
 > Note: You need to move the Reticle Size Fix modoverride folder to your mod_overrides folder.
-4. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-aim.7z)
 
 ### Aim Helpers (Mod_Overrides)
 1. [Bloody Screen Effect Removal](https://modworkshop.net/mod/32280)
@@ -80,30 +72,18 @@ Mods dedicated to removing/reducing aspects of the game that can mess with aimin
 ### User Interface (Mods)
 User Interface mods are usually highly subjective in the feel and what you're looking for, so for the purpose of this guide, I'll recommend using my personal setup of lightweight and vanilla-esque UI mods.
 
-1. [Health and Armor As Numbers Standalone](https://modworkshop.net/mod/30159)
-2. [Void UI Scoreboard Standalone](https://modworkshop.net/mod/30948)
-3. [Extra Heist Info](https://modworkshop.net/mod/31915)
-4. [Better Crew Management](https://modworkshop.net/mod/30505)
-5. [Quiet Main Menu](https://modworkshop.net/mod/38037)
-6. [Shuffle Play](https://modworkshop.net/mod/37959)
-7. [My Personal Saves (Settings) Folder For The Above Mods](./dl/saves-hud.7z)
+1. [Better Menus](https://github.com/Biblioklept/better-menus)
+2. [Better Crew Management](https://modworkshop.net/mod/30505)
+3. [Quiet Main Menu](https://modworkshop.net/mod/38037)
+4. [Shuffle Play](https://modworkshop.net/mod/37959)
 
 ### User Interface (Mod_Overrides)
 1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
 2. [Meta Melees Highlighted](https://modworkshop.net/mod/23043)
 
-### Consistent Visuals (Mods)
+### Consistent Visuals (Mod_Overrides)
 Mods that make the visuals consistent and overall less scattered than the original game. Highly subjective.
 
-1. [Streamlined SWATs](https://modworkshop.net/mod/41726)
-2. [Streamlined FBIs](https://modworkshop.net/mod/41728	)
-3. [Streamlined GenSecs](https://modworkshop.net/mod/41712)
-4. [Streamlined ZEALs](https://modworkshop.net/mod/41711)
-5. [Streamlined Murkies](https://modworkshop.net/mod/41727)
-6. [Streamlined Mercs](https://modworkshop.net/mod/41725)
-7. [Streamlined Federales](https://modworkshop.net/mod/41701)
-
-### Consistent Visuals (Mod_Overrides)
 1. [Better Sleeves & Fixes](https://modworkshop.net/mod/34542)
 2. [Restored Heister Sleeves](https://modworkshop.net/mod/33204)
 3. [Unique Loot REBOOT](https://modworkshop.net/mod/27711)
