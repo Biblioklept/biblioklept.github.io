@@ -1,0 +1,42 @@
+{
+           "buff": {
+                                   "buffSize": 35,
+                                    "justify": 2,
+                                     "maxFPS": 100,
+                              "showCarryDrop": false,
+                       "showDodgeChanceGauge": false,
+                            "showInteraction": false,
+                                "showStamina": false,
+                                      "style": 3,
+                                  "xPosition": 50,
+                                  "yPosition": 90
+                   },
+           "chat": {
+                       "minionLost": 0,
+                       "minionShot": 0
+                   },
+          "float": {
+                                 "showBags": false,
+                       "showConvertedEnemy": false,
+                          "showTargetsCivs": false,
+                       "showTargetsConvert": false,
+                        "showTargetsTeamAi": false
+                   },
+    "performance": {
+                        "blockBloodDecals": true,
+                       "blockBulletDecals": true,
+                            "blockCorpses": true,
+                            "blockHelmets": true,
+                          "blockMagazines": true,
+                            "blockShields": true,
+                       "reduceShotgunSpam": true
+                   },
+          "popup": {
+                       "enable": false
+                   },
+           "root": {
+                        "colorNegative": "Firebrick",
+                       "showMusicTitle": false,
+                         "shuffleMusic": true
+                   }
+}
