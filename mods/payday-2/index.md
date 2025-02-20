@@ -3,7 +3,7 @@
 
 My PAYDAY 2 mods.
 
-#### [Motion Sickness Helper 2](https://github.com/Biblioklept/motion-sickness-helper-2
+#### [Motion Sickness Helper 2](https://github.com/Biblioklept/motion-sickness-helper-2)
 A PAYDAY 2 mod merge that removes motion sickness inducing camera effects. 
 
 #### [Better Menus](https://github.com/Biblioklept/better-menus)
