@@ -64,11 +64,5 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Food, Drug, and Drink Animations](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)
 > Adds food, drug, and drink animations to the various items in the game. **OPTIONAL: Will make the game harder as you can't spam drugs.**
 
-- [Food, Drug, and Drink Animations - Enhanced Animations - Food and Drinks](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-enhanced-animations-food-n-drinks)
-> Enhances the Food, Drug, and Drink Animations mod's animations for food and drink. **ONLY IF: You installed Food, Drug, and Drink Animations**
-
-- [Food, Drug, and Drink Animations - Enhanced Animations - Medical](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-enhanced-animations-medical-exo-anims)
-> Enhances the Food, Drug, and Drink Animations mod's animations for drugs and drugs in exos. **ONLY IF: You installed Food, Drug, and Drink Animations**
-
-- [Food, Drug, and Drink Animations - Enhanced Animations - Missing Animations Patch](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-drink-missing-animations-patch)
-> Adds even more animations to items that didn't have it. **ONLY IF: You installed Food, Drug, and Drink Animations**
+- [Food, Drug, and Drink Animations - Redone](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-redone)
+> Enhances the Food, Drug, and Drink Animations mod's scripts, adding quality of life and stability. **ONLY IF: You installed Food, Drug, and Drink Animations**

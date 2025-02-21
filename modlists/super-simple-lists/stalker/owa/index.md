@@ -10,8 +10,11 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/152-old-world-addon)
 > Converts Anomaly into a more trilogy-like experience.
 
-- [B.C.P [Beerman's Classification Project.]](https://www.moddb.com/mods/stalker-anomaly/addons/bcp-beermans-classification-project)
+- [Beerman's Classification Project](https://www.moddb.com/mods/stalker-anomaly/addons/bcp-beermans-classification-project)
 > Makes things even more classic, and can optionally adds new things (new firearms, weapon tweaks, bug fixes, gameplay additions).
+
+- [Old World Addon - Beerman's Classification Project Realigned](https://www.moddb.com/mods/stalker-anomaly/addons/owa-bcp-sights-realigned)
+> Fixes iron sights for the BCP mod.
 
 ### User Interface
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
