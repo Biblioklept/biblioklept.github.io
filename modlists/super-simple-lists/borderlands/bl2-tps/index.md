@@ -4,7 +4,7 @@
 Super Simple Borderlands 2/TPS
 
 ### PythonSDK
-- [PythonSDK](https://github.com/bl-sdk/willow2-mod-manager/releases/)
+- [PythonSDK](https://github.com/bl-sdk/willow2-mod-manager/releases/latest)
     - [Install Tutorial](https://www.youtube.com/watch?v=mi---k-i_g4)
 
 ### Libraries
@@ -22,7 +22,7 @@ Super Simple Borderlands 2/TPS
 - [Be Gone Out Of Bounds Loot](https://bl-sdk.github.io/mods/BeGoneOutOfBoundsLoot)
 - [Better Spawns and Better Travel](https://bl-sdk.github.io/mods/BetterSpawnsandBetterTravelBSABT)
 - [Cleaning Up Pandora](https://bl-sdk.github.io/mods/CleaningUpPandora)
-- [Dialog Skipper](https://bl-sdk.github.io/mods/DialogSkipper)
+- [Dialog Skipper](https://bl-sdk.github.io/willow2-mod-db/mods/dialog-skipper/)
 - [Text Mod Loader](https://bl-sdk.github.io/mods/TextModLoader)
 
 ### Farming
