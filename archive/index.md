@@ -50,6 +50,14 @@ Reason: I do not play PAYDAY 2 as much as I used to and do not have the energy t
 > A collection of fixes and tweaks for older games, usually consistenting of bug fixes and improved controls.  
 Archived 06/12/2024.  
 Reason: Not really needed when [PCGamingWiki](https://pcgamingwiki.com) exists.
+- [Fallout: New Vegas Modding Modules](./fnv-modules)
+> Modules you can put on top of a base modding install of Fallout: New Vegas.  
+Archived 07/03/2024.  
+Reason: I don't intend on keeping this updated.
+- [Tale of Two Wastelands Modding Modules](./ttw-modules)
+> Modules you can put on top of a base modding install of Tale of Two Wastelands.  
+Archived 07/03/2024.  
+Reason: I don't intend on keeping this updated.
 
 ### Mods
 - [Fallout 4 Mods](./fallout-4)

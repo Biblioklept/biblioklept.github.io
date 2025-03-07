@@ -14,10 +14,6 @@ My Guides
 > A guide for installing mods into PAYDAY 2 (PD2).
 - [DAHM Modding Guide](./dahm-install)
 > A guide for installing mods into PAYDAY The Heist (PDTH).
-- [Fallout: New Vegas Modding Modules](./fnv-modules)
-> Modules you can put on top of a base modding install of Fallout: New Vegas.
-- [Tale of Two Wastelands Modding Modules](./ttw-modules)
-> Modules you can put on top of a base modding install of Tale of Two Wastelands.
 
 ### General Guides
 - [Paint.NET Setup](./getpaintnet)

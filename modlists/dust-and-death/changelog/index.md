@@ -5,6 +5,11 @@
 
 ## Changelog
 
+### Update 2.0.0
+- NOT save safe.
+- Updated mods
+- Completely rebuilt modlist.
+
 ### Update 1.0.5
 - Save safe.
 - Updated mods.
