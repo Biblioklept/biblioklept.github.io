@@ -3,6 +3,8 @@
   <GameType>8</GameType>
   <Packages>
     <Package FileName="60 FPS Cutscenes.a2"></Package>
+    <Package FileName="Allow Headgear In Cutscenes.a3"></Package>
+    <Package FileName="Bigger Fog of War Discovery.a3"></Package>
     <Package FileName="Remove phone cracks.a3"></Package>
     <Package FileName="Disable DOF.a3"></Package>
     <Package FileName="FOV unlocker.a3">
@@ -14,6 +16,9 @@
         <Option ID="WaterFix">1</Option>
       </Options>
     </Package>
+    <Package FileName="Heavy Poisoner Voice Fix.a3"></Package>
+    <Package FileName="Hit Feedback.a3"></Package>
+    <Package FileName="HitFX.a3"></Package>
     <Package FileName="Keybindings Settings.a3"></Package>
     <Package FileName="Languages Libertad.a3">
       <Options>
@@ -23,6 +28,7 @@
     <Package FileName="Remove Chromatic Aberration.a2"></Package>
     <Package FileName="Remove screen grid.a3"></Package>
     <Package FileName="Remove Startup Videos.a3"></Package>
+    <Package FileName="Reveal Collectibles.a3"></Package>
     <Package FileName="Script Functions.a3"></Package>
     <Package FileName="Shut Up Dani.a2"></Package>
     <Package FileName="The Vanishing Final Cutscene Fix.a3"></Package>
@@ -35,6 +41,7 @@
         <Option ID="WpnFOV">2</Option>
       </Options>
     </Package>
+    <Package FileName="Wingsuit Anywhere.a3"></Package>
     <Package FileName="Zenia Garage Opener.a3"></Package>
   </Packages>
 </ModInstallerPreset>

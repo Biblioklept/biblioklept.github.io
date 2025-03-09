@@ -26,10 +26,16 @@
     <Package FileName="Loading Screen Music Fix.a3"></Package>
     <Package FileName="Mouse Fix.a3"></Package>
     <Package FileName="MusicFixer FC4.a3"></Package>
+    <Package FileName="NoBulletSpread.a3"></Package>
     <Package FileName="AOY - No Startup Videos_FC4.a3"></Package>
     <Package FileName="Press To Interact.a3"></Package>
     <Package FileName="Random NPC Weapons.a3"></Package>
     <Package FileName="Royal Fast Reaction Unit.a3"></Package>
+    <Package FileName="Selectable Viewmodel FOV.a3">
+      <Options>
+        <Option ID="WpnFOV">3</Option>
+      </Options>
+    </Package>
     <Package FileName="Skip Intro Missions_FC4.a3"></Package>
     <Package FileName="z_VFM_FC4_90.a3"></Package>
     <Package FileName="vibrantwater.a3"></Package>

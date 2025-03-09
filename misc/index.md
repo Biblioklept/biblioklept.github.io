@@ -43,6 +43,8 @@ Install via `Backup > Load from XML file...`
 - [Nilesoft Shell](./dl/configs/nilesoftshell/shell.nss)
 > Removes a bunch of context menu items and also the taskbar items.  
 Move to Nilesoft Shell installation folder.
+- [FCModding - Far Cry 3](./dl/configs/fcmodding/FC3.a3p)
+> Drag over the FC4ModInstaller executable to install.
 - [FCModding - Far Cry 4](./dl/configs/fcmodding/FC4.a3p)
 > Drag over the FC4ModInstaller executable to install.
 - [FCModding - Far Cry 5](./dl/configs/fcmodding/FC5.a3p)

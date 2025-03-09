@@ -2,10 +2,13 @@
 <ModInstallerPreset>
   <GameType>6</GameType>
   <Packages>
+    <Package FileName="Bigger Fog of War Discovery.a3"></Package>
     <Package FileName="Bowmore Wrinklemaps.a3"></Package>
     <Package FileName="Burke Trailer Fix.a3"></Package>
     <Package FileName="Detailed FPS arms.a3"></Package>
     <Package FileName="Disable DOF.a3"></Package>
+    <Package FileName="DLC Clothes.a3"></Package>
+    <Package FileName="Store Items DLC Unowned.a3"></Package>
     <Package FileName="Flight Crew Shorts Fix.a3"></Package>
     <Package FileName="Floating Tree Fix.a3"></Package>
     <Package FileName="Z FOV Remake Main.a3"></Package>
@@ -21,10 +24,18 @@
     <Package FileName="Keybindings Faster Parachute.a3"></Package>
     <Package FileName="Languages Resistance.a3"></Package>
     <Package FileName="M133Short IronSightFix.a3"></Package>
+    <Package FileName="No Bullet Spread.a3"></Package>
     <Package FileName="No Menu Ads.a3"></Package>
     <Package FileName="Nolan Shop Dock Location Fix.a3"></Package>
     <Package FileName="NPC Weapons Support.a3"></Package>
+    <Package FileName="Outposts No Cutscene.a3"></Package>
+    <Package FileName="Proper Hit Effects.a3"></Package>
     <Package FileName="Random NPC Weapons.a3"></Package>
+    <Package FileName="AOY - Recreated Loot HUD.a3"></Package>
+    <Package FileName="AOY - Recreated NPCs markers.a3"></Package>
+    <Package FileName="Remove Critical Health Tinnitus.a3"></Package>
+    <Package FileName="Remove Flies.a3"></Package>
+    <Package FileName="Remove Montana Intro.a3"></Package>
     <Package FileName="Remove Startup Videos.a3"></Package>
     <Package FileName="Scalable Ironsight FOV.a3">
       <Options>
