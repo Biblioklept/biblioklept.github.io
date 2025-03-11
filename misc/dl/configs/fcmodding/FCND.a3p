@@ -4,6 +4,7 @@
   <Packages>
     <Package FileName="Bigger Fires.a3"></Package>
     <Package FileName="AOY - Clean mortar sight.a3"></Package>
+    <Package FileName="Store Items Crafting Materials.a3"></Package>
     <Package FileName="Custom Weapon FOV.a3">
       <Options>
         <Option ID="Pistols">5</Option>
@@ -49,8 +50,11 @@
     <Package FileName="z FullAutoDefault SMGs FC5 FCND.a3"></Package>
     <Package FileName="Keybindings.a3"></Package>
     <Package FileName="Languages Scavenger.a3"></Package>
+    <Package FileName="Lower Tier Health.a3"></Package>
     <Package FileName="M133Short IronSightFix.a3"></Package>
+    <Package FileName="zz Nana headshots through helmets.a3"></Package>
     <Package FileName="ND Recreated Loot HUD.a3"></Package>
+    <Package FileName="ND Takedowns Overhaul.a3"></Package>
     <Package FileName="NPC Weapons Support.a3"></Package>
     <Package FileName="AOY - Random NPC Weapons  Friendly.a3"></Package>
     <Package FileName="AOY - Random NPC Weapons  Highwaymen.a3"></Package>
