@@ -1,6 +1,10 @@
 
 [BACK](..)
 
+### Update 1.0.2 #2
+
+- Fixed file download size.
+
 ### Update 1.0.2
 
 ADDED:
