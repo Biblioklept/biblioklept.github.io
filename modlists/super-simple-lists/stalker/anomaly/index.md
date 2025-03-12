@@ -8,7 +8,7 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 > Adds more functionality to the EXE files of the game. **Install in your game folder.**
 
 - [Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
-> Makes the game easier and more consumable by removing item bloat. Optional addons to make the game even easier.
+> Makes more accessible by removing item bloat. Comes with optional addons to make the game easier.
 
 ### User Interface
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)

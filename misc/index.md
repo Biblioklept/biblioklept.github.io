@@ -49,7 +49,7 @@ Move to Nilesoft Shell installation folder.
 
 ### Batch Scripts
 - [GOG Morrowind Clean Script](./dl/scripts/gogmwclean.bat)
-> Use with GOG to remove the extra files included, I made this for Morrowind#, but it could prove just as useful with any other mod setup. Put in root of game folder **NOT DATA FILES** and run, script will clean up after itself
+> Use with GOG to remove the extra files included. Place in root of game folder **NOT DATA FILES** and run, script will clean up after itself.
 - [ZRP Install Script](./dl/scripts/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
 
