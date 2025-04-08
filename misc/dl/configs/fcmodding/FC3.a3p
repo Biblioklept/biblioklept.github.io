@@ -3,6 +3,8 @@
   <GameType>2</GameType>
   <Packages>
     <Package FileName="Clean Camera.a3"></Package>
+    <Package FileName="CoD AW Dual Render Scopes.a3"></Package>
+    <Package FileName="Disable Server Messages.a3"></Package>
     <Package FileName="Fast Loot.a3"></Package>
     <Package FileName="FOV Scaler FC3.a3">
       <Options>
@@ -11,7 +13,9 @@
         <Option ID="VehicleFOV">3</Option>
       </Options>
     </Package>
+    <Package FileName="Full Auto F1 FC3.a3"></Package>
     <Package FileName="HitEffects.a3"></Package>
+    <Package FileName="ImprovedShotgunSpread FC3.a3"></Package>
     <Package FileName="Languages Rakyat.a3"></Package>
     <Package FileName="Max Attach 3 v2.a3"></Package>
     <Package FileName="More Loot Storage.a3"></Package>

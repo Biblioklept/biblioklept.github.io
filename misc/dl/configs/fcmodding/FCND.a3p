@@ -3,6 +3,7 @@
   <GameType>7</GameType>
   <Packages>
     <Package FileName="Bigger Fires.a3"></Package>
+    <Package FileName="Bigger Fog of War Discovery.a3"></Package>
     <Package FileName="AOY - Clean mortar sight.a3"></Package>
     <Package FileName="Store Items Crafting Materials.a3"></Package>
     <Package FileName="Custom Weapon FOV.a3">
@@ -55,6 +56,8 @@
     <Package FileName="zz Nana headshots through helmets.a3"></Package>
     <Package FileName="ND Recreated Loot HUD.a3"></Package>
     <Package FileName="ND Takedowns Overhaul.a3"></Package>
+    <Package FileName="No Carmina Yelling.a3"></Package>
+    <Package FileName="No Edens Wrath Dubbing.a3"></Package>
     <Package FileName="NPC Weapons Support.a3"></Package>
     <Package FileName="AOY - Random NPC Weapons  Friendly.a3"></Package>
     <Package FileName="AOY - Random NPC Weapons  Highwaymen.a3"></Package>

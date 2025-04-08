@@ -46,6 +46,8 @@ Move to Nilesoft Shell installation folder.
 > Collects all folder names in a folder.
 - [G.A.M.M.A. Patcher Script](./dl/scripts/gammapatcher.ps1)
 > A patcher file that will change the modlist.txt and MCM files to fit my preferred changes to G.A.M.M.A. Should be future-proof. Place the gammapatcher.ps1 in your "GAMMA" instance folder and run it.
+- [H.A.C.R. Patcher Script](./dl/scripts/hacrpatcher.ps1)
+> A patcher file that will change the modlist.txt and MCM files to fit my preferred changes to H.A.C.R. Should be future-proof. Place the hacrpatcher.ps1 in your "GAMMA" instance folder and run it.
 
 ### Batch Scripts
 - [GOG Morrowind Clean Script](./dl/scripts/gogmwclean.bat)

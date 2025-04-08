@@ -20,6 +20,10 @@ Reason: Not interested in maintaining. Super Simple S.T.A.L.K.E.R. kinda usurps 
 > A vanilla+ modlist for the Old World Addon mod for S.T.A.L.K.E.R. Anomaly.  
 Archived 27/08/2023.  
 Reason: Not interested in maintaining. Super Simple S.T.A.L.K.E.R. kinda usurps this list.
+- [Gigglepack]
+> A kitchen-sink Minecraft modpack for me and a couple of friends.  
+Archived 08/04/2025.  
+Reason: Failed.
 
 ### Guides
 - [Viva New Wastelands](./vnv-to-ttw)

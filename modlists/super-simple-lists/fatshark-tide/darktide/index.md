@@ -12,7 +12,6 @@ Super Simple Darktide
 - [Nemueric UI](https://www.nexusmods.com/warhammer40kdarktide/mods/14)
 - [Display Ping (Latency)](https://www.nexusmods.com/warhammer40kdarktide/mods/460)
 - [Markers Improved All-In-One](https://www.nexusmods.com/warhammer40kdarktide/mods/447)
-- [Reject Invites While In Mission](https://www.nexusmods.com/warhammer40kdarktide/mods/452)
 - [Show Me Real Weapon Stats](https://www.nexusmods.com/warhammer40kdarktide/mods/235)
 
 ### Gameplay
