@@ -26,8 +26,11 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [Cost In Tooltip](https://www.moddb.com/mods/stalker-anomaly/addons/cost-in-tool-tip-u4h8-and-rc18-23)
 > Shows the cost in tooltip.
 
-- [Battery Warning](https://www.moddb.com/mods/stalker-anomaly/addons/batterywarning)
-> Shows when your device battery is low.
+- [Personal Adjustable Waypoint](https://www.moddb.com/mods/stalker-anomaly/addons/personal-adjustable-waypoint-for-anomaly-151-152-and-gamma)
+> Set your own custom waypoint where and when you want and pin your own notes on the map or HUD with choice of icon and label.
+
+- [Quick Action Wheel](https://www.moddb.com/mods/stalker-anomaly/addons/quick-action-wheel)
+> Adds the quick action wheel to Anomaly. 
 
 - [Body Dots Minimap](https://www.moddb.com/mods/stalker-anomaly/addons/bodydotsminimap-white-dots-but-blue)
 > Shows body dots on your minimap/PDA.
@@ -56,10 +59,10 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 > Adds food, drug, and drink animations to the various items in the game. **OPTIONAL: Will make the game harder as you can't spam drugs.**
 
 ### Compatibility
-- [Old World Addon - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-addon-adaptation-for-anomaly-153)
+- [Old World Addon - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-and-153-patch-reupload)
 > Patches Old World Addon to work with Anomaly 1.5.3.
 
-- [Old World Addon - Anomaly Mod Configuration Menu - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/mcm-patch-for-old-world-aaddon-anomaly-153-153)
+- [Old World Addon - Anomaly Mod Configuration Menu - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-and-mcm-153-patch-reupload)
 > Patches the mod configuration menu to work with Old World Addon.
 
 - [Food, Drug, and Drink Animations for Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/food-drugs-and-drink-animations-for-old-world-addon)

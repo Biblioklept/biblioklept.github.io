@@ -13,17 +13,30 @@ $outputFilePath2 = "ModOrganizer.ini"
 
 # Define the strings to replace and their replacements for each file
 $replacements1 = @{
-#   "oldText1" = "newText1"
+#   Personal gameplay changes (No mags + no repair system)
     "+Anomaly Magazines Redux" = "-Anomaly Magazines Redux"
     "+Mechanics_can_repair_weapon_parts" = "-Mechanics_can_repair_weapon_parts"
     "+Fixed Crafting with Multi-Use Items WPO patch - thisisntmysteamid" = "-Fixed Crafting with Multi-Use Items WPO patch - thisisntmysteamid"
     "+Trabopap's Field Strip Shows Parts Health" = "-Trabopap's Field Strip Shows Parts Health"
-    "+Dismemberment_0.81" = "-Dismemberment_0.81"
     "+Ghillie Overhaul Mags Redux Patch (Only if Using Mags Redux)" = "-Ghillie Overhaul Mags Redux Patch (Only if Using Mags Redux)"
     "+anomaly-opo.2023.05.05" = "-anomaly-opo.2023.05.05"
     "+anomaly-wpo.2024.03.24" = "-anomaly-wpo.2024.03.24"
-    "+Spatial_anomalies_" = "-Spatial_anomalies_"
     "-dph_configurable_loot_condtion_npcs_dont_drop_weapons_patch - HayZee" = "+dph_configurable_loot_condtion_npcs_dont_drop_weapons_patch - HayZee"
+#   Stability fixes (Disabling these mods reduce crashes, re-enable at your own risk)
+    "+Dismemberment_0.81" = "-Dismemberment_0.81"
+    "+Autocomplete unofficial_DLTX" = "-Autocomplete unofficial_DLTX"
+    "+Spatial_anomalies_" = "-Spatial_anomalies_"
+#   Full and better upgrades
+#    "-Better Upgrades_DLTX" = "+Better Upgrades_DLTX"
+#    "-Better Upgrades_DLTX_PATCH_PPP" = "+Better Upgrades_DLTX_PATCH_PPP"
+#    "-Full_upgrades_DLTX" = "+Full_upgrades_DLTX"
+#    "-Full_upgrades_patch_for_B&S_DLTX" = "+Full_upgrades_patch_for_B&S_DLTX"
+#    "-Full_upgrades_patch_for_Barrys_VSSK_DLTX" = "+Full_upgrades_patch_for_Barrys_VSSK_DLTX"
+#    "-Full_upgrades_patch_for_Exoseva_DLTX" = "+Full_upgrades_patch_for_Exoseva_DLTX"
+#    "-Full_upgrades_patch_for_KAC_PDW_DLTX" = "+Full_upgrades_patch_for_KAC_PDW_DLTX"
+#    "-Full_upgrades_patch_for_PP19_Virilized_DLTX" = "+Full_upgrades_patch_for_PP19_Virilized_DLTX"
+#    "-Full_upgrades_patch_for_PPP_DLTX" = "+Full_upgrades_patch_for_PPP_DLTX"
+#    "-Full_upgrades_patch_for_TO_Outfit_DLTX" = "+Full_upgrades_patch_for_TO_Outfit_DLTX"
 }
 
 $replacements2 =@{
@@ -64,7 +77,6 @@ Replace-TextInFile -inputFilePath $inputFilePath2 -outputFilePath $outputFilePat
 
 # Alert completion of script
 Write-Output "Modlist patched!"
-Write-Output "Additionally use my addon and options mods!"
-Read-Host -Prompt "Press any key to close"
+Read-Host -Prompt "Press enter to close and open H.A.C.R"
 
 .\ModOrganizer.exe

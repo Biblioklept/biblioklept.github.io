@@ -20,8 +20,11 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Cost In Tooltip](https://www.moddb.com/mods/stalker-anomaly/addons/cost-in-tool-tip-u4h8-and-rc18-23)
 > Shows the cost in tooltip.
 
-- [Battery Warning](https://www.moddb.com/mods/stalker-anomaly/addons/batterywarning)
-> Shows when your device battery is low.
+- [Personal Adjustable Waypoint](https://www.moddb.com/mods/stalker-anomaly/addons/personal-adjustable-waypoint-for-anomaly-151-152-and-gamma)
+> Set your own custom waypoint where and when you want and pin your own notes on the map or HUD with choice of icon and label.
+
+- [Quick Action Wheel](https://www.moddb.com/mods/stalker-anomaly/addons/quick-action-wheel)
+> Adds the quick action wheel to Anomaly. 
 
 - [Body Dots Minimap](https://www.moddb.com/mods/stalker-anomaly/addons/bodydotsminimap-white-dots-but-blue)
 > Shows body dots on your minimap/PDA.

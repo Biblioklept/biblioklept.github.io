@@ -108,6 +108,6 @@ Replace-TextInFile -inputFilePath $inputFilePath3 -outputFilePath $outputFilePat
 Write-Output "Modlist patched!"
 Write-Output "Enable G.A.M.M.A. MCM values - Patched in your profile"
 Write-Output "REBIND F10 TO R. IF YOU DON'T YOUR GAME WILL CRASH."
-Read-Host -Prompt "Press any key once you have finished reading."
+Read-Host -Prompt "Press enter once you have finished reading."
 
 .\ModOrganizer.exe
