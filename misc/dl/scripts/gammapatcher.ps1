@@ -19,10 +19,7 @@ $outputFilePath3 = "ModOrganizer.ini"
 # Define the strings to replace and their replacements for each file
 $replacements1 = @{
 #   "oldText1" = "newText1"
-    "-212- Trader Destockifier (shrinks and randomize traders stocks) - Demonized" = "+212- Trader Destockifier (shrinks and randomize traders stocks) - Demonized"
-    "-213- Trader Overhaul (if you do not want the true GAMMA experience) - AGoodSetOfPistol" = "+213- Trader Overhaul (if you do not want the true GAMMA experience) - AGoodSetOfPistol"
-    "+G.A.M.M.A. Economy" = "-G.A.M.M.A. Economy"
-    "+G.A.M.M.A. Economy no BAS injection" = "-G.A.M.M.A. Economy no BAS injection"
+    "-340- Black Market (Buyable Gear) - SalamanderAnder & nox" = "+340- Black Market (Buyable Gear) - SalamanderAnder & nox"
     "-Mags Buyable at Traders" = "+Mags Buyable at Traders"
     "+140- Weapon Parts Overhaul - arti" = "-140- Weapon Parts Overhaul - arti"
     "+142- Fixed Crafting with Multi-Use Items WPO patch - thisisntmysteamid" = "-142- Fixed Crafting with Multi-Use Items WPO patch - thisisntmysteamid"
@@ -42,6 +39,8 @@ $replacements1 = @{
     "-169- Body Dots on Minimap - RavenAscendant" = "+169- Body Dots on Minimap - RavenAscendant"
 	"+G.A.M.M.A. NPC Loot Claim Remade" = "-G.A.M.M.A. NPC Loot Claim Remade"
 	"+G.A.M.M.A. No trade with random stalkers" = "-G.A.M.M.A. No trade with random stalkers"
+    "+G.A.M.M.A. Guns Have No Condition" = "-G.A.M.M.A. Guns Have No Condition"
+    "+G.A.M.M.A. Psy Fields in the North" = "-G.A.M.M.A. Psy Fields in the North"
 }
 
 $replacements2 = @{
@@ -65,6 +64,17 @@ $replacements2 = @{
     "dph_loot_cond/weapon/trainee_max = 25" = "dph_loot_cond/weapon/trainee_max = 100"
     "dph_loot_cond/weapon/veteran_max = 25" = "dph_loot_cond/weapon/veteran_max = 100"
     "dph_loot_cond/weapon/zombied_max = 20" = "dph_loot_cond/weapon/zombied_max = 100"
+#   Better Dynamic Anomaly Overhaul Settings
+    "drx_da/anomaly_amount_modifier   = 0.4" = "drx_da/anomaly_amount_modifier   = 0.5"
+    "drx_da/anomaly_zone_anomalies_distance_max = 20" = "drx_da/anomaly_zone_anomalies_distance_max = 35"
+    "drx_da/anomaly_zone_anomalies_distance_min = 1.1" = "drx_da/anomaly_zone_anomalies_distance_min = 2"
+    "drx_da/anomaly_zone_spawn_chance = 0.4" = "drx_da/anomaly_zone_spawn_chance = 0.5"
+    "drx_da/artefacts_spawn_chance    = 3" = "drx_da/artefacts_spawn_chance    = 20"
+    "drx_da/electric_field_modifier   = 1" = "drx_da/electric_field_modifier   = 0.5"
+    "drx_da/gravitational_shake_modifier = 1" = "drx_da/gravitational_shake_modifier = 0.5"
+    "drx_da/max_artefacts_per_zone    = 1" = "drx_da/max_artefacts_per_zone    = 3"
+    "drx_da/presets                   = 1" = "drx_da/presets                   = 0"
+    "drx_da/random_artefact_spawn_chance = 0" = "drx_da/random_artefact_spawn_chance = 30"
 }
 
 $replacements3 =@{

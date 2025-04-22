@@ -7,9 +7,6 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/xray-monolith/releases/latest)
 > Adds more functionality to the EXE files of the game. **Install in your game folder.**
 
-- [Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
-> Makes more accessible by removing item bloat. Comes with optional addons to make the game easier.
-
 ### User Interface
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
 > Allows you to configure your mods. Saves into axr_options.ltx.
@@ -36,8 +33,17 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)
 > Quality of life additions to the game that you can't live without.
 
-- [Modular Miscellaneous Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks)
-> More quality of life changes such as talking to everyone, removing companions ruining disguises, etc.
+- [DLTX Minimod Repository](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack)
+> A collection of popular and custom mini mods in DLTX format.
+
+- [Tosox Minimod Repo](https://www.moddb.com/mods/stalker-anomaly/addons/tosox-mini-mods-repo)
+> A collection of popular and custom mini add-ons made highly compatible via monkey-patches and the help of the Modded Exes.
+
+- [Utjan's QoL Bundle](https://www.moddb.com/mods/stalker-anomaly/addons/utjans-qol-bundle)
+> Bundle of small but significant Quality of Life mods.
+
+- [Uncalled for Patch Collection](https://www.moddb.com/mods/stalker-anomaly/addons/an-uncalled-for-patch-collection)
+> DLTX/Monkeypatched patches, conversions and fixes for a variety of mods.
 
 - [No Fake Collision](https://www.moddb.com/mods/stalker-anomaly/addons/no-fake-collision)
 > Removes fake_collision zones (i.e. fence around rookie village).
@@ -45,8 +51,12 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Hellblau's Fire Rate Fix](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-hellblaus-fire-rate-fix)
 > Makes the firerates of the weaponry in Anomaly more realistic.
 
-- [Food, Drug, and Drink Animations - Visual Accuracy Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-drink-visual-accuracy-tweaks)
-> Gives you more bang for your buck on drugs and drinks. **You can install this even if you don't have Food, Drug, and Drink Animations installed.**
+### Gameplay
+- [WTF Task Pack](https://www.moddb.com/mods/stalker-anomaly/addons/weird-task-framework)
+> Adds many new tasks to make them less boring.
+
+- [Useful Idiots](https://github.com/bellyillish/useful-idiots)
+> Overhauls the companion system.
 
 ### Visuals
 - [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)
@@ -69,6 +79,12 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [FDDA](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-and-drinks-animations-reuploaded)
 > Adds food, drug, and drink animations to the various items in the game.
 
+- [FDDA - Redone](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-redone)
+> Enhances the FDDA mod's scripts, adding quality of life and stability.
+
+- [FDDA - Visual Accuracy Tweaks](https://www.moddb.com/mods/stalker-anomaly/addons/food-drug-drink-visual-accuracy-tweaks)
+> Gives you more bang for your buck on drugs and drinks. **You can install this even if you don't have Food, Drug, and Drink Animations installed.**
+
 - [FDDA Enhanced Animations - Food and Drinks](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-enhanced-animations-food-n-drinks)
 > Replaces models and animations for food and drinks in FDDA.
 
@@ -77,9 +93,6 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 - [FDDA Enhanced Animations - Enhanced](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-enhanced-animations-enhanced)
 > Replaces animations for MRE and cooked meat in FDDA.
-
-- [FDDA - Redone](https://www.moddb.com/mods/stalker-anomaly/addons/fdda-redone)
-> Enhances the FDDA mod's scripts, adding quality of life and stability.
 
 ### Arsenal Animations
 

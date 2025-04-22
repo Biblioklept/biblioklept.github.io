@@ -5,15 +5,9 @@ Transcribed Music (Chords)
 
 List of Alterations
 
-- General lyric changes to work against Trump (obvious examples being **Lonesome Cowboy Burt** and **Jesus Thnks You're A Jerk**).
-- **Harder Than Your Husband** is transposed +1.
-- **Find Her Finer** is transposed +2.
-- **Jesus Thinks You're A Jerk** is lyrically and musically cut down.
-
 Table of Contents
 
 - [Baby, Take Your Teeth Out (Them Or Us)](#baby-take-your-teeth-out-them-or-us)
-- [Tinsel Town Rebellion (Have I Offended Someone?)](#tinsel-town-rebellion-have-i-offended-someone)
 - [Be In My Video (Them Or Us)](#be-in-my-video-them-or-us)
 - [Harder Than Your Husband \[+1\] (You Are What You Is)](#harder-than-your-husband-1-you-are-what-you-is)
 - [My Boyfriend's Back (Whisky A Go Go, 1968)](#my-boyfriends-back-whisky-a-go-go-1968)
@@ -21,15 +15,23 @@ Table of Contents
 - [Memories Of El Monte (Whisky A Go Go, 1968)](#memories-of-el-monte-whisky-a-go-go-1968)
 - [Oh, In The Sky (Whisky A Go Go, 1968)](#oh-in-the-sky-whisky-a-go-go-1968)
 - [Valarie (Whisky A Go Go, 1968)](#valarie-whisky-a-go-go-1968)
-- [Who Are The Brain Police? (Carnegie Hall)](#who-are-the-brain-police-carnegie-hall)
 - [Cock-Suckers Ball (Does Humour Belong In Music?)](#cock-suckers-ball-does-humour-belong-in-music)
 - [Lonesome Cowboy Burt \[Trump Version\] (The Best Band You Never Heard In Your Life)](#lonesome-cowboy-burt-trump-version-the-best-band-you-never-heard-in-your-life)
 - [Find Her Finer \[+2\] (The Best Band You Never Heard In Your Life)](#find-her-finer-2-the-best-band-you-never-heard-in-your-life)
-- [Magdalena (Carnegie Hall)](#magdalena-carnegie-hall)
-- [Daddy, Daddy, Daddy (Philly '76)](#daddy-daddy-daddy-philly-76)
 - [Would You Go All The Way? (Chunga's Revenge)](#would-you-go-all-the-way-chungas-revenge)
-- [Jesus Thinks You're A Jerk \[Cutdown Trump Version\] (Broadway The Hard Way)](#jesus-thinks-youre-a-jerk-cutdown-trump-version-broadway-the-hard-way)
 - [Plastic People (Whisky A Go Go, 1968)](#plastic-people-whisky-a-go-go-1968)
+- [The Idiot Bastard Son (We're Only In It For The Money)](#the-idiot-bastard-son-were-only-in-it-for-the-money)
+- [Jelly Roll Gum Drop (Cruising With Ruben and The Jets)](#jelly-roll-gum-drop-cruising-with-ruben-and-the-jets)
+- [Take Your Clothes Off When You Dance Chords (We're Only In It For The Money)](#take-your-clothes-off-when-you-dance-chords-were-only-in-it-for-the-money)
+- [Go Cry On Somebody Else's Shoulder (Freak Out!)](#go-cry-on-somebody-elses-shoulder-freak-out)
+- [Motherly Love (Freak Out!)](#motherly-love-freak-out)
+- [Sofa No. 2 (One Size Fits All)](#sofa-no-2-one-size-fits-all)
+- [Uncle Bernie's Farm \[+5\] (Absolutely Free)](#uncle-bernies-farm-5-absolutely-free)
+- [Concentration Moon \[+2\] (We're Only In It For The Money)](#concentration-moon-2-were-only-in-it-for-the-money)
+- [Sharleena \[+2\] (Chunga's Revenge)](#sharleena-2-chungas-revenge)
+- [How Could I Be Such A Fool (Freak Out!)](#how-could-i-be-such-a-fool-freak-out)
+- [He's So Gay (You Can't Do That On Stage Anymore Vol. 6)](#hes-so-gay-you-cant-do-that-on-stage-anymore-vol-6)
+- [What's The Ugliest Part Of Your Body (We're Only In It For The Money)](#whats-the-ugliest-part-of-your-body-were-only-in-it-for-the-money)
 
 ### Baby, Take Your Teeth Out (Them Or Us)
 ```
@@ -108,94 +110,6 @@ I will recline
 Baby take your teeth out
 [F#m]               [E]          [D]
 There ain't nothin' left to talk about 
-```
-
-### Tinsel Town Rebellion (Have I Offended Someone?)
-```
-From Madam Wong's to Starwood
-To the Whiskey on the Strip
-You can hear the crashing, blasting strum
-Of bands that come to be real hip
-And get a record contract
-From a talent scout some day
-They'll sell their ass, their cocks and balls
-They'll take the check 'n walk away
-If they're lucky they'll get famous
-For a week or two perhaps
-They'll buy some ugly clothes to wear
-And hope the business don't collapse
-Before some stupid magazine
-Decides they're really good
-They're a Tinsel Town Rebellion Band
-From downtown Hollywood
-
-Tinsel Town Rebellion,
-Tinsel Town Rebellion Band
-It's a little bitty Tinsel Town Rebellion
-A Tinsel Town Rebellion Band
-
-They used to play all kinds of stuff
-And some of it was nice
-Some of it was musical
-But then they took some guy's advice
-To get a record deal, he said,
-They would have to be more punk
-Forget their chops and play real dumb
-Or else they would be sunk
-So off they go to S.I.R. to learn some stupid riffs
-(Oh no!)
-No!
-(No no no no no no)
-No!
-(It's the 80's again!)
-
-And when they think they've got it
-They launch a new career
-Who gives a fuck if what they play
-Is somewhat insincere
-(Let's dance the blues again, get down
-Dance the blues again, everybody
-Dance the blues again, hey...
-I write the songs that make the young girls cry!)
-
-Did you know that in Tinsel Town the people down there
-Think that substance is a bore
-And if your New Wave group looks good
-They'll hurry on back for more
-Of leather groups
-(Eye to eye
-Rock you like a nincompoop!)
-And plastic groups
-(Whip it good!)
-And groups that look real queer
-(I'll tumble 4 ya!
-I'll tumble 4 ya!
-I'll tumble 4... )
-(Moo moo moo moo moo
-Moo moo moo moo moo
-Moo moo moo moo moo
-Moo moo moo MOO-AHHH!)
-The Tinsel Town aficionados
-Come to see and not to hear
-But then again this system works
-As perfect as a dream
-It works for all of those record company pricks
-Who come to skim the cream
-From the cesspools of excitement
-Where Jim Morrison once stood
-It's the Tinsel Town Rebellion
-From down down down
-(Down down down)
-Town town town
-(Town town town)
-Holl loll loll
-(Holl loll loll)
-Lly lly lly lly
-Woo-oo-ooh-ooh-ooh-ah-ooh-ah-ooh-ood
-
-Downtown Hollywood!
-An incredible ugly little town!
-It's really boring!
 ```
 
 ### Be In My Video (Them Or Us)
@@ -715,9 +629,9 @@ La la, la la la, la la
 [D]
 La la, la la la, la la
 
-[G]
+[G]      [Em]
 Although you don't want me no more
-    [Em]
+    
 Oh, but it's all right, all right with me
 [C]
 I know, you're gonna want me some day
@@ -797,67 +711,6 @@ La la, la la la, la la
 [D]
 La la, la la la, la la
 (Look out!)
-```
-
-### Who Are The Brain Police? (Carnegie Hall)
-```
-What will you do if we let you go home
-And the plastic's all melted
-And so is the chrome?
-
-What will you do if we let you go home
-And the plastic's all melted
-And so is the chrome
-
-Who are the
-Who are the
-Who are the brain
-Police?
-(Yes!)
-Police?
-(Yes, yes, yeah, yeah!)
-
-What will you do when the label comes off
-And the plastic's all melted
-And the chrome is too soft?
-
-What will you do when the label comes off
-And the plastic's all melted
-And the chrome is too soft?
-
-Who are the
-Who are the
-Who are the brain
-Police?
-Police?
-(Yeah!)
-
-What will you do if the people you knew
-Were the plastic that melted
-And the chromium too?
-
-What will you do if the people you knew
-Were the plastic that melted
-And the chromium too?
-
-Who are the
-Who are the
-Who are the brain
-Police?
-Police?
-Police?
-Yeah!
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
-Who are the brain police?
 ```
 
 ### Cock-Suckers Ball (Does Humour Belong In Music?)
@@ -1155,207 +1008,6 @@ Act like a dummy till you finally grind her
 [Continue for as long as necessary] 
 ```
 
-### Magdalena (Carnegie Hall)
-```
-There was a man
-A little old man
-Who lived in Montreal
-With a wife and a kid
-And a car and a house
-And a teen-age daughter
-With a see-thru blouse
-Who loved to grunt and ball
-And her name was Magdalena
-
-Magdalena
-
-The little old man
-Came home one night
-To his house in Montreal
-He caught his daughter
-In a blouse by the light
-And he said to himself
-"She looks all right!"
-He reached for a tit
-And grabbed it tight
-And threw her up against the wall
-(Blue Cross!)
-Magdalena
-
-Group:
-
-My daughter dear, do not be concerned
-When your Canadian daddy comes near
-My daughter dear, do not be concerned
-When your Canadian daddy comes near
-I work so hard, don't you understand
-Making maple syrup for the pancakes of our land
-
-Do you have any idea?
-What that can do to a man?
-What that can do to a man?
-Do you have any idea?
-What that can do to a man?
-What that can do to a man?
-
-Howard:
-
-Magdalena
-
-The little old man
-With the grubby little hand
-Who lived in Montreal
-Was drooling a bit
-As he reached for a tit
-And he said to himself
-"This is gonna be it!"
-But the girl turned around
-And said, "Go eat shit!"
-And ran on down the hall
-Oh, right on, Magdalena!
-
-Group:
-
-My daughter dear, do not be concerned
-When your Canadian daddy comes near
-My daughter dear, do not be concerned
-When your Canadian daddy comes near
-I work so hard, don't you understand
-Making maple syrup for the pancakes of our land
-
-Do you have any idea?
-What that can do to a man?
-What that can do to a man?
-Do you have any idea?
-What that can do to a man?
-What that can do to a man?
-
-Howard:
-
-Magdalena, don't you tease me like this
-In the hallway with your blouse and your tits
-Wow if your mommy ever finds us like this
-She'll call a lawyer, oh how mom will be pissed
-
-Magdalena, Magdalena, Magdalena, Magdalena,
-Daughter of the New York City slums,
-I'd like to take you down with me, babe,
-To the corner, honey,
-And get a Sabrett hot dog,
-And take it on home,
-Perform lewd acts,
-And eat it while it's warm.
-And, Magdalena, can you see us walking down to Village Oldies together, baby,
-And searching for that Penguins record that always gave you an orgasm in the eighth grade, you know what I mean, honey?
-I remember well,
-Honey, we can go through Central Park together,
-And we can watch the sun come up over the bunny things where you get your picture taken and put on a pin at the children's zoo,
-And then, after that, after that we can have a rancid sausage sandwich on Bleecker St.,
-Yes,
-And you get that drizzly shits and fart all the way home,
-Oh, can't you see it now, honey,
-New York has so much to offer. Why it's a fucking summer festival,
-Fun city,
-And it's yours, baby
-
-Group:
-Walk, walk, walk, walk on back... etc.
-
-Howard:
-It's for you and me,
-It's our oyster,
-Now believe me, Magdalena, when I saw you yesterday in the hallway,
-I didn't mean to grab your little tittie there,
-I said, "My God, my own daughter, my flesh and blood,
-I gave my sperm to this kid and now all of a sudden I'm hard as a rock,"
-You know what I mean?
-I reached out
-And I pulled your little nipple closer to me, darling,
-And your mommy walked in and said,
-"Harry... "
-
-Group:
-Your mom will never know, your mom will never know... etc.
-
-Howard:
-"Harry, what are you doing with Magdalena's nipple?"
-There was nothing I could say, Magdalena,
-But if you just walk back to me, honey,
-We don't need her,
-We don't need Ian, we don't need George, we don't need anybody,
-Magdalena, turn around under that DayGlo picture of Jesus we bought at the, at the, at the Night Owl, baby,
-Come on, turn around, come back to me,
-Your mom'll never know,
-Your mom'll never know,
-Your mom'll never know,
-Your mom'll never know,
-You gotta walk back, baby, walk back,
-Come back to your daddy,
-Please, Magdalena, I need you so,
-Why, it'll just be you and me, honey,
-We could take the Staten Island ferry together,
-We can go see No, No, Nanette and Promises, Promises,
-We can go to Shirley Bassey at the Waldorf-Astoria,
-Why, there's nothing we can't do together, my darling,
-Come back to your daddy,
-It's you and me, Magdalena, for the rest of our lives...
-```
-
-### Daddy, Daddy, Daddy (Philly '76)
-```
-[F#]                   [G#m]
-She's such a dignified lady
-         [C#m]      [G#m]
-She's so pretty and soft
-You can't call her a groupie
-It just pisses her off
-
-She's got diamonds and jewelry
-She's got lotsa new clothes
-She ain't hurtin' for money
-So that everyone knows
-    [C#7]          [C#m7]
-She knows what she wants
-    [C#m7]         [G#m7]
-She knows what she likes
-[C#m7]
-Daddy, daddy, daddy
-[G#m7]
-Daddy, daddy, daddy
-[C#m7]
-Daddy, daddy, daddy
-[C#5]
-Look out
-She's got her eyes on you
-
-She left her place after midnight
-And she came to the club
-You know that her and her partner
-Came down here lookin' for love
-They want a guy from a group
-Who's got a thing in a charts
-And if his dick is a monster
-If his dick is a monster
-If his dick is a monster
-They will give him their hearts
-
-'Cause they know what you got/she wants
-They know what they like
-And daddy, daddy, daddy
-Daddy, daddy, daddy
-Daddy, daddy, daddy
-All right
-You got 'em screamin' all night
-
-(Work! Work! Workin' the wall!)
-
-Daddy, daddy, daddy
-Daddy, daddy, daddy
-Daddy, daddy, daddy
-All right
-You got 'em screamin' all night
-```
-
 ### Would You Go All The Way? (Chunga's Revenge)
 ```
 [C]
@@ -1471,114 +1123,6 @@ Would you go all the way?
 Would you go all the way?
 ```
 
-### Jesus Thinks You're A Jerk [Cutdown Trump Version] (Broadway The Hard Way)
-```
-There's an ugly wasel 'bout six-foot two
-Face puffed up from cryin' 'n lyin'
-And he's a little busy
-Suckin' prong part time
-In the name of The Lord
-
-Get a clue, ya' fuckin shrew
-Oh yeah, oh yeah
-Jesus thinks you're a jerk
-
-Did he really choose Donny to do His Work?
-(Nuh uh!)
-
-Elon says that he's The One
-Oh sure he is,
-if Armageddon
-Is your idea of family fun,
-An' he's got some planned for you!
-Now, tell me that ain't true
-
-Now, what if Jimbo's slightly gay,
-Will Trump let Jimbo get away?
-Everything we've heard him say
-Indicated that Jim must pay,
-(And it just might hurt a bit)
-Just a bit!
-But keep that money rollin' in,
-'Cause crooked filthy Trump
-Can't get enough of it
-
-Perhaps it's their idea
-Of an Affirmative Action Plan
-To give White Trash a 'special break';
-Well, they took those Jeezo-bucks and ran
-To the bank! To the bank! To the bank! To the bank!
-And every night we can hear them thank
-Their Buddy, up above
-For sending down his love
-While you all smell the glue
-
-Trump and Musk should take a pole
-Right up each used up glory-hole,
-With tar and feathers too --
-Just like they'd love to do to you
-
-('Cause they think you are bad --)
-YES THEY DO!
-(And they are very mad)
-
-'Cause some folks don't want prayer in school!
-We'd need an ark to survive the drool
-Of Micro-publicans, raised on hate,
-And 'Jimbo-Jimbo' when they graduate
-
-Conviced they are 'The Chosen Ones'
-And all their parents carry guns,
-And hold them cards in the N.R.A.
-With their fingers on the triggers
-When they kneel and pray
-
-With a Ku-Klux muu-muu
-In the back of the truck,
-If you ain't Born Again,
-They wanna mess you up, screamin':
-"No abortion, no-siree!"
-"Life's too precious, can't you see!"
-What's that hangin' from the neighbor's tree?
-Why, it looks like 'colored folks' to me --
-(Would THEY do THAT...)
-They've been doing it for years!
-(Seriously?)
-
-When Donny gets in the White House,
-And suddenly --
-The rights of 'certain people' disappear
-Mysteriously?
-
-Now, wouldn't that sort of qualify
-As an American Tragedy?
-Especially if he covers it up, sayin'
-"Jesus told it to me!"
-
-I hope we never see that day,
-In The Land of The Free --
-Or someday will we?
-Will we?
-
-And if you don't know by now,
-The truth of what I'm tellin' you,
-Then, surely I have failed somehow
-Then, surely I have failed somehow!
-
-And Jesus will think I'm a jerk, just like you
-If you let those plastic people
-Make a monkey out of you!
-
-I said:
-"Jesus will think you're a jerk"
-And it will be true!
-
-Trump and Elon!
-Oh, baby!
-You gotta go!
-You really got to go
-```
-
 ### Plastic People (Whisky A Go Go, 1968)
 ```
 [A] [D] [Em] [D]
@@ -1644,4 +1188,1211 @@ You gotta go
 (Change)
 
 You gotta go!
+```
+
+### The Idiot Bastard Son (We're Only In It For The Money)
+```
+    E     G       E
+The idiot bastard son
+    F#m        D       E          Bm
+The father's a Nazi in congress today
+    F#m        D          E          Bm
+The mother's a hooker somewhere in L.A
+
+    E     G       E
+The idiot bastard son
+F#m         D         E         Bm
+Abandoned to perish in back of a car
+F#m        D          E        Bm
+Kenny will stash him away in a jar
+
+Dsus2 Esus2 Esus2 Dsus2 Gsus2
+The   i     di    ot    boy!
+
+I never wanted to because I was too small to start with, I used to drink really some bad stuff...
+Wine, all kinds of wine! Mixed, seven different varieties... 
+Thunderbird wine... 
+I don't know but I chugged a fifth of White Port once and passed out one day (heh heh)... 
+and I drank a quart of beer just before that... 
+and we were out riding around in the desert (... very strange... Anyway!)
+
+F#m
+Try and imagine
+    F#m                   F#m/A
+The window all covered in green
+G#aug                  G#aug/C
+All the time he would spend
+                     G#aug
+At the church, he'd attend...
+G#5 A5  Bb5 B5
+Warming his pew
+
+e|-4-5--2-4--0-2---------|
+B|----------------3-5--0-|
+G|-----------------------|
+D|-----------------------|
+A|-----------------------|
+E|-----------------------|
+
+Esus2 Esus2  Dsus2 Gsus2   Dsus2 Esus2
+
+F#m        D          E           E
+Kenny will feed him & Ronnie will watch
+    G          Bm         Bm
+The child will thrive and grow
+    G         E
+And enter the world
+   F#m     D          E           Bm
+Of liars & cheaters & people like you
+    G       Bm        Bm        G        Bm
+Who smile & think you know what this is about
+    D
+You think you know everything... maybe so
+    D
+The song we sing: do you know? We're listening...
+
+Dsus2 Esus2 Esus2 Dsus2 Gsus2
+The   i     di    ot    boy!
+
+F#m
+Try and imagine
+    F#m                   F#m/A
+The window all covered in green
+G#aug                 G#aug/C
+All the time he would spend
+                      G#aug
+At the church, he'd attend...
+
+G#5   A5  Bb5  B5
+Where are they now?
+
+Right now I have two hit records on the charts, but it has not made me any money.
+
+It has only brought me fame and glory, and a lot of work. Which I do, really not care to tell
+```
+
+### Jelly Roll Gum Drop (Cruising With Ruben and The Jets)
+```
+e|---------------------------------------------------|
+B|---------------------------------------------------|
+G|-2-----2-------2-2-----2-------2-2-----2-------2-2-|
+D|---2-4-----2-4-----2-4-----2-4-----2-4-----2-4-----|
+A|---------------------------------------------------|
+E|---------------------------------------------------|
+
+   A
+
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+G
+Baby don't you know now
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+
+
+A                  Bm
+The way you do the bop
+
+Bm              C#m
+Like a spinnin' top
+
+C#m         D
+The Pachuko Hop
+
+D            E
+And the L.A. Slop
+
+E                     D
+You make a street car stop
+
+D           C#m
+At the soda shop
+
+C#m              Bm
+And my eye-balls pop
+
+Bm
+When I see my
+
+
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+G
+Baby don't you know now
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+
+
+A                      Bm
+The way you boogie all night
+
+Bm                C#m
+You're my heart's delight
+
+C#m               D
+You know I wish I might
+
+D          Bm
+Get a tiny bite of your
+
+
+
+A                   G
+Jelly Roll Gum Drop, I wanna, I wanna
+
+A                   G
+Jelly Roll Gum Drop, I wanna, I wanna
+
+A                   G
+Jelly Roll Gum Drop, I wanna, I wanna Jelly Roll
+
+A            G
+Bop bop bah, Bop bop bah
+
+A            G
+Bop bop bah, Bop bop bah
+
+A             G
+Sha-la-la-la, Sha-la-la-la (Cough, cough, cough)
+
+
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+G
+Baby don't you know now
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+
+
+A                  Bm
+The way you do the bop
+
+Bm              C#m
+Like a spinnin' top
+
+C#m         D
+The Pachuko Hop
+
+D            E
+And the L.A. Slop
+
+E                     D
+You make a street car stop
+
+D           C#m
+At the soda shop
+
+C#m              Bm
+And my eye-balls pop
+
+Bm
+When I see my
+
+
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+G
+Baby don't you know now
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+
+
+A                      Bm
+The way you boogie all night
+
+Bm                C#m
+You're my heart's delight
+
+C#m               D
+You know I wish I might
+
+D          Bm
+Get a tiny bite of your
+
+
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+
+G
+Baby don't you know now
+
+A                   G               A
+Jelly Roll Gum Drop, got my eyes on you
+```
+
+### Take Your Clothes Off When You Dance Chords (We're Only In It For The Money)
+```
+Am
+There will come a time when everybody who is lonely 
+
+        Bm
+Will be free to sing and dance and love
+
+Am
+There will come a time when every evil that we know
+
+           Bm
+Will be an evil that we can rise above
+
+C7
+Who cares if hair is long or short or sprayed or partly grayed
+
+   G                               Em
+We know that hair ain't where it's at
+
+Am                                    D                          G
+There will come a time when you won't even be ashamed if you are fat!
+
+            Em
+Wah-wah-wah-wah!
+
+
+
+Am
+La La La La La La La La La La La La La La La La 
+
+Bm
+La La La La La La La La 
+
+Am
+La La La La La La La La La La La La La La La La 
+
+Bm
+La La La La La La La La 
+
+C7
+Deedle deedle dee
+(Deedle deedle dee)
+
+Deedle deedle dee
+(Deedle deelde dee)
+
+G
+Deedle deedle dee
+(Deedle deedle dee)
+
+Em
+Deedle deedle dee
+(Deedle deedle dee)
+
+
+
+Am  D  G
+
+            Em
+Wah-wah-wah-wah!
+
+
+
+Am
+There will come a time when everybody who is lonely 
+
+        Bm
+Will be free to sing and dance and love (Dance and love)
+
+Am
+There will come a time when every evil that we know
+
+           Bm
+Will be an evil that we can rise above (Rise above)
+
+C7
+Who cares if you're so poor you can't afford
+
+                 G                           Em
+to buy a pair of mod a-go-go stretch elastic pants?
+
+Am                                  D
+There will come a time when you can even 
+
+                              G
+Take you clothes off when you dance!
+```
+
+### Go Cry On Somebody Else's Shoulder (Freak Out!)
+```
+G                   G G G
+   A year ago today
+
+Em                        Em
+   Was when you went away
+
+C                                            C C C
+   But now you come back knocking on my door
+
+D
+  And you say you're back to stay, but I say
+
+
+
+G  Em     C               D
+Go cry on somebody else's shoulder
+
+G            Em
+I'm somewhat wiser now
+
+C                  D
+And one whole year older
+
+G            Em
+I sure don't need you now
+
+C       D           G     Em  C  D7
+I don't love you anymore
+
+
+
+G              Em
+You cheated me baby
+
+    C               D
+And told some dirty lies about me
+
+G                            Em
+Fooled around with all those other guys
+
+C                   D
+That's why I had to set you free
+
+G            Em
+I sure don't need you now
+
+C       D           G     C  G  G7
+I don't love you anymore
+
+
+
+C
+A year ago today
+
+Cm
+You went away
+
+G                             G7
+And now you come back crying, crying darling to me
+
+C
+I don't need you
+
+Cm
+No I don't love you anymore
+
+A7                     D7
+So go lean on, go cry, on somebody else's door
+
+
+
+G  Em     C               D
+Go cry on somebody else's shoulder
+
+G            Em
+I'm somewhat wiser now
+
+C                  D
+And one whole year older
+
+G            Em
+I sure don't need you now
+
+C       D           G     C  G  G7
+I don't love you anymore
+
+
+
+C
+Go ahead and cry
+
+Cm
+Go ahead and let the tears fall out of your eyes
+
+G
+Let 'em fall on your dress
+
+G7
+Who cares if it makes a mess
+
+C
+I gave you my high school ring
+
+Cm
+At the root beer stand
+
+A7
+We had a teenage love, baby
+
+  D7
+I thought it was sharp it was really so grand, but...
+
+
+
+G              Em
+You cheated me baby
+
+    C               D
+And told some dirty lies about me
+
+G                            Em
+Fooled around with all those other guys
+
+       C                   D
+That's why I had to get my khakis pressed
+
+G            Em
+I sure don't need you now
+
+C       D           G     Em  C  D7
+I don't love you anymore  Baby, Baby
+
+
+
+G           Em           C             D
+Baby I love you so much, why don't you date me?
+
+G           Em           C             D
+I dig you, but you don't dig me, I don't understand what it is
+
+G           Em           C             D
+I had my car reupholstered, I got my hair processed
+
+G           Em           C             D
+I got a nice pompadour job, I got a new pair of shoes...
+```
+
+### Motherly Love (Freak Out!)
+```
+A            G6
+Motherly love
+
+A             G6
+Motherly love
+
+   A             G6            A       G6
+Forget about the brotherly and otherly love
+
+F#m
+Motherly love is just the thing for you
+
+              E
+You know your mother's gonna love ya till ya don't know what to do
+
+E  G  F  E
+
+
+
+    A
+The Mothers got love that'll drive ya mad
+They're ravin' 'bout the way we do
+No need to feel lonely, no need to feel sad,
+
+      G          Bm      A
+If we ever get a hold on you
+What you need is...
+
+
+
+A            G6
+Motherly love (Come on get it now)
+
+A            G6
+Motherly love
+
+   A             G6            A       G6
+Forget about the brotherly and otherly love
+
+F#m
+Motherly love is just the thing for you
+
+              E
+You know your mother's gonna love ya till ya don't know what to do
+
+E  G  F  E
+
+
+
+A
+Nature's been good to this here band
+Don't ever think we're shy
+Send us up some little groupies and we'll take their hands
+
+    G                  Bm        A
+And rock 'em till they sweat and cry
+What you need is...
+
+
+
+A            G6
+Motherly love
+
+A             G6
+Motherly love
+
+   A             G6            A       G6
+Forget about the brotherly and otherly love
+
+F#m
+Motherly love is just the thing for you
+
+              E
+You know your mother's gonna love ya till ya don't know what to do
+
+E  G  F  E
+
+
+
+       A
+We can love ya till ya have a heart attack
+You'd best believe that's true
+We'll bite your neck and scratch your back
+
+         G          Bm      A
+Till you don't know what to do
+What you need is...
+
+
+
+A            G6
+Motherly love
+
+A            G6
+Motherly love
+
+   A             G6            A       G6
+Forget about the brotherly and otherly love
+
+F#m
+Motherly love is just the thing for you
+
+              E
+You know your mother's gonna love ya till ya don't know what to do
+
+
+
+A
+You know I've got a little Motherly love for you baby
+You know I've got a little Motherly love for you honey
+You know it doesn't bother me at all that you're only 18 years old
+'Cause I got a little Motherly love for you baby
+Pow pow pow pow
+```
+
+### Sofa No. 2 (One Size Fits All)
+```
+G        C
+I am the heaven,
+
+         F   G
+I am the water.
+
+G           F                  G
+Ich bin der Dreck unter deinen Wal-zen,
+(Oh no, whip it on me, honey!)
+
+G       F             G
+Ich bin dein geheimer Schmutz,(Ha-ha-ha!)
+
+       Em      F     G
+Und verlorenes Metallgeld.
+
+ F     G
+(Metallgeld)
+
+Em      F     C  G
+Ich bin deine Ritze,
+
+Em      F     C  G
+Ich bin deine Ritze und Schlitze.
+
+
+
+G        C
+I am the clouds,
+
+     F       G
+I am embroidered.
+
+        F         G
+Ich bin der Autor aller Fel-gen,
+
+    F       G
+Und Dam-ast Pas-peln.
+
+        C   F      G
+Ich bin der Chrome Din-ette,
+
+        C   F      G
+Ich bin der Chrome Din-ette.
+
+Em      F     C     G
+Ich bin Ei-er aller Arten.[Falsetto]
+
+
+
+C       F              G
+Ich bin alle Tag-e und Nach-te
+
+C       F              G
+Ich bin alle Tag-e und Nach-te
+
+
+
+F       G           F
+Ich bin hi-er (AIEE-AH!)
+
+    Em           A
+Und du bist mein Sofa
+
+F       G           F
+Ich bin hi-er (AIEE-AH!)
+
+    Em           A
+Und du bist mein Sofa
+
+F       G           F
+Ich bin hi-er (AIEE-AH!)
+
+    Em           A
+Und du bist mein Sofa!
+
+Yeah-ha-ha-ay,
+Yah-ha!
+Yeah, my Sofa,
+Yeah-ha-hey!
+```
+
+### Uncle Bernie's Farm [+5] (Absolutely Free)
+```
+F
+(I'm dreaming...)
+
+
+
+           Dm
+There's a bomb to blow yo mommy up, 
+
+  E           C     Dm
+A bomb for yo daddy too! (Ouch!)
+
+  Dm
+A baby doll that burps 'n pees;  
+
+  E       C        Dm
+A case of airplane glue!
+
+
+
+G
+There's a hungry plastic troll,
+To scarf yo buddy's arm!
+There's a box of ugly plastic things marked:
+
+G      A#       C
+"UNCLE BERNIE'S FARM"
+
+
+
+          Dm
+There's a little plastic 'CONGRESS'
+
+           E       C       Dm
+There's a 'NATION' you can buy!
+There's a doll that looks like mommy
+
+           E   C        Dm
+(She'll do anything but cry) (Yes, Sir)
+
+G
+There's a doll that looks like daddy
+(He's a funny little man...
+Push a button 'n ask fo money:
+
+          G      A#     C
+There's a dollar in his hand!) (Check his wallet)
+
+
+
+              F7
+We gotta send Sanny claus back to de Rescue Mission!
+Christmas don't make it no more!
+
+                   A#         A#7
+Don'tcha know that murder an' destruction
+
+A#        A#7
+Scream de toys in every store! (I think this is sold in New York) 
+
+
+
+          Dm
+There's a man who runs the country
+
+          E       C        Dm
+There's a man who tried to think
+
+Dm
+And they're all made out of plastic
+
+           E          C        Dm
+(When they melt, they start to stink)
+
+
+
+          G
+There's a book with smiling children,
+Nearly dead with Christmas joys
+And smiling in his office
+
+       G         A#     C
+is the creep who makes 'the toys'
+
+
+
+F and F7
+They got this car, when it hits the wall, you can see the guy dying
+You got little plastic pools of blood
+Ho-Ho-Ho-Ho-Ho (I'm dreaming...)
+...intestines...you can see right into his stomach...
+There's this other thing, I...
+I got bombs, I got rockets, I got a, I got a stillson wrench
+and comes with a tape recorder...
+I got plastic brass knuckles
+with sound effects
+We got a '39 Chevy...
+```
+
+### Concentration Moon [+2] (We're Only In It For The Money)
+```
+C      Dm7  G
+Concentration Moon
+
+C      Dm7        G
+Over the camp in the valley
+
+C      Dm7  G
+Concentration Moon
+
+C        Dm7        G
+Wish I was back in the alley
+
+      Am                Dm
+With all of my friends, Still running free:
+
+F                    G    G
+Hair growing out Every hole in me
+
+
+
+Dm       F   G          G7/A
+AMERICAN WAY How did it start?
+
+Dm           F      G             G7/A
+Thousands of creeps Killed in the park
+
+Dm       F   G       G7/A
+AMERICAN WAY Try and explain
+
+Dm        F      G      G7/A
+Scab of a nation Driven insane
+
+Cmaj7
+Don't cry Gotta go bye bye
+
+          Ebmaj7
+SUDDENLY: DIE DIE
+
+Dm         G      G   G   G
+COP KILL A CREEP! pow pow pow
+
+
+
+("and the day after that, and the day after that...)
+
+
+
+C     Dm7     G
+Concentration Moon
+
+C        Dm7         G
+Over the camp in the valley
+
+C     Dm7     G
+Concentration Moon
+
+C          Dm7         G
+Wish I was back in the alley
+
+     Am                 Dm
+With all of my friends, Still running free:
+
+F                      G       G
+Hair growing out Every hole in me
+
+
+
+Dm       F   G             G7/A
+AMERICAN WAY Threatened by US
+
+Dm         F      G         G7/A
+Drag a few creeps Away in a bus
+
+Dm    F  G            G7/A
+AMERICAN WAY Prisoner lock
+
+Dm          F            G           G7/A
+SMASH EVERY CREEP IN THE FACE WITH A ROCK
+Cmaj7
+Don't cry Gotta go bye bye
+          Ebmaj7
+SUDDENLY: DIE DIE
+Dm         G      G   G   G
+COP KILL A CREEP! pow pow pow
+```
+
+### Sharleena [+2] (Chunga's Revenge)
+```
+Am        G
+Oooh...   Aaah (repeat)
+
+
+
+Am      G         Am      G
+I'm     cryin'    I'm     cryin'
+
+Em                              A
+Cryin' for Sharleena, can't you see
+
+                   G
+I called up all my baby's friends 'n’ asked them
+
+             A
+Where she done went
+
+           G
+But nobody 'round here seems to know
+
+      A      G       Em         A  G           Em
+Where my Sharleena's been where my Sharleena's been
+
+
+
+A                          Em7
+Ten long years I have been lovin' her
+
+A                    Em7                            A       Em7
+Ten long years and I thought deep down in my heart, she was mine
+
+A                Em7
+Ten long years I been lovin' her
+
+A              Em7                                A          Em7
+Ten long years I would call her my baby, and now, I'm always cryin'
+
+
+
+G     A  (several times then)  C  C C  D E  D# D# D# F  G
+
+
+
+      G               D / F#      Em              D
+I would be so delighted,  I would be so delighted
+
+   C   G / B  Am   C     Am7      D   Em7    (Riff notes  E G B )   A
+If they would just, send her on home to me.
+
+
+
+Em7                  A
+Send my baby home to me
+
+Em7                  A
+Send my baby home to me
+
+Em7                  A
+```
+
+### How Could I Be Such A Fool (Freak Out!)
+```
+C
+When I won your love
+
+      Em
+I was very glad
+
+      Bb
+Every happiness in the world
+
+  Dm
+Belonged to me
+
+Ab
+Then our love was lost
+
+        Cm
+And you went away
+
+      G
+Now I shed my tears
+
+   Fm          G
+In lonely misery
+
+
+
+  C
+I know now that you never ever
+
+       Em
+Really loved me
+
+   Bb
+It hurts me now to think you never ever
+
+       Dm
+Really cared
+
+  Ab
+I sit and ask myself a thousand times
+
+   Cm
+To try and find
+
+G
+What really happened
+
+       Fm
+To the love
+
+        G
+That we shared
+
+
+
+Em
+How could I be such a fool
+How could I believe
+All those lies you told me
+How could I be taken in
+By your sweet face
+
+    F
+You spoiled our love
+
+    F
+You ruined my life
+
+    Ab
+I'm so tore down
+
+      G
+I'm a terrible disgrace
+
+
+
+    C
+But there will come a time
+
+           Em
+And you'll regret the way
+
+    Bb
+You treated me
+As if I was a fool
+
+    Dm
+And didn't know
+
+    Ab
+The many times you lied
+
+           Cm
+About your love for me
+
+G
+Someone else is gonna know
+
+          Fm              G
+That your love was just a show
+
+
+
+Em
+How could I be such a fool
+```
+
+### He's So Gay (You Can't Do That On Stage Anymore Vol. 6)
+```
+        Dm    C              Am       Dm             G
+He's    so    gay   [he's so gay]    he's very very gay
+
+        C     Am              Dm               G
+He's so gay   [he's so gay]   and he likes to be that way
+
+           C                          Dm           G
+
+With his   keys on the right he's into rubber every night
+
+        C                                Dm         G
+
+He's so gay   [oh oh oh oh]   he's almost everyone today
+
+
+
+      C           Am                Dm               G
+
+He's okay   [he's okay]   he's got a role he wants to play
+
+      C                Am              Dm           G
+
+He's okay   [oh oh oh oh]   he's just a cowboy for a day
+
+            C               Am                   Dm            G
+
+Course  his evening's not complete   without some meat   in the seat
+
+             C    Am             Dm       G
+
+Let's skate away       down Santa Monica today   well   well   well
+
+
+
+F                                 C                             Bb  C
+
+Maybe he wants a little spanking   maybe he'll eat a little cha - a - ain
+
+F
+
+Maybe his lover should be thanking him
+
+        D                             G                        Dm  G
+
+For the way he makes it sprinkle into drops of golden ra - a - a - ain
+
+
+
+          C            Am                 Dm        G
+
+He's  so  gay  [he's so gay]  he rules the city in a way
+
+          C              Am               Dm          G
+
+You could say  [you could say]  it's sorta different today
+
+        C          Am                 Dm              G
+
+All the taffeta and chintz   and every leather boy's a prince
+
+        C              Am               Dm             G
+
+Hey hey hey  [oh oh oh oh]  please don't look the other way
+
+
+
+F                             G
+You could  be just like him  tomorrow
+
+F                            G
+Maybe you'll get a chance  to borrow  [borrow]
+
+       C    Am            Dm             G
+His bouquet      and maybe later    maybe later
+
+              C         F     C      N.C.
+We'll all be  ga-y-y-y-y-ay-y-y-ay
+
+                    G    G
+Do you really wanna hurt me
+```
+
+### What's The Ugliest Part Of Your Body (We're Only In It For The Money)
+```
+G          Em
+What's the ugliest
+
+C            D7
+part of your body?
+
+G          Em
+What's the ugliest
+
+C            D7
+part of your body?
+
+G             Em
+Some say your nose
+
+C             D7
+Some say your toes
+
+                      G          Em
+But I think it's your mind (Your mind)
+
+                  C     D7
+I think it's your mind (Woo woo!)
+
+
+
+C9
+All your children
+
+    Esus4             Am
+Are poor, unfortunate victims
+
+           Dsus4
+Of systems beyond their control
+
+C9                 Esus4
+A plague upon your ignorance
+
+        Am                        D
+And the gray despair of your ugly life
+
+
+
+Bm
+Where did annie go
+
+Bbm
+when she went to town?
+
+Am
+Who are all those creeps
+
+Abm
+That she brings around?
+
+
+
+C9
+All your children
+
+    Esus4             Am
+Are poor, unfortunate victims
+
+   Dsus4
+Of lies you believe
+
+  C9               Esus4
+A plague upon your ignorance
+
+                Am
+Which keeps the young
+
+         D            D  D  C  Em  D
+From the truth they deserve
 ```

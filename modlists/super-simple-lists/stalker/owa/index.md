@@ -46,9 +46,6 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)
 > Fix for artefact collision issues and broken visuals.
 
-- [Old World Addon - Antidote Texture Fix](https://www.moddb.com/mods/stalker-anomaly/addons/antidote-texture-fix-for-old-world-addon-152)
-> Changes green antidote textures to red.
-
 - [Classic Upscaled Maps](https://www.moddb.com/mods/stalker-anomaly/addons/classic-upscaled-maps)
 > Upscales the maps while still keeping it relatively desaturated.
 
