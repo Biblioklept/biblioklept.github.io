@@ -14,6 +14,7 @@ My Guides
 > A guide for installing mods into PAYDAY 2 (PD2).
 - [DAHM Modding Guide](./dahm-install)
 > A guide for installing mods into PAYDAY The Heist (PDTH).
+- [Oblivion Remastered for Original Oblivion](./oblivion-remastered)
 
 ### General Guides
 - [Paint.NET Setup](./getpaintnet)
