@@ -55,6 +55,10 @@ Move to Nilesoft Shell installation folder.
 - [ZRP Install Script](./dl/scripts/zrpinstall.bat)
 > This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.
 
+### Registry Scripts
+- [Remove Unnecessary Context Menu Items](./dl/scripts/removecontextmenu.reg)
+> Removes context menu items that I frequently find annoying. Will add more should it be needed.
+
 ### IWADS
 - [AIO Download](./dl/iwads/aio.7z)
 > AIO download with all wad files.

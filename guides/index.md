@@ -15,6 +15,9 @@ My Guides
 - [DAHM Modding Guide](./dahm-install)
 > A guide for installing mods into PAYDAY The Heist (PDTH).
 - [Oblivion Remastered for Original Oblivion](./oblivion-remastered)
+> Oblivion Remastered's functionality in original Oblivion.
+- [Super Simple Lists](./super-simple-lists)
+> Quick and small sets of modlists. Polishes/reduces things out that are consistently in your face and adds some quality of life.
 
 ### General Guides
 - [Paint.NET Setup](./getpaintnet)
