@@ -37,11 +37,11 @@ Reason: These little collection of mods seemed useless to keep updated.
 - [G.A.M.M.A. Tedium Removal](./gamma-tedium-removal)
 > A simple "enable this, disable this" guide to remove G.A.M.M.A.'s tedium. Feels good to have fun again.  
 Archived 08/12/2023.  
-Reason: I no longer enjoy playing G.A.M.M.A. or "hardcore" S.T.A.L.K.E.R., for anyone else like me, I recommend NOMAD. The modlist can be found on Reddit.
+Reason: I no longer enjoy playing G.A.M.M.A. or "hardcore" S.T.A.L.K.E.R.
 - [G.A.M.M.A.'s BHS For Escape From Pripyat](./gamma-bhs-for-efp)
 > Adds G.A.M.M.A.'s BHS into Escape From Pripyat, I liked it more.  
 Archived 08/12/2023.  
-Reason: I no longer enjoy playing Escape From Pripyat or "hardcore" S.T.A.L.K.E.R., for anyone else like me, I recommend NOMAD. The modlist can be found on Reddit.
+Reason: I no longer enjoy playing Escape From Pripyat or "hardcore" S.T.A.L.K.E.R.
 - [Modlist Additions](./modlist-additions)
 > Personal modlist additions that aim that are my preferred way to play some games.  
 Archived 28/11/2024.  
@@ -62,6 +62,9 @@ Reason: I don't intend on keeping this updated.
 > Modules you can put on top of a base modding install of Tale of Two Wastelands.  
 Archived 07/03/2024.  
 Reason: I don't intend on keeping this updated.
+- [Paint.NET Setup](./getpaintnet)
+> A quick link to Paint.NET and a list of plugin packs that I use.  
+Reason: Pointless. It's three links.
 
 ### Mods
 - [Fallout 4 Mods](./fallout-4)

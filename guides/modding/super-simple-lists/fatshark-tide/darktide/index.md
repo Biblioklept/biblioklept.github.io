@@ -13,10 +13,12 @@ Super Simple Darktide
 - [Display Ping (Latency)](https://www.nexusmods.com/warhammer40kdarktide/mods/460)
 - [Markers Improved All-In-One](https://www.nexusmods.com/warhammer40kdarktide/mods/447)
 - [Show Me Real Weapon Stats](https://www.nexusmods.com/warhammer40kdarktide/mods/235)
+- [Remember Difficulty](https://www.nexusmods.com/warhammer40kdarktide/mods/490)
+- [Cancel Loading](https://www.nexusmods.com/warhammer40kdarktide/mods/502)
 
 ### Gameplay
 - [Collectible Finder](https://www.nexusmods.com/warhammer40kdarktide/mods/298)
 - [Full Auto](https://www.nexusmods.com/warhammer40kdarktide/mods/87)
-- [Keep Swinging](www.nexusmods.com/warhammer40kdarktide/mods/88)
+- [Keep Swinging](https://www.nexusmods.com/warhammer40kdarktide/mods/88)
 - [Weapon FOV](https://www.nexusmods.com/warhammer40kdarktide/mods/222)
 - [Danger Zone](https://www.nexusmods.com/warhammer40kdarktide/mods/440)
