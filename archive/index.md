@@ -79,6 +79,9 @@ Reason: I don't maintain the mods here.
 > My Torchlight 2 mods.  
 Archived 25/12/2024.  
 Reason: I don't maintain the mods here.
+- [7 Days to Die Mods](./7-days-to-die)
+> My 7 Days To Die mods.  
+Reason: This game sucks now.
 
 ### Miscellaneous
 - [Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: SOC Edition](./scripts/socminirepack.bat)
