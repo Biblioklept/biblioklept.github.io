@@ -10,6 +10,11 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
 > Allows you to configure your mods. Saves into axr_options.ltx.
 
+- [OPTIONALLY: Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
+    - [Less Items 3.2 - Trade Edits - Removed Mechanic Ammo For Sale](../../../../../mods/stalker-anomaly/dl/less-items-removed-mechanic-ammo/)  
+    Edits Less Items 3.2's trade edits sub-mod to remove ammo from mechanic's inventories.
+> Makes Anomaly more like the trilogy/Old World Addon in terms of item bloat and repair systems.
+
 ### Tweaks
 - [Small Configuration Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/small-configuration-fixes-10-153-dltx)
 > A few fixes (mostly typos) in some configs files (and some audio).
@@ -31,7 +36,7 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 ### Gameplay
 - [Expanded/Fixed Maps: All In One](https://www.moddb.com/mods/stalker-anomaly/addons/expandedfixed-maps-all-in-one)
-> "Compilation of Map edits aimed on expanding maps adding new cool areas for hideouts or exploration, smoothing stairs ladders and railways making navigation less clunky and deleting some annoying invisible walls that plague some of our favorite locations."
+> A compilation of map edits aimed on expanding maps adding new cool areas for hideouts or exploration, smoothing stairs ladders and railways making navigation less clunky and deleting some annoying invisible walls that plague some of our favorite locations.
 
 - [Weird Task Framework](https://www.moddb.com/mods/stalker-anomaly/addons/weird-task-framework)
 > Adds new tasks/quests with included task packs.

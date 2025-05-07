@@ -2,7 +2,7 @@
 My Guides
 
 ### Operating Systems
-- [Windows 10/11 Setup](./windows-setup)
+- [Windows Setup](./windows-setup)
 > A quick little guide to setup Windows 10/11 (my way).
 - [Linux](./linux)
 > A collection of little linux guides using information compiled from various sources.

@@ -15,7 +15,6 @@ Super Simple Fallout: New Vegas
     - NVTF
     - NVTF - INI
 - [OneTweak (Updated)](https://www.nexusmods.com/newvegas/mods/79211)
-- [ROOGNVSE](https://www.nexusmods.com/newvegas/mods/77415)
 - [JIP LN NVSE](https://www.nexusmods.com/newvegas/mods/58277)
 - [JohnnyGuitar NVSE](https://www.nexusmods.com/newvegas/mods/66927)
     - [JohnnyGuitar NVSE - INI](https://www.nexusmods.com/newvegas/mods/86200)
@@ -31,6 +30,11 @@ Super Simple Fallout: New Vegas
 - [kNVSE Animation](https://www.nexusmods.com/newvegas/mods/71336)
 - [User Interface Organizer](https://www.nexusmods.com/newvegas/mods/57174)
 - [Mod Limit Fix](https://www.nexusmods.com/newvegas/mods/68714)
+- [Improved Console](https://www.nexusmods.com/newvegas/mods/70801)
+- [Console Paste Support](https://www.nexusmods.com/newvegas/mods/65906)
+- [Yvile's Crash Logger](https://www.nexusmods.com/newvegas/mods/82540)
+- [ISControl](https://www.nexusmods.com/newvegas/mods/75417)
+- [HIPControl](https://www.nexusmods.com/newvegas/mods/81967)
 
 ### Bug Fixes
 - [Yukichigai Unofficial Patch](https://www.nexusmods.com/newvegas/mods/51664)
@@ -41,6 +45,7 @@ Super Simple Fallout: New Vegas
 - [Piber's Unofficial Patches](https://www.nexusmods.com/newvegas/mods/90124)
     - PUPNV
     - Vanilla UI Fixes
+- [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
 
 ### Quality of Life
 - [lStewieAl's Smooth True Iron Sights Camera](https://www.nexusmods.com/newvegas/mods/69074)
@@ -53,14 +58,10 @@ Super Simple Fallout: New Vegas
 > Skips the introduction sequence.
 - [Sparse Starting Gear](https://www.nexusmods.com/newvegas/mods/78088)
 > Gives you starting gear based on tagged skills and SPECIAL.
-
-### Development Tools
-- [Yvile's Crash Logger](https://www.nexusmods.com/newvegas/mods/82540)
-> Makes crash logs more readable.
-- [Improved Console](https://www.nexusmods.com/newvegas/mods/70801)
-> Improves the in-game console and adds scripting and mouse wheel scrolling.
-- [Console Paste Support](https://www.nexusmods.com/newvegas/mods/65906)
-> Allows pasting into the in-game console.
+- [Nevada Arsenal](https://www.nexusmods.com/newvegas/mods/73651)
+    - Nevada Arsenal
+    - Nevada Arsenal Config
+> Integrates New Vegas' DLC weaponry better than vanilla.
 
 ### FalloutCustom.ini
 Thank you to ModdingLinked for the INI.

@@ -18,10 +18,12 @@ Super Simple Darktide
 
 ### Gameplay
 - [Collectible Finder](https://www.nexusmods.com/warhammer40kdarktide/mods/298)
-- [Full Auto](https://www.nexusmods.com/warhammer40kdarktide/mods/87)
-- [Keep Swinging](https://www.nexusmods.com/warhammer40kdarktide/mods/88)
-- [Weapon FOV](https://www.nexusmods.com/warhammer40kdarktide/mods/222)
 - [Danger Zone](https://www.nexusmods.com/warhammer40kdarktide/mods/440)
+
+### Visuals
+- [Weapon FOV](https://www.nexusmods.com/warhammer40kdarktide/mods/222)
+- [More Graphic Options](https://www.nexusmods.com/warhammer40kdarktide/mods/236)
+> The options for this mod will be in the Mod Options menu.
 
 ### mod_load_order.txt
 ```
@@ -41,8 +43,8 @@ RememberDifficulty
 cancel_loading
 -- Gameplay
 CollectibleFinder
-FullAuto
-KeepSwinging
-weapon_fov
 danger_zone
+-- Visuals
+MoreGraphicsOptions
+weapon_fov
 ```

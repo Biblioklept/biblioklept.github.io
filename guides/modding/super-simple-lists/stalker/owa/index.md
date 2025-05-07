@@ -10,6 +10,9 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/152-old-world-addon)
 > Converts Anomaly into a more trilogy-like experience.
 
+- [Old World Addon - Anomaly 1.5.3 Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-and-153-patch-reupload)
+> Patches Old World Addon to work with Anomaly 1.5.3.
+
 - [Beerman's Classification Project](https://www.moddb.com/mods/stalker-anomaly/addons/bcp-beermans-classification-project)
 > Makes things even more classic, and can optionally add new things (new firearms, weapon tweaks, bug fixes, gameplay additions).
 
@@ -18,6 +21,9 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
 > Allows you to configure your mods. Saves into axr_options.ltx.
+
+- [Old World Addon - Anomaly Mod Configuration Menu Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-and-mcm-153-patch-reupload)
+> Patches the mod configuration menu to work with Old World Addon.
 
 ### Tweaks
 - [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)
@@ -37,7 +43,7 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 
 ### Gameplay
 - [Expanded/Fixed Maps: All In One](https://www.moddb.com/mods/stalker-anomaly/addons/expandedfixed-maps-all-in-one)
-> "Compilation of Map edits aimed on expanding maps adding new cool areas for hideouts or exploration, smoothing stairs ladders and railways making navigation less clunky and deleting some annoying invisible walls that plague some of our favorite locations."
+> A compilation of map edits aimed on expanding maps adding new cool areas for hideouts or exploration, smoothing stairs ladders and railways making navigation less clunky and deleting some annoying invisible walls that plague some of our favorite locations.
 
 - [Weird Task Framework](https://www.moddb.com/mods/stalker-anomaly/addons/weird-task-framework)
 > Adds new tasks/quests with included task packs.
@@ -51,10 +57,3 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 
 - [Transition Between Locations Without Confirmation](https://www.moddb.com/mods/stalker-anomaly/addons/transition-between-locations-without-confirmation)
 > Removes the prompt when switching between locations.
-
-### Compatibility
-- [Old World Addon - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-and-153-patch-reupload)
-> Patches Old World Addon to work with Anomaly 1.5.3.
-
-- [Old World Addon - Anomaly Mod Configuration Menu - Anomaly 1.5.3 - Patch](https://www.moddb.com/mods/stalker-anomaly/addons/old-world-and-mcm-153-patch-reupload)
-> Patches the mod configuration menu to work with Old World Addon.
