@@ -7,7 +7,6 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/xray-monolith/releases/latest)
 > Adds more functionality to the EXE files of the game. **Install in your game folder.**
 
-### User Interface
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
 > Allows you to configure your mods. Saves into axr_options.ltx.
 
@@ -29,7 +28,6 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 - [Uncalled for Patch Collection](https://www.moddb.com/mods/stalker-anomaly/addons/an-uncalled-for-patch-collection)
 > DLTX/Monkeypatched patches, conversions and fixes for a variety of mods.
-
 
 ### Gameplay
 - [Expanded/Fixed Maps: All In One](https://www.moddb.com/mods/stalker-anomaly/addons/expandedfixed-maps-all-in-one)

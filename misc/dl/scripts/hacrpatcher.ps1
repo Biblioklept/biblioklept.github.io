@@ -1,7 +1,7 @@
-# Delete old profile and MCM values
+# Delete old profile
 Remove-Item -Path ".\profiles\H.A.C.R Patched\" -Recurse
 
-# Make new profile and MCM values
+# Make new profile
 Copy-Item -Path ".\profiles\H.A.C.R\" -Destination ".\profiles\H.A.C.R Patched\" -Recurse
 
 # Define the paths to the input and output files for both sets of files

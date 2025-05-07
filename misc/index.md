@@ -4,7 +4,7 @@ My Miscellaneous Files
 ### [Music](./music)
 > A list of music I've chorded into markdown (whether through my own work or someone else's) and altered.
 
-### [Configuration Files](./cfg)
+### [Configuration Files](./config)
 > Configuration files for games and programs I've used.
 
 ### Powershell Scripts

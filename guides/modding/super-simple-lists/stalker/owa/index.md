@@ -13,10 +13,9 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [Beerman's Classification Project](https://www.moddb.com/mods/stalker-anomaly/addons/bcp-beermans-classification-project)
 > Makes things even more classic, and can optionally add new things (new firearms, weapon tweaks, bug fixes, gameplay additions).
 
-- [Old World Addon - Beerman's Classification Project Realigned](https://www.moddb.com/mods/stalker-anomaly/addons/owa-bcp-sights-realigned)
+- [Beerman's Classification Project Realigned](https://www.moddb.com/mods/stalker-anomaly/addons/owa-bcp-sights-realigned)
 > Fixes iron sights for the BCP mod.
 
-### User Interface
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
 > Allows you to configure your mods. Saves into axr_options.ltx.
 
@@ -36,10 +35,17 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [Uncalled for Patch Collection](https://www.moddb.com/mods/stalker-anomaly/addons/an-uncalled-for-patch-collection)
 > DLTX/Monkeypatched patches, conversions and fixes for a variety of mods.
 
-- [No Fake Collision](https://www.moddb.com/mods/stalker-anomaly/addons/no-fake-collision)
-> Removes fake_collision zones (i.e. fence around rookie village).
+### Gameplay
+- [Expanded/Fixed Maps: All In One](https://www.moddb.com/mods/stalker-anomaly/addons/expandedfixed-maps-all-in-one)
+> "Compilation of Map edits aimed on expanding maps adding new cool areas for hideouts or exploration, smoothing stairs ladders and railways making navigation less clunky and deleting some annoying invisible walls that plague some of our favorite locations."
+
+- [Weird Task Framework](https://www.moddb.com/mods/stalker-anomaly/addons/weird-task-framework)
+> Adds new tasks/quests with included task packs.
 
 ### Visuals
+- [Fixed Vanilla Models & Textures](https://www.moddb.com/mods/stalker-anomaly/addons/fvm)
+> Fixes for the character models and textures and optional choices to make them better to look at.
+
 - [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)
 > Fix for artefact collision issues and broken visuals.
 

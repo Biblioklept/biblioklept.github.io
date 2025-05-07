@@ -20,7 +20,6 @@ $outputFilePath3 = "ModOrganizer.ini"
 $replacements1 = @{
 #   "oldText1" = "newText1"
     "-340- Black Market (Buyable Gear) - SalamanderAnder & nox" = "+340- Black Market (Buyable Gear) - SalamanderAnder & nox"
-    "-Mags Buyable at Traders" = "+Mags Buyable at Traders"
     "+140- Weapon Parts Overhaul - arti" = "-140- Weapon Parts Overhaul - arti"
     "+142- Fixed Crafting with Multi-Use Items WPO patch - thisisntmysteamid" = "-142- Fixed Crafting with Multi-Use Items WPO patch - thisisntmysteamid"
     "+Momopate's Barrel Condition Effects Display" = "-Momopate's Barrel Condition Effects Display"
