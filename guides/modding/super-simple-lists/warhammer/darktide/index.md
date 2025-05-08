@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-Super Simple Darktide
+Super Simple Warhammer 40,000: Darktide
 
 ### Base
 - [Darktide Mod Loader](https://www.nexusmods.com/warhammer40kdarktide/mods/19)
