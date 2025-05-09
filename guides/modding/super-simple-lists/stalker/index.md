@@ -12,3 +12,5 @@ Super Simple S.T.A.L.K.E.R. Modlists
 ### [S.T.A.L.K.E.R.: Anomaly](./anomaly)
 
 ### [S.T.A.L.K.E.R.: Old World Addon](./owa)
+
+### [S.T.A.L.K.E.R. 2: Heart of Chernobyl](./s2hoc)
