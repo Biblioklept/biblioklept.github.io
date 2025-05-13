@@ -8,4 +8,4 @@ Super Simple Lists
 ### [Mass Effect](./mass-effect)
 ### [S.T.A.L.K.E.R.](./stalker)
 ### [The Elder Scrolls](./the-elder-scrolls)
-### [Warhammer](./fatshark)
+### [Warhammer](./warhammer)

@@ -3,7 +3,7 @@
 
 Super Simple S.T.A.L.K.E.R. Modlists
 
-### [S.T.A.L.K.E.R.: Shadow of Chernobyl](./shoc)
+### [S.T.A.L.K.E.R.: Shadow of Chernobyl](./soc)
 
 ### [S.T.A.L.K.E.R.: Clear Sky](./cs)
 

@@ -59,3 +59,6 @@ Super Simple S.T.A.L.K.E.R. 2: Heart of Chernobyl
 > Repositions the weapons to your preference.
 - [Dynamic Weather Overhaul](https://www.nexusmods.com/stalker2heartofchornobyl/mods/164)
 > Overhauls the weather to be more like the trilogy and less bland.
+
+### Finish
+Run `mod add /Game/Mods/OXA0X/ModActor.ModActor_C` in console when the game starts up to load OXA.
