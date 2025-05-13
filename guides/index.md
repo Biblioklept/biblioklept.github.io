@@ -1,13 +1,11 @@
 
 My Guides
 
-### Operating Systems
-- [Windows Setup](./windows-setup)
+### [Windows Setup](./windows-setup)
 > A quick little guide to setup Windows 10/11 (my way).
-- [Linux](./linux)
-> A collection of little linux guides using information compiled from various sources.
 
 ### [Modding](./modding/)
+> Modding guides with varying levels of description on what you're installing/how to install.
 
 ### General Guides
 - [Torchlight 2 Guide](./tl2-guide)

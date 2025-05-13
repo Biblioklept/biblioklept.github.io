@@ -1,4 +1,0 @@
-r.Tonemapper.Sharpen=0
-r.TemporalAACurrentFrameWeight=0.1
-r.TemporalAASamples=16
-r.NT.Lens.ChromaticAberration.Intensity=0

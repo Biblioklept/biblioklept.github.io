@@ -52,7 +52,3 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 5. [PocoHUD](https://modworkshop.net/mod/40870) or [VanillaHUD Plus](https://modworkshop.net/mod/25629)
     - [PocoHUD Config](../../misc/dl/configs/payday2/pocohud/)
     - [VanillaHUD Plus Config](../../misc/dl/configs/payday2/vanillahudplus/)
-
-### User Interface (Mod_Overrides)
-1. [Jonty's Radial Health & Armor](https://modworkshop.net/mod/29042)
-2. [Meta Melees Highlighted](https://modworkshop.net/mod/23043)

@@ -6,6 +6,7 @@ Super Simple Borderlands 1
 ### PythonSDK
 - [PythonSDK](https://github.com/Ry0511/willow1-mod-manager/releases/latest)
     - [Install tutorial](https://github.com/Ry0511/willow1-mod-manager/blob/master/README.md#installation)
+- [DXVK](https://github.com/doitsujin/dxvk/releases/latest)
 
 ### Libraries
 - [Custom UI SDK](https://github.com/MOW531/MOW531-BL1-SDK-Mods/blob/main/Custom%20UI%20SDK/Custom%20UI%20SDK.zip)

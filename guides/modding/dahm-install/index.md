@@ -35,7 +35,7 @@ Install these mods into your `mods` folder in your PDTH folder.
 > Changes your viewmodel to your preference. There's a couple on the workshop.
 
 #### HUD Mods
-- [WHERE'S THE FUCKING BANK MANAGER HUD](https://modworkshop.net/mod/19303)
+- [Atom's Atrocious HUD](https://modworkshop.net/mod/50173)
 > HUD mod that allows for a whole lot more customization and QoL improvments.
 - [Character and Mask in Loadout Menu](https://modworkshop.net/mod/36360)
 > Allows you to change your character and the mask in the loadout menu.

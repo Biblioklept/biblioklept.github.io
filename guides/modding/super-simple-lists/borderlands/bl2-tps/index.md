@@ -6,6 +6,7 @@ Super Simple Borderlands 2/TPS
 ### PythonSDK
 - [PythonSDK](https://github.com/bl-sdk/willow2-mod-manager/releases/latest)
     - [Install Tutorial](https://www.youtube.com/watch?v=mi---k-i_g4)
+- [DXVK](https://github.com/doitsujin/dxvk/releases/latest)
 
 ### Libraries
 - [Enums](https://bl-sdk.github.io/mods/Enums)

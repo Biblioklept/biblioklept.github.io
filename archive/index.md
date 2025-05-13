@@ -64,7 +64,12 @@ Archived 07/03/2024.
 Reason: I don't intend on keeping this updated.
 - [Paint.NET Setup](./getpaintnet)
 > A quick link to Paint.NET and a list of plugin packs that I use.  
+Archived 01/05/2025.  
 Reason: Pointless. It's three links.
+- [Linux](./linux)
+> A collection of little linux guides using information compiled from various sources.  
+Archived 13/05/2025.  
+Reason: Pointless/Common knowledge.
 
 ### Mods
 - [Fallout 4 Mods](./fallout-4)
@@ -81,6 +86,7 @@ Archived 25/12/2024.
 Reason: I don't maintain the mods here.
 - [7 Days to Die Mods](./7-days-to-die)
 > My 7 Days To Die mods.  
+Archived 02/05/2025.  
 Reason: This game sucks now.
 
 ### Miscellaneous
