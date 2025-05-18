@@ -16,8 +16,6 @@ This is a dirty edit of an already existing file in the full version of DAHM's f
 ### Borderless Window Plugin
 Allows your game to run in borderless windowed mode.
 
-- [Borderless Window Plugin for DorHUD](https://steamcommunity.com/app/24240/discussions/0/3765606580163061345/#c3765607014586473776)
-> Install this into your `plugins` folder in your PDTH folder. If you don't have one, make one.
 - [Borderless Window Plugin for DorHUD - INI](./dl/pdthhook.ini)
 > Install this into your root PDTH folder.
 
@@ -29,16 +27,12 @@ Install these mods into your `mods` folder in your PDTH folder.
 > Removes the sway when you aim down the sights.
 - [Motion Sickness Helper](https://modworkshop.net/mod/40746)
 > Removes the camera breathing effect, the melee camera shake and the camera shake effect when getting shot at.
-- [No Post Processing But With Outlines](https://modworkshop.net/mod/46356)
-> Removes post-processing and keeps important gameplay processing.
 - [Viewmodel Mod](https://modworkshop.net/game/pdth/mods?query=viewmodel)
 > Changes your viewmodel to your preference. There's a couple on the workshop.
 
 #### HUD Mods
 - [Atom's Atrocious HUD](https://modworkshop.net/mod/50173)
 > HUD mod that allows for a whole lot more customization and QoL improvments.
-- [Character and Mask in Loadout Menu](https://modworkshop.net/mod/36360)
-> Allows you to change your character and the mask in the loadout menu.
 - [Diamond Heist Detection Meter](https://modworkshop.net/mod/34123)
 > Adds a detection meter to the stealth section of diamond heist. A la PAYDAY 2.
 - [No Mercy Helper](https://modworkshop.net/mod/34152)

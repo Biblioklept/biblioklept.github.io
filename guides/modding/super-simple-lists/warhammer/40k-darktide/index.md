@@ -7,6 +7,8 @@ Super Simple Warhammer 40,000: Darktide
 - [Darktide Mod Loader](https://www.nexusmods.com/warhammer40kdarktide/mods/19)
 - [Darktide Mod Framework](https://www.nexusmods.com/warhammer40kdarktide/mods/8)
 - [Custom HUD](https://www.nexusmods.com/warhammer40kdarktide/mods/10)
+- [What The Localization](https://www.nexusmods.com/warhammer40kdarktide/mods/163)
+- [Auto Mod Loading and Ordering](https://www.nexusmods.com/warhammer40kdarktide/mods/246)
 
 ### User Interface
 - [Numeric UI](https://www.nexusmods.com/warhammer40kdarktide/mods/14)
@@ -19,6 +21,8 @@ Super Simple Warhammer 40,000: Darktide
 > Gives you a pop-up and a marker for when you're near a collectible.
 - [Show Me Real Weapon Stats](https://www.nexusmods.com/warhammer40kdarktide/mods/235)
 > Shows you more reliable weapon statistics.
+- [Enhanced Description](https://www.nexusmods.com/warhammer40kdarktide/mods/210)
+> Highlights numbers and keywords for Weapon/Curios Blessings and Perks, and Talents.
 - [Remember Difficulty](https://www.nexusmods.com/warhammer40kdarktide/mods/490)
 > Remembers the last selected difficulty.
 - [Cancel Loading](https://www.nexusmods.com/warhammer40kdarktide/mods/502)
@@ -35,29 +39,3 @@ Super Simple Warhammer 40,000: Darktide
 > Removes screen effects (i.e. blood on the screen).
 - [Clear Smoke](https://www.nexusmods.com/warhammer40kdarktide/mods/517)
 > Makes smoke grenades clear to the player and shows a circle where the effect is at.
-
-### mod_load_order.txt
-```
--- ################################################################
--- Enter user mod names below, separated by line.
--- Order in the list determines the order in which mods are loaded.
--- Do not rename a mod's folders.
--- You do not need to include 'base' or 'dmf' mod folders.
--- ################################################################
--- User Interface
-custom_hud
-NumericUI
-DisplayPing
-markers_aio
-CollectibleFinder
-FoundYa
-ShowMeRealWeaponStats
-RememberDifficulty
-cancel_loading
--- Visuals
-danger_zone
-weapon_fov
-MoreGraphicsOptions
-DisableScreenEffects
-clear_smoke
-```

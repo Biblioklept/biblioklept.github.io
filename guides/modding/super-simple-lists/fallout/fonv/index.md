@@ -3,19 +3,27 @@
 
 Super Simple Fallout: New Vegas
 
+### [BARE ESSENTIALS](./bare-essentials)
+
 ### Patchers
 - [BSA Decompressor](https://www.nexusmods.com/newvegas/mods/65854)
 - [ESM Fixes](https://www.nexusmods.com/newvegas/mods/77170)
 - [STEAM/GOG: 4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552)
+> Patches the game to use 4GB of RAM and also auto-load NVSE.
 - [EPIC: Epic Games Patcher](https://www.nexusmods.com/newvegas/mods/81281)
+> Same as above, just for Epic.
 
 ### Utilities
 - [New Vegas Script Extender](https://www.nexusmods.com/newvegas/mods/67883)
-- [NVTF](https://www.nexusmods.com/newvegas/mods/66537)
+> Required for all mods on this list and increases heap size with the latest update.
+- [New Vegas Tick Fix](https://www.nexusmods.com/newvegas/mods/66537)
     - NVTF
     - NVTF - INI
+> Allows the game to run at higher framerates and more stable.
 - [OneTweak (Updated)](https://www.nexusmods.com/newvegas/mods/79211)
+> Fixes alt-tab issues and makes the game borderless fullscreen.
 - [JIP LN NVSE](https://www.nexusmods.com/newvegas/mods/58277)
+> Adds bug-fixes and FalloutCustom.ini functionality.
 - [JohnnyGuitar NVSE](https://www.nexusmods.com/newvegas/mods/66927)
     - [JohnnyGuitar NVSE - INI](https://www.nexusmods.com/newvegas/mods/86200)
 - [ShowOff NVSE](https://www.nexusmods.com/newvegas/mods/72541)

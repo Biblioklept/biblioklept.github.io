@@ -3,7 +3,7 @@
 
 Super Simple The Elder Scrolls Modlists
 
-### The Elder Scrolls: Arena - Not recommended.
+### [The Elder Scrolls: Arena](https://www.youtube.com/watch?v=r5pEFAm63NM)
 ### [The Elder Scrolls II: Daggerfall](./daggerfall)
 ### [The Elder Scrolls III: Morrowind](./morrowind)
 ### [The Elder Scrolls IV: Oblivion](./oblivion)

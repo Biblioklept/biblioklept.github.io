@@ -1,7 +1,7 @@
 
 [BACK](..)
 
-Super Simple Skyrim
+Super Simple Skyrim: Special Edition
 
 ### Utilities
 - [Skyrim Script Extender](https://www.nexusmods.com/skyrimspecialedition/mods/30379)

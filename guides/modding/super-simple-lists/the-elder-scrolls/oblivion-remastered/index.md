@@ -6,7 +6,8 @@ Oblivion Remastered Revamped
 ### Manual Install
 - [Unofficial MO2 Oblivion Remastered Support](https://www.nexusmods.com/site/mods/1286)
 > Install Mod Organizer 2, then drop the contents of this file into your MO2 instance.
-- [Sharpening and Noise Fix](https://www.nexusmods.com/oblivionremastered/mods/490)
+- [Engine.ini - Sharpening and Noise Fix](https://www.nexusmods.com/oblivionremastered/mods/490)
+- [Engine.ini - Classic Graphics](https://www.nexusmods.com/oblivionremastered/mods/499)
 > Install in `<YourUsername>\Documents\Oblivion Remastered\Saved\Config\Windows`. Overwrite if asked.
 - [Oblivion Remastered Script Extender (OBSE64)](https://www.nexusmods.com/oblivionremastered/mods/282)
 > Install in the `Oblivion Remastered\OblivionRemastered\Binaries\Win64`.
@@ -33,6 +34,7 @@ Oblivion Remastered Revamped
 
 ### Fixes
 - [Optimized Tweaks](https://www.nexusmods.com/oblivionremastered/mods/79)
+> Optimizes the game.
 - [Unofficial Oblivion Remastered Patch](https://www.nexusmods.com/oblivionremastered/mods/477)
 > The essential bug fix.
 
@@ -77,5 +79,3 @@ Oblivion Remastered Revamped
 - [Alternative Sprint - Closed Palms](https://www.nexusmods.com/oblivionremastered/mods/384)
     - Alternative Sprint - Closed Palms
 > Makes the sprinting animation less dramatic.
-- [Classic Graphics](https://www.nexusmods.com/oblivionremastered/mods/499)
-> Restores the classic colors, lighting & effects from the original Oblivion.
