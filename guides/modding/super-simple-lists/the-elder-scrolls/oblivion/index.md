@@ -27,10 +27,6 @@ Super Simple Oblivion
 > MCM-like menu for mods that support it.
 - [NorthernUIAway (Vanilla Style)](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=1000027901&game_id=101&nmm=1)
 > Bugfixes and gamepad support in menus. 
-- [Simple Better Inventory And Map](https://www.nexusmods.com/oblivion/mods/54876)
-> Overhauled, yet vanilla, menus.
-- [Mizuwokiru's Fix for Simple Better Inventory And Map](https://www.nexusmods.com/oblivion/mods/53915)
-> Fixes gamepad integration for Simple Better Inventory And Map.
 
 ### Tweaks
 - [Weapon Drop Fix](https://www.nexusmods.com/oblivion/mods/50223)
@@ -53,14 +49,8 @@ Super Simple Oblivion
 > Adds wayshrine map markers.
 
 ### Gameplay
-- [Realistic Sprint and Gallop](https://www.nexusmods.com/oblivion/mods/53404)
-> Adds sprinting and horse galloping into Oblivion.
-- [Realistic Sprint and Gallop - NorthernUI Gamepad Support](https://www.nexusmods.com/oblivion/mods/54550)
-> Adds gamepad support to Realistic Sprint and Gallop.
 - [Ultimate Leveling](https://www.nexusmods.com/oblivion/mods/49134)
 > Overhauls the leveling system and can be made to function similarly to how the remake does it. Config file: coming soon.
-- [Combat Reshoveled](https://www.nexusmods.com/oblivion/mods/54863)
-> Reworks combat in a vanilla friendly way. Unfortunately you're stuck with the floating animations.
 - [De-Nock Arrows](https://www.nexusmods.com/oblivion/mods/52143)
 > Put away your bow to avoid shooting arrows needlessly.
 - [Balanced Creature Stats](https://www.nexusmods.com/oblivion/mods/49194)

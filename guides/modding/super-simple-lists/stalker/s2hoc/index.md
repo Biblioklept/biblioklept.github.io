@@ -21,6 +21,8 @@ Super Simple S.T.A.L.K.E.R. 2: Heart of Chernobyl
 ### User Interface
 - [Centered Inventory](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1045)
 > Centers the inventory.
+- [Large Loot Inventory](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1045)
+> Increases loot menu size.
 - [Show Stats On Items](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1321)
 > Shows numbers on items when it matters.
 
@@ -30,17 +32,17 @@ Super Simple S.T.A.L.K.E.R. 2: Heart of Chernobyl
 - [Shay's Talk and Trade To Anyone](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1209)
 > Allows you to talk and trade with any random STALKER.
 - [Shay's Living Zone](https://www.nexusmods.com/stalker2heartofchornobyl/mods/446)
-> Increases spawns and random encounters.
-- [Maklane's Better Gunfights](https://www.nexusmods.com/stalker2heartofchornobyl/mods/113)
-    - Maklane's Better Gunfights
-    - Maklane's Better NPC Range
-> Improves combat AI
+> Increases spawns and random encounters.S
 - [NPC Combat Overhaul](https://www.nexusmods.com/stalker2heartofchornobyl/mods/635)
 > Improves combat AI further.
+- [Bloodsucker Roar And Knockdown Attack Remover](https://www.nexusmods.com/stalker2heartofchornobyl/mods/870)
+> Removes bloodsucker's roar or jump attacks, or both
 - [Fast Aim - Fast Reload - Fast Equip](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1297)
 > Makes all weapon animations faster.
 - [Better Ballistics](https://www.nexusmods.com/stalker2heartofchornobyl/mods/129)
 > Improves weapon statistics and deals with the bullet sponge issues.
+- [Better Vaulting (Ledge Grabbing) - Better Stamina Usage](https://www.nexusmods.com/stalker2heartofchornobyl/mods/512)
+> Improves vaulting and stamina.
 - [Skip New Games Cutscene](https://www.nexusmods.com/stalker2heartofchornobyl/mods/950)
 > Allows you to skip the new game cutscene.
 - [Skip Prologue (wake up with Richter)](https://www.nexusmods.com/stalker2heartofchornobyl/mods/981)
@@ -53,6 +55,10 @@ Super Simple S.T.A.L.K.E.R. 2: Heart of Chernobyl
     - 1. LNA - Linxz's NPC Attachments
     - 2. LNA - (Vanilla)
 > Adds attachments to NPC's weapons.
+- [Increased Arsenal Range](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1293)
+> Increases the range of knives and melee.
+- [Artifact Deduplication](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1401)
+> Improves artifact design in a vanilla way.
 
 ### Visuals
 - [Weapon Reposition Project](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1312)
