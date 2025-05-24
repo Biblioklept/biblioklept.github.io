@@ -9,7 +9,5 @@ Modding Guides
 > A guide for installing mods into PAYDAY 2 (PD2).
 - [DAHM Modding Guide](./dahm-install)
 > A guide for installing mods into PAYDAY The Heist (PDTH).
-- [Original Oblivion Remastered](./oglivion-remastered)
-> Oblivion Remastered's reworks/functionality in original Oblivion.
 - [Super Simple Lists](./super-simple-lists)
 > Quick and small sets of modlists. Slight polishing and adding some quality of life.
