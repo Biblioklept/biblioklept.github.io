@@ -51,5 +51,8 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Anomaly Weapon Animation Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-weapon-animation-overhaul-release)
 > Fixes the vanilla weapon animations.
 
+- [Anomaly Tacticool Scopes](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-tacticool-scopes)
+> Improves and makes all scopes 2D (minus red dot-related sights)
+
 - [Transition Between Locations Without Confirmation](https://www.moddb.com/mods/stalker-anomaly/addons/transition-between-locations-without-confirmation)
 > Removes the prompt when switching between locations.
