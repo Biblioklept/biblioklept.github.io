@@ -13,21 +13,22 @@ Modding PD2 with SuperBLT
 1. Download the latest release of [BeardLib](https://modworkshop.net/mod/14924).
 2. Extract the BeardLib folder into your `mods` folder.
 
-### T-PACK
-T-PACK does a lot of things by itself, however, I've made my own mod.txt file to replace the one in the regular T-PACK to remove all the silly and gameplay altering mods. Here's how you install my modified T-PACK.
-1. Download and install [T-PACK](https://pd2mods.z77.fr/t-pack.html).
-2. Go to [my modified T-PACK mod.txt files](https://gist.github.com/Biblioklept/4db89e8ef03738c99b9c73bb64fa89fa) (choose whichever by description sounds more your style.) and click on **Raw**.
-3. Press **CTRL + S**
-4. Move the mod.txt file to your T-PACK mod folder and overwrite.
-5. Now launch your game and download all updates.
-
-### Bug Fixes (Mods)
+### Essentials (Mods)
 1. [The Fixes](https://modworkshop.net/mod/23732)
-2. [Clientsided Uppers](https://modworkshop.net/mod/29645)
-3. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
+2. [No Duplicated Bullets](https://pd2mods.z77.fr/no_duplicated_bullets.html)
+3. [No Mutants Allowed](https://pd2mods.z77.fr/no_mutants_allowed.html)
+4. [Advanced Anti Crash](https://modworkshop.net/mod/33294)
+5. [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
 
-### Bug Fixes (Mod_Overrides)
+### Essentials (Mod_Overrides)
 1. [Visual Fixes](https://modworkshop.net/mod/37161)
+2. [Correct/Fixed Normal Maps](https://modworkshop.net/mod/24922)
+3. [Default Gloves Replace Wrinkled Gloves](https://modworkshop.net/mod/32514)
+
+### Performance (Mods)
+1. [Low Violence Mode](https://storage.modworkshop.net/mods/files/47995_162611_4hCoBFiY5rr1TGuu56Psnykr43h283y7ShkAtvi2.zip?filename=Low%20Violence%20Mode%205%201.zip)
+2. [Fullbright Mod](https://modworkshop.net/mod/52352)
+    - Hold your "change fire mode" key.
 
 ### Performance (Mod_Overrides)
 1. [Optimized Assets](https://github.com/Biblioklept/optimized-assets)
@@ -38,17 +39,28 @@ T-PACK does a lot of things by itself, however, I've made my own mod.txt file to
 
 ### Aim Helpers (Mods)
 1. [Motion Sickness Helper 2](https://github.com/Biblioklept/motion-sickness-helper-2)
-2. [Reticle Size Fix](https://modworkshop.net/mod/29162)
-> Note: You need to move the Reticle Size Fix modoverride folder to your mod_overrides folder.
 
 ### Aim Helpers (Mod_Overrides)
 1. [Clear Image](https://github.com/Biblioklept/clear-image)
 
 ### User Interface (Mods)
 1. [Better Menus](https://github.com/Biblioklept/better-menus)
-2. [Better Crew Management](https://modworkshop.net/mod/30505)
-3. [Quiet Main Menu](https://modworkshop.net/mod/38037)
-4. [Shuffle Play](https://modworkshop.net/mod/37959)
-5. [PocoHUD](https://modworkshop.net/mod/40870) or [VanillaHUD Plus](https://modworkshop.net/mod/25629)
-    - [PocoHUD Config](../../misc/dl/configs/payday2/pocohud/)
-    - [VanillaHUD Plus Config](../../misc/dl/configs/payday2/vanillahudplus/)
+2. [Drag and Drop Inventory](https://pd2mods.z77.fr/drag_and_drop_inventory.html)
+3. [Lobby Settings](https://pd2mods.z77.fr/lobby_settings.html)
+4. [Refresh Rate Checker](https://pd2mods.z77.fr/refresh_rate_checker.html)
+5. Any HUD mod of your choice. Popular mods include:
+   - INFO HUD: [VanillaHUD Plus](https://modworkshop.net/mod/25629)
+   - INFO HUD: [PocoHUD3](https://modworkshop.net/mod/40870)
+   - INFO HUD: [Extra Heist Info](https://modworkshop.net/mod/31915)
+   - MINIMALIST HUD: [MUI Updated](https://modworkshop.net/mod/46681)
+   - MINIMALIST HUD: [HoloUI](https://modworkshop.net/mod/12501)
+   - VANILLA+ HUD: [Enhanced Vanilla HUD](https://modworkshop.net/mod/43776)
+   - VANILLA+ HUD: [HopHUD](https://modworkshop.net/mod/31306)
+   - VANILLA+ HUD: [Void UI](https://modworkshop.net/mod/20997)
+   - FUN HUD: [PDTH HUD](https://modworkshop.net/mod/19900)
+   - FUN HUD: [Restoration HUD](https://modworkshop.net/mod/28118)
+   - FUN HUD: [Warframe HUD](https://modworkshop.net/mod/36010)
+   - FUN HUD: [Hotline Miami HUD](https://modworkshop.net/mod/27294)
+   - FUN HUD: [BL2HUD](https://modworkshop.net/mod/23623)
+   - FUN HUD: [Half-Life HUD](https://modworkshop.net/mod/24035)
+   - FUN HUD: [Half-Life 2 HUD](https://modworkshop.net/mod/27954)
