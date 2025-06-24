@@ -1,0 +1,1 @@
+{	"HLAmmoTotal":true,	"ChatX":0,	"NoTeammates":true,	"AddBlendMode":true,	"Opacity":0.75,	"Scale":1,	"LightOpacity":1,	"VanillaValues":true,	"NegColor":"Color(1, 1, 0.062745101749897, 0.062745101749897)",	"NoAITeammates":true,	"MainColor":"Color(1, 1, 0.62745100259781, 0)",	"Spacing":1,	"ChatY":660,	"LightUpAmmo":false}

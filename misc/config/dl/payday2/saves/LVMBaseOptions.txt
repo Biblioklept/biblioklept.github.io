@@ -1,1 +1,1 @@
-{"Block_Bullet_Decals":true,"Block_Shields":true,"Block_Helmets":true,"Block_Blood_Decals":true,"Block_Mags":true,"Block_Corpses":true}
+{"Block_Bullet_Decals":true,"Block_Shields":true,"Block_Helmets":true,"Block_Blood_Decals":true,"Block_Corpses":true,"Block_Mags":true}

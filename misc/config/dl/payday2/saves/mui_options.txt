@@ -1,0 +1,1 @@
+{"mui_order":1,"mui_direction":2,"mui_ita_txt_hide":false,"mui_gen_hp_aspd":0,"mui_pst_simple":true,"mui_team_ai":false,"mui_hint_simple":true}

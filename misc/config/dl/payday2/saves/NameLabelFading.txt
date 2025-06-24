@@ -1,0 +1,1 @@
+{"enable":true,"inner_radius":10,"outter_radius":50,"localization":"english","inner_alpha":60,"highlight":100,"highlight_enable":false,"outter_alpha":100}
