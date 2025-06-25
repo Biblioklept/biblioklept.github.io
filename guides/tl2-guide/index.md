@@ -3,17 +3,11 @@
 
 Getting Started In Torchlight 2: A Multiplayer and FAQ Guide.
 
-### Essentials Modlist
-
-Ideally just to give you the best first experience or revisiting vanilla. Read more at the collection page on Steam Workshop.
-
-Download [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2868841075).
-
 ### Fixing Multiplayer
 
-> Note: This list will get updated when issues I stumble across occur.
-
-1. To fix the "No Join button issue" click on the wrench in the top-right of the multiplayer menu.
+1. To fix the `No Join button issue` issue, click on the wrench in the top-right of the multiplayer menu.
+2. To fix the `Firewall Problems Detected!` issue, `Documents/My Games/Runic Games/Torchlight 2`, open `local_settings.txt` and change the `UDPORT` value to any number from `1-4999`. Have your friends change it to the exact same number to be safe. The text persists but generally the issue is resolved. If this fix doesn't work, you may need to add an Inbound Rule and an Outbound Rule for Torchlight 2.
+3. If issues are still persisting, try using [ZeroTier](https://www.zerotier.com/download/) to host a LAN game for your friends to join.
 
 ### Getting To Know The Charge Bar
 
@@ -26,7 +20,7 @@ Download [here](https://steamcommunity.com/sharedfiles/filedetails/?id=286884107
 
 Mod merging is a common practice in Torchlight 2, as there is a limit of 10 active mods. While not every mod merge may be allowed to be posted publically (permissions and such), you can post them as unlisted mods on Steam Workshop and link them to your friends.
 
-Before we begin, it's good to note that merging your mods is similar to how you order your modlist. The mods where the changes are the most important should be at the top, while the mods that should be overwritten should be put at the bottom. Look at [my essentials modlist](<#essentials-modlist> "Essentials Modlist") for an idea of how this works.
+Before we begin, it's good to note that merging your mods is similar to how you order your modlist. The mods where the changes are the most important should be at the top, while the mods that should be overwritten should be put at the bottom.
 
 1. Launch GUTS at least once to unpack the files needed.
 2. Create a new project, name your new mod merge whatever you want.
