@@ -1,11 +1,17 @@
 
 My Guides
 
+### [Super Simple Lists](./super-simple-lists)
+> Quick and small sets of modlists. Slight polishing and adding some quality of life.
+
 ### [Windows Setup](./windows-setup)
 > A quick little guide to setup Windows 10/11 (my way).
 
-### [Modding](./modding/)
-> Modding guides with varying levels of description on what you're installing/how to install.
+### [Unreal Engine 5 Optimization Tips](./unreal-engine-5-optimization)
+> Tips to improve performance on Unreal Engine 5.
+
+### [Call of Duty: Black Ops III Setup](./bo3-setup)
+> A quick guide to get BO3 playing safely.
 
 ### General Guides
 - [Torchlight 2 Guide](./tl2-guide)
