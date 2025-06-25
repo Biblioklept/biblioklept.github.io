@@ -1,11 +1,11 @@
 
 [BACK](..)
 
-Modding PDTH with DAHM/DorHUD
+Super Simple PAYDAY: The Heist
 
-### Installing DAHM Itself
+### Installing DAHM
 1. Download either the "full version" (**all submods**) or the "essential version" (**essential mods only**) - [Download here](https://steamcommunity.com/groups/dahm4pd/discussions/3/3810655600549061009/#:~:text=redist.x86.exe-,latest%20version,-Download%201.16).
-2. Install it into your root PDTH folder.
+2. Install it into your root PAYDAY: The Heist folder.
 
 ### Editing Corpse Despawn
 This is a dirty edit of an already existing file in the full version of DAHM's files. Backup your mod and heed notice.

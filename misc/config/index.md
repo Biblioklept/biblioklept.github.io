@@ -3,6 +3,8 @@
 
 Configuration Files
 
+Only important configuration files are listed here. [Here's all the files](https://github.com/Biblioklept/biblioklept.github.io/tree/main/misc/config/dl).
+
 - [OpenMW Config](./dl/openmw/settings.cfg)
 > Sets: textures to be chunky, FOV to 90, distant land to max, screenshot format to png.  
 Disables: Water shaders, shadows, and anisotropy.  

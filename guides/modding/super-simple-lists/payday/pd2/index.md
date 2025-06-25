@@ -1,13 +1,13 @@
 
 [BACK](..)
 
-Modding PD2 with SuperBLT
+Super Simple PAYDAY 2
 
-### Installing SuperBLT Itself
-1. Download the latest release of [SuperBLT](https://superblt.znix.xyz/#:~:text=wsock32%3Dn%2Cb%22%20%25command%25-,download%20the%20latest%20release%20dll,-%2C%0Aand%20place%20it).
-2. Install it into your root PD2 folder.
-3. Create a `mods` folder in your root PD2 folder.
-4. Create a `mod_overrides` folder in your assets folder.
+### Installing SuperBLT
+1. Download the latest release of [SuperBLT](https://superblt.znix.xyz/#windows).
+2. Install it into your root PAYDAY 2 folder.
+3. Create a `mods` folder in your root PAYDAY 2 folder.
+4. Create a `mod_overrides` folder in your `assets` folder.
 
 ### Installing BeardLib
 1. Download the latest release of [BeardLib](https://modworkshop.net/mod/14924).
