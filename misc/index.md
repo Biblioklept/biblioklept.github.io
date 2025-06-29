@@ -30,6 +30,8 @@ My Miscellaneous Files
 ### Registry Scripts
 - [Remove Unnecessary Context Menu Items](./dl/scripts/removecontextmenu.reg)
 > Removes context menu items that I frequently find annoying. Will add more should it be needed.
+- [Replace Paint 3D Context Menu with Paint.NET](./dl/scripts/replacepaint3dwithpaintnet.reg)
+> Removes context menu items that I frequently find annoying. Will add more should it be needed.
 
 ### IWADS
 - [AIO Download](./dl/iwads/aio.7z)
