@@ -1,0 +1,18 @@
+{	"ApplyOnAll":true,	"TranslationStep":1,	"RotationStep":1,	"Saved":{
+	"__All":{
+	"standard":{
+	"translation":"Vector3(0.105, 5.74154, -11.324)"
+},
+	"crouched":{
+	"translation":"Vector3(-1.895, 1.742, -15.824)"
+}
+},
+	"flint":{
+	"standard":{
+	"translation":"Vector3(0.105, 5.74154, -12.324)"
+},
+	"crouched":{
+	"translation":"Vector3(-1.895, 1.742, -13.824)"
+}
+}
+},	"RefreshKey":"f5",	"ToggleKey":"f7"}
