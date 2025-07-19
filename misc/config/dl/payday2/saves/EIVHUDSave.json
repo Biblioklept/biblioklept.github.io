@@ -1,0 +1,50 @@
+{	"MENU":{
+	"SkipCard":0,
+	"PickCard":false,
+	"TeamLoadout":true,
+	"SkipDialogs":false,
+	"SkipXP":0,
+	"SkipBlackscreen":false,
+	"HideAds":true
+},	"HUD":{
+	"ChatPosition":11.199999809265,
+	"Tab":true,
+	"Chat":true,
+	"BUFFLIST":{
+	"TimerX":123,
+	"Bloodthirst":true,
+	"TimerScale":1,
+	"BloodthirstScale":1,
+	"TimerY":43,
+	"Inspire":true,
+	"BloodthirstY":38,
+	"BloodthirstMinKills":6,
+	"BloodthirstX":123
+},
+	"PLAYER":{
+	"Team_bg":false,
+	"ArmorerCooldownTimerColor":"Color(1, 0, 0.66000002622604, 1)",
+	"ArmorerCooldownRadial":true,
+	"ArmorerCooldownTimer":true,
+	"GraceCooldownTimerColor":"Color(1, 0.5, 1, 0)",
+	"Trueammo":true,
+	"Downs":true,
+	"Stamina":true,
+	"Bulletstorm":true
+},
+	"Scale":1,
+	"ShowHostages":1,
+	"ScreenEffect":true,
+	"ShowObjectives":1,
+	"LevelDisplay":true,
+	"ShowTimer":1,
+	"Greenciv":true,
+	"ECM":{
+	"Infoboxes":true,
+	"HideBox":false,
+	"PagerJam":true
+},
+	"ShowWaves":1
+},	"INTERACTION":{
+	"BagInfo":true
+}}

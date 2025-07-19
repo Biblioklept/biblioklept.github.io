@@ -1,1 +1,1 @@
-{"mui_order":1,"mui_direction":2,"mui_ita_txt_hide":false,"mui_gen_hp_aspd":0,"mui_bag_h_pos":2,"mui_pst_simple":true,"mui_team_ai":false,"mui_hint_simple":true}
+{"mui_bag_h_pos":2,"mui_pst_simple":true,"mui_order":1,"mui_direction":2,"mui_ita_txt_hide":false,"mui_gen_hp_aspd":0,"mui_custom_textures":true,"mui_hint_simple":true,"mui_team_ai":false}
