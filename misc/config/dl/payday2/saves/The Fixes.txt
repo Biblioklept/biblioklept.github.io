@@ -1,1 +1,1 @@
-{"_cache":[],"fire_dot":true,"_hooks":{"NetworkMatchMakingEPIC":true},"cops_reload":true,"ModPath":"mods\/The Fixes\/","last_msg_id":"","override":[],"instant_quit":true,"gambler":true,"language":1}
+{"_cache":[],"fire_dot":true,"_hooks":{"ElementSpawnGageAssignment":true,"CopDamage":true,"NetworkMatchMakingEPIC":true},"cops_reload":true,"ModPath":"mods\/The Fixes\/","last_msg_id":"","override":[],"instant_quit":true,"gambler":true,"language":1}
