@@ -5,12 +5,15 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 ### Base
 - [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/xray-monolith/releases/latest)
-> Adds more functionality to the EXE files of the game. **Install in your game folder.**
+> Adds more functionality to the EXE files of the game. **Install in your game folder**.
+
+- [Universal Animation Scripts](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAoldri%2Fanomaly-addon-deps%2Ftree%2Fmain%2FUniversal%2520Animation%2520Scripts)
+> Required for Anomaly Weapon Animation Overhaul.
 
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
 > Allows you to configure your mods. Saves into axr_options.ltx.
 
-- [OPTIONALLY: Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
+- [OPTIONAL: Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
     - [Less Items 3.2 - Trade Edits - Removed Mechanic Ammo For Sale](../../../../../mods/stalker-anomaly/dl/less-items-removed-mechanic-ammo/)  
     Edits Less Items 3.2's trade edits sub-mod to remove ammo from mechanic's inventories.
 > Makes Anomaly more like the trilogy/Old World Addon in terms of item bloat and repair systems.
@@ -43,16 +46,38 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 ### Visuals
 - [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)
-> Fix for artefact collision issues and broken visuals.
+> Fixes for artefact collision issues and broken visuals.
 
 - [Fixed Vanilla Models & Textures](https://www.moddb.com/mods/stalker-anomaly/addons/fvm)
 > Fixes for the character models and textures and optional choices to make them better to look at.
 
-- [Anomaly Weapon Animation Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-weapon-animation-overhaul-release)
-> Fixes the vanilla weapon animations.
-
-- [Anomaly Tacticool Scopes](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-tacticool-scopes)
-> Improves and makes all scopes 2D (minus red dot-related sights)
+- [Vanilla Weapons Resmoothed And Relensed](https://www.moddb.com/mods/stalker-anomaly/addons/vanilla-weapons-resmoothed-relensed)
+> Fixes for the vanilla weapon models of anomaly.
 
 - [Transition Between Locations Without Confirmation](https://www.moddb.com/mods/stalker-anomaly/addons/transition-between-locations-without-confirmation)
 > Removes the prompt when switching between locations.
+
+- [Mark Switch](https://www.moddb.com/mods/stalker-anomaly/addons/mark-switch)
+> Allows you to change red dot mark on the fly.
+
+- [Parallax Reflex Sights](https://www.moddb.com/mods/stalker-anomaly/addons/parallax-reflex-sights)
+> **Select options 1 and 2**. Introduces parallax mapped mark for all reflex sights.
+
+- [Shader 3D Scopes](https://www.moddb.com/mods/stalker-anomaly/addons/shader-3d-scopes)
+> **Select options 1 and 2**. Performance-friendly imitation of PiP scopes with some realistic parallax effects.
+
+- [Shader 3D Scopes - Vanilla](https://www.moddb.com/mods/stalker-anomaly/addons/shader-3d-scopes)
+> **Select option Main Files**. Gives all vanilla weapons Shader 3D Scopes support.
+
+- [Anomaly Weapon Animation Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-weapon-animation-overhaul-release)
+> **Select Yes for "3D Shader Scopes Installed?" and "3D Shader Scopes Vanilla Installed?**. Fixes the vanilla weapon animations.
+
+### Final Steps
+- Clear shader cache.
+
+- Open console, enter these commands:
+```
+r2_smaa off
+r2_aa off
+r__3Dfakescope 1
+```
