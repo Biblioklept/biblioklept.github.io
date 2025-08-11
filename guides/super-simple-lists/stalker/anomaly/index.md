@@ -13,20 +13,14 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Anomaly Mod Configuration Menu](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu)
 > Allows you to configure your mods. Saves into axr_options.ltx.
 
-- [OPTIONAL: Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
-    - [Less Items 3.2 - Trade Edits - Removed Mechanic Ammo For Sale](../../../../../mods/stalker-anomaly/dl/less-items-removed-mechanic-ammo/)  
-    Edits Less Items 3.2's trade edits sub-mod to remove ammo from mechanic's inventories.
-> Makes Anomaly more like the trilogy/Old World Addon in terms of item bloat and repair systems.
-
 ### Tweaks
+Some of these mods have a LOT of options/selections, pick and choose as you please as they should be relatively conflict-free.
+
 - [Small Configuration Fixes](https://www.moddb.com/mods/stalker-anomaly/addons/small-configuration-fixes-10-153-dltx)
 > A few fixes (mostly typos) in some configs files (and some audio).
 
 - [Nitpicker's Modpack](https://www.moddb.com/mods/stalker-anomaly/addons/nitpickermodpack)
 > Quality of life additions to the game that you can't live without.
-
-- [DLTX Minimod Repository](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack)
-> A collection of popular and custom mini mods in DLTX format.
 
 - [Tosox Minimod Repo](https://www.moddb.com/mods/stalker-anomaly/addons/tosox-mini-mods-repo)
 > A collection of popular and custom mini add-ons made highly compatible via monkey-patches and the help of the Modded Exes.
@@ -34,15 +28,21 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [Utjan's QoL Bundle](https://www.moddb.com/mods/stalker-anomaly/addons/utjans-qol-bundle)
 > Bundle of small but significant quality of life mods.
 
-- [Uncalled for Patch Collection](https://www.moddb.com/mods/stalker-anomaly/addons/an-uncalled-for-patch-collection)
-> DLTX/Monkeypatched patches, conversions and fixes for a variety of mods.
-
 ### Gameplay
 - [Expanded/Fixed Maps: All In One](https://www.moddb.com/mods/stalker-anomaly/addons/expandedfixed-maps-all-in-one)
 > A compilation of map edits aimed on expanding maps adding new cool areas for hideouts or exploration, smoothing stairs ladders and railways making navigation less clunky and deleting some annoying invisible walls that plague some of our favorite locations.
 
 - [Weird Task Framework](https://www.moddb.com/mods/stalker-anomaly/addons/weird-task-framework)
 > Adds new tasks/quests with included task packs.
+
+### Optional Overhauls
+- [Less Items](https://www.moddb.com/mods/stalker-anomaly/addons/dltx-less-items-for-anomaly-151-final)
+    - [Less Items 3.2 - Trade Edits - Removed Mechanic Ammo For Sale](../../../../../mods/stalker-anomaly/dl/less-items-removed-mechanic-ammo/)  
+    Edits Less Items 3.2's trade edits sub-mod to remove ammo from mechanic's inventories.
+> Makes Anomaly more like the trilogy/Old World Addon in terms of item bloat and repair systems.
+
+- [Revised Weapons and Armor](https://www.moddb.com/mods/stalker-anomaly/addons/revised-weapons-and-armor)
+> Removes and streamlines weapon and armor variants and duplicates.
 
 ### Visuals
 - [Fixed Artefact Collision and Visuals](https://www.moddb.com/mods/stalker-anomaly/addons/fixed-artefact-collision-and-visuals-152)
@@ -56,6 +56,12 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 - [Transition Between Locations Without Confirmation](https://www.moddb.com/mods/stalker-anomaly/addons/transition-between-locations-without-confirmation)
 > Removes the prompt when switching between locations.
+
+- [De-Nauseated Hit Effects](https://www.moddb.com/mods/stalker-anomaly/addons/de-nauseated-hit-effects-camera)
+> Lessens/removes camera hit effects.
+
+- [Beef's NVG Improved](https://www.moddb.com/mods/stalker-anomaly/addons/beefs-nvg-improved)
+> Improves night vision, new animations, sounds, bug fixes, etc.
 
 - [Mark Switch](https://www.moddb.com/mods/stalker-anomaly/addons/mark-switch)
 > Allows you to change red dot mark on the fly.
@@ -71,6 +77,10 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 
 - [Anomaly Weapon Animation Overhaul](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-weapon-animation-overhaul-release)
 > **Select Yes for "3D Shader Scopes Installed?" and "3D Shader Scopes Vanilla Installed?**. Fixes the vanilla weapon animations.
+
+- [Procedural Movement Animations](https://www.moddb.com/mods/stalker-anomaly/addons/procedural-movement-animations)
+> Replaces all weapon movement animations with universal generic ones.
+
 
 ### Final Steps
 - Clear shader cache.
