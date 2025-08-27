@@ -1,6 +1,8 @@
 
 My Mods
 
+- [Dying Light](./dying-light)
+> My Dying Light mods.
 - [PAYDAY 2 Mods](./payday-2)
 > My PAYDAY 2 mods.
 - [S.T.A.L.K.E.R. Anomaly](./stalker-anomaly)
