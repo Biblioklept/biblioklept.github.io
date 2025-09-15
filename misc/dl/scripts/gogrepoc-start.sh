@@ -3,7 +3,7 @@
 # Default parameters
 OS="windows"
 LANG="en"
-GOG_DIR="/mnt/z/GAME_BACKUPS/GOG"
+GOG_DIR=""
 LOG_FILE="update_log.txt"
 
 # Function to log output to a file

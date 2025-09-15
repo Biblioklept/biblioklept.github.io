@@ -9,27 +9,37 @@ Super Simple Borderlands 2/TPS
 - [DXVK](https://github.com/doitsujin/dxvk/releases/latest)
 
 ### Libraries
-- [Enums](https://bl-sdk.github.io/mods/Enums)
-- [Structs](https://bl-sdk.github.io/mods/Structs)
-- [User Feedback](https://bl-sdk.github.io/mods/UserFeedback)
+- [Enums](https://bl-sdk.github.io/willow2-mod-db/mods/enums/)
+- [Structs](https://bl-sdk.github.io/willow2-mod-db/mods/structs/)
+- [User Feedback](https://bl-sdk.github.io/willow2-mod-db/mods/userfeedback/)
+
+### Fixes
+- [BL2 Fix](https://www.nexusmods.com/borderlands2/mods/277)
+	- Install by opening with an archive manager, going to `$EXEDIR`, and extracting to `sdk_mods`.
+> BL2Fix is an overhaul mod that targets the issues with Borderlands 2's various systems.
+- [No Texture Fade](https://bl-sdk.github.io/willow2-mod-db/mods/notexturefade/)
+> Disables texture fading on game start, forcing textures to load at thier highest level.
+- [Text Mod Loader](https://bl-sdk.github.io/willow2-mod-db/mods/text-mod-loader/)
+> Not necessarily a fix but lets you load a BLCMM/Text mod of your choice with the mod submenu in the main menu.
 
 ### User Interface
-- [Alt Use Vendors](https://bl-sdk.github.io/mods/AltUseVendors)
-- [No Ads](https://bl-sdk.github.io/mods/NoAds)
-- [Python Part Notifier](https://bl-sdk.github.io/mods/PythonPartNotifier)
+- [Quick Startup](https://bl-sdk.github.io/willow2-mod-db/mods/quick-startup/)
+> Instantly jump to the main menu, skips all intro and loading screens.
+- [Better UI Controls](https://bl-sdk.github.io/willow2-mod-db/mods/betteruicontrols/)
+> Lets you use your movement keys (in my case WASD) to control a bunch of menus.
+- [Alt Use Vendors](https://bl-sdk.github.io/willow2-mod-db/mods/alt-use-vendors/)
+> Adds alt use binds to vendors to let you quickly refill health and ammo and sell trash, like in BL3/Wonderlands.
+- [Alt Use Fast Travel](https://bl-sdk.github.io/willow2-mod-db/mods/altusefasttravel/)
+> This mod enables alt use for fast travel stations that will travel you to either your current objective, the station you last traveled from, or a specific station.
+- [No Ads](https://bl-sdk.github.io/willow2-mod-db/mods/no-ads/)
+> Prevents ads from showing.
+- [Python Part Notifier](https://bl-sdk.github.io/willow2-mod-db/mods/pythonpartnotifier/)
+> Shows the parts making up all of your items and weapons on their cards. 
 
 ### Quality of Life
-- [Auto Pickup](https://bl-sdk.github.io/mods/AutoPickup)
-- [Be Gone Out Of Bounds Loot](https://bl-sdk.github.io/mods/BeGoneOutOfBoundsLoot)
-- [Better Spawns and Better Travel](https://bl-sdk.github.io/mods/BetterSpawnsandBetterTravelBSABT)
-- [Cleaning Up Pandora](https://bl-sdk.github.io/mods/CleaningUpPandora)
-- [Dialog Skipper](https://bl-sdk.github.io/willow2-mod-db/mods/dialog-skipper/)
-- [Text Mod Loader](https://bl-sdk.github.io/mods/TextModLoader)
-
-### Farming
-- [Map Reloader](https://bl-sdk.github.io/mods/MapReloader)
-- [Reward Reroller](https://bl-sdk.github.io/mods/RewardReroller)
-
-### Gameplay - BL2 Only
-- [Keep Anarchy](https://bl-sdk.github.io/mods/KeepAnarchy)
-- [Melee Enhancement](https://bl-sdk.github.io/mods/MeleeEnhancement)
+- [Auto Pickup](https://bl-sdk.github.io/willow2-mod-db/mods/autopickuptweaks/)
+> Picks up enabled various miscellaneous loot.
+- [Better Spawns and Better Travel](https://bl-sdk.github.io/willow2-mod-db/mods/betterspawnsandbettertravelbsabt/)
+> Lets you fast travel from anywhere and to your vehicle. Also adds spawning at the last station.
+- [Cleaning Up Pandora](https://bl-sdk.github.io/willow2-mod-db/mods/cleaninguppandora/)
+> Adds the ability to sell items that are on the floor or in your backpack by pressing the ‘Secondary Use’ key.

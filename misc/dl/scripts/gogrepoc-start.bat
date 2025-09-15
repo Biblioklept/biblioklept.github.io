@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 :: Set default values for parameters
 set OS=windows
 set LANG=en
-set GOG_DIR="Z:\GAME_BACKUPS\GOG"
+set GOG_DIR=""
 set LOG_FILE="update_log.txt"
 
 :: Function to log output to a file
