@@ -3,45 +3,104 @@
   <GameType>8</GameType>
   <Packages>
     <Package FileName="60 FPS Cutscenes.a2"></Package>
+    <Package FileName="Additional Weapon Customisation Slots.a3"></Package>
     <Package FileName="Allow Headgear In Cutscenes.a3"></Package>
+    <Package FileName="Auto Turret Timer.a3"></Package>
+    <Package FileName="AutoMS16s.a3"></Package>
+    <Package FileName="Balanced Standard Ammo.a3"></Package>
     <Package FileName="Bigger Fog of War Discovery.a3"></Package>
+    <Package FileName="Breakable Trees Life Time.a3">
+      <Options>
+        <Option ID="Time">4</Option>
+      </Options>
+    </Package>
+    <Package FileName="Breezy.a3"></Package>
+    <Package FileName="Camps First Person View.a3"></Package>
+    <Package FileName="Chest Reveal v2.a3"></Package>
+    <Package FileName="Civilians Kill Limit Remover.a3"></Package>
+    <Package FileName="Clara's Outfit.a3"></Package>
     <Package FileName="Remove phone cracks.a3"></Package>
+    <Package FileName="Clouds Shadows.a3"></Package>
+    <Package FileName="Customisable AJM9.a3"></Package>
+    <Package FileName="Death by Darkness.a3"></Package>
     <Package FileName="Disable DOF.a3"></Package>
+    <Package FileName="Disable Shooting PostFX.a3"></Package>
+    <Package FileName="Enhanced Grenade Launchers and Explosive or EMP Arrows.a3"></Package>
+    <Package FileName="Enhanced Stamina.a3"></Package>
+    <Package FileName="Espada's Outfit.a3"></Package>
+    <Package FileName="Better Unique Weapons.a3"></Package>
+    <Package FileName="FC6 More Fast Travel Points.a3"></Package>
+    <Package FileName="zz WeaponRebalance FC6.a3"></Package>
+    <Package FileName="Female Hairstyles.a3"></Package>
+    <Package FileName="FND Outfit.a3"></Package>
     <Package FileName="FOV unlocker.a3">
       <Options>
-        <Option ID="21CutFix">1</Option>
+        <Option ID="21CutFix">0</Option>
         <Option ID="ExtFov">1</Option>
         <Option ID="FovSlider">1</Option>
         <Option ID="FovTrans">1</Option>
         <Option ID="WaterFix">1</Option>
       </Options>
     </Package>
+    <Package FileName="FC6 Full-auto RMS18.a3"></Package>
     <Package FileName="Heavy Poisoner Voice Fix.a3"></Package>
     <Package FileName="Hit Feedback.a3"></Package>
     <Package FileName="HitFX.a3"></Package>
+    <Package FileName="Improved MindBlower 1911.a3"></Package>
+    <Package FileName="ImprovedShotgunSpread FC6.a3"></Package>
+    <Package FileName="Jonron's Outfit.a3"></Package>
+    <Package FileName="Journalist Outfit.a3"></Package>
     <Package FileName="Keybindings Settings.a3"></Package>
     <Package FileName="Languages Libertad.a3">
       <Options>
         <Option ID="Lang">0</Option>
       </Options>
     </Package>
+    <Package FileName="Libertad Mod Splash Screen.a3"></Package>
+    <Package FileName="Lighting mod and Real Nights mod Brighter.a3"></Package>
+    <Package FileName="Lightning Color.a3"></Package>
+    <Package FileName="Longer Days And Shorter Nights.a3"></Package>
+    <Package FileName="Manual Save Game.a3"></Package>
+    <Package FileName="FC6 More Bow Zoom.a3"></Package>
+    <Package FileName="MoreGunPowder.a3"></Package>
+    <Package FileName="More Sniper Scope Zoom.a3"></Package>
+    <Package FileName="No Head Gear.a3"></Package>
+    <Package FileName="NPC Outfits Base.a3"></Package>
+    <Package FileName="zzz OneHanded 1887.a3"></Package>
+    <Package FileName="zzz OneHanded AutoCross.a3"></Package>
+    <Package FileName="zzz OneHanded M79.a3"></Package>
     <Package FileName="Remove Chromatic Aberration.a2"></Package>
     <Package FileName="Remove screen grid.a3"></Package>
     <Package FileName="Remove Startup Videos.a3"></Package>
     <Package FileName="Reveal Collectibles.a3"></Package>
     <Package FileName="Script Functions.a3"></Package>
+    <Package FileName="Shard Tweaks.a3"></Package>
     <Package FileName="Shut Up Dani.a2"></Package>
+    <Package FileName="Stratosphere.a3"></Package>
+    <Package FileName="Supremo Invisible Appearance.a3"></Package>
     <Package FileName="The Vanishing Final Cutscene Fix.a3"></Package>
+    <Package FileName="The Vanishing Outfit.a3"></Package>
+    <Package FileName="The Wall of Death.a3">
+      <Options>
+        <Option ID="Type">0</Option>
+      </Options>
+    </Package>
     <Package FileName="Unlock Black Market Outfits.a3"></Package>
     <Package FileName="Unlock Black Market Weapons.a3"></Package>
     <Package FileName="Unlock Bundles.a3"></Package>
     <Package FileName="Unlock Unique Weapons.a3"></Package>
     <Package FileName="zz WeaponFovMod FC6.a3">
       <Options>
-        <Option ID="WpnFOV">2</Option>
+        <Option ID="WpnFOV">8</Option>
       </Options>
     </Package>
-    <Package FileName="Wingsuit Anywhere.a3"></Package>
+    <Package FileName="Weapon Preset FC6.a3"></Package>
+    <Package FileName="Weather System Reworked.a2">
+      <Options>
+        <Option ID="TypeOpt">1</Option>
+      </Options>
+    </Package>
+    <Package FileName="Wind Turbine Grapple Anchors.a3"></Package>
     <Package FileName="Zenia Garage Opener.a3"></Package>
   </Packages>
 </ModInstallerPreset>

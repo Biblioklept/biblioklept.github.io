@@ -2,24 +2,32 @@
 <ModInstallerPreset>
   <GameType>2</GameType>
   <Packages>
+    <Package FileName="Breathing Control.a2"></Package>
+    <Package FileName="Camera.a2"></Package>
     <Package FileName="Clean Camera.a3"></Package>
     <Package FileName="CoD AW Dual Render Scopes.a3"></Package>
     <Package FileName="Disable Server Messages.a3"></Package>
+    <Package FileName="Enhanced AMR.a3"></Package>
     <Package FileName="Fast Loot.a3"></Package>
+    <Package FileName="Flags.a3"></Package>
     <Package FileName="FOV Scaler FC3.a3">
       <Options>
-        <Option ID="CommonFOV">3</Option>
-        <Option ID="TDFOV">3</Option>
-        <Option ID="VehicleFOV">3</Option>
+        <Option ID="CommonFOV">5</Option>
+        <Option ID="TDFOV">5</Option>
+        <Option ID="VehicleFOV">5</Option>
       </Options>
     </Package>
     <Package FileName="Full Auto F1 FC3.a3"></Package>
     <Package FileName="HitEffects.a3"></Package>
     <Package FileName="ImprovedShotgunSpread FC3.a3"></Package>
+    <Package FileName="FC3 Increased Bag Capacities.a3"></Package>
+    <Package FileName="Sniper Rifle Ranges.a3"></Package>
     <Package FileName="Languages Rakyat.a3"></Package>
+    <Package FileName="Machete.a3"></Package>
     <Package FileName="Max Attach 3 v2.a3"></Package>
-    <Package FileName="More Loot Storage.a3"></Package>
+    <Package FileName="FC3 More Scope Zoom.a3"></Package>
     <Package FileName="Multiplayer Weapons.a3"></Package>
+    <Package FileName="No Auto Reload.a2"></Package>
     <Package FileName="Press To Interact FC3.a3"></Package>
     <Package FileName="FC3 Random NPC Weapons.a3"></Package>
     <Package FileName="Realistic Water.a3"></Package>
@@ -28,7 +36,7 @@
     <Package FileName="Variety Mod.a3"></Package>
     <Package FileName="WFM FC3 v2.a3">
       <Options>
-        <Option ID="WpnFOV">3</Option>
+        <Option ID="WpnFOV">7</Option>
       </Options>
     </Package>
   </Packages>

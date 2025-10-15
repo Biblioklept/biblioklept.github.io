@@ -2,42 +2,72 @@
 <ModInstallerPreset>
   <GameType>4</GameType>
   <Packages>
+    <Package FileName="Escape from Durgesh DLC No Timer.a3"></Package>
+    <Package FileName="Allow Front Takedown FC4.a3"></Package>
+    <Package FileName="Alternate Golden Path Uniforms.a3"></Package>
+    <Package FileName="Alternate Royal Army Uniforms.a3"></Package>
+    <Package FileName="Alternate Royal Guard Uniforms.a3"></Package>
     <Package FileName="Arena MG42 Fixer.a3"></Package>
+    <Package FileName="Army Uniform and equipment Variants.a3"></Package>
     <Package FileName="Better CommandersEquipment Variants.a3"></Package>
     <Package FileName="reflections.a3"></Package>
     <Package FileName="BetterShotgunSpread FC4.a3"></Package>
     <Package FileName="Ceano's Better Sights.a3"></Package>
+    <Package FileName="AOY - Clean mortar sight.a3"></Package>
     <Package FileName="CoD AW Dual Render Scopes.a3"></Package>
     <Package FileName="DOF Remover FC4.a3"></Package>
+    <Package FileName="Double Animal Skins.a3"></Package>
     <Package FileName="Drunk Kanak’s Truck Location Fix.a3"></Package>
-    <Package FileName="FOV Scaler.a3">
+    <Package FileName="E3 2014 Lighting.a3"></Package>
+    <Package FileName="E3 Ambince Music.a3"></Package>
+    <Package FileName="FC3 2x Corpse Money Sale Price Bonus.a3">
       <Options>
-        <Option ID="CommonFOV">3</Option>
-        <Option ID="TDFOV">3</Option>
-        <Option ID="VehicleFOV">3</Option>
-        <Option ID="WeaponFOV">3</Option>
+        <Option ID="SalePrice">0</Option>
       </Options>
     </Package>
-    <Package FileName="FOV Unlocker.a3"></Package>
+    <Package FileName="FC4 Open World - Skills Unlock.a3"></Package>
+    <Package FileName="FOV Scaler.a3">
+      <Options>
+        <Option ID="CommonFOV">5</Option>
+        <Option ID="TDFOV">5</Option>
+        <Option ID="VehicleFOV">5</Option>
+        <Option ID="WeaponFOV">5</Option>
+      </Options>
+    </Package>
     <Package FileName="Auto F1 FC4.a3"></Package>
     <Package FileName="HD UI Remake.a3"></Package>
+    <Package FileName="Holster.a3"></Package>
     <Package FileName="BP HUD Icon Display Files.a3"></Package>
+    <Package FileName="FC4 Increased Bag Capacities.a3"></Package>
+    <Package FileName="Increased Max Altitude For Gyrocopter.a3"></Package>
+    <Package FileName="Kyrat Army Snow.a3"></Package>
     <Package FileName="Languages Golden Path.a3"></Package>
+    <Package FileName="LK-1080 Variable Zoom.a3"></Package>
     <Package FileName="Loading Screen Music Fix.a3"></Package>
+    <Package FileName="More Scope Zoom.a3"></Package>
+    <Package FileName="Mountain Royal Guard.a3"></Package>
     <Package FileName="Mouse Fix.a3"></Package>
     <Package FileName="MusicFixer FC4.a3"></Package>
     <Package FileName="NoBulletSpread.a3"></Package>
     <Package FileName="AOY - No Startup Videos_FC4.a3"></Package>
     <Package FileName="Press To Interact.a3"></Package>
+    <Package FileName="Professional Kyrat Army Conscript.a3"></Package>
+    <Package FileName="quiet kyrat.a3"></Package>
     <Package FileName="Random NPC Weapons.a3"></Package>
+    <Package FileName="Replace Weapon in intro to machine guns.a3">
+      <Options>
+        <Option ID="Weapons_List">0</Option>
+      </Options>
+    </Package>
     <Package FileName="Royal Fast Reaction Unit.a3"></Package>
     <Package FileName="Selectable Viewmodel FOV.a3">
       <Options>
-        <Option ID="WpnFOV">3</Option>
+        <Option ID="WpnFOV">9</Option>
       </Options>
     </Package>
+    <Package FileName="1 Skillpoint Costs.a3"></Package>
     <Package FileName="Skip Intro Missions_FC4.a3"></Package>
-    <Package FileName="z_VFM_FC4_90.a3"></Package>
+    <Package FileName="Two-Handed Weapons in Vehicles fix v3.a3"></Package>
     <Package FileName="vibrantwater.a3"></Package>
   </Packages>
 </ModInstallerPreset>
