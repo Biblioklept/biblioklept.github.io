@@ -21,6 +21,9 @@ A simple program to debloat and setup Windows 11 perfectly.
 > - Enable **Show window contents while dragging**.
 - If you wish to enable all animations then:
 > - Select **Adjust for best appearance**.
+- Default settings are:
+> - Disable all; Select **Adjust for best performance**.
+> - Enable **Show thumbnails instead of icons** and **Smooth edges of screen fonts**.
 
 ### Manual Debloat
 - Run this command in PowerShell admin: ```iwr -useb https://christitus.com/win | iex```
