@@ -1,0 +1,1 @@
+{"civilianstatefix":true,"bleedoutmeleefix":true,"meleecooldown":false,"eventdecorations":true}

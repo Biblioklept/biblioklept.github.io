@@ -1,1 +1,1 @@
-{}
+{"mui_pst_v_marg":46,"mui_stats_enabled":false,"mui_label_enabled":false,"mui_pst_h_pos":3,"mui_pst_order":1,"mui_pst_simple":true,"mui_pst_dir":2,"mui_direction":2,"mui_stats_heist_track":true,"mui_team_ai":false,"mui_stats_kills":true,"mui_hint_simple":true,"mui_pst_h_marg":73,"mui_waypoint_enabled":false}

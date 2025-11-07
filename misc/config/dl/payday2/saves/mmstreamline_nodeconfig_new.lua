@@ -53,6 +53,9 @@ MainMenuStreamliner.EntriesToHide = {
 		-- Mod Options
 --		blt_options = true,
 
+		-- Mod Keybinds
+--		blt_keybinds = true,
+
 		-- <no translation for "divider">
 --		divider = true,
 
@@ -182,6 +185,9 @@ MainMenuStreamliner.EntriesToHide = {
 		-- INVERT Y-AXIS
 --		toggle_invert_camera_vertically = true,
 
+		-- Southpaw
+--		toggle_southpaw = true,
+
 		-- HOLD TO AIM
 --		toggle_hold_to_steelsight = true,
 
@@ -190,6 +196,15 @@ MainMenuStreamliner.EntriesToHide = {
 
 		-- HOLD TO CROUCH
 --		toggle_hold_to_duck = true,
+
+		-- VIBRATION
+--		toggle_rumble = true,
+
+		-- Aim assist
+--		toggle_aim_assist = true,
+
+		-- STICKY AIM
+--		toggle_sticky_aim = true,
 
 		-- Interaction Style
 --		tap_to_interact_choice = true,
@@ -271,6 +286,9 @@ MainMenuStreamliner.EntriesToHide = {
 --		max_streaming_chunk = true
 	},
 	user_interface_options = {
+		-- Loading Screen: Controller
+--		toggle_controller_hint = true,
+
 		-- Loading Screen: Hints
 --		toggle_loading_hints = true,
 
@@ -332,6 +350,9 @@ MainMenuStreamliner.EntriesToHide = {
 		-- Achievements
 --		achievements = true,
 
+		-- Challenges
+--		resmod_challenges = true,
+
 		-- <no translation for "divider_test2">
 --		divider_test2 = true,
 
@@ -347,11 +368,17 @@ MainMenuStreamliner.EntriesToHide = {
 		-- <no translation for "divider_infamy">
 --		divider_infamy = true,
 
+		-- Overhaul Guide
+		ingame_manual = true,
+
+		-- Restoration Mod Credits
+		res_credits = true,
+
 		-- OPTIONS
 --		options = true,
 
 		-- <no translation for "ad_dummy">
---		ad_dummy = true
+		ad_dummy = true,
 
 		-- Movie Theater
 		movie_theater = true,

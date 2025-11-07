@@ -1,18 +1,84 @@
 {	"ApplyOnAll":true,	"TranslationStep":1,	"RotationStep":1,	"Saved":{
-	"__All":{
-	"standard":{
-	"translation":"Vector3(0.105, 5.74154, -11.324)"
-},
-	"crouched":{
-	"translation":"Vector3(-1.895, 1.742, -15.824)"
+	"hk21":{
+	"steelsight":{
+	"translation":"Vector3(-12.4, 2.564, 1.9)",
+	"rotation":"Rotation(-2.8, -0.5, -2)"
 }
 },
-	"flint":{
+	"x_olympic":{
+	"steelsight":{
+	"translation":"Vector3(-0.4257, 25.669, -3.341)"
+}
+},
+	"x_uzi":{
+	"steelsight":{
+	"translation":"Vector3(-0.4257, 25.669, -3.341)"
+}
+},
+	"nothing2":{
 	"standard":{
-	"translation":"Vector3(0.105, 5.74154, -12.324)"
+	"translation":"Vector3(-0, -100, -7)"
 },
 	"crouched":{
-	"translation":"Vector3(-1.895, 1.742, -13.824)"
+	"translation":"Vector3(-0, -1000, -7)"
+}
+},
+	"x_baka":{
+	"steelsight":{
+	"translation":"Vector3(-0.4257, 25.669, -3.659)"
+}
+},
+	"x_scorpion":{
+	"steelsight":{
+	"translation":"Vector3(-0.4257, 25.669, -3.341)"
+}
+},
+	"x_mp5":{
+	"steelsight":{
+	"translation":"Vector3(0.0242996, 25.331, -5.341)"
+}
+},
+	"sig_xm250":{},
+	"kacchainsaw":{
+	"steelsight":{
+	"translation":"Vector3(-3.33114, 2.864, -4.057)"
+}
+},
+	"__All":{
+	"standard":{
+	"translation":"Vector3(-0, 2.5, -7)"
+},
+	"crouched":{
+	"translation":"Vector3(-0, 1.5, -7)"
+}
+},
+	"x_korth":{},
+	"system":{
+	"steelsight":{
+	"translation":"Vector3(-6.346, 3.03575, 1.506)"
+}
+},
+	"x_cobray":{
+	"steelsight":{
+	"translation":"Vector3(-0.4257, 25.669, -3.341)"
+}
+},
+	"x_sr2":{
+	"steelsight":{
+	"translation":"Vector3(-0.4257, 25.669, -3.341)"
+}
+},
+	"x_mac10":{
+	"steelsight":{
+	"translation":"Vector3(-0.4257, 25.669, -3.341)"
+}
+},
+	"nothing":{
+	"standard":{
+	"translation":"Vector3(-3, -10000, -7)"
+},
+	"crouched":{
+	"translation":"Vector3(-3, -100, -7)"
 }
 }
 },	"RefreshKey":"f5",	"ToggleKey":"f7"}
