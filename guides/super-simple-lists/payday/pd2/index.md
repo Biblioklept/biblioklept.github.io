@@ -15,7 +15,6 @@ Super Simple PAYDAY 2
 
 ### Essentials (Mods)
 - [The Fixes](https://modworkshop.net/mod/23732)
-- [Misc Fix Pack](https://github.com/Biblioklept/misc-fix-pack)
 - [No Duplicated Bullets](https://pd2mods.z77.fr/no_duplicated_bullets.html)
 - [No Mutants Allowed](https://pd2mods.z77.fr/no_mutants_allowed.html)
 - [Advanced Anti Crash](https://modworkshop.net/mod/33294)
