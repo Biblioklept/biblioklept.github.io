@@ -5,7 +5,7 @@ Quick Windows Setup
 
 ### Installing and Activating Windows
 - Install [Windows](https://massgrave.dev/windows_11_links).
-> NOTE: Windows 10 is NOT supported with this guide. Consider switching to Linux.
+> NOTE: Windows 10 is NOT supported with this guide. Consider switching to [Linux](../linux-setup/).
 - Run this command in Powershell admin: ```irm https://get.activated.win | iex```
 > Activates the LTSC release you installed. [SRC](https://github.com/massgravel/Microsoft-Activation-Scripts).
 

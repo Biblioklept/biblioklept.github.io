@@ -5,7 +5,10 @@ My Guides
 > Quick and small sets of modlists. Slight polishing and adding some quality of life.
 
 ### [Windows Setup](./windows-setup)
-> A quick little guide to setup Windows 10/11 (my way).
+> A quick little guide to setup Windows 11.
+
+### [Linux Setup](./linux-setup)
+> A quick little guide to setup Linux.
 
 ### [Unreal Engine 5 Optimization Tips](./unreal-engine-5-optimization)
 > Tips to improve performance on Unreal Engine 5.
