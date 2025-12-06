@@ -63,6 +63,7 @@ Super Simple PAYDAY 2
    - VANILLA+ HUD: [Enhanced Vanilla HUD](https://modworkshop.net/mod/43776)
    - VANILLA+ HUD: [HopHUD](https://modworkshop.net/mod/31306)
    - VANILLA+ HUD: [Void UI](https://modworkshop.net/mod/20997)
+   - VANILLA+ HUD: [Sora's HUD](https://modworkshop.net/mod/22152)
    - FUN HUD: [PDTH HUD](https://modworkshop.net/mod/19900)
    - FUN HUD: [Restoration HUD](https://modworkshop.net/mod/28118)
    - FUN HUD: [Warframe HUD](https://modworkshop.net/mod/36010)
