@@ -70,6 +70,10 @@ Reason: Pointless. It's three links.
 > A collection of little linux guides using information compiled from various sources.  
 Archived 13/05/2025.  
 Reason: Pointless/Common knowledge.
+- [Unreal Engine 5 Optimization Tips](./unreal-engine-5-optimization)
+> Tips to improve performance on Unreal Engine 5.  
+Archived 17/12/2025.  
+Reason: Not enough information to justify it having its own page.
 
 ### Mods
 - [Fallout 4 Mods](./fallout-4)

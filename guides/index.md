@@ -4,14 +4,14 @@ My Guides
 ### [Super Simple Lists](./super-simple-lists)
 > Quick and small sets of modlists. Slight polishing and adding some quality of life.
 
+### [Super Simple Privacy](./super-simple-privacy)
+> Quick and small lists of privacy-respecting resources.
+
 ### [Windows Setup](./windows-setup)
 > A quick little guide to setup Windows 11.
 
 ### [Linux Setup](./linux-setup)
 > A quick little guide to setup Linux.
-
-### [Unreal Engine 5 Optimization Tips](./unreal-engine-5-optimization)
-> Tips to improve performance on Unreal Engine 5.
 
 ### [Call of Duty: Black Ops III Setup](./bo3-setup)
 > A quick guide to get BO3 playing safely.
