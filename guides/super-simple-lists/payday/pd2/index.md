@@ -16,9 +16,8 @@ Super Simple PAYDAY 2
 ### Essentials (Mods)
 - [The Fixes](https://modworkshop.net/mod/23732)
 - [No Duplicated Bullets](https://pd2mods.z77.fr/no_duplicated_bullets.html)
-- [No Mutants Allowed](https://pd2mods.z77.fr/no_mutants_allowed.html)
-- [Advanced Anti Crash](https://modworkshop.net/mod/33294)
-- [Borderless Windowed Updated](https://modworkshop.net/mod/27683)
+- [Crash Fixes](https://modworkshop.net/mod/53443)
+- [Virtue's Crash Fixes](https://modworkshop.net/mod/53803)
 
 ### Visual Fixes (Mod_Overrides)
 - [Visual Fixes](https://modworkshop.net/mod/37161)
@@ -27,14 +26,12 @@ Super Simple PAYDAY 2
 - [AK Correct Speedpull Mags](https://modworkshop.net/mod/19777)
 - [Original Bipods](https://modworkshop.net/mod/28543)
 - [Vanilla Heister Improvement Project](https://modworkshop.net/mod/40378)
-- [John Wick Likeness Restoration](https://modworkshop.net/mod/40949)
 - [Default Gloves Replace Wrinkled Gloves](https://modworkshop.net/mod/32514)
 - [Better Sleeves And Fixes](https://modworkshop.net/mod/34542)
 - [Restored Heister Sleeves](https://modworkshop.net/mod/33204)
 - [Glove Tweaks](https://modworkshop.net/mod/38976)
-
-### Performance (Mods)
-- [Low Violence Mode](https://storage.modworkshop.net/mods/files/47995_162611_4hCoBFiY5rr1TGuu56Psnykr43h283y7ShkAtvi2.zip?filename=Low%20Violence%20Mode%205%201.zip)
+- [Extended Para Foregrips](https://modworkshop.net/mod/48604)
+- [3D Weapon Rails](https://modworkshop.net/mod/53714)
 
 ### Performance (Mod_Overrides)
 - [Optimized Assets](https://github.com/Biblioklept/optimized-assets)
@@ -51,10 +48,10 @@ Super Simple PAYDAY 2
 
 ### User Interface (Mods)
 - [Better Menus](https://github.com/Biblioklept/better-menus)
-- [Drag and Drop Inventory](https://pd2mods.z77.fr/drag_and_drop_inventory.html)
+- [Main Menu Streamliner](https://modworkshop.net/mod/46939)
+	- [Config](https://raw.githubusercontent.com/Biblioklept/biblioklept.github.io/refs/heads/main/misc/config/dl/payday2/saves/mmstreamline_nodeconfig_new.lua) (CTRL+S to save)
 - [Lobby Settings](https://pd2mods.z77.fr/lobby_settings.html)
-- [Refresh Rate Checker](https://pd2mods.z77.fr/refresh_rate_checker.html)
-- Any HUD mod of your choice. Popular mods include:
+- Optionally, any HUD mod of your choice. Popular mods include:
    - INFO HUD: [VanillaHUD Plus](https://modworkshop.net/mod/25629)
    - INFO HUD: [PocoHUD3](https://modworkshop.net/mod/40870)
    - INFO HUD: [Extra Heist Info](https://modworkshop.net/mod/31915)
