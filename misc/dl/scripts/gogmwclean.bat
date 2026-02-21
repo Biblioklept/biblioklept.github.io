@@ -1,14 +1,20 @@
 @echo off
 
-:: Delete specified directories
-rd /S /Q "Data Files\BookArt"
-rd /S /Q "Data Files\Icons"
-rd /S /Q "Data Files\Meshes"
-rd /S /Q "Data Files\Textures"
+:: Go to Data Files
+cd "Data Files"
 
-:: Delete all .esp and .txt files in the current directory
+:: Delete specified directories
+rd /S /Q "BookArt"
+rd /S /Q "Icons"
+rd /S /Q "Meshes"
+rd /S /Q "Textures"
+
+:: Delete all .esp and .txt files
 del /Q *.esp
 del /Q *.txt
+
+:: Go to root
+cd ..
 
 :: Remove the cleanup batch file
 del /Q gogmwclean.bat

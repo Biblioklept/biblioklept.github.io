@@ -1,14 +1,20 @@
 #!/bin/bash
 
-# Delete specified directories
-rm -rf "Data Files/BookArt"
-rm -rf "Data Files/Icons"
-rm -rf "Data Files/Meshes"
-rm -rf "Data Files/Textures"
+# Go to Data Files
+cd "Data Files"
 
-# Delete all .esp and .txt files in the current directory
+# Delete specified directories
+rm -rf "BookArt"
+rm -rf "Icons"
+rm -rf "Meshes"
+rm -rf "Textures"
+
+# Delete all .esp and .txt files
 rm -f *.esp
 rm -f *.txt
+
+# Go to root
+cd ..
 
 # Remove the cleanup shell script itself
 rm -f gogmwclean.sh
