@@ -1,43 +1,33 @@
 
 [BACK](..)
 
-Quick Windows Setup
+Clean Windows Install
 
 ### Installing and Activating Windows
-- Install [Windows](https://massgrave.dev/windows_11_links).
-> NOTE: Windows 10 is NOT supported with this guide. Consider switching to [Linux](../linux-setup/).
-- Run this command in Powershell admin: ```irm https://get.activated.win | iex```
-> Activates the LTSC release you installed. [SRC](https://github.com/massgravel/Microsoft-Activation-Scripts).
+- Download [Windows 11](https://massgrave.dev/windows_11_links).
+> NOTE: Windows 10 is NOT supported by this guide. Consider switching to [Linux](../linux-setup/).
+- Download the [Clean Windows autounattend.xml](https://github.com/MatiDEV-PL/Clean-Windows/blob/main/autounattend.xml).
+- Download and run [Rufus](https://rufus.ie/).
+- In Rufus, select the target USB drive, choose your Windows 11 ISO, and configure settings.
+- Write the ISO to the USB, then open: ```X:\sources\$OEM$\$$\Panther```.
+- Move **autounattend.xml** into that folder and rename it to **unattend.xml** (overwrite if prompted).
+- In an elevated PowerShell, run: ```irm https://get.activated.win | iex```
+> Activates Windows. [SRC](https://github.com/massgravel/Microsoft-Activation-Scripts).
 
-### [Talon Debloat](https://ravendevteam.org/software/talon/)
-A simple program to debloat and setup Windows 11 perfectly.
+### WinUtil
+A lightweight toolkit of Windows utilities for system maintenance, tweaks, and small automation tasks. [SRC](https://github.com/ChrisTitusTech/winutil).
 
-### Talon Tweaks
-- "Fix" boxes when dragging instead of actual window:
-> - Press **Windows + R** on your keyboard to open the Run dialog.
-> - Type **sysdm.cpl** and press **Enter**. This will open the System Properties window.
-> - Navigate to the **Advanced** tab.
-> - Click on the **Settings** button in the Performance section.
-> - Enable **Show window contents while dragging**.
-- If you wish to enable all animations then:
-> - Select **Adjust for best appearance**.
-- Default settings are:
-> - Disable all; Select **Adjust for best performance**.
-> - Enable **Show thumbnails instead of icons** and **Smooth edges of screen fonts**.
-
-### Manual Debloat
 - Run this command in PowerShell admin: ```iwr -useb https://christitus.com/win | iex```
-> Allows you to debloat further without breaking your system and install common programs. [SRC](https://github.com/ChrisTitusTech/winutil).
 
-### NVidia
-- Install and run [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall)
+### NVCleanStall
+A simple process to remove existing NVIDIA drivers and install the latest driver cleanly, removing leftover settings and potential conflicts.
+
+- Install and run [NVCleanStall](https://www.techpowerup.com/download/techpowerup-nvcleanstall)
 > Allows you to install graphics drivers without the bloat.
 
-### User Interface/Experience
-- [Windhawk](https://windhawk.net/)
-> Provides various visual tweaks to Windows.  
-Recommended:  
-Better file sizes in Explorer details  
-UXTheme hook  
-- [Rectify11](https://rectify11.net)
-> Makes the Windows 11 experience more consistent.
+### UniGetUI
+A simple GUI that lets you install most programs via package managers. [SRC](https://github.com/Devolutions/UniGetUI).
+
+- Open an elevated PowerShell (Run as Administrator).
+- Install UniGetUI via winget:
+  ```winget install --exact --id Devolutions.UniGetUI --source winget```
