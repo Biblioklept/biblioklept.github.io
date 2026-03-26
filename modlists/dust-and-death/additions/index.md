@@ -13,18 +13,19 @@ An overhaul of the combat feel and look in Fallout: New Vegas, while keeping gam
 - [Enhanced Locomotion](https://www.nexusmods.com/newvegas/mods/88446)
 	- Main Files - Enhanced Locomotion
 - [New Vegas Animation Overhaul - Guns](https://www.nexusmods.com/newvegas/mods/86354)
-	- Main Files - New Vegas Animation Overhaul - Guns - FOMOD
+	- Main Files - New Vegas Animation Overhaul - Guns
 		- Select Vanilla
+	- Update Files - Various Hotfixes
 - [New Vegas Animation Overhaul - Melee](https://www.nexusmods.com/newvegas/mods/88830)
 	- Main Files - New Vegas Animation Overhaul - Melee
 	- Optional Files - Vanilla Equip Timings for Shishkebab
-- [FNV Clean Animations - Throwing Weapons Pack](https://www.nexusmods.com/newvegas/mods/81472)
-	- Main Files - FNV Clean Animations - Throwing Weapons Pack
-- [FNV Clean Animations - Grenades Pack](https://www.nexusmods.com/newvegas/mods/83735)
-	- Main Files - FNV Clean Animations - Grenades Pack
-	- Update Files - Update 1.1.1
-- [FNV Clean Animations - Explosive Mines Pack](https://www.nexusmods.com/newvegas/mods/85242)
-	- Main Files - FNV Clean Animations - Explosive Mines Pack
+- [FNV Clean Animations - Throwverhaul](https://www.nexusmods.com/newvegas/mods/81472)
+	- Main Files - New Vegas Animation Overhaul - Throwverhaul
+- [FNV Clean Animations - Red Glare](https://www.nexusmods.com/newvegas/mods/92261)
+	- Main Files - FNV Clean Animations - Red Glare
+- [FNV Clean Animations - Zeta Weapon Pack](https://www.nexusmods.com/newvegas/mods/93172)
+	- Main Files - FNV Clean Animations - Alien Blaster Only (NV)
+	- Optional Files - Optional Blaster Mesh (NV)
 - [Iron Sights Aligned](https://www.nexusmods.com/newvegas/mods/81933)
 	- Main Files - Iron Sights Aligned
 		- Select whichever weapon meshes you use in Weapon Meshes
