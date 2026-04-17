@@ -143,3 +143,59 @@ Reason: Use [Window Center & Resizer](https://github.com/Devail1/window-center-r
 > AHK script. Spams spacebar. **Default keybind is F3.**  
 Archived 25/12/2024.  
 Reason: Useless.
+- [GOG Morrowind Clean Shell Script](./scripts/gogmwclean.sh)
+> Use with GOG to remove the extra files included. Place in root of game folder **NOT DATA FILES** and run, script will clean up after itself.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [ZRP Install Shell Script](./scripts/zrpinstall.sh)
+> This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place in your root game folder.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [GOG Repoc Start Shell Script](./scripts/gogrepoc-start.sh)
+> My GOGRepoc script that downloads everything possible (minus patches). **You MUST edit the script to download to your preferred directory**.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [GOG Morrowind Clean Batch Script](./scripts/gogmwclean.bat)
+> Use with GOG to remove the extra files included. Place in root of game folder **NOT DATA FILES** and run, script will clean up after itself.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [ZRP Install Batch Script](./scripts/zrpinstall.bat)
+> This'll install all Zone Reclamation Patch mods required to play the game bug-free. Place the install.bat in your "STALKER Shadow of Chernobyl" root game folder.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [GOG Repoc Start Batch Script](./scripts/gogrepoc-start.bat)
+> My GOGRepoc script that downloads everything possible (minus patches). **You MUST edit the script to download to your preferred directory**.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [Text Replacer Powershell Script (1 replacement 1 file)](./scripts/textreplacer-1.ps1)
+> Replaces all the text in a file with a hash table.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [Text Replacer Powershell Script (2 replacements 2 files)](./scripts/textreplacer-2.ps1)
+> Replaces all the text in a one file with one hash table and the another file with another hash table.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [Collect File Names Powershell Script](./scripts/collectfilenames.ps1)
+> Collects all file names in a folder.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [Collect Folder Names Powershell Script](./scripts/collectfoldernames.ps1)
+> Collects all folder names in a folder.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [G.A.M.M.A. Patcher Powershell Script](./scripts/gammapatcher.ps1)
+> A patcher file that will change the modlist.txt and MCM files to fit my preferred changes to G.A.M.M.A. Should be future-proof. Place the gammapatcher.ps1 in your instance folder and run it.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [H.A.C.R. Patcher Powershell Script](./scripts/hacrpatcher.ps1)
+> A patcher file that will change the modlist.txt and MCM files to fit my preferred changes to H.A.C.R. Should be future-proof. Place the hacrpatcher.ps1 in your instance folder and run it.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [Remove Unnecessary Context Menu Items Registry Script](./scripts/removecontextmenu.reg)
+> Removes context menu items that I frequently find annoying. Will add more should it be needed.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
+- [Replace Paint 3D Context Menu with Paint.NET Registry Script](./scripts/replacepaint3dwithpaintnet.reg)
+> Removes context menu items that I frequently find annoying. Will add more should it be needed.  
+Archived 16/04/2026.  
+Reason: Not interested in maintaining.
