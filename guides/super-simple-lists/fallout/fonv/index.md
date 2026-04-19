@@ -11,7 +11,7 @@ Super Simple Fallout: New Vegas
 > Same as above, just for Epic.
 - [BSA Decompressor](https://www.nexusmods.com/newvegas/mods/65854)
 > Decompresses the BSA files to decrease load times.
-- [ESM Fixes](https://www.nexusmods.com/newvegas/mods/77170)
+- [ESM Fixes](www.nexusmods.com/newvegas/mods/92289	)
 > Optimizes and cleans ESMs. Fixes some hard errors in the landscape. Boosts performance on modern systems with SSDs.
 
 ### Engine Fixes
@@ -49,18 +49,22 @@ Super Simple Fallout: New Vegas
 > Fixes a save bloating issue related to actors detecting the player.
 
 ### Bug Fixes
-- [Yukichigai Unofficial Patch](https://www.nexusmods.com/newvegas/mods/51664)
+- [LOD Flicker Fix](https://www.nexusmods.com/newvegas/mods/91705)
+> Fixes flickering objects caused by lack of depth buffer precision.
+- [NV Optimized Patching Endeavor](https://www.nexusmods.com/newvegas/mods/96050)
 > A compilation of vital bug fixes for Fallout: New Vegas and its DLC.
-- [YUPDate - YUP Tweaks and Fixes](https://www.nexusmods.com/newvegas/mods/90824)
-	- Download and install YUPDate
-	- Download and install YUPDate Config
-> Various tweaks and enhancements for YUP utilizing the full suite of xNVSE script extenders.
-- [Piber's Unofficial Patches](https://www.nexusmods.com/newvegas/mods/90124)
-	- Download and install Piber's Unofficial Patches - New Vegas
-	- Download and install Piber's Unofficial Patches - Vanilla UI Fixes
-> Fixes and quality of life tweaks.
 - [Unofficial Patch NVSE Plus](https://www.nexusmods.com/newvegas/mods/71239)
 > An updated and refined selection of bugfixes.
+- [Collision Meshes](https://www.nexusmods.com/newvegas/mods/59149)
+> Improves collision meshes.
+- [New Vegas Mesh Improvement Project](https://www.nexusmods.com/newvegas/mods/74295)
+> Optimizations and fixes for a large selection of meshes in the base game and DLC.
+- [Meshes and Collision - Totally Enhanced Nifs](https://www.nexusmods.com/newvegas/mods/83815)
+> Fixes hundreds of game models across the base game and DLCs.
+- [Items Transformed - Enhanced Meshes](https://www.nexusmods.com/newvegas/mods/85622)
+> Fixes dozens of item and collectible models across the base game and DLCs.
+- [Skinned Mesh Improvement Mod](https://www.nexusmods.com/newvegas/mods/82042)
+> Fixes creature meshes.
 
 ### Animation Fixes
 - [Anniversary Animation Pack](https://www.nexusmods.com/newvegas/mods/70158)
@@ -75,6 +79,7 @@ Super Simple Fallout: New Vegas
 - [3rd Person Animation Fixpack](https://www.nexusmods.com/newvegas/mods/85198)
 > Fixes gliding, stuttering, limb popping, broken fingers, animation bugs, bad blending, etc, of 3rd person animations.
 - [Diagonal Movement](https://www.nexusmods.com/newvegas/mods/78534)
+> Introduces diagonal movement.
 
 ### Shooting Fixes
 - [Smooth True Iron Sights Camera](https://www.nexusmods.com/newvegas/mods/69074)
@@ -111,6 +116,9 @@ Super Simple Fallout: New Vegas
 ### Gameplay
 - [Quick Start](https://www.nexusmods.com/newvegas/mods/76497)
 > Skips the introduction sequence.
+- [GRA Rebalance](https://www.nexusmods.com/newvegas/mods/96981)
+> Integrates the GRA weaponry better. Removes (GRA), (Mad Bomber), and (Vigilant Recycler) tags from all items, recipes, and challenges.
+- [Simple DLC Delay](https://www.nexusmods.com/newvegas/mods/62779)
 
 ### FalloutCustom.ini
 Thank you to ModdingLinked for the INI.
