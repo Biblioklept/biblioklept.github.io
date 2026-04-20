@@ -5,6 +5,7 @@ Configuration Files
 
 Only important configuration files are listed here. [Here's all the files](https://github.com/Biblioklept/biblioklept.github.io/tree/main/misc/config/dl).
 
+- [Linux Game Configs](./linux-game-cfg)
 - [Team Fortress 2 MasterComfig Files](./dl/teamfortress2)
 > My personalized MasterComfig files. **You need to install at least the NONE preset on [MasterComfig's site](https://comfig.app)**  
 My Setup:  
