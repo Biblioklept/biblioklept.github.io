@@ -26,6 +26,10 @@ Launch arguements:
 Additional mods:  
 - [T7 Patch and Rank Up Mod](https://insanux.com/bo3-rankup-mod/)
 
+### STALKER ANOMALY
+Wine Components Needed:  
+`d3dcompiler_43 d3dcompiler_47 d3dx9 d3dx9_43 d3dx10 d3dx11_43 vcrun2019`
+
 ### FPS CAP
 Goes behind %command%
 `DXVK_FRAME_RATE=300`
