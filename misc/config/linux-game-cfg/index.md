@@ -21,7 +21,7 @@ Launch arguements:
 
 ### BO3
 Launch arguements:  
-`WINEDLLOVERRIDES="dsound=n,b" %command%`
+`WINEDLLOVERRIDES="dsound,XInput9_1_0=n,b" %command%`
 
 Additional mods:  
 - [T7 Patch and Rank Up Mod](https://insanux.com/bo3-rankup-mod/)
@@ -35,4 +35,4 @@ Goes behind %command%
 `DXVK_FRAME_RATE=300`
 
 ### MODDING
-I use [Amethyst Mod Manager](https://aur.archlinux.org/packages/amethyst-mod-manager) for BethSoft games and any other game that can use Mod Organizer 2 for mod management
+I use [Amethyst Mod Manager](https://github.com/ChrisDKN/Amethyst-Mod-Manager) for BethSoft games and any other game that can use Mod Organizer 2 for mod management
