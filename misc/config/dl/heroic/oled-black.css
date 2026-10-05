@@ -1,0 +1,112 @@
+/*
+  OLED Black for Heroic Games Launcher
+  Based on Heroic's default "Midnight Mirage" theme, with every dark surface
+  swapped for true black (#000) so OLED pixels switch fully off.
+  File name = body class, so this file must be named: oled-black.css
+*/
+
+body.oled-black {
+  /* Text */
+  --text-default: var(--brand-text-01);
+  --text-secondary: var(--brand-text-02);
+  --text-tertiary: var(--neutral-01);
+  --text-quartenary: var(--neutral-04);
+  --text-hover: var(--brand-text-02);
+
+  /* Surfaces: pure black, with barely-lifted grays only where a shape
+     needs to stay distinguishable from the background */
+  --background: #000000;
+  --background-darker: #000000;
+  --background-lighter: #141414;
+  --body-background: #000000;
+  --current-background: #000000;
+  --input-background: #0d0d0d;
+  --controller-hints-background: transparent;
+  --modal-background: #000000;
+  --modal-backdrop: #000000e0;
+  --modal-border: #1f1f1f;
+  --osk-background: #000000;
+  --osk-button-background: #0d0d0d;
+  --osk-button-border: #1f1f1f;
+  --search-bar-background: #0a0a0a;
+  --search-bar-border: #1f1f1f;
+  --icons-background: #0d0d0d;
+  --divider: #1f1f1f;
+
+  /* Sidebar */
+  --navbar-background: #000000;
+  --navbar-active-background: #141414;
+  --navbar-active: var(--text-secondary);
+  --navbar-inactive: var(--neutral-06);
+  --navbar-accent: var(--text-default);
+
+  /* Action icons */
+  --action-icon: var(--neutral-05);
+  --action-icon-hover: var(--text-hover);
+  --action-icon-active: var(--neutral-06);
+  --icon-disabled: var(--disabled-button);
+  --icon-disabled-overlay: var(--disabled-button-overlay);
+
+  /* Buttons */
+  --primary-button: var(--brand-primary);
+  --secondary-button: var(--brand-primary);
+  --secondary-button-overlay: var(--primary-hover);
+  --tertiary-button-overlay: var(--status-warning-hover);
+  --button-stroke: var(--accent);
+  --success-button: var(--status-success);
+  --disabled-button: #1a1a1a;
+  --disabled-button-overlay: var(--neutral-05);
+  --play-button: var(--primary-button);
+  --install-button: var(--secondary-button);
+  --cancel-button: var(--status-warning);
+  --cancel-button-overlay: var(--status-warning-hover);
+  --link-highlight: var(--accent);
+
+  /* Status */
+  --success: var(--status-success);
+  --success-hover: var(--status-success-hover);
+  --danger: #a62b2b;
+  --danger-hover: var(--status-danger);
+
+  /* Compatibility */
+  --primary: var(--brand-primary);
+  --secondary: var(--brand-secondary);
+
+  /* Game card / body gradients fade to black */
+  --gamecard-title-color: #000000d2;
+  --gradient-gamecard: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.418) 1.8%,
+    var(--gamecard-title-color) 45%
+  );
+  --gradient-body-background: linear-gradient(
+    90deg,
+    #000000 -32px,
+    #000000 64px,
+    #000000 100%
+  );
+}
+
+body.oled-black .selectFieldWrapper select > option,
+body.oled-black .sid-input {
+  background: #000000;
+}
+
+/* ------------------------------------------------------------------
+   Hide sidebar tabs: add comment markers around a block to disable it.
+   ------------------------------------------------------------------ */
+
+/* Hide "Stores" */
+body.oled-black .SidebarItemWithSubmenu:has([data-tour="sidebar-stores"]) {
+  display: none;
+}
+
+/* Hide "Documentation" */
+body.oled-black [data-tour="sidebar-docs"] {
+  display: none !important;
+}
+
+/* Hide the donation / community item */
+body.oled-black [data-tour="sidebar-community"] {
+  display: none;
+}
