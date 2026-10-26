@@ -74,6 +74,18 @@ Reason: Pointless/Common knowledge.
 > Tips to improve performance on Unreal Engine 5.  
 Archived 17/12/2025.  
 Reason: Not enough information to justify it having its own page.
+- [Linux Setup](./linux-setup)
+> A quick little guide to setup Linux.  
+Archived 26/10/2026.  
+Reason: Pretty basic information that I don't feel like expanding on.
+- [Windows Setup](./windows-setup)
+> A quick little guide to setup Windows 11.  
+Archived 26/10/2026.  
+Reason: Pretty basic information that I don't feel like expanding on.
+- [Super Simple Privacy](./super-simple-privacy)
+> Quick and small lists of privacy-respecting resources.  
+Archived 26/10/2026.  
+Reason: Pretty basic information that I don't feel like expanding on.
 
 ### Mods
 - [Fallout 4 Mods](./fallout-4)
