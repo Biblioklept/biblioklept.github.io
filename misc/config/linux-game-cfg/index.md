@@ -7,20 +7,24 @@ Linux Game Configs
 Crosshair:  
 CSGO-kn8PW-Ge97e-eJXfo-FRwN3-GQLsE
 
-Sensitivity:  
-Stretched: `m_yaw .033; sensitivity_y_scale 2; sensitivity 1`  
-Normal: `m_yaw .044; sensitivity_y_scale 2; sensitivity 1`  
-My mouse specs: 35 grams, 1600 DPI
+Sensitivity (put in launch arguments at the end):  
+Stretched: `+m_yaw .033 +sensitivity_y_scale 2 +sensitivity 1`  
+Normal: `+m_yaw .044 +sensitivity_y_scale 2 +sensitivity 1`  
+My mouse specs: 35 grams, 1600 DPI, 4000 KHz
 
-Launch arguements:  
-`gamescope -W 2560 -H 1440 -r 300 -w 1920 -h 1440 --force-grab-cursor -S stretch -f -- %command% +engine_low_latency_sleep_after_client_tick true +fps_max 0 -nojoy -high -fullscreen +mat_disable_fancy_blending 1 +r_show_build_info 0 -forcenovsync +r_dynamic 0 +mat_queue_mode 2 -allow_third_party_software`
+Launch arguments:  
+`gamescope -W 2560 -H 1440 -w 1920 -h 1440 -r 300 -f -S stretch --force-grab-cursor -- %command% -high -nojoy -forcenovsync -allow_third_party_software +engine_low_latency_sleep_after_client_tick true +r_show_build_info 0`
+
+### KF1
+Launch arguments:  
+`gamescope -f -W 2560 -H 1440 --force-grab-cursor -- %command%`
 
 ### PD2
-Launch arguements:  
+Launch arguments:  
 `WINEDLLOVERRIDES="wsock32=n,b" %command%`
 
 ### BO3
-Launch arguements:  
+Launch arguments:  
 `WINEDLLOVERRIDES="dsound,XInput9_1_0=n,b" %command%`
 
 Additional mods:  
@@ -33,6 +37,3 @@ Wine Components Needed:
 ### FPS CAP
 Goes behind %command%
 `DXVK_FRAME_RATE=300`
-
-### MODDING
-I use [Amethyst Mod Manager](https://github.com/ChrisDKN/Amethyst-Mod-Manager) for BethSoft games and any other game that can use Mod Organizer 2 for mod management
