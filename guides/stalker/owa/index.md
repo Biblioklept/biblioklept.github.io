@@ -7,6 +7,10 @@ Super Simple S.T.A.L.K.E.R.: Old World Addon
 - [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/xray-monolith/releases/latest)
 > Adds more functionality to the EXE files of the game. **Install in your game folder.**
 
+- If on Linux install these Wine components:
+`d3dcompiler_43 d3dcompiler_47 d3dx9 d3dx9_43 d3dx10 d3dx11_43 vcrun2019`
+> Required for the game to run on Linux, even if you install from GOG.
+
 - [Old World Addon](https://www.moddb.com/mods/stalker-anomaly/addons/152-old-world-addon)
 > Converts Anomaly into a more trilogy-like experience.
 

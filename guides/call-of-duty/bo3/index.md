@@ -21,7 +21,13 @@ If you only care about Call of Duty: Zombies then disable the following DLCs:
 - Open the `video` folder.
 - Delete or rename `BO3_Global_Logo_LogoSequence.mkv`.
 
-### Online Patches
-- Install either:
-    - [T7 Patch (Recommended)](./t7-patch/)
-    - [T7x (If going for achievements)](./t7x/)
+### T7 Patch
+- Download and install the [T7 Patch](https://github.com/Scroptss/T7Patch/releases/latest).
+> Using the manual version allows you to skip launching the injector (even on Windows). **After installing, make sure to edit the .conf file.**
+- Optionally: Install the [BO3 Rank Up Plugin](https://insanux.com/bo3-rankup-mod/)
+> 1. Open Steam and Find BO3  
+> 2. Right click on BO3 and go to Manage > Browse Local Files  
+> 3. Extract 't7patch.dll', 't7patchloader.dll' and 't7patch.conf' from T7Patch  
+> 4. Rename 't7patchloader.dll' to 't7patchloader.asi'  
+> 5. Extract all files from 'BO3-Modded-Ranked.zip'  
+- If on Linux put this in launch arguments: `WINEDLLOVERRIDES="dsound,XInput9_1_0=n,b" %command%`.

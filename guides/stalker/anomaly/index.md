@@ -7,6 +7,10 @@ Super Simple S.T.A.L.K.E.R.: Anomaly
 - [S.T.A.L.K.E.R.: Anomaly Modded EXEs](https://github.com/themrdemonized/xray-monolith/releases/latest)
 > Adds more functionality to the EXE files of the game. **Install in your game folder**.
 
+- If on Linux install these Wine components:
+`d3dcompiler_43 d3dcompiler_47 d3dx9 d3dx9_43 d3dx10 d3dx11_43 vcrun2019`
+> Required for the game to run on Linux, even if you install from GOG.
+
 - [Universal Animation Scripts](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAoldri%2Fanomaly-addon-deps%2Ftree%2Fmain%2FUniversal%2520Animation%2520Scripts)
 > Required for Anomaly Weapon Animation Overhaul.
 

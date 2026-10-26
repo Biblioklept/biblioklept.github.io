@@ -8,6 +8,7 @@ Super Simple PAYDAY 2
 2. Install it into your root PAYDAY 2 folder.
 3. Create a `mods` folder in your root PAYDAY 2 folder.
 4. Create a `mod_overrides` folder in your `assets` folder.
+5. If on Linux put this in launch arguments: `WINEDLLOVERRIDES="dsound,XInput9_1_0=n,b" %command%`.
 
 ### Installing BeardLib
 1. Download the latest release of [BeardLib](https://modworkshop.net/mod/14924).

@@ -4,8 +4,7 @@
 Super Simple S.T.A.L.K.E.R.: Call of Pripyat
 
 ### Base
-- [Vanilla Mini-Repack](https://github.com/forbiddenspiral/cop_vanilla-plus_mini_repack)
-- [Alternative Ballistics](https://github.com/forbiddenspiral/cop_vanilla-plus_alt-ballistics)
+- [Vanilla Mini-Repack](https://www.moddb.com/mods/vanilla-personal-mini-repack-stalker-cop-edition/)
 
 ### Tweaks
 - Actor carrying capacity revert.
