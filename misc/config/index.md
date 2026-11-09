@@ -12,6 +12,8 @@ My Setup:
 \* [Quake Hit and Kill Sounds](https://biblioklept.github.io/mods/team-fortress-2).
 - [GZDoom Vanilla Config](./dl/gzdoom/vanilla.cfg)
 > Move to GZDoom installation folder. Open the console and enter `exec vanilla.cfg`.
+- [Heroic Theme](./dl/heroic/oled-black.css)
+> Move it to a folder you intend to keep. Copy the location of the file and paste it into "Custom Themes Path" and select oled-black.css.
 - Counter-Strike 2 Config
 > Crosshair: 
 `CSGO-kn8PW-Ge97e-eJXfo-FRwN3-GQLsE`  
